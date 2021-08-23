@@ -1,4 +1,8 @@
 ---
 label: Strona główna
 hide_body: true
-fields: []
+fields:
+- name: banner
+  type: field_group
+  config: {}
+  label: Banner
