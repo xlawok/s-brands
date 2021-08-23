@@ -5,4 +5,41 @@ fields:
 - name: banner
   type: field_group
   config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis_pod_naglowiekm
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+      max: 500
+    label: Opis pod nagłówiekm
+  - name: tytul_odnosnika
+    type: text
+    config:
+      required: false
+    label: Tytuł odnośnika
+  - name: adres_odnosnika
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Adres odnośnika
+  - name: zdjecia_do_slidera
+    type: image_gallery
+    config: {}
+    label: Zdjęcia do slidera
   label: Banner
