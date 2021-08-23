@@ -1,0 +1,76 @@
+---
+label: Nagłówek-template
+hide_body: true
+fields:
+- name: header_repeater
+  type: field_group_list
+  fields:
+  - name: txt_block
+    type: text
+    config:
+      required: false
+    label: Blok tekstu
+  - name: bold_txt
+    type: select
+    default: gruby
+    config:
+      required: false
+      options:
+      - cienki
+      - normalny
+      - gruby
+      - bardzo gruby
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Pogrubienie
+  - name: underline
+    type: boolean
+    label: Podkreślenie
+  - name: break_line
+    type: boolean
+    label: Łam linię
+  - name: block_tag_type
+    type: select
+    default: h2
+    config:
+      required: false
+      options:
+      - h1
+      - h2
+      - h3
+      - div
+      - paragraf
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Typ tagu
+  - name: txt_block_size
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - XXL
+      - XL
+      - L
+      - MD
+      - S
+      - XS
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Wielkość tekstu
+    description: 'XXL: 76px;<br>XL: 55px;<br>L: 36px;<br>MD: 29px;<br>S: 20px;<br>XS:
+      16px;'
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Nagłówek/tytuł/podtytuł
