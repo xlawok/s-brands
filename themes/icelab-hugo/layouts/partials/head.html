@@ -20,5 +20,5 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-
+  {{ $lazyJs := resources.Get "js/lazysizes.min.js"  }}
 </head>

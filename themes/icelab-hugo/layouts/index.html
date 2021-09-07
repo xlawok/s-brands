@@ -4,7 +4,7 @@
     {{with .zdjecia_do_slidera}}
       {{ range . }}
       a 
-        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "col-logos" )  -}}
+        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "col-logos" "ifsrcset" "")  -}}
       {{end}}
     {{end}}
   zzzzzzzzzzzz 

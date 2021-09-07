@@ -15,10 +15,10 @@
   {{else}}
     {{ if eq $ifsrcset "nosrcset" }}
     
-      <img class="lazyload {{$tag_class}}" data-src="{{.}}">
+      <img loaded="lazy" class="lazyload {{$tag_class}}" data-src="{{.}}">
     {{else}}
     
-      {{ $imageResource := (site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .  ) }}
+      {{ $imageResource := (site.GetPage "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .  ) }}
 
     {{ $tinyw := default "500x" }}
     {{ $smallw := default "800x" }}
