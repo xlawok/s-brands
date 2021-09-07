@@ -43,3 +43,5 @@ fields:
     config: {}
     label: Zdjęcia do slidera
   label: Banner
+pages:
+- content/index.md
