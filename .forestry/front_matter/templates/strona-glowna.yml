@@ -44,4 +44,4 @@ fields:
     label: Zdjęcia do slidera
   label: Banner
 pages:
-- content/index.md
+- content/_index.md
