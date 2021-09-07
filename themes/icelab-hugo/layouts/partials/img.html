@@ -1,0 +1,70 @@
+
+
+
+{{$imgsizes := .imgsizes}}
+{{$imgalt := .imgalt}}
+{{$tag_class := .tag_class}}
+{{$ifsrcset :=.ifsrcset}}
+
+ {{ with .image }}
+  {{ $pathArr := split . "." }}
+  {{ $pathLen := len $pathArr }}
+  {{ $ext := index $pathArr (sub $pathLen 1) }}
+  {{ if eq $ext "svg" }}
+    <img data-src="{{.}}" class='lazyload {{$tag_class}}'>
+  {{else}}
+    {{ if eq $ifsrcset "nosrcset" }}
+    
+      <img class="lazyload {{$tag_class}}" data-src="{{.}}">
+    {{else}}
+    
+      {{ $imageResource := (site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .  ) }}
+
+    {{ $tinyw := default "500x" }}
+    {{ $smallw := default "800x" }}
+    {{ $mediumw := default "1200x" }}
+    {{ $largew := default "1500x" }}
+    {{ $xlargew := default "2048x" }}
+    {{ $xxlargew := default "3000x" }}
+    {{/* resize the src image to the given sizes */}}
+
+
+
+    {{/* add the processed images to the scratch */}}
+    {{ $tiny := $imageResource.Resize $tinyw }}
+    {{ $small := $imageResource.Resize $smallw }}
+    {{ $medium := $imageResource.Resize $mediumw }}
+    {{ $large := $imageResource.Resize $largew }}
+    {{ $xlarge := $imageResource.Resize $xlargew }}
+    {{ $xxlarge := $imageResource.Resize $xxlargew }}
+
+
+
+    <img 
+    class='lazyload {{$tag_class}}'
+    data-sizes='{{with $imgsizes}}{{.}}{{else}}100vw{{end}}'
+    data-srcset='{{ if ge $imageResource.Width "500" }}
+        {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
+      {{ end }}
+      {{ if ge $imageResource.Width "800" }}
+        {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
+      {{ end }}
+      {{ if ge $imageResource.Width "1200" }}
+        {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
+      {{ end }}
+      {{ if ge $imageResource.Width "1500" }}
+        {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
+      {{ end }}
+      {{ if ge $imageResource.Width "2048" }}
+        {{ with $large.RelPermalink }}, {{.}} 2048w {{ end }}
+      {{ end }}
+      {{ if ge $imageResource.Width "3000" }}
+        {{ with $large.RelPermalink }}, {{.}} 3000w {{ end }}
+      {{ end }}
+      '
+
+      {{ with $imgalt }}alt="{{.}}"{{ else }}alt=""{{ end }}
+      >
+      {{ end }} 
+  {{ end }}
+{{ end }} 

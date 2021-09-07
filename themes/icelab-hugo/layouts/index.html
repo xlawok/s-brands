@@ -1,5 +1,16 @@
 {{ define "main" }}
-
+{{ with .Params.banner }}
+  {{if (isset . "zdjecia_do_slidera")}}
+    {{with .zdjecia_do_slidera}}
+      {{ range . }}
+      a 
+        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "col-logos" )  -}}
+      {{end}}
+    {{end}}
+  zzzzzzzzzzzz 
+  {{end}}
+asdads
+{{end}}
 {{ if .Site.Data.homepage.banner.enable }}
 {{ with .Site.Data.homepage.banner }}
 <section class="hero-area" data-parallax="scroll" data-image-src="{{ .bg_image | absURL }}" data-z-index="1"
