@@ -1,15 +1,42 @@
 {{ define "main" }}
 {{ with .Params.banner }}
   {{if (isset . "zdjecia_do_slidera")}}
+  <section class="banner-area" >
     {{with .zdjecia_do_slidera}}
-      {{ range . }}
-      a 
-        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "col-logos" "ifsrcset" "")  -}}
+    <div class="banner-img-wrapper">
+      
+      {{ range $index, $element := . }}
+        
+      <div class="banner-img-cnt {{ if (eq $index 0) }}active{{ end }}">
+     
+        {{- partial "img.html" (dict "image" $element "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "")  -}}
+      </div>
       {{end}}
+    </div>
     {{end}}
-  zzzzzzzzzzzz 
+    <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
+   
+    <div class='header-cnt'>
+      
+      
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <p class="banner-desc">
+        {{ .opis_pod_naglowiekm | safeHTML }}
+      </p>
+      {{$tytul_odnosnika:=.tytul_odnosnika}}
+      {{ if .adres_odnosnika }}
+        {{ with site.GetPage .adres_odnosnika }}
+            <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+        {{end}}
+      {{end}}
+    </div>
+    <div class='arrow-wrapper'>
+      <span class='prev'><img class='arr-ico' src="{{ `images/arr_black.svg` | absURL }}"></span>
+      <span class='next'><img class='arr-ico' src="{{ `images/arr_black.svg` | absURL }}"></span>
+    </div>
+  </section>
   {{end}}
-asdads
+
 {{end}}
 {{ if .Site.Data.homepage.banner.enable }}
 {{ with .Site.Data.homepage.banner }}

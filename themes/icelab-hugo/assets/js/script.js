@@ -89,5 +89,41 @@
 			$('nav').removeClass('nav-bg');
 		}
 	}));
+
+	var arrow_wrapper=$('.arrow-wrapper');
+	if($(arrow_wrapper)){
+		var prev=$('.arrow-wrapper .prev');
+		var next=$('.arrow-wrapper .next');
+		var banner_imgs = $('.banner-img-wrapper .banner-img-cnt');
+		var banner_img_length = $(banner_imgs).length;
+		console.log(banner_img_length);
+		$(next).click(function(e) {
+			e.preventDefault();
+			let active_img=$('.banner-img-wrapper .banner-img-cnt.active').index();
+			console.log(active_img);
+			if(active_img==banner_img_length-1){
+				$(banner_imgs[active_img]).removeClass('active');
+				$(banner_imgs[0]).addClass('active');
+			}
+			else{
+				$(banner_imgs[active_img]).removeClass('active');
+				$(banner_imgs[active_img+1]).addClass('active');
+			}
+		});
+		$(prev).click(function(e) {
+			e.preventDefault();
+			let active_img=$('.banner-img-wrapper .banner-img-cnt.active').index();
+			console.log(active_img);
+			if(active_img==0){
+				$(banner_imgs[active_img]).removeClass('active');
+				$(banner_imgs[1]).addClass('active');
+			}
+			else{
+				$(banner_imgs[active_img]).removeClass('active');
+				$(banner_imgs[active_img-1]).addClass('active');
+			}
+		});
+	}
+
 })(jQuery);
 
