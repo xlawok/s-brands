@@ -112,6 +112,18 @@ fields:
     config:
       required: false
     label: Tytuł odnośnika
+  - name: adres_odnosnika
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Adres odnośnika
   label: Poznaj nas
 pages:
 - content/_index.md
