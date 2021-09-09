@@ -173,6 +173,11 @@ fields:
         schema:
           format: html
       label: Długi opis elementu
+    - name: ikona
+      type: file
+      config:
+        maxSize: 1
+      label: Ikona
     config:
       min: 3
       max: 9
