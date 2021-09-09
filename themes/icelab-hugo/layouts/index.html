@@ -48,8 +48,23 @@
       <p class="steps-desc">
         {{ .podpis_pod_naglowkiem | safeHTML }}
       </p>
-     
+      
     </div>
+    {{ with .kolumny_kroki}}
+        <ul class="steps-cols cols-qty-{{len .}}">
+          
+          {{range $index, $element := . }}
+            <li>
+              {{if or (eq $index 1)  (eq $index 2)}}
+                <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+              {{end}}
+              <span class='steps-in-circle'><span>krok</span> <span>{{add $index 1}}</span></span>
+              {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "steps-header")  -}}
+              <p>{{.opis_kolumny}}</p>
+            </li>
+          {{end}}
+        </ul>
+      {{end}}
   </section>
 {{ end }}
 {{ if .Site.Data.homepage.banner.enable }}

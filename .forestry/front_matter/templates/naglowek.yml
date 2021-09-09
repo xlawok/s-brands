@@ -60,15 +60,13 @@ fields:
       - L
       - MD
       - S
-      - XS
       source:
         type: simple
         section: 
         file: 
         path: 
     label: Wielkość tekstu
-    description: 'XXL: 76px;<br>XL: 55px;<br>L: 36px;<br>MD: 29px;<br>S: 20px;<br>XS:
-      16px;'
+    description: 'XXL: 52px;<br>XL: 44px;<br>L: 31px;<br>MD: 26px;<br>S: 21px;'
   config:
     min: 
     max: 

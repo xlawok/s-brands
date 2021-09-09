@@ -1,0 +1,109 @@
+.steps-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -8rem;
+    .header-cnt{
+        text-align: center;
+        line-height:1.5;
+    }
+    .header-template {
+        text-align: center;
+    }
+    .steps-desc{
+        line-height:1.5;
+    }
+    ul{
+        display: grid;
+        
+        gap: 1.5625rem;
+        list-style: none;
+        padding: 2rem;
+        @media (min-width: 992px){
+            padding: 4rem (216/1920)* 100vw;
+        }
+      
+        &.cols-qty-3{
+          
+            grid-template-columns: 1fr;
+            @media (min-width: 768px) {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            
+        }
+        li{
+            background-color: #F8F8F8;
+            padding: 3.5rem 2rem 2rem 2rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            transition: box-shadow .3s ease;
+            cursor: pointer;
+            .header-template{
+                display: inline-block;
+                width: min-content;
+                text-align: left;
+                line-height: 1.2;
+                padding-bottom: 1rem;
+                padding-top: 2rem;
+                flex-grow: 2;
+            }
+           .steps-in-circle{
+                border: 0.125rem solid #000;
+                border-radius: 50%;
+                display: block;
+                font-size: 1.3125rem;
+                color: #000;
+                width: 9.4375rem;
+                height: 9.4375rem;
+                font-weight: 400;
+                line-height: 9rem;
+                position: relative;
+                text-align: right;
+                transition: background-color .3s ease;
+                span:nth-child(1){
+                    position: absolute;
+                    top: calc(50% - (1.3125rem / 2));
+                    line-height: 1;
+                    left: .75rem;
+                    font-weight: bold;
+                    transition: color .3s ease;
+                }
+                span:nth-child(2){
+                    color: #EE2D7A;
+                    font-size: 7rem;
+                    
+                    padding-right: 1.25rem;
+                }
+            }
+            > img{
+                position: absolute;
+                width: 2.625rem;
+                height: 0.9375rem;
+                top: -1.15rem;
+                left: 50%;
+                @media (min-width: 768px) {
+                    left: -2rem;
+                    transform: rotate(-90deg);
+                    
+                    top: calc(50% + 1.5rem);
+                }
+             
+            }
+            >p{
+                flex-grow: 2;
+            }
+            &:hover{
+                box-shadow: 0rem 0rem 1.25rem #0000001A;
+                .steps-in-circle{
+                    background-color: #111111;
+                    span:nth-child(1){
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+    
+    
