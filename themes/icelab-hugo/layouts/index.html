@@ -38,6 +38,20 @@
   {{end}}
 
 {{end}}
+{{ with .Params.kroki }}
+  <section class="steps-area" >
+    <div class='header-cnt'>
+      
+      
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+      <p class="steps-desc">
+        {{ .podpis_pod_naglowkiem | safeHTML }}
+      </p>
+     
+    </div>
+  </section>
+{{ end }}
 {{ if .Site.Data.homepage.banner.enable }}
 {{ with .Site.Data.homepage.banner }}
 <section class="hero-area" data-parallax="scroll" data-image-src="{{ .bg_image | absURL }}" data-z-index="1"
