@@ -88,7 +88,7 @@ fields:
           format: html
       label: Długi opis kroku
     config:
-      min: 1
+      min: 3
       max: 3
       labelField: 
     label: Kolumny - kroki
@@ -134,5 +134,50 @@ fields:
         path: 
     label: Adres odnośnika
   label: Poznaj nas
+- name: proces
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: podpis_pod_naglowkiem
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Podpis pod nagłówkiem
+  - name: kolumny_kroki
+    type: field_group_list
+    fields:
+    - name: opis_kolumny
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+      label: Opis elementu
+    - name: dlugi_opis_kroku
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+      label: Długi opis elementu
+    config:
+      min: 3
+      max: 9
+      labelField: 
+    label: Proces - elementy
+  label: Proces
 pages:
 - content/_index.md

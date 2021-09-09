@@ -1,0 +1,95 @@
+.knowus-area{
+    padding-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    justify-content: end;
+    padding-right: 2rem;
+    @media (min-width: 992px) {
+        padding-left: calc(11vw + 2rem);
+        padding-right: 0;
+    }
+    .header-cnt{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-bottom: 2rem;
+    
+        .header-template{
+           
+            padding-bottom: 2rem;
+        }    
+        
+        @media (min-width: 992px){
+            position: absolute;
+            left: calc(11vw + 2rem);
+            width: 65vw;
+            top: 50%;
+            transform: translateY(-50%);
+            padding-bottom: 0;
+            .header-template{
+                padding-right: 2rem;
+                align-items: end;
+                display: flex;
+                padding-bottom: 4.5rem;
+            }    
+        }
+        
+    }
+    .description-wrapper{
+        width: 100%;
+        padding-top: 2rem;
+        border-top: 0.125rem solid #ee2d7a;
+        
+        >p{
+            font-size: 1.25rem;
+        }
+        @media (min-width: 992px){
+            width: (510/ 1920) * 100vw;
+            padding-left: 2rem;
+            border-top: 0;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-left: 2px solid #ee2d7a;
+        }
+        .cta-button{
+            background: #000000 0% 0% no-repeat padding-box;
+            border-radius: 8px;
+            color: #fff;
+            text-transform: uppercase;
+            padding: .6rem 3rem .6rem 1.5rem;
+            display: inline-block;
+            margin-top: 1rem;
+            position: relative;
+            font-size: 1.25rem;
+            transition: background .3s ease, color .3s ease;
+            .arr-ico{
+                transform: rotate(-90deg);
+                width: .85rem;
+                position: absolute;
+                top: calc(50% - 0.25rem);
+                right: .5rem;
+            
+            }
+            &:hover{
+                text-decoration: none;
+                background: #fff;
+                color: #000;
+                img{
+                    filter: invert(1);
+                }
+            }
+        }
+    }
+    .image-wrapper{
+        width: 100%;
+        @media (min-width: 992px){
+            width: (1041/ 1920) * 100vw;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}

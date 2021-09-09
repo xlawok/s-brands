@@ -21,6 +21,8 @@
             display: inline-block;
             margin-top: 1rem;
             position: relative;
+            font-size: 1.25rem;
+            transition: background .3s ease, color .3s ease;
             .arr-ico{
                 transform: rotate(-90deg);
                 width: .85rem;
@@ -31,6 +33,11 @@
             }
             &:hover{
                 text-decoration: none;
+                background: #fff;
+                color: #000;
+                img{
+                    filter: invert(1);
+                }
             }
         }
 
