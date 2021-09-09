@@ -62,5 +62,26 @@ break_line = false
 txt_block = "Poznaj nas lepiej"
 txt_block_size = "L"
 underline = false
+[proces]
+podpis_pod_naglowkiem = "Skontaktuj się z nami a my szybko zweryfikujemy jak najsprawniej przejść od pomysłu do wprowadzenia nowej marki do sprzedaży na pożądanym rynku."
+[[proces.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+txt_block = "oem/odm - proces zamówienia"
+txt_block_size = "XL"
+underline = false
+[[proces.kolumny_kroki]]
+dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque aliquet tempor. Vestibulum vel orci velit. Aliquam convallis, sapien a finibus ornare."
+ikona = "/uploads/group-145.svg"
+opis_kolumny = "Zapytanie klienta, planowanie próbek, oferta cenowa"
+[[proces.kolumny_kroki]]
+dlugi_opis_kroku = "lorem psum ipsum"
+ikona = "/uploads/group-146.svg"
+opis_kolumny = "Potwierdzenie PO, jakości warunków i dokumentacja"
+[[proces.kolumny_kroki]]
+dlugi_opis_kroku = "lorem ipsum"
+ikona = "/uploads/group-148.svg"
+opis_kolumny = "Projektowanie i rozwój"
 
 +++
