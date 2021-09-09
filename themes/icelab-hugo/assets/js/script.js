@@ -124,6 +124,12 @@
 			}
 		});
 	}
-
+	var steps_cols = $('.steps-area ul li');
+	if($(steps_cols)){
+		$(steps_cols).click(function(e) {
+			e.preventDefault();
+			$(this).toggleClass('active');
+		});
+	}
 })(jQuery);
 

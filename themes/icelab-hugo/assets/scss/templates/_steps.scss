@@ -93,6 +93,27 @@
             >p{
                 flex-grow: 2;
             }
+            .hidden-long-desc{
+                position: absolute;
+                z-index: -1;
+                background: white;
+                left: 0;
+                width: 100%;
+                @media (min-width: 768px) {
+                    left: calc(100% + 1.5625rem);
+                    width: calc(200% + 1.5625rem);
+                }
+                
+                box-shadow: 0px 0px 20px #0000001A;
+                
+                padding: 2rem;
+                height: 100%;
+                top: 0;
+                opacity: 0;
+            }
+            &:nth-child(2){
+                left: 0;
+            }
             &:hover{
                 box-shadow: 0rem 0rem 1.25rem #0000001A;
                 .steps-in-circle{
@@ -101,6 +122,31 @@
                         color: #fff;
                     }
                 }
+            }
+            &.active{
+               
+                .hidden-long-desc{
+                    z-index: 1;
+                    opacity: 1;
+                }
+                @media (min-width: 768px){
+                    &:nth-child(2){
+                        left: calc(-100% - 1.5625rem);
+                        .arr-red-ico{
+                            left: calc(100% - 0.5625rem);
+                          
+                        }
+                    }
+                    &:nth-child(3){
+                        left: calc(-200% - (1.5625rem * 2));
+                        .arr-red-ico{
+                            left: calc(100% + 1.5625rem);
+                            
+                        }
+                    }
+                }
+           
+                
             }
         }
     }

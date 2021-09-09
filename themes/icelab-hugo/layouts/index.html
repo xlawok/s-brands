@@ -60,7 +60,10 @@
               {{end}}
               <span class='steps-in-circle'><span>krok</span> <span>{{add $index 1}}</span></span>
               {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "steps-header")  -}}
-              <p>{{.opis_kolumny}}</p>
+              <p>{{.opis_kolumny | safeHTML}}</p>
+              <div class="hidden-long-desc">
+                {{ .dlugi_opis_kroku | safeHTML}}
+              </div>
             </li>
           {{end}}
         </ul>
