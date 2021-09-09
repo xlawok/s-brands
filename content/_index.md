@@ -31,7 +31,7 @@ txt_block = "Twoje zapytanie"
 txt_block_size = "L"
 underline = false
 [[kroki.kolumny_kroki]]
-dlugi_opis_kroku = ""
+dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget blandit lacus. Nam ex sapien, tincidunt pellentesque bibendum ac, vehicula et sapien. Fusce quis ultrices massa, sed cursus leo. Praesent at ultrices purus. Cras diam enim, semper ac enim sed, pharetra posuere dolor. Pellentesque at neque risus. Donec neque libero, accumsan nec dui at, faucibus ullamcorper tortor. Fusce finibus est nec placerat fringilla. Phasellus et tempor nisi, at facilisis lacus. Pellentesque vel enim tempus, euismod eros ac, pellentesque mauris. Pellentesque ac ipsum orci. Nam sit amet lacus ultricies, facilisis diam quis, ultricies neque. Morbi sed luctus sem. Phasellus porta lacus eleifend mi vestibulum, ac interdum dui feugiat. <br><br>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ultrices tortor sit amet elit porttitor condimentum ut eu erat. Donec at libero auctor, venenatis mi id, consequat elit. Vivamus auctor molestie purus vitae mattis. Vivamus ut fringilla enim, eget tincidunt lectus. Curabitur vel odio ac arcu vehicula gravida. Aenean luctus ut lacus ut gravida. Sed nec mi nec lectus tempor ullamcorper. In fermentum sodales sem in posuere."
 opis_kolumny = "Przedstawimy Ci nasze najbardziej aktualne oferty do weryfikacji."
 [[kroki.kolumny_kroki.header_repeater]]
 block_tag_type = "div"
