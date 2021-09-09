@@ -78,6 +78,15 @@ fields:
         schema:
           format: html
       label: Opis kolumny
+    - name: dlugi_opis_kroku
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+      label: Długi opis kroku
     config:
       min: 1
       max: 3
