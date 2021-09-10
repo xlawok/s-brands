@@ -128,6 +128,15 @@
 	if($(steps_cols)){
 		$(steps_cols).click(function(e) {
 			e.preventDefault();
+			if($(this).find('.hidden-long-desc').length>0)
+			$(this).toggleClass('active');
+		});
+	}
+	var process_cols = $('.process-area ul li');
+	if($(process_cols)){
+		$(process_cols).click(function(e) {
+			e.preventDefault();
+			if($(this).find('.hidden-long-desc').length>0)
 			$(this).toggleClass('active');
 		});
 	}

@@ -61,9 +61,13 @@
               <span class='steps-in-circle'><span>krok</span> <span>{{add $index 1}}</span></span>
               {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "steps-header")  -}}
               <p>{{.opis_kolumny | safeHTML}}</p>
-              <div class="hidden-long-desc">
-                {{ .dlugi_opis_kroku | safeHTML}}
-              </div>
+              {{with .dlugi_opis_kroku}}
+                <div class="hidden-long-desc">
+                  {{if ne . ""}}
+                  {{ . | safeHTML}}
+                  {{end}}
+                </div>
+              {{end}}
             </li>
           {{end}}
         </ul>
@@ -90,7 +94,44 @@
     </div>
   </section>
 {{end}}
-
+{{ with .Params.proces }}
+  <section class="process-area" >
+    <div class='header-cnt'>
+      
+      
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+      <p class="steps-desc">
+        {{ .podpis_pod_naglowkiem | safeHTML }}
+      </p>
+      
+    </div>
+    {{ with .kolumny_kroki}}
+        <ul class="steps-cols cols-qty-{{len .}}">
+          
+          {{range $index, $element := . }}
+            <li>
+              {{- partial "img.html" (dict "image" .ikona "imgsizes" "80vw" "tag_class" "process-ico" "ifsrcset" "nosrcset")  -}}
+             
+              <span class='steps-in-circle'>{{add $index 1}}</span>
+              
+              <p>{{.opis_kolumny | safeHTML}}</p>
+              {{if (ne $index 0)}}
+                <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}">
+              {{end}}
+              {{with .dlugi_opis_kroku}}
+                <div class="hidden-long-desc">
+                  {{if ne . ""}}
+                  {{ . | safeHTML}}
+                  {{end}}
+                </div>
+              {{end}}
+            </li>
+          {{end}}
+        </ul>
+      {{end}}
+  </section>
+{{ end }}
 
 {{ if .Site.Data.homepage.service.enable }}
 {{ with .Site.Data.homepage.service }}
