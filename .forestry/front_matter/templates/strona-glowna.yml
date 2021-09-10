@@ -243,6 +243,24 @@ fields:
       schema:
         format: html
     label: Opis sekcji
+  - name: grupy_produktow
+    type: field_group_list
+    fields:
+    - name: naglowek
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek
+    - name: zdjecie
+      type: file
+      config:
+        maxSize: 1
+      label: Zdjęcie
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Grupy produktów
   label: Nasze produkty
 pages:
 - content/_index.md
