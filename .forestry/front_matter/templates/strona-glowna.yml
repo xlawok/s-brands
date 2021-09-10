@@ -256,6 +256,33 @@ fields:
       config:
         maxSize: 1
       label: Zdjęcie
+    - name: opis_sekcji
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+        max: 520
+    - name: tytul_odnosnika
+      type: text
+      config:
+        required: false
+      label: Tytuł odnośnika
+    - name: adres_odnosnika
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: 
+          file: 
+          path: 
+      label: Adres odnośnika
+    label: Opis grupy
     config:
       min: 
       max: 
