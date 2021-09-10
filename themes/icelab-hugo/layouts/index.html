@@ -132,6 +132,43 @@
       {{end}}
   </section>
 {{ end }}
+{{ with .Params.nasze_marki }}
+  {{$header_repeater:= .header_repeater}}
+  {{$opis_sekcji:= .opis_sekcji}}
+  {{$tytul_odnosnika:= .tytul_odnosnika}}
+  {{$adres_odnosnika:= .adres_odnosnika}}
+  <section class="ourbrands-area" >
+    {{with .galeria_logo}}
+    <ul class="brands-img-wrapper">
+      {{ $galeria_len := len . }}
+      {{ range $index, $element := . }}
+      {{if or (and (ge $galeria_len 16) (eq $index 8)) (and (le $galeria_len 15) (eq $index 4))}}
+        <li class='gallery-header'>
+          <div class="header-cnt">
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_repeater "custom_class" "banner-header")  -}}
+            <div class="description-wrapper">
+              <p>{{$opis_sekcji | safeHTML}}</p>
+              
+              {{ if $adres_odnosnika }}
+                {{ with site.GetPage $adres_odnosnika }}
+                    <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+                {{end}}
+              {{end}}
+            </div>
+          </div>    
+        </li>
+
+      {{else}}
+        <li class="banner-img-cnt {{ if (eq $index 0) }}active{{ end }}">
+      
+          {{- partial "img.html" (dict "image" $element "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset")  -}}
+        </li>
+      {{end}}
+      {{end}}
+    </ul>
+    {{end}}
+  </section>
+{{end}}
 
 {{ if .Site.Data.homepage.service.enable }}
 {{ with .Site.Data.homepage.service }}
