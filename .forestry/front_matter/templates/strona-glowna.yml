@@ -225,5 +225,15 @@ fields:
     config: {}
     label: Galeria logotypów
   label: Nasze marki
+- name: nasze_produkty
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  label: Nasze produkty
 pages:
 - content/_index.md
