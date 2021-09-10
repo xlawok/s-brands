@@ -50,6 +50,18 @@ break_line = false
 txt_block = "Wzajemne zatwierdzenie transakcji"
 txt_block_size = "L"
 underline = false
+[nasze_marki]
+adres_odnosnika = "contact/_index.md"
+galeria_logo = ["/uploads/dr-hauschka.svg", "/uploads/decleor_logo.png", "/uploads/darphin-logo.png", "/uploads/comfort_zone_logo.svg", "/uploads/caudalie.svg", "/uploads/carita_paris-przekonwertowany.svg", "/uploads/avene_logo_logotype_emblem.png", "/uploads/aderma.svg"]
+opis_sekcji = "Wśród wielu znanych marek, których produkty dystrybuujemy, możemy poszczycić się współpracą z:"
+tytul_odnosnika = "Zobacz katalog marek"
+[[nasze_marki.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Nasze marki"
+txt_block_size = "XL"
+underline = false
 [poznaj_nas]
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy międzynarodową firmą specjalizującą się w dystrybucji marek kosmetycznych renomowanych producentów. Dostarczamy swoim klientom najlepsze ceny i promocje okresowe stale wyszukując najlepszych źródeł zaopatrzenia."
