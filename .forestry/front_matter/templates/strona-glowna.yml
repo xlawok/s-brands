@@ -172,6 +172,7 @@ fields:
         wysiwyg: true
         schema:
           format: html
+        max: 520
       label: Długi opis elementu
     - name: ikona
       type: file
@@ -184,5 +185,15 @@ fields:
       labelField: 
     label: Proces - elementy
   label: Proces
+- name: nasze_marki
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  label: Nasze marki
 pages:
 - content/_index.md
