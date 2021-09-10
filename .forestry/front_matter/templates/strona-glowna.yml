@@ -194,6 +194,36 @@ fields:
     config: {}
     template: naglowek
     label: Nagłówek
+  - name: opis_sekcji
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis sekcji
+  - name: tytul_odnosnika
+    type: text
+    config:
+      required: false
+    label: Tytuł odnośnika
+  - name: adres_odnosnika
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Adres odnośnika
+  - name: galeria_logo
+    type: image_gallery
+    config: {}
+    label: Galeria logotypów
   label: Nasze marki
 pages:
 - content/_index.md
