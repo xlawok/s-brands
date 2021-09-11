@@ -11,6 +11,29 @@ break_line = false
 txt_block = "Globalna dystrybucja kosmetyków"
 txt_block_size = "XL"
 underline = false
+[kogo_zaopatrujemy]
+logo = "/uploads/s-brands.svg"
+naglowek_z_logo = "Hurtownie"
+opis_sekcji = "Zobacz w jaki sposób działa nasz system zaopatrzenia"
+[[kogo_zaopatrujemy.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Kogo zaopatrujemy?"
+txt_block_size = "XL"
+underline = false
+[[kogo_zaopatrujemy.odbiorcy]]
+ikona = "/uploads/group-22.svg"
+nazwa_odbiorcy = "Salony urody"
+[[kogo_zaopatrujemy.odbiorcy]]
+ikona = "/uploads/group-24.svg"
+nazwa_odbiorcy = "Hurtownicy"
+[[kogo_zaopatrujemy.odbiorcy]]
+ikona = "/uploads/group-23.svg"
+nazwa_odbiorcy = "Sklepy internetowe"
+[[kogo_zaopatrujemy.odbiorcy]]
+ikona = "/uploads/group-25.svg"
+nazwa_odbiorcy = "Apteki"
 [kroki]
 podpis_pod_naglowkiem = "W trzech prostych krokach"
 [[kroki.header_repeater]]
