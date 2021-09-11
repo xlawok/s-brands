@@ -76,6 +76,18 @@ break_line = false
 txt_block = "Make-up"
 txt_block_size = "XL"
 underline = false
+[[nasze_produkty.grupy_produktow]]
+adres_odnosnika = []
+opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
+tytul_odnosnika = ""
+zdjecie = "/uploads/content-pixie-wdj4wnlxyds-unsplash.jpg"
+[[nasze_produkty.grupy_produktow.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Skin care"
+txt_block_size = "XL"
+underline = false
 [[nasze_produkty.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
