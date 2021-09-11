@@ -77,15 +77,39 @@ txt_block = "Make-up"
 txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
-adres_odnosnika = []
+adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
-tytul_odnosnika = ""
+tytul_odnosnika = "Zobacz marki"
 zdjecie = "/uploads/content-pixie-wdj4wnlxyds-unsplash.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 txt_block = "Skin care"
+txt_block_size = "XL"
+underline = false
+[[nasze_produkty.grupy_produktow]]
+adres_odnosnika = "contact/_index.md"
+opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
+tytul_odnosnika = "Zobacz marki"
+zdjecie = "/uploads/christin-hume-0mof-fe0w0a-unsplash.jpg"
+[[nasze_produkty.grupy_produktow.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Hair care"
+txt_block_size = "XL"
+underline = false
+[[nasze_produkty.grupy_produktow]]
+adres_odnosnika = "contact/_index.md"
+opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
+tytul_odnosnika = "Zobacz marki"
+zdjecie = "/uploads/content-pixie-wdj4wnlxyds-unsplash.jpg"
+[[nasze_produkty.grupy_produktow.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Professional care"
 txt_block_size = "XL"
 underline = false
 [[nasze_produkty.header_repeater]]
