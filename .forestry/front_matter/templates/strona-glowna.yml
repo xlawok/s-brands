@@ -307,16 +307,16 @@ fields:
       schema:
         format: html
     label: Opis sekcji
-  - name: naglowek_z_logo
-    type: include
-    config: {}
-    template: naglowek
-    label: Nagłówek z logo
   - name: logo
     type: file
     config:
       maxSize: 1
     label: Logo
+  - name: naglowek_z_logo
+    type: text
+    config:
+      required: false
+    label: Nagłówek z logo
   - name: odbiorcy
     type: field_group_list
     fields:
