@@ -62,6 +62,27 @@ break_line = false
 txt_block = "Nasze marki"
 txt_block_size = "XL"
 underline = false
+[nasze_produkty]
+opis_sekcji = "W naszej ofercie znajdują się artykuły należące do trzech grup produktowych"
+[[nasze_produkty.grupy_produktow]]
+adres_odnosnika = "contact/_index.md"
+opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
+tytul_odnosnika = "Zobacz marki"
+zdjecie = "/uploads/christin-hume-0mof-fe0w0a-unsplash.jpg"
+[[nasze_produkty.grupy_produktow.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Make-up"
+txt_block_size = "XL"
+underline = false
+[[nasze_produkty.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Nasze produkty"
+txt_block_size = "XL"
+underline = false
 [poznaj_nas]
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy międzynarodową firmą specjalizującą się w dystrybucji marek kosmetycznych renomowanych producentów. Dostarczamy swoim klientom najlepsze ceny i promocje okresowe stale wyszukując najlepszych źródeł zaopatrzenia."

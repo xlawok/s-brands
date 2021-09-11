@@ -282,12 +282,11 @@ fields:
           file: 
           path: 
       label: Adres odnośnika
-    label: Opis grupy
+    label: Grupy produktów
     config:
       min: 
       max: 
       labelField: 
-    label: Grupy produktów
   label: Nasze produkty
 pages:
 - content/_index.md
