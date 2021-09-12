@@ -27,3 +27,27 @@ fields:
       maxSize: 1
     label: 'Zdjęcie'
   label: Banner
+- name: nasza_wizja
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis_sekcji
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis sekcji
+  - name: zdjecie
+    type: file
+    config:
+      maxSize: 1
+    label: 'Zdjęcie '
+  label: Nasza wizja
