@@ -218,7 +218,40 @@
   {{end}}
 </section>
 {{end}}
-
+{{ with .Params.kogo_zaopatrujemy }}
+<section class="who-supply-area" >
+  <div class='header-cnt'>
+      
+      
+    {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+    <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+    <p class="sec-desc">
+      {{ .opis_sekcji | safeHTML }}
+    </p>
+    
+  </div>
+  <div class="graph-wrapper">
+    <div class="graph-header">
+      <span>{{.naglowek_z_logo}}</span>{{- partial "img.html" (dict "image" .logo "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "")  -}}
+    </div>
+    {{if (isset . "odbiorcy")}}
+  <ul class="odbiorcy-group" >
+      {{with .odbiorcy}}
+      
+        
+        {{ range $index, $element := . }}
+        <li class="odbiorca-wrapper"> 
+          {{- partial "img.html" (dict "image" $element.ikona "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "")  -}}
+          <span>{{$element.nazwa_odbiorcy}}</span>
+        </li>
+        {{end}}
+      {{end}}
+   
+    </ul>
+    {{end}}
+  </div>
+</section>
+{{end}}
 
 
 {{ if .Site.Data.homepage.portfolio.enable }}
