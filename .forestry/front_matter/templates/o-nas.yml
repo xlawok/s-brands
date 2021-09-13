@@ -69,6 +69,29 @@ fields:
       schema:
         format: html
     label: Opis sekcji
+  - name: grupa
+    type: field_group_list
+    fields:
+    - name: naglowek
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek
+    - name: lewa_kolumna
+      type: text
+      config:
+        required: false
+      label: Lewa kolumna
+    - name: prawa_kolumna
+      type: text
+      config:
+        required: false
+      label: Prawa kolumna
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Grupa usług
   label: Jakość usług
 - name: which_layout
   type: text
