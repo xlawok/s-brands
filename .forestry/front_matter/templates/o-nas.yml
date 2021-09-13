@@ -60,6 +60,15 @@ fields:
     config: {}
     template: naglowek
     label: Nagłówek
+  - name: opis_sekcji
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis sekcji
   label: Jakość usług
 - name: which_layout
   type: text
