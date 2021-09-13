@@ -19,7 +19,7 @@ fields:
       wysiwyg: true
       schema:
         format: html
-      max: 500
+      max: 
     label: Opis pod nagłówiekm
   - name: zdjecie
     type: file
