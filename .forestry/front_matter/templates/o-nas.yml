@@ -51,7 +51,7 @@ fields:
       maxSize: 1
     label: 'Zdjęcie '
   label: Nasza wizja
-- name: layout
+- name: which_layout
   type: text
   config:
     required: false
