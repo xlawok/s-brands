@@ -1,7 +1,7 @@
 ---
 label: O nas
 hide_body: true
-fields: 
+fields:
 - name: banner
   type: field_group
   config: {}
@@ -25,7 +25,7 @@ fields:
     type: file
     config:
       maxSize: 1
-    label: 'Zdjęcie'
+    label: Zdjęcie
   label: Banner
 - name: nasza_wizja
   type: field_group
@@ -51,3 +51,5 @@ fields:
       maxSize: 1
     label: 'Zdjęcie '
   label: Nasza wizja
+pages:
+- content/o-nas.md
