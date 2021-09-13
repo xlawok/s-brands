@@ -51,5 +51,12 @@ fields:
       maxSize: 1
     label: 'Zdjęcie '
   label: Nasza wizja
+- name: layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
+  default: o-nas
 pages:
 - content/o-nas.md
