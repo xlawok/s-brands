@@ -51,6 +51,16 @@ fields:
       maxSize: 1
     label: 'Zdjęcie '
   label: Nasza wizja
+- name: jakosc_uslug
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  label: Jakość usług
 - name: which_layout
   type: text
   config:
