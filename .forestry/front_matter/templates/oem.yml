@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 label: O nas
+=======
+label: Usługi oem
+>>>>>>> faef1aadb73b0a4b69ff813eff2e40c1d3cd625e
 hide_body: true
 fields:
 - name: banner
@@ -43,7 +47,11 @@ fields:
       required: false
       wysiwyg: true
       schema:
+<<<<<<< HEAD
         format: html
+=======
+        format: html-blocks
+>>>>>>> faef1aadb73b0a4b69ff813eff2e40c1d3cd625e
     label: Opis sekcji
   - name: zdjecie
     type: file
