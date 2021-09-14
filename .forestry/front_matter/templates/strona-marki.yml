@@ -1,0 +1,14 @@
+---
+label: Strona marki
+hide_body: true
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: logo_marki
+  type: file
+  config:
+    maxSize: 1
+  label: Logo marki
