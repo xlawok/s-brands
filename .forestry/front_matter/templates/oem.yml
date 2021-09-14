@@ -1,0 +1,62 @@
+---
+label: O nas
+hide_body: true
+fields:
+- name: banner
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis_pod_naglowiekm
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+      max: 
+    label: Opis pod nagłówiekm
+  - name: zdjecie
+    type: file
+    config:
+      maxSize: 1
+    label: Zdjęcie
+  label: Banner
+- name: masz_pomysl
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis_sekcji
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis sekcji
+  - name: zdjecie
+    type: file
+    config:
+      maxSize: 1
+    label: 'Zdjęcie '
+  label: Masz pomysł
+- name: which_layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
+  default: uslugi-oem
+pages:
+- content/uslugi-oem.md
