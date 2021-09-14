@@ -3,5 +3,8 @@
   
     {{- partial "o-nas.html" . -}}
   {{end}}
-
+  {{ if (eq .Params.which_layout "uslugi-oem") }}
+  
+    {{- partial "uslugi-oem.html" . -}}
+  {{end}}
 {{ end }}

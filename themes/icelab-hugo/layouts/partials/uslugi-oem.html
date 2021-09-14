@@ -1,0 +1,40 @@
+{{ with .Params.banner }}
+  {{if (isset . "zdjecie")}}
+  <section class="banner-area" >
+    {{with .zdjecie}}
+    <div class="banner-img-wrapper">
+        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "")  -}}
+    </div>
+    {{end}}
+    <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
+   
+    <div class='header-cnt'>
+      
+      
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <p class="banner-desc">
+        {{ .opis_pod_naglowiekm | safeHTML }}
+      </p>
+
+    </div>
+
+  </section>
+  {{end}}
+
+{{end}}
+{{ with .Params.masz_pomysl }}
+  <section class="idea-area" >
+    <div class="header-cnt">
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+      <div class="description-wrapper">
+        <p>{{.opis_sekcji | safeHTML}}</p>
+       
+      </div>
+    </div>
+    
+    <div class="image-wrapper">
+      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "")  -}}
+    </div>
+  </section>
+{{end}}
