@@ -45,7 +45,7 @@ fields:
         options: []
         source:
           type: pages
-          section: nasze-marki
+          section: nasze-marki-30cb51d6-dff6-44d5-bba0-a77f32630088
           file: 
           path: 
       label: Odnośnik marki
@@ -60,4 +60,5 @@ fields:
     labelField: 
   label: Grupa marek
 pages:
-- _index.md
+- content/_index.md
+- content/nasze-marki/_index.md

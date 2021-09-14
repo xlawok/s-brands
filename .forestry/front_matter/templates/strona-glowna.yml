@@ -336,5 +336,3 @@ fields:
       labelField: 
     label: Odbiorcy
   label: Kogo zaopatrujemy
-pages:
-- content/_index.md

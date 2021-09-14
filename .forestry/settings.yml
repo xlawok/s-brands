@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: 'content/nasze-marki'
+  path: content/nasze-marki
   label: Nasze marki
   create: all
   match: "**/*"
