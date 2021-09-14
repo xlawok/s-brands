@@ -1,0 +1,61 @@
+---
+label: Nasze marki
+hide_body: true
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: opis_pod_naglowiem
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Opis pod nagłówiem
+- name: grupa_marek
+  type: field_group_list
+  fields:
+  - name: tytul_grupy
+    type: text
+    config:
+      required: false
+    label: Tytuł grupy
+  - name: marki
+    type: field_group_list
+    fields:
+    - name: ikona_marki
+      type: file
+      config:
+        maxSize: 1
+      label: Ikona marki
+    - name: tytul_marki
+      type: text
+      config:
+        required: false
+      label: Tytuł marki
+    - name: odnisnik_marki
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: 
+          file: 
+          path: 
+      label: Odnośnik marki
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Marki
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Grupa marek
