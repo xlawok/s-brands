@@ -12,3 +12,5 @@ fields:
   config:
     maxSize: 1
   label: Logo marki
+pages:
+- cartice.md

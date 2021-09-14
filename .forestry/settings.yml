@@ -5,18 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/about
-  label: About
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/contact
-  label: Contact
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/works
-  label: Works
+  path: ''
+  label: Nasze marki
   create: all
   match: "**/*"
 - type: directory

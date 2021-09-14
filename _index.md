@@ -3,13 +3,9 @@ opis_pod_naglowiem = "Wybierz kosmetyki w konkurencyjnych cenach<br>\vspośród 
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/catrice_logo_png1.png"
+ikona_marki = "/uploads/revolution-beauty.svg"
 odnisnik_marki = []
-tytul_marki = "Catrice Cosmetics"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/clarins_logo.png"
-odnisnik_marki = "clarins.md"
-tytul_marki = "Clarins Paris"
+tytul_marki = "Revolution"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
