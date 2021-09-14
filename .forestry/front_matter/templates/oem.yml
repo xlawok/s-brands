@@ -43,7 +43,7 @@ fields:
       required: false
       wysiwyg: true
       schema:
-        format: html
+        format: html-blocks
     label: Opis sekcji
   - name: zdjecie
     type: file
