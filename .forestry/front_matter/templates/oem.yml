@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 label: O nas
-=======
-label: Usługi oem
->>>>>>> faef1aadb73b0a4b69ff813eff2e40c1d3cd625e
 hide_body: true
 fields:
 - name: banner
