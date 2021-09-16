@@ -58,5 +58,10 @@ fields:
   hidden: true
   label: layout
   default: uslugi-oem
+- name: head
+  type: include
+  config: {}
+  template: head
+  label: Head
 pages:
 - content/uslugi-oem.md
