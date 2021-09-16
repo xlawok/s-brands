@@ -1,4 +1,24 @@
 ---
 label: Head
 hide_body: true
-fields: []
+fields:
+- name: meta_opis
+  type: text
+  config:
+    required: false
+  label: Meta opis
+- name: title
+  type: text
+  config:
+    required: false
+  label: Tytuł
+- name: meta_robots
+  type: text
+  config:
+    required: false
+  label: Meta robots
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
