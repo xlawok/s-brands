@@ -43,5 +43,12 @@ fields:
   config:
     maxSize: 1
   label: Zdjęcie
+- name: which_layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
+  default: strona-marki
 pages:
 - content/nasze-marki/catrice-cosmetics.md
