@@ -50,5 +50,10 @@ fields:
   hidden: true
   label: layout
   default: strona-marki
+- name: head
+  type: include
+  config: {}
+  template: head
+  label: Head
 pages:
 - content/nasze-marki/catrice-cosmetics.md
