@@ -8,11 +8,23 @@ ikona_marki = "/uploads/catrice_logo_png1.png"
 odnisnik_marki = "nasze-marki/catrice-cosmetics.md"
 tytul_marki = "Catrice"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/opi-vector-logo.png"
+odnisnik_marki = []
+tytul_marki = "OPI"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/revolution-beauty.svg"
 odnisnik_marki = []
 tytul_marki = "Revolution beauty"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/thalgo_logo_logotype.png"
+odnisnik_marki = []
+tytul_marki = "Thalgo la beaute marine"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/the-body-shop-logo.png"
+odnisnik_marki = []
+tytul_marki = "The body shop"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/topicream.svg"
 odnisnik_marki = []
