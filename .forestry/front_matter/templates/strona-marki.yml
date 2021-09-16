@@ -12,5 +12,36 @@ fields:
   config:
     maxSize: 1
   label: Logo marki
+- name: opis_pod_naglowiekm
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Opis pod nagłówiekm
+- name: tytul_odnosnika
+  type: text
+  config:
+    required: false
+  label: Tytuł odnośnika
+- name: adres_odnosnika
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
+  label: Adres odnośnika
+- name: zdjecie
+  type: file
+  config:
+    maxSize: 1
+  label: Zdjęcie
 pages:
 - content/nasze-marki/catrice-cosmetics.md

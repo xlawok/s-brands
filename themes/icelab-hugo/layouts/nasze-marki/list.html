@@ -15,21 +15,28 @@
         <section class="brands-area" >
             {{range . }}
                 {{$tytul_grupy:=.tytul_grupy}}
+                
                 {{with .marki}}
+              
+                
                     <h2 class="group-header">{{$tytul_grupy}}</h2>
                     <ul class="brands-img-wrapper">
                         {{range .}}
+                        
+                      
                             <li class="brand-img-cnt ">
-                                {{$odnisnik_marki:=.odnisnik_marki}}
-                                {{if ne $odnisnik_marki ""}} 
-                             
-                                    {{ with site.GetPage $odnisnik_marki }}
+                                
+                                
+                                
+                                {{ with   .odnisnik_marki }}
+                                    
+                                    {{ with site.GetPage  . }}
                                         <a class='' href='{{.RelPermalink}}'>
                                     {{end}}
-
-                                {{end}}
+                                    {{end}}
+                                
                                 {{- partial "img.html" (dict "image" .ikona_marki "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset" "imgalt" .tytul_marki)  -}}
-                                {{if ne $odnisnik_marki ""}} 
+                                {{ with .odnisnik_marki }}
                                     </a>
                                 {{end}}
                             </li>
