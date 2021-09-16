@@ -67,4 +67,5 @@ fields:
   label: layout
   default: nasze-marki
 pages:
+- content/_index.md
 - content/nasze-marki/_index.md
