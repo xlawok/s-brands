@@ -11,6 +11,16 @@ tytul_marki = "Catrice"
 ikona_marki = "/uploads/revolution-beauty.svg"
 odnisnik_marki = []
 tytul_marki = "Revolution beauty"
+[[grupa_marek]]
+tytul_grupy = "Skin Care"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/topicream.svg"
+odnisnik_marki = []
+tytul_marki = "Topicrem"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/vichy-logo.svg"
+odnisnik_marki = []
+tytul_marki = "Vichy"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
