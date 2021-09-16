@@ -1,5 +1,6 @@
 +++
-opis_pod_naglowiem = "Wybierz kosmetyki w konkurencyjnych cenach\v<br>spośród najlepszych marek na świecie"
+which_layout = "nasze-marki"
+opis_pod_naglowiem = "Wybierz kosmetyki w konkurencyjnych cenach<br>spośród najlepszych marek na świecie"
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
@@ -10,7 +11,7 @@ tytul_marki = "Catrice"
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Catrice Cosmetics"
+txt_block = "Nasze marki"
 txt_block_size = "XXL"
 underline = false
 

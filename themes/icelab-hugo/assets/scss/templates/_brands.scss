@@ -1,0 +1,72 @@
+.nasze-marki{
+    .banner-area{
+        position: relative;
+        height: calc(100vh - 10rem);
+        width: 100%;
+        min-height: 45vw;
+        .header-cnt{
+            // position: absolute;
+            position: static;
+            padding-top: 14vw;
+            // left: 14.5vw;
+            text-align: center;
+            color: #000;
+            // width: 40vw;
+            .banner-header{
+                margin-bottom: 0;
+                padding-bottom: 0.5rem;
+            }
+
+    
+        }
+        .banner-logo-cnt{
+            width: 30vw;
+            opacity: .1;
+            height: 95%;
+            // left: -1.8vw;
+            position: absolute;
+            
+            top: 0.5rem;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .description-wrapper{
+            padding-top: .5rem;
+        }
+      
+   
+    }
+    .brands-area{
+        .group-header{
+            text-align: center;
+            font-size: 2.1875rem;
+            letter-spacing: 0rem;
+            color: #EE2D7A;
+        }
+        ul{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 2rem;
+            list-style: none;
+            gap: 2rem;
+            li{
+                img{
+                    width: 100%;
+                }
+            }
+            @media (min-width: 768px){
+                grid-template-columns: repeat(3, 1fr);
+                padding: 2rem 10vw;
+                gap: 3rem;
+            }
+            @media (min-width: 1200px){
+                grid-template-columns: repeat(4, 1fr);
+                padding: 2rem 15vw;
+                gap: 4rem;
+            }
+        }
+    }
+}
