@@ -66,6 +66,11 @@ fields:
   hidden: true
   label: layout
   default: nasze-marki
+- name: head
+  type: include
+  config: {}
+  template: head
+  label: Head
 pages:
 - content/_index.md
 - content/nasze-marki/_index.md
