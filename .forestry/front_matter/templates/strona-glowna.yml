@@ -336,6 +336,10 @@ fields:
       labelField: 
     label: Odbiorcy
   label: Kogo zaopatrujemy
+- name: dodaj_formularz
+  type: boolean
+  label: Dodaj formularz
+  default: true
 - name: head
   type: include
   config: {}
