@@ -1,0 +1,13 @@
+---
+header_repeater:
+- txt_block: Skontaktuj się z nami i rozpocznij współpracę
+  bold_txt: gruby
+  underline: false
+  break_line: false
+  block_tag_type: div
+  txt_block_size: XL
+opis_pod_naglowiem: Zapraszamy do kontaktu w celu sprawdzenia naszej oferty cenowej
+  oraz omówienia warunków współpracy.
+kod_formularza: |-
+  <form id="contactform" action="https://formspree.io/f/xgerdkry" method="POST">
+  </form>
