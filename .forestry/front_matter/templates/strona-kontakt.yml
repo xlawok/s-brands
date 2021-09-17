@@ -7,6 +7,15 @@ fields:
   config: {}
   template: naglowek
   label: Nagłówek
+- name: opis_pod_naglowiekm
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Opis pod nagłówiekm
 - name: etapy_wspolpracy
   type: field_group_list
   fields:
