@@ -1,4 +1,5 @@
 +++
+which_layout = "kontakt"
 meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiekm = "Zapraszamy do kontaktu w celu sprawdzenia naszej oferty cenowej oraz omówienia warunków współpracy."

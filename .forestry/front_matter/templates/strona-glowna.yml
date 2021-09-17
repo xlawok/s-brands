@@ -336,3 +336,8 @@ fields:
       labelField: 
     label: Odbiorcy
   label: Kogo zaopatrujemy
+- name: head
+  type: include
+  config: {}
+  template: head
+  label: Head

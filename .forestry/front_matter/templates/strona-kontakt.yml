@@ -38,6 +38,13 @@ fields:
     max: 
     labelField: 
   label: Etapy współpracy
+- name: which_layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
+  default: kontakt
 - name: head
   type: include
   config: {}
