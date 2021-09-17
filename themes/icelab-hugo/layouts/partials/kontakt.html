@@ -1,0 +1,46 @@
+{{ with .Params }}
+  <section class="kontakt-area" >
+   
+    <div class="kontakt-left"> 
+        <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
+        <div class='header-cnt'>
+        
+        
+        {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+       
+        <p class="qual-desc">
+            {{ .opis_pod_naglowiekm | safeHTML }}
+        </p>
+        
+        </div>
+        {{ with .etapy_wspolpracy}}
+            <ul class="qual-cols cols-qty-{{len .}}">
+            
+            {{range $index, $element := . }}
+                <li>
+            
+                
+                <span class='qual-in-circle'>{{add $index 1}}</span>
+              
+                <p>{{.nazwa_etapu | safeHTML}}</p>
+                <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+                <div class='desc-wrapper'>
+                  {{.opis_etapu}}
+                </div>
+                </li>
+            {{end}}
+            </ul>
+        {{end}}
+    </div>
+    <div class="kontakt-right">
+        {{ $footer := site.Data.formularz_pelny }}
+        {{with $footer}}
+            {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+            <!-- <p class="form-desc">
+                {{ .opis_pod_naglowiem | safeHTML }}
+            </p> -->
+            {{ .kod_formularza | safeHTML }}
+        {{end}}
+    </div>
+  </section>
+{{ end }}

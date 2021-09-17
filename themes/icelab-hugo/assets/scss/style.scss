@@ -1,7 +1,7 @@
 @import 'variables';
 @import 'vendors/bootstrap';
 @import 'vendors/fancybox';
-@import 'vendors/slick';
+// @import 'vendors/slick';
 @import 'vendors/font-awesome';
 @import 'vendors/aos';
 @import 'mixins';
@@ -9,7 +9,7 @@
 @import 'buttons';
 @import 'common';
 @import 'templates/navigation';
-@import 'templates/hero-area';
+// @import 'templates/hero-area';
 @import 'templates/banner';
 @import 'templates/steps';
 @import 'templates/knowus';
@@ -21,10 +21,11 @@
 @import 'templates/uslugi-oem';
 @import 'templates/brands';
 @import 'templates/brand_site';
-@import 'templates/services';
-@import 'templates/portfolios';
-@import 'templates/testimonial';
-@import 'templates/cta';
-@import 'templates/about';
-@import 'templates/contact';
+@import 'templates/kontakt';
+// @import 'templates/services';
+// @import 'templates/portfolios';
+// @import 'templates/testimonial';
+// @import 'templates/cta';
+// @import 'templates/about';
+// @import 'templates/contact';
 @import 'templates/footer';

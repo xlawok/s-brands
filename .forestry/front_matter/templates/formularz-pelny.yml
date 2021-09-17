@@ -26,4 +26,4 @@ fields:
       format: markdown
   label: Kod formularza
 pages:
-- data/formularz-pelny.yml
+- data/formularz_pelny.yml
