@@ -1,10 +1,17 @@
 +++
-which_layout = "kontakt"
 meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiekm = "Zapraszamy do kontaktu w celu sprawdzenia naszej oferty cenowej oraz omówienia warunków współpracy."
 slug = "kontakt"
 title = "Kontakt"
+which_layout = "kontakt"
+[[naglowek_formularza.header_repeater]]
+block_tag_type = "div"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Skontaktuj się z nami już teraz"
+txt_block_size = "XL"
+underline = false
 [[etapy_wspolpracy]]
 nazwa_etapu = "1. TWOJE ZAPYTANIE"
 opis_etapu = "Im więcej informacji otrzymamy, tym szybciej przejdziemy od zapytania do dostawy do Ciebie!"
