@@ -7,6 +7,28 @@ fields:
   config: {}
   template: naglowek
   label: Nagłówek
+- name: etapy_wspolpracy
+  type: field_group_list
+  fields:
+  - name: nazwa_etapu
+    type: text
+    config:
+      required: false
+    label: Nazwa etapu
+  - name: opis_etapu
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Opis etapu
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Etapy współpracy
 - name: head
   type: include
   config: {}
