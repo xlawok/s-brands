@@ -100,5 +100,10 @@ fields:
   hidden: true
   label: layout
   default: o-nas
+- name: head
+  type: include
+  config: {}
+  template: head
+  label: Head
 pages:
 - content/o-nas.md
