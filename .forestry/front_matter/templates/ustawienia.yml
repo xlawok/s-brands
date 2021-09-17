@@ -15,10 +15,27 @@ fields:
     config:
       required: false
     label: Numer telefonu
-  - name: ikona
+  - name: social_links
+    type: field_group_list
+    fields:
+    - name: ikona
+      type: file
+      config:
+        maxSize: 1
+      label: Ikona
+    - name: odnosnik
+      type: text
+      config:
+        required: false
+      label: Odnośnik
+    config:
+      min: 
+      max: 3
+      labelField: 
+    label: Social links
+  - name: logo_w_menu
     type: file
     config:
       maxSize: 1
-    label: Ikona
+    label: Logo w menu
   label: Ustawienia nagłówka
-
