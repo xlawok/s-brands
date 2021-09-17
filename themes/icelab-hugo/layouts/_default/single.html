@@ -11,4 +11,7 @@
   
     {{- partial "kontakt.html" . -}}
   {{end}}
+  {{if .Params.dodaj_formularz }}
+    {{- partial "form_full.html" . -}}
+  {{end}}
 {{ end }}

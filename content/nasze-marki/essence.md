@@ -1,4 +1,5 @@
 +++
+dodaj_formularz = true
 adres_odnosnika = "nasze-marki/_index.md"
 logo_marki = "/uploads/catrice_logo_png1.png"
 meta_opis = ""

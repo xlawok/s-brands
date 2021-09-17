@@ -59,6 +59,10 @@ fields:
     max: 
     labelField: 
   label: Grupa marek
+- name: dodaj_formularz
+  type: boolean
+  label: Dodaj formularz
+  default: true
 - name: which_layout
   type: text
   config:

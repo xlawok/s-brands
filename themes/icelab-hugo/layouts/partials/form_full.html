@@ -1,0 +1,13 @@
+<section class="kontakt-area">
+  
+    {{ $footer := site.Data.formularz_pelny }}
+    {{with $footer}}
+  
+            {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "form-header")  -}}
+            <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+        <p class="form-desc">
+            {{ .opis_pod_naglowiem | safeHTML }}
+        </p>
+        {{ .kod_formularza | safeHTML }}
+    {{end}}
+</section>

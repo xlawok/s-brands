@@ -10,7 +10,7 @@ opis_pod_naglowiem: Zapraszamy do kontaktu w celu sprawdzenia naszej oferty ceno
   oraz omówienia warunków współpracy.
 kod_formularza: |-
   <div id="my-form-status"></div><form id="contactform" action="https://formspree.io/f/xgerdkry" method="POST">
-  <div class='main-part'>
+  
   <div class='input-cnt'>
   <input required name="company" type="text" id="company" placeholder="Nazwa firmy"><label for='company'>Nazwa firmy*</label>
   </div>

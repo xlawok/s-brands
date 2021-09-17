@@ -1,4 +1,5 @@
 +++
+dodaj_formularz = true
 opis_pod_naglowiem = "Wybierz kosmetyki w konkurencyjnych cenach<br>spośród najlepszych marek na świecie"
 which_layout = "nasze-marki"
 [[grupa_marek]]

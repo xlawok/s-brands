@@ -51,7 +51,9 @@
         {{end}}
     {{end}}
     </section>
-  
+    {{if .Params.dodaj_formularz }}
+        {{- partial "form_full.html" . -}}
+    {{end}}
 
    
 {{end}}
