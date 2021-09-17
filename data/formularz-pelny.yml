@@ -10,4 +10,31 @@ opis_pod_naglowiem: Zapraszamy do kontaktu w celu sprawdzenia naszej oferty ceno
   oraz omówienia warunków współpracy.
 kod_formularza: |-
   <div id="my-form-status"></div><form id="contactform" action="https://formspree.io/f/xgerdkry" method="POST">
+  <div class='main-part'>
+  <div class='input-cnt'>
+  <input required name="company" type="text" id="company" placeholder="Nazwa firmy"><label for='company'>Nazwa firmy*</label>
+  </div>
+    <div class='input-cnt'>
+  <input required name="country" type="text" id="country" placeholder="Kraj"><label for='country'>Kraj*</label>
+  </div>
+  <div class='input-cnt'>
+  <input  required name="phone" type="tel" id="phone" placeholder="Telefon kontaktowy"><label for='phone'>Telefon kontaktowy*</label>
+  </div>
+  <div class='input-cnt'>
+  <input required name="email" type="email" id="email" placeholder="Adres e-mail"><label for='email'> Adres e-mail</label>
+  </div>
+  <div class='input-cnt'>
+  <textarea name="message"  id="message" ></textarea><label for='message'> Treść wiadomości</label>
+  </div>
+  <div class='input-cnt'>
+  <input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'><label for='rodo-accept'>Wyrażam zgodę na przetwarzanie moich danych osobowych w celu obsługi powyższego zapytania. Polityka prywatności.</label>
+  </div>
+  <div class='radio-part'>
+  <div class='input-cnt'>
+  <span>Preferowana opcja kontaktu:
+  <input id='contact-by-mail' type='checkbox' name='contact-by-mail' value='accept'>
+  <input id='contact-by-tel' type='checkbox' name='contact-by-tel' value='accept'>
+  </div>
+  </div>
+  <button  type="submit">Wyślij wiadomość</button>
   </form>
