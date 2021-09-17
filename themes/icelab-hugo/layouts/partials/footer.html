@@ -59,19 +59,110 @@
   {{ "<!-- Main Script -->" | safeHTML }}
   {{ $script := resources.Get "js/script.js" | minify}}
   <script src="{{ $script.Permalink }}"></script>
-  {{ "<!-- google analitycs -->" | safeHTML }}
   <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
-    ga('send', 'pageview');
-  </script>
+    var mform = document.getElementById("mcontactform");
+    if(typeof(mform) != 'undefined' && mform != null){
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("mmy-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "Dziękujemy skontaktujemy się z Tobą niebawem.";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! Nie udało się wysłać formularza!"
+      });
+    }
+    mform.addEventListener("submit", handleSubmit)
+}
+</script>
+<script>
+  var form = document.getElementById("contactform");
+  if(typeof(form) != 'undefined' && form != null){
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.innerHTML = "Dziękujemy skontaktujemy się z Tobą niebawem.";
+      form.reset()
+    }).catch(error => {
+      status.innerHTML = "Oops! Nie udało się wysłać formularza!"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+}
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var all_modal_cta=document.querySelectorAll('.open-modal-quote');
+  if(all_modal_cta.length>0){
+    for (var i = 0; i < all_modal_cta.length; i++) {
+        
+        all_modal_cta[i].addEventListener('click',function(e){
+            e.preventDefault();
+            var modal_target = this.dataset.modaltarget;
+            modal_target="[data-modalname='"+modal_target+"']";
+            document.querySelector(modal_target).classList.toggle('modal-active');
+        });
+    }
+  }
+  document.addEventListener(
+    "click",
+    function(event) {
+      // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
+      if (
+        event.target.matches(".button-close-modal") ||
+        (!event.target.closest(".modal-wrapper") &&!event.target.closest(".open-modal-quote"))
+      ) {
+        closeModal();
+      }
+    },
+    false
+  )
+
+  function closeModal() {
+    var modal_quote_outer =  document.querySelector(".modal-quote-outer");
+    if(modal_quote_outer)
+    modal_quote_outer.classList.remove('modal-active');
+  }
+
+
+
+  //mobile nav opne submenu
+  var all_nav_parent_items= document.querySelectorAll('nav .parent > a');
+  if(all_nav_parent_items.length>0){
+    for (var i = 0; i < all_nav_parent_items.length; i++) {
+        
+        all_nav_parent_items[i].addEventListener('click',function(e){
+            e.preventDefault();
+      
+            this.parentNode.classList.toggle('mobile-sub-open');
+        });
+    }
+  }
+  var menu_btn_cnt = document.querySelector('.menu-btn-cnt');
+  menu_btn_cnt.addEventListener('click',function(e){
+    e.preventDefault();
+    document.querySelector('header').classList.toggle('menu-mobile-opened');
+    
+    
+  });
+  //END mobile nav opne submenu
+});
+
+</script>
+  
