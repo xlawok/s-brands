@@ -26,15 +26,17 @@ kod_formularza: |-
   <div class='input-cnt'>
   <textarea name="message"  id="message" ></textarea><label for='message'> Treść wiadomości</label>
   </div>
-  <div class='input-cnt'>
+  <div class='input-cnt rodo-cnt'>
   <input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'><label for='rodo-accept'>Wyrażam zgodę na przetwarzanie moich danych osobowych w celu obsługi powyższego zapytania. Polityka prywatności.</label>
   </div>
   <div class='radio-part'>
   <div class='input-cnt'>
-  <span>Preferowana opcja kontaktu:
-  <input id='contact-by-mail' type='checkbox' name='contact-by-mail' value='accept'>
-  <input id='contact-by-tel' type='checkbox' name='contact-by-tel' value='accept'>
+  <label>
+  <input id='contact-by-mail' type='checkbox' name='contact-by-mail' value='accept'><span>mailowy</span></label>
+  <label>
+  <input id='contact-by-tel' type='checkbox' name='contact-by-tel' value='accept'><span>telefoniczny</span></label>
+  <span>Preferowana opcja kontaktu:</span>
   </div>
   </div>
-  <button  type="submit">Wyślij wiadomość</button>
+  <button  type="submit">Wyślij wiadomość <img class='arr-ico' src="../images/arr_white.svg"></button>
   </form>
