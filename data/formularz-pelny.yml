@@ -9,5 +9,5 @@ header_repeater:
 opis_pod_naglowiem: Zapraszamy do kontaktu w celu sprawdzenia naszej oferty cenowej
   oraz omówienia warunków współpracy.
 kod_formularza: |-
-  <form id="contactform" action="https://formspree.io/f/xgerdkry" method="POST">
+  <div id="my-form-status"></div><form id="contactform" action="https://formspree.io/f/xgerdkry" method="POST">
   </form>
