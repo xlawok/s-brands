@@ -1,4 +1,14 @@
 ---
 label: Strona Kontakt
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: head
+  type: include
+  config: {}
+  template: head
+  label: Head
