@@ -38,6 +38,16 @@ fields:
     max: 
     labelField: 
   label: Etapy współpracy
+- name: naglowek_formularza
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  label: Nagłówek formularza
 - name: which_layout
   type: text
   config:
@@ -50,15 +60,5 @@ fields:
   config: {}
   template: head
   label: Head
-- name: naglowek_formularza
-  type: field_group
-  config: {}
-  fields:
-  - name: naglowek
-    type: include
-    config: {}
-    template: naglowek
-    label: Nagłówek
-  label: Nagłówek formularza
 pages:
 - content/kontakt.md
