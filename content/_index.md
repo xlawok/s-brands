@@ -1,4 +1,5 @@
 +++
+dodaj_formularz = true
 grupa_marek = []
 header_repeater = []
 meta_opis = ""
