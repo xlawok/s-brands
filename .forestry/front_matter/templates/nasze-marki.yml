@@ -72,5 +72,4 @@ fields:
   template: head
   label: Head
 pages:
-- content/_index.md
 - content/nasze-marki/_index.md

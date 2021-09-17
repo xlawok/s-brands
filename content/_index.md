@@ -1,4 +1,12 @@
 +++
+grupa_marek = []
+header_repeater = []
+meta_opis = ""
+meta_robots = ""
+opis_pod_naglowiem = ""
+slug = "/"
+title = "Strona główna"
+which_layout = ""
 [banner]
 adres_odnosnika = "contact/_index.md"
 opis_pod_naglowiekm = "Wybierz kosmetyki w konkurencyjnych cenach<br>spośród najlepszych marek na świecie"
