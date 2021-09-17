@@ -43,3 +43,5 @@ fields:
   config: {}
   template: head
   label: Head
+pages:
+- content/kontakt.md
