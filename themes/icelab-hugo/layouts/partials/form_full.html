@@ -1,7 +1,7 @@
 <section class="kontakt-area">
   
-    {{ $footer := site.Data.formularz_pelny }}
-    {{with $footer}}
+    {{ $my_form := site.Data.formularz_pelny }}
+    {{with $my_form}}
   
             {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "form-header")  -}}
             <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
