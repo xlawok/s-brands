@@ -17,6 +17,9 @@ sections:
 - type: document
   path: data/formularz-pelny.yml
   label: Formularz kontaktowy
+- type: document
+  path: data/ustawienia.yml
+  label: Ustawienia
 upload_dir: content/uploads
 public_path: "/uploads"
 front_matter_path: ''

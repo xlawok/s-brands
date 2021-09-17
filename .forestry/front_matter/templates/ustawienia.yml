@@ -1,0 +1,24 @@
+---
+label: Ustawienia
+hide_body: true
+fields:
+- name: top_settings
+  type: field_group_list
+  fields:
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Adres email
+  - name: phone
+    type: text
+    config:
+      required: false
+    label: Numer telefonu
+  - name: ikona
+    type: file
+    config:
+      maxSize: 1
+    label: Ikona
+  label: Ustawienia nagłówka
+
