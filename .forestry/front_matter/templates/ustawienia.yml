@@ -39,3 +39,5 @@ fields:
       maxSize: 1
     label: Logo w menu
   label: Ustawienia nagłówka
+pages:
+- data/ustawienia.yml

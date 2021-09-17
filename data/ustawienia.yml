@@ -1,0 +1,10 @@
+---
+top_settings:
+- email: office@s-brands.pl
+  phone: "+48 667 652 888"
+  social_links:
+  - ikona: "/uploads/icon-simple-facebook.svg"
+    odnosnik: https://facebook.com
+  - ikona: "/uploads/icon-feather-instagram.svg"
+    odnosnik: https://instagram.com
+  logo_w_menu: "/uploads/s-brands.svg"
