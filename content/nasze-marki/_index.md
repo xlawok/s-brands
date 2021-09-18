@@ -2,6 +2,9 @@
 dodaj_formularz = true
 opis_pod_naglowiem = "Wybierz kosmetyki w konkurencyjnych cenach<br>spośród najlepszych marek na świecie"
 which_layout = "nasze-marki"
+[menu.main]
+name = "Nasze marki"
+weight = 2
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
