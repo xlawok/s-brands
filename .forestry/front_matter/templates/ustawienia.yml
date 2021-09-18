@@ -91,7 +91,7 @@ fields:
       schema:
         format: markdown
     label: Map iframe
-  - name: stopka_-_copyrights
+  - name: stopka_copyrights
     type: textarea
     default: ''
     config:
