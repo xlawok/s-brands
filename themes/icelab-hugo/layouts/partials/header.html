@@ -9,37 +9,44 @@
           {{with .phone}}
             <a href="tel:{{ replaceRE "(\\s)" "" .}}"><img src="{{`images/Icon-awesome-phone-alt.svg` | absURL }}">{{.}}</a>
           {{end}}
+          <div class="social-area">
+            {{range .social_links}}
+              <a href="tel:{{.odnosnik}}" rel="nofollow"><img src="{{.ikona}}"></a>
+            {{end}}
+          </div>
       {{end}}
-   
+     
     {{end}}
   </div>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        <nav class="navbar fixed-top navbar-expand-lg">
-          <a class="navbar-brand anchor" href="{{ .Site.BaseURL }}">
-            <img src="{{ .Site.Params.logo | absURL }}" class="img-fluid" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav">
-            <span class="navbar-toggler-icon">
-              <img src="{{`images/hamburger-icon.png` | absURL }}" class="img-fluid" alt="menu">
-            </span>
-          </button>
-          <div class="collapse navbar-collapse" id="main-nav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="{{ .Site.BaseURL }}" class="nav-link">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
-              </li>
-              {{ range .Site.Menus.main }}
-              <li class="nav-item">
-                <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
-              </li>
-              {{ end }}
-            </ul>
-          </div>
-        </nav>
+  <div class="menu-container">
+ 
+      
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <a class="navbar-brand anchor" href="{{ .Site.BaseURL }}">
+        {{with $my_top_data.top_settings}}
+        <img src="{{.logo_w_menu}}" class="img-fluid" alt="logo">
+        {{end}}
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav">
+        <span class="navbar-toggler-icon">
+          <img src="{{`images/hamburger-icon.png` | absURL }}" class="img-fluid" alt="menu">
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="{{ .Site.BaseURL }}" class="nav-link">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
+          </li>
+          {{ range .Site.Menus.main }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
       </div>
-    </div>
+    </nav>
+     
+    
   </div>
 </header>

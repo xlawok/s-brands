@@ -1,71 +1,24 @@
 .navigation{
-    .navbar{
-        padding: 25px 50px;
-        transition: all .3s ease;
-        border-bottom: 1px solid rgba($color: $white, $alpha: .1);
-        @include desktop{
-            background: $primary-light;
-        }
-        @include tablet{
-            padding: 25px 35px;
-        }
-        .nav-item{
-            &:not(:last-child){
-                margin-right: 30px;
-                @include desktop{
-                    margin-bottom: 20px;
-                    margin-right: 0;
-                }
+    .top-cnt{
+        background-color: #000;
+        font-size: 1rem;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 1rem;
+        padding-right: 4rem;
+        height:2.8125rem;
+        align-items: center;
+        a{
+            color: #fff;
+            img{
+                padding: 0 .5rem;
+                transform: translateY(.1rem);
             }
-            &.active{
-                .nav-link{
-                    &:before{
-                        opacity: 1;
-                        transform: translate(-50%, 0);
-                    }
-                }
-            }
-        }
-        .nav-link{
-            font-size: 14px;
-            font-weight: 500;
-            color: $white;
-            padding-top: 7px;
-            padding-bottom: 7px;
-            padding-left: 13px;
-            padding-right: 13px;
-            position: relative;
-            &:before{
-                content: '';
-                position: absolute;
-                width: 5px; height: 5px;
-                border-radius: 50%;
-                background: $white;
-                left: 50%; 
-                transform: translate(-50%, 10px);
-                bottom: -5px;
-                opacity: 0;
-                transition: .3s ease;
-            }
-            &:hover{
-                &:before{
-                    opacity: 1;
-                    transform: translate(-50%, 0);
-                }
-            }
-        }
-        &.nav-bg{
-            background: $primary-light;
-            padding: 20px 30px;
-        }
-        .navbar-toggler{
-            outline: 0;
         }
     }
+       
 }
 
-.navbar-nav{
-    @include desktop{
-        text-align: center;
-    }
-}

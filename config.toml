@@ -3,6 +3,7 @@ languageCode = "en-us"
 summaryLength = "10"
 theme = "icelab-hugo"
 title = "Icelab Studio"
+[[menu.main]]
 [markup.goldmark.renderer]
 unsafe = true
 [outputs]
