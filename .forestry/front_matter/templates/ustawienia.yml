@@ -72,6 +72,11 @@ fields:
           file: 
           path: 
       label: Pozycje menu
+    - name: tytul
+      type: text
+      config:
+        required: false
+      label: Tytuł
     config:
       min: 
       max: 
