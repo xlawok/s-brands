@@ -10,7 +10,7 @@ slug = "essence"
 title = ""
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
-zdjecie = "/uploads/content-pixie-wdj4wnlxyds-unsplash.jpg"
+zdjecie = "/uploads/christin-hume-0mof-fe0w0a-unsplash.jpg"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
