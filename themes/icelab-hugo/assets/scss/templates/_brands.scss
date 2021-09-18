@@ -4,6 +4,7 @@
         height: calc(100vh - 10rem);
         width: 100%;
         min-height: 45vw;
+       
         .header-cnt{
             // position: absolute;
             position: static;
@@ -40,6 +41,7 @@
    
     }
     .brands-area{
+        margin-top: -12vw;
         .group-header{
             text-align: center;
             font-size: 2.1875rem;
@@ -53,8 +55,16 @@
             list-style: none;
             gap: 2rem;
             li{
+                opacity: .77;
+                transition: opacity .3s ease, transform .3s ease;
+                transform-origin: center center;
+                
                 img{
                     width: 100%;
+                }
+                &:hover{
+                    opacity: 1;
+                    transform: scale(1.1);
                 }
             }
             @media (min-width: 768px){

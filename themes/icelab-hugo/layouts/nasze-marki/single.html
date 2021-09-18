@@ -38,6 +38,7 @@
             
             
             {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+            
             <p class="banner-desc">
                 {{ .opis_pod_naglowiekm | safeHTML }}
             </p>
