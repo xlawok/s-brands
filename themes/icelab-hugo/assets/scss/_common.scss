@@ -5,7 +5,14 @@ body{
     // position: relative;
     margin: 0;
     box-sizing: border-box;
+    section:nth-child(2){
+        margin-top: 7rem;
+        @media (min-width: 768px) {
+            margin-top: 10rem;
+        }
+    }
 }
+
 
 // .section{
 //     padding: 100px 0;

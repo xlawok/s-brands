@@ -1,8 +1,17 @@
 .kontakt-area{
     display: flex;
     flex-direction: column;
-    width: calc(100% - 5rem);
-    margin-left: 5rem;
+    // width: 100%;
+    padding: 1rem;
+    overflow: hidden;
+    @media (min-width: 768px){
+        // width: calc(100% - 5rem);
+        @at-root body:not(.kontakt) .kontakt-area{
+            margin-left: 5rem;
+        }
+       
+    }
+  
     // margin-top: 3rem;
     
     

@@ -66,6 +66,7 @@ txt_block_size = "XL"
 underline = false
 [menu.main]
 weight = 1
+name = "O nas"
 [nasza_wizja]
 opis_sekcji = "Naszą wizją jest zostanie jednym z najważniejszych partnerów w segmencie międzynarodowego handlu kosmetycznego oraz doradztwa w zakresie budowy kosmetycznych marek własnych w przeciągu najbliższych 5 lat. <br><br>Naszą ambicją jest stały rozwój w atmosferze zaufania oraz budowania trwałych, długoterminowych relacji biznesowych z naszymi partnerami."
 zdjecie = "/uploads/christin-hume-0mof-fe0w0a-unsplash.jpg"

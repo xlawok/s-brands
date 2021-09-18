@@ -1,15 +1,25 @@
 .navigation{
+    background: #EEEEEE;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top:0;
     .top-cnt{
-        background-color: #000;
-        font-size: 1rem;
-        color: #fff;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        gap: 1rem;
-        padding-right: 4rem;
-        height:2.8125rem;
+        display:none;
+        @media (min-width: 768px) {
+            height:2.8125rem;
+            background-color: #000;
+            font-size: 1rem;
+            color: #fff;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 1rem;
+            padding-right: 5rem;
+            
+        }
+       
         align-items: center;
         a{
             color: #fff;
@@ -19,6 +29,79 @@
             }
         }
     }
-       
+    nav{
+        display: flex;
+        flex-direction: row;
+        height:7.1875rem;
+        align-items: center;
+        padding:0 1rem;
+        justify-content:space-between;
+        transition: height .3s ease;
+        @media (min-width: 768px){
+            padding:0 5rem;
+        }
+    }
+    &.scrolled{
+        nav{
+            height:5.1875rem;
+        }
+    }
+    #main-nav{
+        @media (max-width: 767px){
+            width: 100%;
+            background: #EEEEEE;
+            position: absolute;
+            top: 5rem;
+            left: 100%;
+            z-index: 11;
+            transition: left .3s ease;
+        }
+    }
+    &.menu-mobile-opened{
+        #main-nav{
+            @media (max-width: 767px){
+              
+                left: 0;
+               
+            }
+        }
+    }
+    .navbar-nav{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3rem;
+        
+        @media (min-width: 768px){
+            flex-direction: row;  
+            gap: 1.5rem;
+        }
+        @media (min-width: 1366px){
+            gap: 5rem;
+        }
+        a{
+            font: 1.25rem;
+            line-height: 24/20;
+            letter-spacing: 0px;
+            color: #111111;
+            text-decoration: none;
+        }
+    }
+    button.navbar-toggler{
+        width: 3rem;
+        height: 3rem;
+        background: transparent;
+        border: 0;
+        position: absolute; 
+        right: 1rem;
+        cursor: pointer;
+        img{
+            width: 100%;
+        }
+        @media (min-width: 768px){
+            display: none;
+        }
+    } 
 }
 

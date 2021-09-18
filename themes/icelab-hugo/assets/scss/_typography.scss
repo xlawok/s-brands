@@ -73,14 +73,24 @@ p{
 p.sm{
   font-size: 14px;
 }
+.header-template{
+  line-height:1.1;
+  @media (max-width: 768px){
+    word-wrap: break-word;
+  }
+}
 .txt-XXL{
-  font-size: 3.25rem;
+  font-size: 11vw;
+  
+  // font-size: 3.25rem;
 }
 .txt-XL{
-  font-size: 2.75rem;
+  font-size: 9vw;
+  // font-size: 2.75rem;
 }
 .txt-L{
-  font-size: 1.9375rem;
+  font-size: 8vw;
+  // font-size: 1.9375rem;
 }
 .txt-MD{
   font-size: 1.625rem;
@@ -108,3 +118,18 @@ p.sm{
 // span{
 //   font-size: 13px;
 // }
+@media (min-width: 768px) {
+  .txt-XXL{
+   
+    
+    font-size: 3.25rem;
+  }
+  .txt-XL{
+   
+    font-size: 2.75rem;
+  }
+  .txt-L{
+    
+    font-size: 1.9375rem;
+  }
+}

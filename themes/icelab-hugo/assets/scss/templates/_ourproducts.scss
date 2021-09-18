@@ -23,7 +23,11 @@
         
         gap: 3rem;
         list-style: none;
-        padding: 2rem;
+        padding: 0;
+        @media (min-width: 560px){
+            padding: 2rem;
+        }
+        
         grid-template-columns: 1fr;
       
         @media (min-width: 768px) {
