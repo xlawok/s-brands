@@ -39,5 +39,62 @@ fields:
       maxSize: 1
     label: Logo w menu
   label: Ustawienia nagłówka
+- name: ustawienia_stopki
+  type: field_group
+  config: {}
+  fields:
+  - name: wybierz_logo
+    type: file
+    config:
+      maxSize: 1
+    label: Wybierz logo
+  - name: dane_w_lewej_kolumnie
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Dane w lewej kolumnie
+  - name: druga_kolumna
+    type: field_group_list
+    fields:
+    - name: pozycje_menu
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: 
+          file: 
+          path: 
+      label: Pozycje menu
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Druga kolumna
+  - name: map_iframe
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Map iframe
+  - name: stopka_-_copyrights
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Stopka - copyrights
+  label: Ustawienia stopki
 pages:
 - data/ustawienia.yml
