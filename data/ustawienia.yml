@@ -7,4 +7,10 @@ top_settings:
     odnosnik: https://facebook.com
   - ikona: "/uploads/icon-feather-instagram.svg"
     odnosnik: https://instagram.com
-  logo_w_menu: "/uploads/s-brands.svg"
+  logo_w_menu: "/uploads/sbrands-logo-main.svg"
+ustawienia_stopki:
+  wybierz_logo: ''
+  dane_w_lewej_kolumnie: ''
+  druga_kolumna: []
+  map_iframe: ''
+  stopka_-_copyrights: ''
