@@ -5,6 +5,8 @@ opis_pod_naglowiekm = "Zapraszamy do kontaktu w celu sprawdzenia naszej oferty c
 slug = "kontakt"
 title = "Kontakt"
 which_layout = "kontakt"
+[menu.main]
+weight = 4
 [[naglowek_formularza.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
