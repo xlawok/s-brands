@@ -40,6 +40,12 @@
         @media (min-width: 768px){
             padding:0 5rem;
         }
+        .navbar-brand{
+            img{
+                height:3rem;
+            }
+            
+        }
     }
     &.scrolled{
         nav{
