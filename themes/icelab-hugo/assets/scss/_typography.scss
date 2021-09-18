@@ -2,25 +2,52 @@ html{
   font-size: 100%;
 }
 @font-face {
-    font-family: 'futurabook';
-    src: url('../fonts/futura_book_font-webfont.woff2') format('woff2'),
-         url('../fonts/futura_book_font-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Geomanist";
+  
+  src: url("../fonts/Geomanist-Regular.otf") format("opentype");
+    
+  // font-weight: normal;
 }
-
 @font-face {
-    font-family: 'futura_bdcn_btbold';
-    src: url('../fonts/futura_bold_font-webfont.woff2') format('woff2'),
-         url('../fonts/futura_bold_font-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Geomanist";
+  
+  src: url("../fonts/Geomanist-Regular.otf") format("opentype");
+    
+  font-weight: 400;
 }
-
+@font-face {
+  font-family: "Geomanist";
+  
+  src: url("../fonts/Geomanist-Thin.otf") format("opentype");
+    
+   font-weight: 300;
+}
+@font-face {
+  font-family: "Geomanist";
+  
+  src: url("../fonts/Geomanist-Black.otf") format("opentype");
+    
+   font-weight: 900;
+}
+@font-face {
+  font-family: "Geomanist";
+  
+  src: url("../fonts/Geomanist-Bold.otf") format("opentype");
+    
+   font-weight: bold;
+}
+@font-face {
+  font-family: "Geomanist";
+  
+  src: url("../fonts/Geomanist-Bold.otf") format("opentype");
+    
+   font-weight: 700;
+}
 body {
   line-height: 1.2;
   font-size: 16px;
   // font-family: $secondary-font;
+  font-family: Geomanist;
   -webkit-font-smoothing: antialiased;
 }
 
