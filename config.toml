@@ -3,11 +3,14 @@ languageCode = "en-us"
 summaryLength = "10"
 theme = "icelab-hugo"
 title = "Icelab Studio"
+<<<<<<< HEAD
 [[menu.main]]
 [permalinks]
 "/" = "/:slug/"
 page = "/:slug/"
 posts = "/:slug/"
+=======
+>>>>>>> c65319a695d5dd107a46306afc40597d79cb215c
 [markup.goldmark.renderer]
 unsafe = true
 [outputs]

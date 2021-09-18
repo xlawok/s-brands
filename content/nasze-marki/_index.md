@@ -1,7 +1,13 @@
 +++
 dodaj_formularz = true
+meta_opis = ""
+meta_robots = ""
 opis_pod_naglowiem = "Wybierz kosmetyki w konkurencyjnych cenach<br>spośród najlepszych marek na świecie"
+slug = "nasze-marki"
+title = "Nasze marki"
 which_layout = "nasze-marki"
+[menu.main]
+weight = 2
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
