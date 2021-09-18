@@ -4,6 +4,10 @@ summaryLength = "10"
 theme = "icelab-hugo"
 title = "Icelab Studio"
 [[menu.main]]
+[permalinks]
+"/" = "/:slug/"
+page = "/:slug/"
+posts = "/:slug/"
 [markup.goldmark.renderer]
 unsafe = true
 [outputs]
@@ -23,15 +27,4 @@ map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
 [[params.plugins.js]]
 URL = "plugins/plugins.js"
-[[params.social]]
-icon = "fa-facebook"
-link = "#"
-name = "facebook"
-[[params.social]]
-icon = "fa-twitter"
-link = "#"
-name = "twitter"
-[[params.social]]
-icon = "fa-instagram"
-link = "#"
-name = "instagram"
+
