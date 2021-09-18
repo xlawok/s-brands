@@ -3,7 +3,7 @@ label: Ustawienia
 hide_body: true
 fields:
 - name: top_settings
-  type: field_group_list
+  type: field_group
   fields:
   - name: email
     type: text

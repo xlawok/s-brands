@@ -2,7 +2,7 @@
   <div class='top-cnt'>
     {{ $my_top_data := site.Data.ustawienia }}
     {{with $my_top_data}}
-      {{range .top_settings}}
+      {{with .top_settings}}
           {{with .email}}
                 <a href="mailto:{{ .}}"><img src="{{`images/Icon-material-email.svg` | absURL }}">{{.}}</a>
           {{end}}
