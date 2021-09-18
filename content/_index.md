@@ -21,7 +21,7 @@ txt_block = "Globalna dystrybucja kosmetyków"
 txt_block_size = "XL"
 underline = false
 [kogo_zaopatrujemy]
-logo = "/uploads/sbrands-logo-main.svg"
+logo = "/uploads/sbrands_logo_main.svg"
 naglowek_z_logo = "Hurtownie"
 opis_sekcji = "Zobacz w jaki sposób działa nasz system zaopatrzenia"
 [[kogo_zaopatrujemy.header_repeater]]
