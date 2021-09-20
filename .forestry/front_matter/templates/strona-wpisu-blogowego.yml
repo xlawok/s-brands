@@ -22,3 +22,5 @@ fields:
   config: {}
   template: head
   label: Head
+pages:
+- content/blog/lorem-ipsum-dolor-sit-amet-consetetur-sadipscing-elitr-sed.md
