@@ -3,6 +3,7 @@ meta_opis = ""
 meta_robots = ""
 slug = "/"
 title = "Aktualności"
+tytul_odnosnika_artykulu = "Czytaj"
 wyswietl_slider = false
 [[header_repeater]]
 block_tag_type = "h1"
