@@ -22,6 +22,10 @@ tytul_marki = "Clarins Paris"
 ikona_marki = "/uploads/essence_cosmetics_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Essence Cosmetics"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/jurlique.jpg"
+odnisnik_marki = []
+tytul_marki = "Jurlique"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
