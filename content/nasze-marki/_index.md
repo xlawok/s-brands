@@ -19,9 +19,9 @@ ikona_marki = "/uploads/clarins_paris_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Clarins Paris"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/revolution-beauty.svg"
+ikona_marki = "/uploads/essence_cosmetics_logo.jpg"
 odnisnik_marki = []
-tytul_marki = "Revolution beauty"
+tytul_marki = "Essence Cosmetics"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
