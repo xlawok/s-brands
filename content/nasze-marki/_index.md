@@ -60,6 +60,10 @@ tytul_marki = "Avene"
 ikona_marki = "/uploads/carita_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Carita"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/caudalie_logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Caudalie"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
