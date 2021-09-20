@@ -101,5 +101,27 @@ fields:
         format: markdown
     label: Stopka - copyrights
   label: Ustawienia stopki
+- name: plywajacy_formularz
+  type: field_group
+  config: {}
+  fields:
+  - name: wlacz_formularz
+    type: boolean
+    label: Włącz formularz
+  - name: tytul_guzika_otwierajacego
+    type: text
+    config:
+      required: false
+    label: Tytuł guzika otwierającego
+  - name: kod_formularza
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Kod formularza
+  label: Pływający formularz
 pages:
 - data/ustawienia.yml

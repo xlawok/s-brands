@@ -27,3 +27,29 @@ ustawienia_stopki:
     width="600" height="450" style="border:0; wdith: 100%" allowfullscreen="" loading="lazy"></iframe>'
   stopka_copyrights: © S-BRANDS 2021 // Designed by <a href="https://agencjawroclawska.pl"
     target="_blank">AW team</a>
+plywajacy_formularz:
+  wlacz_formularz: true
+  tytul_guzika_otwierajacego: Napisz do nas
+  kod_formularza: |-
+    <div id="my-float-form-status"></div><form id="floatform" action="https://formspree.io/f/xgerdkry" method="POST">
+    
+    <div class='input-cnt'>
+    <input required name="company-fl" type="text" id="company-fl" placeholder="Nazwa firmy"><label for='company-fl'>Nazwa firmy*</label>
+    </div>
+      <div class='input-cnt'>
+    <input required name="country-fl" type="text" id="country-fl" placeholder="Kraj"><label for='country-fl'>Kraj*</label>
+    </div>
+    <div class='input-cnt'>
+    <input  required name="phone-fl" type="tel" id="phone-fl" placeholder="Telefon kontaktowy"><label for='phone-fl'>Telefon kontaktowy*</label>
+    </div>
+    <div class='input-cnt'>
+    <input required name="email-fl" type="email" id="email-fl" placeholder="Adres e-mail"><label for='email-fl'> Adres e-mail</label>
+    </div>
+    <div class='input-cnt'>
+    <textarea name="message-fl"  id="message-fl" ></textarea><label for='message-fl'> Treść wiadomości</label>
+    </div>
+    <div class='input-cnt rodo-cnt'>
+    <input id='rodo-accept-fl' type='checkbox' required name='rodo-accept-fl' value='accept'><label for='rodo-accept-fl'>Wyrażam zgodę na przetwarzanie moich danych osobowych w celu obsługi powyższego zapytania. Polityka prywatności.</label>
+    </div>
+    <button  type="submit">Wyślij wiadomość <img class='arr-ico' src="../images/arr_white.svg"></button>
+    </form>
