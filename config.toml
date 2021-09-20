@@ -1,8 +1,8 @@
 baseURL = "https://s-brands.onrender.com/"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "icelab-hugo"
-title = "Icelab Studio"
+theme = "agencjawroclawska"
+title = "agencjawroclawska"
 [permalinks]
 "/" = "/:slug/"
 page = "/:slug/"
@@ -12,7 +12,7 @@ unsafe = true
 [outputs]
 home = ["HTML", "RSS"]
 [params]
-author = "Themefisher"
+author = "agencjawroclawska.pl"
 contact_form_action = "#"
 description = "This is meta description"
 footer_content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sint magnam quia doloremque."
