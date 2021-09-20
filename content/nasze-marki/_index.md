@@ -42,6 +42,10 @@ tytul_marki = "Make Up For Ever"
 ikona_marki = "/uploads/opi_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "OPI"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/revolution_beauti_london_logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
