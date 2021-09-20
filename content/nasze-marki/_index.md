@@ -13,7 +13,7 @@ tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/catrice_cosmetics_logo.jpg"
 odnisnik_marki = "nasze-marki/catrice-cosmetics.md"
-tytul_marki = "Catrice"
+tytul_marki = "Catrice Cosmetics"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/clarins_paris_logo.jpg"
 odnisnik_marki = []
