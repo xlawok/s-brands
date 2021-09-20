@@ -56,6 +56,10 @@ tytul_marki = "A-Derma"
 ikona_marki = "/uploads/eau_thermale_avene_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Avene"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/carita_logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Carita"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
