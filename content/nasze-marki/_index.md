@@ -49,21 +49,9 @@ tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/thalgo_logo_logotype.png"
+ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
-tytul_marki = "Thalgo la beaute marine"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/the-body-shop-logo.png"
-odnisnik_marki = []
-tytul_marki = "The body shop"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/topicream.svg"
-odnisnik_marki = []
-tytul_marki = "Topicrem"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/vichy-logo.svg"
-odnisnik_marki = []
-tytul_marki = "Vichy"
+tytul_marki = "A-Derma"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
