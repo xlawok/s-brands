@@ -38,6 +38,10 @@ tytul_marki = "MAC"
 ikona_marki = "/uploads/makeupforever_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Make Up For Ever"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/opi_logo.jpg"
+odnisnik_marki = []
+tytul_marki = "OPI"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
