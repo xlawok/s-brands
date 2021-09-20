@@ -1,4 +1,24 @@
 ---
 label: Strona wpisu blogowego
 hide_body: false
-fields: []
+fields:
+- name: naglowek
+  type: text
+  config:
+    required: false
+  label: Nagłówek
+- name: zdjecie_glowne
+  type: file
+  config:
+    maxSize: 64
+  label: Zdjęcie główne
+- name: opis_zdjecia
+  type: text
+  config:
+    required: false
+  label: Opis zdjęcia
+- name: head
+  type: include
+  config: {}
+  template: head
+  label: Head
