@@ -30,6 +30,10 @@ tytul_marki = "Jurlique"
 ikona_marki = "/uploads/kiko_milano_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Kiko Milano"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/mac_logo.jpg"
+odnisnik_marki = []
+tytul_marki = "MAC"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
