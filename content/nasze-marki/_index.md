@@ -52,6 +52,10 @@ tytul_grupy = "Skin Care"
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "A-Derma"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/eau_thermale_avene_logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Avene"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
