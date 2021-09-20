@@ -18,8 +18,8 @@
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
   {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+  <link rel="shortcut icon" href="{{ `images/sbrands-favicon.png` | absURL }} " type="image/x-icon">
+  <link rel="icon" href="{{ `images/sbrands-favicon.png` | absURL }} " type="image/x-icon">
   {{ $lazyJs := resources.Get "js/lazysizes.min.js"  }}
   <script  type="text/javascript" src="{{ $lazyJs.Permalink }}" defer></script>
 </head>
