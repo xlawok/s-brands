@@ -15,3 +15,5 @@ fields:
   config: {}
   template: head
   label: Head
+pages:
+- content/blog/_index.md
