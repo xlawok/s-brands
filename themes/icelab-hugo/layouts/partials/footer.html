@@ -40,8 +40,18 @@
       {{end}}
   </div>
 </footer>
-  
-  
+{{with $my_footer_data.plywajacy_formularz}}
+  {{if .wlacz_formularz}}
+    
+      <button  class='floating-env open-modal-aw' data-modaltarget='float-form'>
+      <img src="{{ `images/Icon feather-mail.svg` | absURL }}"/>
+      <span>{{.tytul_guzika_otwierajacego}}</span>
+      </button>
+    <div class="floating-form" data-modalname='float-form'>
+      {{.kod_formularza | safeHTML }}
+    </div>
+  {{end}}
+{{end}} 
  
 
   {{ "<!-- JS Plugins -->" | safeHTML }}
@@ -52,11 +62,11 @@
   {{ $script := resources.Get "js/script.js" | minify}}
   <script src="{{ $script.Permalink }}"></script>
   <script>
-    var mform = document.getElementById("mcontactform");
+    var mform = document.getElementById("floatform");
     if(typeof(mform) != 'undefined' && mform != null){
     async function handleSubmit(event) {
       event.preventDefault();
-      var status = document.getElementById("mmy-form-status");
+      var status = document.getElementById("my-float-form-status");
       var data = new FormData(event.target);
       fetch(event.target.action, {
         method: form.method,
@@ -100,7 +110,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var all_modal_cta=document.querySelectorAll('.open-modal-quote');
+  var all_modal_cta=document.querySelectorAll('.open-modal-aw');
   if(all_modal_cta.length>0){
     for (var i = 0; i < all_modal_cta.length; i++) {
         

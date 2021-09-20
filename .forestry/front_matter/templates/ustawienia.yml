@@ -113,6 +113,15 @@ fields:
     config:
       required: false
     label: Tytuł guzika otwierającego
+  - name: kod_formularza
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Kod formularza
   label: Pływający formularz
 pages:
 - data/ustawienia.yml
