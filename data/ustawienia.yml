@@ -27,3 +27,6 @@ ustawienia_stopki:
     width="600" height="450" style="border:0; wdith: 100%" allowfullscreen="" loading="lazy"></iframe>'
   stopka_copyrights: © S-BRANDS 2021 // Designed by <a href="https://agencjawroclawska.pl"
     target="_blank">AW team</a>
+plywajacy_formularz:
+  wlacz_formularz: true
+  tytul_guzika_otwierajacego: Napisz do nas
