@@ -34,6 +34,10 @@ tytul_marki = "Kiko Milano"
 ikona_marki = "/uploads/mac_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "MAC"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/makeupforever_logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Make Up For Ever"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
