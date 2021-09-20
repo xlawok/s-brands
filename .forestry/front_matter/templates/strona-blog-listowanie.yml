@@ -15,5 +15,10 @@ fields:
   config: {}
   template: head
   label: Head
+- name: tytul_odnosnika_artykulu
+  type: text
+  config:
+    required: false
+  label: Tytuł odnośnika artykułu
 pages:
 - content/blog/_index.md
