@@ -1,0 +1,68 @@
+{{ define "main" }}
+    <section class="blog-listing">
+        <div class="container">
+   
+            <div class="row">
+                
+                {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") 12 }}
+                
+                
+                    {{if  ( eq $paginator.PageNumber 1) }}
+                        
+                        <ul class="news-list with_grid">
+                    {{else}}
+                        {{$list_class:="" }}
+                        <ul class="news-list with_flex">
+                    {{end}}
+               
+                {{ range $index, $page:=$paginator.Pages }} 
+                
+                   
+                    <li>
+                        {{ if and ( or (eq $index 0) (eq $index 3) (eq $index 4) (eq $index 5) ) (eq $paginator.PageNumber 1) }}
+                            {{with .Params.obrazek}}
+                                <div class='with-img-cnt'>
+                                    {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" "")  -}} 
+                                </div>
+                            {{else}}
+                                {{with .Params.ikona_artykulu}}
+                                    {{- partial "img.html" (dict "image" . "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "")  -}} 
+                                {{end}}
+                            {{end}}
+                        {{end}}
+                        <div class='without-img-cnt'>
+                            <ul class="categories">
+                        
+                            {{ range .Params.categories }}
+                                <li><a href="{{ "/kategoria/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+                            {{ end }}
+                            </ul>
+                            <a href="{{ .Permalink }}">
+                                <h3>{{ .Params.tytul_do_listowania   }}</h3>
+                           
+                                <div class='art-summary'>{{.Params.summary | safeHTML }}</div>
+                            
+                            </a>
+                            <div class="list-art-footer">
+                                {{ $dirFile := path.Base .Params.author }}
+                                <!-- sam plik z rozszrzeniem -->
+                                {{ $pathArr := split $dirFile "." }}
+                                <!-- nazwa pliku -->
+                                {{ $filename := index $pathArr 0}}
+                    
+                                <!-- {{.Params.date}} -->
+                                <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
+                                <span class='list-art-authorname'> | &nbsp;{{ (index site.Data.authors $filename).imi__i_nazwisko }}</span>
+                                {{- partial "img.html" (dict "image" (index site.Data.authors $filename).obrazek "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "art-author-img")  -}}
+                            </div>
+                        </div>
+                    </li>
+                {{ end }}
+                </ul>
+                {{ partial "pagination" .}}
+            </div>
+            
+        </div>
+
+    </section>
+{{ end }}
