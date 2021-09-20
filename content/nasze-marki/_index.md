@@ -15,9 +15,9 @@ ikona_marki = "/uploads/catrice_cosmetics_logo.jpg"
 odnisnik_marki = "nasze-marki/catrice-cosmetics.md"
 tytul_marki = "Catrice"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/opi-vector-logo.png"
+ikona_marki = "/uploads/clarins_paris_logo.jpg"
 odnisnik_marki = []
-tytul_marki = "OPI"
+tytul_marki = "Clarins Paris"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/revolution-beauty.svg"
 odnisnik_marki = []
