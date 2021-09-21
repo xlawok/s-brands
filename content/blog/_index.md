@@ -5,6 +5,7 @@ slug = "/"
 title = "Aktualności"
 tytul_odnosnika_artykulu = "Czytaj"
 wyswietl_slider = true
+which_layout = "strona-blog"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"

@@ -26,6 +26,13 @@ fields:
     schema:
       format: html
   label: Skrócony tekst
+- name: which_layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
+  default: strona-post
 - name: head
   type: include
   config: {}

@@ -20,5 +20,12 @@ fields:
   config:
     required: false
   label: Tytuł odnośnika artykułu
+- name: which_layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
+  default: strona-blog
 pages:
 - content/blog/_index.md

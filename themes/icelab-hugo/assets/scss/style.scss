@@ -1,7 +1,7 @@
 @import 'variables';
 // @import 'vendors/bootstrap';
 @import 'vendors/fancybox';
-// @import 'vendors/slick';
+@import 'vendors/slick';
 @import 'vendors/font-awesome';
 @import 'vendors/aos';
 @import 'mixins';
@@ -23,6 +23,7 @@
 @import 'templates/brands';
 @import 'templates/brand_site';
 @import 'templates/kontakt';
+@import 'templates/blog';
 // @import 'templates/services';
 // @import 'templates/portfolios';
 // @import 'templates/testimonial';

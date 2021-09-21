@@ -15,25 +15,27 @@
     <ul>
         {{ range first 3 (where .Data.Pages "Type" "blog")}} 
         <li>
-            {{$img_alt:=.Params.opis_zdjecia}}
-            {{with .Params.zdjecie_glowne}}
-                <div class='with-img-cnt'>
-                    {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt)  -}} 
-                </div>
-            {{end}}
-            
-            <div class='desc-cnt'>
+            <div class="awslide-cnt">
+                {{$img_alt:=.Params.opis_zdjecia}}
+                {{with .Params.zdjecie_glowne}}
+                    <div class='with-img-cnt'>
+                        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt)  -}} 
+                    </div>
+                {{end}}
                 
-                <a href="{{ .Permalink }}">
-                    <h3>{{ .Params.naglowek   }}</h3>
-                
-                    <div class='art-summary'>{{.Params.summary | safeHTML }}</div>
-                
-                </a>
-                <div class="list-art-footer">
+                <div class='desc-cnt'>
+                    
                     <a href="{{ .Permalink }}">
-                        {{$tytul_odnosnika_artykulu}}
+                        <h3>{{ .Params.naglowek   }}</h3>
+                    
+                        <div class='art-summary'>{{.Params.summary | safeHTML }}</div>
+                    
                     </a>
+                    <div class="list-art-footer">
+                        <a href="{{ .Permalink }}">
+                            {{$tytul_odnosnika_artykulu}} <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}">
+                        </a>
+                    </div>
                 </div>
             </div>
         </li>
@@ -75,7 +77,7 @@
                             </a>
                             <div class="list-art-footer">
                                 <a href="{{ .Permalink }}">
-                                    {{$tytul_odnosnika_artykulu}}
+                                    {{$tytul_odnosnika_artykulu}} <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}">
                                 </a>
                             </div>
                         </div>
@@ -101,7 +103,7 @@
                                 </a>
                                 <div class="list-art-footer">
                                     <a href="{{ .Permalink }}">
-                                        {{$tytul_odnosnika_artykulu}}
+                                        {{$tytul_odnosnika_artykulu}}<img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}">
                                     </a>
                                 </div>
                             </div>
