@@ -4,7 +4,7 @@ meta_robots = ""
 slug = "/"
 title = "Aktualności"
 tytul_odnosnika_artykulu = "Czytaj"
-wyswietl_slider = false
+wyswietl_slider = true
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"

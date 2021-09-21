@@ -1,62 +1,112 @@
 {{ define "main" }}
+<section class="banner-area" >
+    <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
+    <div class="header-cnt">
+        {{- partial "header-tag.html" (dict "context" . "header_list" .Params.header_repeater "custom_class" "banner-header")  -}}
+        <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+      
+    </div>
+</section>
+{{$tytul_odnosnika_artykulu:=.Params.tytul_odnosnika_artykulu}}
+{{if .Params.wyswietl_slider}}
+<section class="blog-listing-slider">
+   
+
+    <ul>
+        {{ range first 3 (where .Data.Pages "Type" "blog")}} 
+        <li>
+            {{$img_alt:=.Params.opis_zdjecia}}
+            {{with .Params.zdjecie_glowne}}
+                <div class='with-img-cnt'>
+                    {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt)  -}} 
+                </div>
+            {{end}}
+            
+            <div class='desc-cnt'>
+                
+                <a href="{{ .Permalink }}">
+                    <h3>{{ .Params.naglowek   }}</h3>
+                
+                    <div class='art-summary'>{{.Params.summary | safeHTML }}</div>
+                
+                </a>
+                <div class="list-art-footer">
+                    <a href="{{ .Permalink }}">
+                        {{$tytul_odnosnika_artykulu}}
+                    </a>
+                </div>
+            </div>
+        </li>
+        {{end}}
+    </ul>
+</section>
+{{end}}
+
     <section class="blog-listing">
         <div class="container">
-   
+            
+      
             <div class="row">
                 
                 {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") 12 }}
                 
-                
-                    {{if  ( eq $paginator.PageNumber 1) }}
-                        
-                        <ul class="news-list with_grid">
-                    {{else}}
-                        {{$list_class:="" }}
-                        <ul class="news-list with_flex">
-                    {{end}}
-               
-                {{ range $index, $page:=$paginator.Pages }} 
+                    
+                <ul class="news-list ">
+                   
+                {{if .Params.wyswietl_slider}}
+                    {{ range after 3 $paginator.Pages }} 
                 
                    
                     <li>
-                        {{ if and ( or (eq $index 0) (eq $index 3) (eq $index 4) (eq $index 5) ) (eq $paginator.PageNumber 1) }}
-                            {{with .Params.obrazek}}
-                                <div class='with-img-cnt'>
-                                    {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" "")  -}} 
-                                </div>
-                            {{else}}
-                                {{with .Params.ikona_artykulu}}
-                                    {{- partial "img.html" (dict "image" . "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "")  -}} 
-                                {{end}}
-                            {{end}}
+                        {{$img_alt:=.Params.opis_zdjecia}}
+                        {{with .Params.zdjecie_glowne}}
+                            <div class='with-img-cnt'>
+                                {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt)  -}} 
+                            </div>
                         {{end}}
-                        <div class='without-img-cnt'>
-                            <ul class="categories">
                         
-                            {{ range .Params.categories }}
-                                <li><a href="{{ "/kategoria/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
-                            {{ end }}
-                            </ul>
+                        <div class='desc-cnt'>
+                         
                             <a href="{{ .Permalink }}">
-                                <h3>{{ .Params.tytul_do_listowania   }}</h3>
+                                <h3>{{ .Params.naglowek   }}</h3>
                            
                                 <div class='art-summary'>{{.Params.summary | safeHTML }}</div>
                             
                             </a>
                             <div class="list-art-footer">
-                                {{ $dirFile := path.Base .Params.author }}
-                                <!-- sam plik z rozszrzeniem -->
-                                {{ $pathArr := split $dirFile "." }}
-                                <!-- nazwa pliku -->
-                                {{ $filename := index $pathArr 0}}
-                    
-                                <!-- {{.Params.date}} -->
-                                <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
-                                <span class='list-art-authorname'> | &nbsp;{{ (index site.Data.authors $filename).imi__i_nazwisko }}</span>
-                                {{- partial "img.html" (dict "image" (index site.Data.authors $filename).obrazek "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "art-author-img")  -}}
+                                <a href="{{ .Permalink }}">
+                                    {{$tytul_odnosnika_artykulu}}
+                                </a>
                             </div>
                         </div>
                     </li>
+                    {{end}}
+                {{else}}
+                        {{ range $paginator.Pages }} 
+                        <li>
+                            {{$img_alt:=.Params.opis_zdjecia}}
+                            {{with .Params.zdjecie_glowne}}
+                                <div class='with-img-cnt'>
+                                    {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt)  -}} 
+                                </div>
+                            {{end}}
+                            
+                            <div class='desc-cnt'>
+                             
+                                <a href="{{ .Permalink }}">
+                                    <h3>{{ .Params.naglowek   }}</h3>
+                               
+                                    <div class='art-summary'>{{.Params.summary | safeHTML }}</div>
+                                
+                                </a>
+                                <div class="list-art-footer">
+                                    <a href="{{ .Permalink }}">
+                                        {{$tytul_odnosnika_artykulu}}
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        {{end}}
                 {{ end }}
                 </ul>
                 {{ partial "pagination" .}}
