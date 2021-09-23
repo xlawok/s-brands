@@ -84,7 +84,7 @@ txt_block_size = "L"
 underline = false
 [nasze_marki]
 adres_odnosnika = "contact/_index.md"
-galeria_logo = ["/uploads/la-roche-posay-logo.png", "/uploads/mustela-logo.png", "/uploads/loccitane-logo.png", "/uploads/nuxe.svg", "/uploads/madara_logo.svg", "/uploads/renefurterer.png", "/uploads/skeyndor.png", "/uploads/isis-pharma-logo_quadri-rgb.jpg", "/uploads/russell-orgranics_logo.jpg", "/uploads/dr-hauschka.svg", "/uploads/decleor_logo.png", "/uploads/darphin-logo.png", "/uploads/comfort_zone_logo.svg", "/uploads/caudalie.svg", "/uploads/carita_paris-przekonwertowany.svg", "/uploads/avene_logo_logotype_emblem.png", "/uploads/aderma.svg"]
+galeria_logo = ["/uploads/a-derma_logo.jpg", "/uploads/caudalie_logo.jpg", "/uploads/carita_logo.jpg", "/uploads/eau_thermale_avene_logo.jpg"]
 opis_sekcji = "Wśród wielu znanych marek, których produkty dystrybuujemy, możemy poszczycić się współpracą z:"
 tytul_odnosnika = "Zobacz katalog marek"
 [[nasze_marki.header_repeater]]
