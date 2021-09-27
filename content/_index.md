@@ -84,7 +84,7 @@ txt_block_size = "L"
 underline = false
 [nasze_marki]
 adres_odnosnika = "contact/_index.md"
-galeria_logo = ["/uploads/a-derma_logo.jpg", "/uploads/caudalie_logo.jpg", "/uploads/carita_logo.jpg", "/uploads/eau_thermale_avene_logo.jpg"]
+galeria_logo = ["/uploads/a-derma_logo.jpg", "/uploads/eau_thermale_avene_logo.jpg", "/uploads/carita_logo.jpg", "/uploads/caudalie_logo.jpg", "/uploads/comfort_zone-logo.jpg", "/uploads/decleor-logo.jpg", "/uploads/dr-hauschka-logo.jpg", "/uploads/erborian-logo.jpg"]
 opis_sekcji = "Wśród wielu znanych marek, których produkty dystrybuujemy, możemy poszczycić się współpracą z:"
 tytul_odnosnika = "Zobacz katalog marek"
 [[nasze_marki.header_repeater]]
