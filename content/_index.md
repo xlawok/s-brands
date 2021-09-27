@@ -174,8 +174,8 @@ txt_block_size = "XL"
 underline = false
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "tekst"
-ikona = "/uploads/group-151.svg"
-opis_kolumny = "Projektowanie produkcji, inspekcja surowego materiału"
+ikona = "/uploads/group-152.svg"
+opis_kolumny = "Pierwsze zatwierdzanie próbek"
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque aliquet tempor. Vestibulum vel orci velit. Aliquam convallis, sapien a finibus ornare."
 ikona = "/uploads/group-145.svg"
@@ -192,5 +192,9 @@ opis_kolumny = "Projektowanie i rozwój"
 dlugi_opis_kroku = "tekst"
 ikona = "/uploads/group-150.svg"
 opis_kolumny = "Produkcja i inspekcja jakości"
+[[proces.kolumny_kroki]]
+dlugi_opis_kroku = "tekst"
+ikona = "/uploads/group-151.svg"
+opis_kolumny = "Projektowanie produkcji, inspekcja surowego materiału"
 
 +++
