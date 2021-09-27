@@ -49,9 +49,9 @@ tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/dr-hauschka-logo.jpg"
+ikona_marki = "/uploads/erborian-logo.jpg"
 odnisnik_marki = []
-tytul_marki = "Dr. Hauschka"
+tytul_marki = "Erborian"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
@@ -76,6 +76,10 @@ tytul_marki = "Comfort Zone"
 ikona_marki = "/uploads/decleor-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Decleor Paris"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/dr-hauschka-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Dr. Hauschka"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
