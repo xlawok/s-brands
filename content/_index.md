@@ -173,10 +173,6 @@ txt_block = "oem/odm - proces zamówienia"
 txt_block_size = "XL"
 underline = false
 [[proces.kolumny_kroki]]
-dlugi_opis_kroku = "tekst"
-ikona = "/uploads/group-160.svg"
-opis_kolumny = "Dostawa"
-[[proces.kolumny_kroki]]
 dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque aliquet tempor. Vestibulum vel orci velit. Aliquam convallis, sapien a finibus ornare."
 ikona = "/uploads/group-145.svg"
 opis_kolumny = "Zapytanie klienta, planowanie próbek, oferta cenowa"
@@ -208,5 +204,9 @@ opis_kolumny = "Inspekcja, kontrola jakości, próbki ostateczne"
 dlugi_opis_kroku = "tekst"
 ikona = "/uploads/group-159.svg"
 opis_kolumny = "Przekazania salda płatności"
+[[proces.kolumny_kroki]]
+dlugi_opis_kroku = "tekst"
+ikona = "/uploads/group-160.svg"
+opis_kolumny = "Dostawa"
 
 +++
