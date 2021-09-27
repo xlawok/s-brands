@@ -173,7 +173,7 @@ txt_block = "oem/odm - proces zamówienia"
 txt_block_size = "XL"
 underline = false
 [[proces.kolumny_kroki]]
-dlugi_opis_kroku = ""
+dlugi_opis_kroku = "tekst"
 ikona = "/uploads/group-150.svg"
 opis_kolumny = "Produkcja i inspekcja jakości"
 [[proces.kolumny_kroki]]
