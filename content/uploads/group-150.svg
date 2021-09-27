@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="80" viewBox="0 0 96 80">
+  <g id="Group_150" data-name="Group 150" transform="translate(-485 -3399)">
+    <g id="Rectangle_192" data-name="Rectangle 192" transform="translate(504 3399)" fill="none" stroke="#111" stroke-width="4">
+      <rect width="56" height="42" rx="5" stroke="none"/>
+      <rect x="2" y="2" width="52" height="38" rx="3" fill="none"/>
+    </g>
+    <g id="Path_690" data-name="Path 690" transform="translate(524 3399)" fill="#fff">
+      <path d="M 2 17.22615432739258 L 2 2 L 15 2 L 15 17.17700958251953 L 9.73766040802002 13.52404022216797 L 8.610110282897949 12.74133014678955 L 7.474269866943359 13.51196956634521 L 2 17.22615432739258 Z" stroke="none"/>
+      <path d="M 4 4 L 4 13.45230865478516 L 8.623049736022949 10.31566047668457 L 13 13.35401916503906 L 13 4 L 4 4 M 0 0 L 17 0 L 17 21 L 8.597169876098633 15.16699028015137 L 0 21 L 0 0 Z" stroke="none" fill="#111"/>
+    </g>
+    <g id="Group_149" data-name="Group 149" transform="translate(-30 -101)">
+      <g id="Rectangle_193" data-name="Rectangle 193" transform="translate(515 3550)" fill="none" stroke="#111" stroke-width="4">
+        <rect width="96" height="30" rx="13" stroke="none"/>
+        <rect x="2" y="2" width="92" height="26" rx="11" fill="none"/>
+      </g>
+      <g id="Ellipse_23" data-name="Ellipse 23" transform="translate(529 3558)" fill="none" stroke="#111" stroke-width="4">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="5" fill="none"/>
+      </g>
+      <g id="Ellipse_24" data-name="Ellipse 24" transform="translate(556 3558)" fill="none" stroke="#111" stroke-width="4">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="5" fill="none"/>
+      </g>
+      <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(583 3558)" fill="none" stroke="#111" stroke-width="4">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
