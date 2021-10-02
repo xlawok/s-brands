@@ -53,13 +53,9 @@ ikona_marki = ""
 odnisnik_marki = []
 tytul_marki = ""
 [[grupa_marek.marki]]
-ikona_marki = ""
+ikona_marki = "/uploads/isdon-logo.jpg"
 odnisnik_marki = []
-tytul_marki = ""
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/heliocare-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Heliocare"
+tytul_marki = "Isdin"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
@@ -96,6 +92,10 @@ tytul_marki = "Erborian"
 ikona_marki = "/uploads/green-pharmacy-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Green Pharmacy"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/heliocare-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Heliocare"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
