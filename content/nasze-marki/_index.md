@@ -57,13 +57,9 @@ ikona_marki = ""
 odnisnik_marki = []
 tytul_marki = ""
 [[grupa_marek.marki]]
-ikona_marki = ""
+ikona_marki = "/uploads/heliocare-logo.jpg"
 odnisnik_marki = []
-tytul_marki = ""
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/green-pharmacy-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Green Pharmacy"
+tytul_marki = "Heliocare"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
@@ -96,6 +92,10 @@ tytul_marki = "Dr. Hauschka"
 ikona_marki = "/uploads/erborian-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Erborian"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/green-pharmacy-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Green Pharmacy"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
