@@ -49,10 +49,6 @@ tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/isis-logo-1.jpg"
-odnisnik_marki = []
-tytul_marki = "Isis"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "A-Derma"
@@ -96,6 +92,10 @@ tytul_marki = "Heliocare"
 ikona_marki = "/uploads/isdon-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Isdin"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/isis-logo-1.jpg"
+odnisnik_marki = []
+tytul_marki = "Isis"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
