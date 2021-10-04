@@ -49,6 +49,10 @@ tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/group-185.jpg"
+odnisnik_marki = []
+tytul_marki = "Vichy"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "A-Derma"
