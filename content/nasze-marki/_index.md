@@ -49,9 +49,9 @@ tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-175.jpg"
+ikona_marki = "/uploads/group-176.jpg"
 odnisnik_marki = []
-tytul_marki = "Mustela"
+tytul_marki = "Nuxe"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
@@ -116,6 +116,10 @@ tytul_marki = "Loccitane"
 ikona_marki = "/uploads/madara-logo-1.jpg"
 odnisnik_marki = []
 tytul_marki = "Madara"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/group-175.jpg"
+odnisnik_marki = []
+tytul_marki = "Mustela"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Hair care"
