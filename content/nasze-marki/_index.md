@@ -199,8 +199,11 @@ ikona_marki = "/uploads/wella-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Wella"
 [[grupa_marek]]
-marki = []
 tytul_grupy = "Cabin/PRO"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/babor-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Babor"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
