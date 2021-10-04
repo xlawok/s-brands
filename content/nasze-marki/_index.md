@@ -49,9 +49,17 @@ tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/la-roche-posay-logo.jpg"
+ikona_marki = ""
 odnisnik_marki = []
-tytul_marki = "La Roche-Posay"
+tytul_marki = ""
+[[grupa_marek.marki]]
+ikona_marki = ""
+odnisnik_marki = []
+tytul_marki = ""
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/lierac-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Lierac"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
@@ -100,6 +108,10 @@ tytul_marki = "Isdin"
 ikona_marki = "/uploads/isis-logo-1.jpg"
 odnisnik_marki = []
 tytul_marki = "Isis"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/la-roche-posay-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "La Roche-Posay"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Hair care"
