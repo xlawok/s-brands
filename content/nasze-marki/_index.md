@@ -201,9 +201,9 @@ tytul_marki = "Wella"
 [[grupa_marek]]
 tytul_grupy = "Cabin/PRO"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/exuviance-logo.jpg"
+ikona_marki = "/uploads/fillmed-logo.jpg"
 odnisnik_marki = []
-tytul_marki = "Exuviance"
+tytul_marki = "Fillmed"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/babor-logo.jpg"
 odnisnik_marki = []
@@ -212,6 +212,10 @@ tytul_marki = "Babor"
 ikona_marki = "/uploads/cellosmet-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Cellosmet"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/exuviance-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Exuviance"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
