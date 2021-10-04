@@ -201,10 +201,6 @@ tytul_marki = "Wella"
 [[grupa_marek]]
 tytul_grupy = "Cabin/PRO"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/neostrata-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Neostrata"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/babor-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Babor"
@@ -228,6 +224,10 @@ tytul_marki = "Filorga"
 ikona_marki = "/uploads/innoaestetics-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Innoaestetics"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/neostrata-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Neostrata"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
