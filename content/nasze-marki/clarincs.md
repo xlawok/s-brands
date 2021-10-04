@@ -9,7 +9,7 @@ slug = "clarins"
 title = "Clarins"
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
-zdjecie = "/uploads/christin-hume-0mof-fe0w0a-unsplash.jpg"
+zdjecie = "/uploads/754382.jpg"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
