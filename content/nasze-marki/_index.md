@@ -159,13 +159,17 @@ tytul_marki = "Vichy"
 [[grupa_marek]]
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/kerastase-logo.jpg"
+ikona_marki = "/uploads/klorane-logo.jpg"
 odnisnik_marki = []
-tytul_marki = "Kerastase"
+tytul_marki = "Klorane"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/aveda-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Aveda"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/kerastase-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Kerastase"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Cabin/PRO"
