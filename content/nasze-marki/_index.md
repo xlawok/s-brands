@@ -10,7 +10,7 @@ which_layout = "nasze-marki"
 weight = 2
 [[grupa_marek]]
 marki = []
-tytul_grupy = "Hair care"
+tytul_grupy = "Cabin/PRO"
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
@@ -99,6 +99,9 @@ tytul_marki = "Isdin"
 ikona_marki = "/uploads/isis-logo-1.jpg"
 odnisnik_marki = []
 tytul_marki = "Isis"
+[[grupa_marek]]
+marki = []
+tytul_grupy = "Hair care"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
