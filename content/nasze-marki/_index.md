@@ -9,9 +9,6 @@ which_layout = "nasze-marki"
 [menu.main]
 weight = 2
 [[grupa_marek]]
-marki = []
-tytul_grupy = "Cabin/PRO"
-[[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/catrice_cosmetics_logo.jpg"
@@ -51,6 +48,10 @@ odnisnik_marki = []
 tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/la-roche-posay-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "La Roche-Posay"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
@@ -102,6 +103,9 @@ tytul_marki = "Isis"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Hair care"
+[[grupa_marek]]
+marki = []
+tytul_grupy = "Cabin/PRO"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
