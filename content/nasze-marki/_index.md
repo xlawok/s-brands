@@ -49,9 +49,9 @@ tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/skeyndor-logo.jpg"
+ikona_marki = "/uploads/svr-logo.jpg"
 odnisnik_marki = []
-tytul_marki = "Skeyndor"
+tytul_marki = "SVR"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
@@ -136,6 +136,10 @@ tytul_marki = "Furterer"
 ikona_marki = "/uploads/russell-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Russell"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/skeyndor-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Skeyndor"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Hair care"
