@@ -157,8 +157,11 @@ ikona_marki = "/uploads/group-185.jpg"
 odnisnik_marki = []
 tytul_marki = "Vichy"
 [[grupa_marek]]
-marki = []
 tytul_grupy = "Hair care"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/aveda-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Aveda"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Cabin/PRO"
