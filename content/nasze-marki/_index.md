@@ -49,13 +49,9 @@ tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
-ikona_marki = ""
+ikona_marki = "/uploads/madara-logo-1.jpg"
 odnisnik_marki = []
-tytul_marki = ""
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/loccitane-logo-1.jpg"
-odnisnik_marki = []
-tytul_marki = "Loccitane"
+tytul_marki = "Madara"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
@@ -112,6 +108,10 @@ tytul_marki = "La Roche-Posay"
 ikona_marki = "/uploads/lierac-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Lierac"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/loccitane-logo-1.jpg"
+odnisnik_marki = []
+tytul_marki = "Loccitane"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Hair care"
