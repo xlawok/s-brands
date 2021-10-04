@@ -49,10 +49,6 @@ tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-178.jpg"
-odnisnik_marki = []
-tytul_marki = "Furterer"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "A-Derma"
@@ -128,6 +124,10 @@ tytul_marki = "Nuxe"
 ikona_marki = "/uploads/group-177.jpg"
 odnisnik_marki = []
 tytul_marki = "Phyto"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/group-178.jpg"
+odnisnik_marki = []
+tytul_marki = "Furterer"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Hair care"
