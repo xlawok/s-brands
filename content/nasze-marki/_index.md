@@ -159,10 +159,6 @@ tytul_marki = "Vichy"
 [[grupa_marek]]
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/weleda-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Weleda"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/aveda-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Aveda"
@@ -194,6 +190,10 @@ tytul_marki = "Revlon"
 ikona_marki = "/uploads/schwarzkopf-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Schwarzkopf"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/weleda-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Weleda"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Cabin/PRO"
