@@ -159,9 +159,9 @@ tytul_marki = "Vichy"
 [[grupa_marek]]
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/revlon-logo.jpg"
+ikona_marki = "/uploads/schwarzkopf-logo.jpg"
 odnisnik_marki = []
-tytul_marki = "Revlon"
+tytul_marki = "Schwarzkopf"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/aveda-logo.jpg"
 odnisnik_marki = []
@@ -186,6 +186,10 @@ tytul_marki = "Morrocanoil"
 ikona_marki = "/uploads/group-191.jpg"
 odnisnik_marki = []
 tytul_marki = "Olaplex"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/revlon-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Revlon"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Cabin/PRO"
