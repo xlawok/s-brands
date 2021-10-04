@@ -1,6 +1,6 @@
 +++
-dodaj_formularz = true
 adres_odnosnika = "nasze-marki/_index.md"
+dodaj_formularz = true
 logo_marki = "/uploads/catrice_logo_png1.png"
 meta_opis = ""
 meta_robots = ""
@@ -14,7 +14,7 @@ zdjecie = "/uploads/christin-hume-0mof-fe0w0a-unsplash.jpg"
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Clarins"
+txt_block = "Catrice"
 txt_block_size = "XXL"
 underline = false
 
