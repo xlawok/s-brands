@@ -53,13 +53,9 @@ ikona_marki = ""
 odnisnik_marki = []
 tytul_marki = ""
 [[grupa_marek.marki]]
-ikona_marki = ""
+ikona_marki = "/uploads/loccitane-logo-1.jpg"
 odnisnik_marki = []
-tytul_marki = ""
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/lierac-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Lierac"
+tytul_marki = "Loccitane"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
@@ -112,6 +108,10 @@ tytul_marki = "Isis"
 ikona_marki = "/uploads/la-roche-posay-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "La Roche-Posay"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/lierac-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Lierac"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Hair care"
