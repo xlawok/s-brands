@@ -201,9 +201,9 @@ tytul_marki = "Wella"
 [[grupa_marek]]
 tytul_grupy = "Cabin/PRO"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/innoaestetics-logo.jpg"
+ikona_marki = "/uploads/neostrata-logo.jpg"
 odnisnik_marki = []
-tytul_marki = "Innoaestetics"
+tytul_marki = "Neostrata"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/babor-logo.jpg"
 odnisnik_marki = []
@@ -224,6 +224,10 @@ tytul_marki = "Fillmed"
 ikona_marki = "/uploads/filorga-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Filorga"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/innoaestetics-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Innoaestetics"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
