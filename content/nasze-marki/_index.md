@@ -159,9 +159,9 @@ tytul_marki = "Vichy"
 [[grupa_marek]]
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-190.jpg"
+ikona_marki = "/uploads/group-191.jpg"
 odnisnik_marki = []
-tytul_marki = "Morrocanoil"
+tytul_marki = "Olaplex"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/aveda-logo.jpg"
 odnisnik_marki = []
@@ -178,6 +178,10 @@ tytul_marki = "Klorane"
 ikona_marki = "/uploads/leonor-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Leonor Grey"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/group-190.jpg"
+odnisnik_marki = []
+tytul_marki = "Morrocanoil"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Cabin/PRO"
