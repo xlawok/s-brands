@@ -49,10 +49,6 @@ tytul_marki = "Revolution Beauti London"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/topicrem.jpg"
-odnisnik_marki = []
-tytul_marki = "Topicrem"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "A-Derma"
@@ -152,6 +148,10 @@ tytul_marki = "Thalgo"
 ikona_marki = "/uploads/the-body-shop.jpg"
 odnisnik_marki = []
 tytul_marki = "The Body Shop"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/topicrem.jpg"
+odnisnik_marki = []
+tytul_marki = "Topicrem"
 [[grupa_marek]]
 marki = []
 tytul_grupy = "Hair care"
