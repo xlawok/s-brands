@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/comfort-zone.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/comfort_zone-logo.jpg"
 meta_opis = ""
 meta_robots = ""
