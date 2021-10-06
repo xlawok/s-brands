@@ -171,10 +171,6 @@ tytul_marki = "Vichy"
 [[grupa_marek]]
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-177.jpg"
-odnisnik_marki = "nasze-marki/alfaparf-milano.md"
-tytul_marki = "Alfaparf Milano"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/group-175.jpg"
 odnisnik_marki = "nasze-marki/ducray.md"
 tytul_marki = "Ducray"
@@ -186,6 +182,10 @@ tytul_marki = "Klorane"
 ikona_marki = "/uploads/group-178.jpg"
 odnisnik_marki = "nasze-marki/rene-furterer.md"
 tytul_marki = "Rene Furterer"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/group-177.jpg"
+odnisnik_marki = "nasze-marki/alfaparf-milano.md"
+tytul_marki = "Alfaparf Milano"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/aveda-logo.jpg"
 odnisnik_marki = []
