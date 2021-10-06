@@ -268,7 +268,7 @@ tytul_marki = "Barbor"
 tytul_grupy = "Cabin/PRO"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-183.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/decleor.md"
 tytul_marki = "Decleor"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/comfort_zone-logo.jpg"
