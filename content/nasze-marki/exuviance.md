@@ -1,12 +1,11 @@
 +++
-adres_odnosnika = "nasze-marki/topicrem.md"
+adres_odnosnika = "nasze-marki/exuviance.md"
 dodaj_formularz = true
-draft = true
-logo_marki = "/uploads/topicrem.jpg"
+logo_marki = "/uploads/exuviance-logo.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Brytyjska marka kosmetyków Revolution, dawniej Makeup Revolution, tworzy produkty do makijażu i pielęgnacji skóry, dzięki czemu jest jedną z wiodących marek na międzynarodowym rynku kosmetycznym z prawie 30-letnim doświadczeniem. Marka regularnie rozwija, szybciej niż wiele innych marek, innowacyjne produkty i dlatego jest zawsze na czasie. Doświadczone zespoły łączą trendy i nowe koncepcje z całego świata, aby tworzyć nie tylko modne produkty, ale przede wszystkim te, które wyprzedzają swój czas. Duży, różnorodny asortyment Revolution jest wyjątkowy i stale się powiększa, aby zaskakiwać świat urody nowymi kolorami i formułami. Oprócz innowacyjności marka przywiązuje wagę do najwyższej jakości w możliwie najniższych cenach."
-slug = "topicrem"
+opis_pod_naglowiekm = "Exuviance to intensywna pielęgnacja medyczna skierowana do gabinetów kosmetycznych i kosmetyczno-lekarskich. To dostosowane do różnych rodzajów i potrzeb skóry, specjalistyczne zabiegi profesjonalne wsparte wysoko zaawansowaną naukowo, przyjazną w stosowaniu pielęgnacją domową. Sercem marki są innowacyjne i zaawansowane technologicznie składniki produktów – molekuły piękna Exuviance – o skuteczności potwierdzonej badaniami klinicznymi, chronione licznymi patentami."
+slug = "exuviance"
 title = "EXUVIANCE"
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
@@ -15,7 +14,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "TOPICREM"
+txt_block = "EXUVIANCE"
 txt_block_size = "XXL"
 underline = false
 
