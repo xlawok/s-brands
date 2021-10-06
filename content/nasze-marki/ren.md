@@ -2,7 +2,6 @@
 Title = "Essence"
 adres_odnosnika = "nasze-marki/ren.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/group-180.jpg"
 meta_opis = ""
 meta_robots = ""
