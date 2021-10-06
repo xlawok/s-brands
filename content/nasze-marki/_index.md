@@ -65,6 +65,10 @@ ikona_marki = "/uploads/topicrem.jpg"
 odnisnik_marki = "nasze-marki/topicrem.md"
 tytul_marki = "Topicrem"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/group-176.jpg"
+odnisnik_marki = "nasze-marki/nuxe.md"
+tytul_marki = "Nuxe"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "A-Derma"
@@ -128,10 +132,6 @@ tytul_marki = "Loccitane"
 ikona_marki = "/uploads/madara-logo-1.jpg"
 odnisnik_marki = []
 tytul_marki = "Madara"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/group-176.jpg"
-odnisnik_marki = []
-tytul_marki = "Nuxe"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-177.jpg"
 odnisnik_marki = []
