@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/nuxe.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/group-176.jpg"
 meta_opis = ""
 meta_robots = ""
