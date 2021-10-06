@@ -73,9 +73,9 @@ ikona_marki = "/uploads/eau_thermale_avene_logo.jpg"
 odnisnik_marki = "nasze-marki/avene.md"
 tytul_marki = "Avene"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-175.jpg"
+ikona_marki = "/uploads/group-185.jpg"
 odnisnik_marki = "nasze-marki/ducray.md"
-tytul_marki = "Ducray"
+tytul_marki = "Vichy"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = "nasze-marki/a-derma.md"
