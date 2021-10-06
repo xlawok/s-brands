@@ -1,5 +1,5 @@
 +++
-adres_odnosnika = "nasze-marki/_index.md"
+adres_odnosnika = "nasze-marki/clarincs.md"
 dodaj_formularz = true
 logo_marki = "/uploads/catrice_logo_png1.png"
 meta_opis = ""
