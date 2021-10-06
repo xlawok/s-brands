@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/decleor.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/group-183.jpg"
 meta_opis = ""
 meta_robots = ""
