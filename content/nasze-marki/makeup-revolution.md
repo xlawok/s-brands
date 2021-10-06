@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/mac.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/revolution_beauti_london_logo.jpg"
 meta_opis = ""
 meta_robots = ""
