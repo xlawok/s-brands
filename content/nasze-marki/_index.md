@@ -81,6 +81,10 @@ ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = "nasze-marki/a-derma.md"
 tytul_marki = "A-Derma"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/svr-logo.jpg"
+odnisnik_marki = "nasze-marki/svr.md"
+tytul_marki = "SVR"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/carita_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Carita"
@@ -152,10 +156,6 @@ tytul_marki = "Russell"
 ikona_marki = "/uploads/skeyndor-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Skeyndor"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/svr-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "SVR"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/thalgo-logo.jpg"
 odnisnik_marki = []
