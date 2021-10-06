@@ -1,8 +1,7 @@
 +++
 adres_odnosnika = "nasze-marki/american-crew.md"
 dodaj_formularz = true
-draft = true
-logo_marki = "/uploads/topicrem.jpg"
+logo_marki = "/uploads/group-178.jpg"
 meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiekm = "American Crew to wiodąca na świecie marka profesjonalnej pielęgnacji dla mężczyzn. Mężczyźni i ich styliści liczą na nas, jeśli chodzi o najnowsze i najlepsze produkty do pielęgnacji włosów, ciała, golenia i stylizacji."
