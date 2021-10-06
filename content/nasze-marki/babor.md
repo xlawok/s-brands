@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/babor.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/babor-logo.jpg"
 meta_opis = ""
 meta_robots = ""
