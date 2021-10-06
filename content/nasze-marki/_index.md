@@ -267,6 +267,10 @@ tytul_marki = "Barbor"
 [[grupa_marek]]
 tytul_grupy = "Cabin/PRO"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/thalgo-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Thalgo"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/comfort_zone-logo.jpg"
 odnisnik_marki = "nasze-marki/comfort-zone.md"
 tytul_marki = "Comfortzone"
