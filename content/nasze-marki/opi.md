@@ -16,7 +16,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Essence"
+txt_block = "OPI"
 txt_block_size = "XXL"
 underline = false
 
