@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/innoaesthetics.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/innoaestetics-logo.jpg"
 meta_opis = ""
 meta_robots = ""
