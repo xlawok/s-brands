@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/avene.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/eau_thermale_avene_logo.jpg"
 meta_opis = ""
 meta_robots = ""
