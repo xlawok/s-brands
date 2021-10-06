@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/green-pharmacy.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/green-pharmacy-logo.jpg"
 meta_opis = ""
 meta_robots = ""
