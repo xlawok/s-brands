@@ -1,11 +1,11 @@
 +++
-adres_odnosnika = "nasze-marki/mac.md"
+adres_odnosnika = "nasze-marki/avene.md"
 dodaj_formularz = true
 draft = true
-logo_marki = "/uploads/revolution_beauti_london_logo.jpg"
+logo_marki = "/uploads/eau_thermale_avene_logo.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Brytyjska marka kosmetyków Revolution, dawniej Makeup Revolution, tworzy produkty do makijażu i pielęgnacji skóry, dzięki czemu jest jedną z wiodących marek na międzynarodowym rynku kosmetycznym z prawie 30-letnim doświadczeniem. Marka regularnie rozwija, szybciej niż wiele innych marek, innowacyjne produkty i dlatego jest zawsze na czasie. Doświadczone zespoły łączą trendy i nowe koncepcje z całego świata, aby tworzyć nie tylko modne produkty, ale przede wszystkim te, które wyprzedzają swój czas. Duży, różnorodny asortyment Revolution jest wyjątkowy i stale się powiększa, aby zaskakiwać świat urody nowymi kolorami i formułami. Oprócz innowacyjności marka przywiązuje wagę do najwyższej jakości w możliwie najniższych cenach."
+opis_pod_naglowiekm = "Avène ma ponad 275-letnie doświadczenie w pielęgnacji skóry wrażliwej i jest polecana przez dermatologów na całym świecie. Sercem każdej formuły jest udowodniona klinicznie woda termalna Avène, która koi, zmiękcza i uspokaja skórę."
 slug = "clarins"
 title = "AVENE"
 tytul_odnosnika = "Wszystkie marki"
@@ -15,7 +15,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "MAKEUP REVOLUTION"
+txt_block = "AVENE"
 txt_block_size = "XXL"
 underline = false
 
