@@ -1,13 +1,13 @@
 +++
 Title = "Essence"
-adres_odnosnika = "nasze-marki/kiko-milano.md"
+adres_odnosnika = "nasze-marki/isdin.md"
 dodaj_formularz = true
 draft = true
-logo_marki = "/uploads/kiko_milano_logo.jpg"
+logo_marki = "/uploads/isdon-logo.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Tożsamość KIKO zakorzeniona jest w wartościach \"Made in Italy\", w świecie stolicy mody, sztuki, designu. Poszukiwanie oryginalnych struktur łączy się z opracowywaniem formuł wysokiej jakości i gwarantowanej skuteczności, tworząc idealną fuzję jakości i kreatywności."
-slug = "kikomilano"
+opis_pod_naglowiekm = "Wierzymy, że znacząca innowacja jest kluczem do zdrowszej skóry. Aby pomóc osiągnąć optymalne zdrowie skóry, nasze kreacje muszą zachować idealną równowagę między skutecznością a przyjemnością. Łączymy zaawansowane formuły z innowacyjnymi teksturami, aby zapewnić zarówno praktyczne, jak i zmysłowe doznania - sekret cieszenia się satysfakcjonującą i skuteczną pielęgnacją skóry."
+slug = "isdin"
 title = "ISDIN"
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
@@ -16,7 +16,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Essence"
+txt_block = "ISDIN"
 txt_block_size = "XXL"
 underline = false
 
