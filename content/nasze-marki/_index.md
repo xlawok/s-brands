@@ -267,10 +267,6 @@ tytul_marki = "Barbor"
 [[grupa_marek]]
 tytul_grupy = "Cabin/PRO"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-183.jpg"
-odnisnik_marki = "nasze-marki/decleor.md"
-tytul_marki = "Decleor"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/comfort_zone-logo.jpg"
 odnisnik_marki = "nasze-marki/comfort-zone.md"
 tytul_marki = "Comfortzone"
@@ -286,6 +282,10 @@ tytul_marki = "Babor"
 ikona_marki = "/uploads/exuviance-logo.jpg"
 odnisnik_marki = "nasze-marki/exuviance.md"
 tytul_marki = "Exuviance"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/group-183.jpg"
+odnisnik_marki = "nasze-marki/decleor.md"
+tytul_marki = "Decleor"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/cellosmet-logo.jpg"
 odnisnik_marki = []
