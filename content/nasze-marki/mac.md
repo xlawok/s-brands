@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/mac.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/mac_logo.jpg"
 meta_opis = ""
 meta_robots = ""
