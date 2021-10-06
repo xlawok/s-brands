@@ -12,7 +12,7 @@ weight = 2
 tytul_grupy = "Skin care"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/madara-logo-1.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/madara.md"
 tytul_marki = "Madara"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/lierac-logo.jpg"

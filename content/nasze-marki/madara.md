@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/madara.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/madara-logo-1.jpg"
 meta_opis = ""
 meta_robots = ""
