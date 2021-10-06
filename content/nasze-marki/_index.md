@@ -15,21 +15,9 @@ ikona_marki = "/uploads/catrice_cosmetics_logo.jpg"
 odnisnik_marki = "nasze-marki/clarincs.md"
 tytul_marki = "Catrice Cosmetics"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/clarins_paris_logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Clarins Paris"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/essence_cosmetics_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Essence Cosmetics"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/jurlique.jpg"
-odnisnik_marki = []
-tytul_marki = "Jurlique"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/kiko_milano_logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Kiko Milano"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/mac_logo.jpg"
 odnisnik_marki = []
@@ -39,6 +27,10 @@ ikona_marki = "/uploads/makeupforever_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Make Up For Ever"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/kiko_milano_logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Kiko Milano"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/opi_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "OPI"
@@ -46,6 +38,14 @@ tytul_marki = "OPI"
 ikona_marki = "/uploads/revolution_beauti_london_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Revolution Beauti London"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/clarins_paris_logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Clarins Paris"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/jurlique.jpg"
+odnisnik_marki = []
+tytul_marki = "Jurlique"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
