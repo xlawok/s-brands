@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/klorane.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/klorane-logo.jpg"
 meta_opis = ""
 meta_robots = ""
