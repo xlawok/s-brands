@@ -287,6 +287,10 @@ ikona_marki = "/uploads/group-183.jpg"
 odnisnik_marki = "nasze-marki/decleor.md"
 tytul_marki = "Decleor"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/innoaestetics-logo.jpg"
+odnisnik_marki = "nasze-marki/innoaesthetics.md"
+tytul_marki = "Innoaestetics"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/cellosmet-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Cellosmet"
@@ -298,10 +302,6 @@ tytul_marki = "Fillmed"
 ikona_marki = "/uploads/filorga-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Filorga"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/innoaestetics-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Innoaestetics"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/neostrata-logo.jpg"
 odnisnik_marki = []
