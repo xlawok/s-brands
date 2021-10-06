@@ -53,6 +53,18 @@ tytul_marki = "Jurlique"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/group-173.jpg"
+odnisnik_marki = []
+tytul_marki = "Eucerin"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/group-175.jpg"
+odnisnik_marki = []
+tytul_marki = "Mustela"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/topicrem.jpg"
+odnisnik_marki = []
+tytul_marki = "Topicrem"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
 tytul_marki = "A-Derma"
@@ -117,10 +129,6 @@ ikona_marki = "/uploads/madara-logo-1.jpg"
 odnisnik_marki = []
 tytul_marki = "Madara"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-175.jpg"
-odnisnik_marki = []
-tytul_marki = "Mustela"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/group-176.jpg"
 odnisnik_marki = []
 tytul_marki = "Nuxe"
@@ -152,10 +160,6 @@ tytul_marki = "Thalgo"
 ikona_marki = "/uploads/the-body-shop.jpg"
 odnisnik_marki = []
 tytul_marki = "The Body Shop"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/topicrem.jpg"
-odnisnik_marki = []
-tytul_marki = "Topicrem"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-185.jpg"
 odnisnik_marki = []
