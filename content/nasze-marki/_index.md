@@ -78,7 +78,7 @@ odnisnik_marki = "nasze-marki/ducray.md"
 tytul_marki = "Ducray"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/a-derma.md"
 tytul_marki = "A-Derma"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/carita_logo.jpg"
