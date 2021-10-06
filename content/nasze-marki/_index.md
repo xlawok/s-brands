@@ -171,6 +171,10 @@ tytul_marki = "Vichy"
 [[grupa_marek]]
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/group-175.jpg"
+odnisnik_marki = []
+tytul_marki = "Ducray"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/aveda-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Aveda"
