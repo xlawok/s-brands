@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/mustela.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/group-184.jpg"
 meta_opis = ""
 meta_robots = ""
