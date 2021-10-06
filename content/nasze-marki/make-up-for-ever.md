@@ -1,7 +1,7 @@
 +++
 adres_odnosnika = "nasze-marki/mac.md"
 dodaj_formularz = true
-logo_marki = "/uploads/mac_logo.jpg"
+logo_marki = "/uploads/makeupforever_logo.jpg"
 meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiekm = "MAKE UP FOR EVER to kolektyw wizażystów współtworzących wysokiej jakości produkty i usługi. Dzięki naszemu kunsztowi inspirujemy i wzmacniamy ludzi do uwolnienia ich osobistej przewagi."
