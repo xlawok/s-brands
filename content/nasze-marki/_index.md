@@ -36,7 +36,7 @@ odnisnik_marki = "nasze-marki/opi.md"
 tytul_marki = "OPI"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/revolution_beauti_london_logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/makeup-revolution.md"
 tytul_marki = "Revolution Beauti London"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/clarins_paris_logo.jpg"
