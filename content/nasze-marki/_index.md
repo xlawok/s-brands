@@ -12,7 +12,7 @@ weight = 2
 tytul_grupy = "Skin care"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-177.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/phyto.md"
 tytul_marki = "Pytho"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/lierac-logo.jpg"
