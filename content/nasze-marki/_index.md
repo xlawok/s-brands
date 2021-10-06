@@ -58,7 +58,7 @@ odnisnik_marki = "nasze-marki/eucerin.md"
 tytul_marki = "Eucerin"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-175.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/mustela.md"
 tytul_marki = "Mustela"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/topicrem.jpg"
