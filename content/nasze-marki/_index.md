@@ -171,6 +171,10 @@ tytul_marki = "Vichy"
 [[grupa_marek]]
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/group-179.jpg"
+odnisnik_marki = []
+tytul_marki = "The Cosmetic Republic"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/group-175.jpg"
 odnisnik_marki = "nasze-marki/ducray.md"
 tytul_marki = "Ducray"
