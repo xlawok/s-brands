@@ -1,5 +1,5 @@
 +++
-adres_odnosnika = "nasze-marki/mac.md"
+adres_odnosnika = "nasze-marki/make-up-for-ever.md"
 dodaj_formularz = true
 logo_marki = "/uploads/makeupforever_logo.jpg"
 meta_opis = ""
