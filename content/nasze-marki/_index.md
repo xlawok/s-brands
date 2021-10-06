@@ -28,7 +28,7 @@ odnisnik_marki = "nasze-marki/make-up-for-ever.md"
 tytul_marki = "Make Up For Ever"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/kiko_milano_logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/kiko-milano.md"
 tytul_marki = "Kiko Milano"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/opi_logo.jpg"
