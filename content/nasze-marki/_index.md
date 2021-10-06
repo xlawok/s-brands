@@ -24,7 +24,7 @@ odnisnik_marki = "nasze-marki/mac.md"
 tytul_marki = "MAC"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/makeupforever_logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/make-up-for-ever.md"
 tytul_marki = "Make Up For Ever"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/kiko_milano_logo.jpg"
