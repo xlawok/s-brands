@@ -53,6 +53,10 @@ tytul_marki = "Jurlique"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/group-175.jpg"
+odnisnik_marki = []
+tytul_marki = "Ducray"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/group-173.jpg"
 odnisnik_marki = "nasze-marki/eucerin.md"
 tytul_marki = "Eucerin"
