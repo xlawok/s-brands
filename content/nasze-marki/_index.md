@@ -9,6 +9,12 @@ which_layout = "nasze-marki"
 [menu.main]
 weight = 2
 [[grupa_marek]]
+tytul_grupy = "Skin care"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/lierac-logo.jpg"
+odnisnik_marki = []
+tytul_marki = "Lierac"
+[[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/catrice_cosmetics_logo.jpg"
