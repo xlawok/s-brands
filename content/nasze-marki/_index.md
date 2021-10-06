@@ -40,7 +40,7 @@ odnisnik_marki = "nasze-marki/ren.md"
 tytul_marki = "Ren"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/babor-logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/babor.md"
 tytul_marki = "Barbor"
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
