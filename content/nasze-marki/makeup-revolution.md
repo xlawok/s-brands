@@ -1,5 +1,5 @@
 +++
-adres_odnosnika = "nasze-marki/mac.md"
+adres_odnosnika = "nasze-marki/makeup-revolution.md"
 dodaj_formularz = true
 logo_marki = "/uploads/revolution_beauti_london_logo.jpg"
 meta_opis = ""
