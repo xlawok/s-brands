@@ -53,10 +53,6 @@ tytul_marki = "Jurlique"
 [[grupa_marek]]
 tytul_grupy = "Skin Care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-175.jpg"
-odnisnik_marki = []
-tytul_marki = "Ducray"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/group-173.jpg"
 odnisnik_marki = "nasze-marki/eucerin.md"
 tytul_marki = "Eucerin"
@@ -76,6 +72,10 @@ tytul_marki = "Nuxe"
 ikona_marki = "/uploads/eau_thermale_avene_logo.jpg"
 odnisnik_marki = "nasze-marki/avene.md"
 tytul_marki = "Avene"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/group-175.jpg"
+odnisnik_marki = "nasze-marki/ducray.md"
+tytul_marki = "Ducray"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
 odnisnik_marki = []
