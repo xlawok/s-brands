@@ -14,7 +14,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "DECLEOR"
+txt_block = "INNOAESTHETICS"
 txt_block_size = "XXL"
 underline = false
 
