@@ -1,5 +1,5 @@
 +++
-adres_odnosnika = "nasze-marki/mac.md"
+adres_odnosnika = "nasze-marki/dermacol.md"
 dodaj_formularz = true
 draft = true
 logo_marki = "/uploads/group-172.jpg"
