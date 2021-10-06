@@ -1,12 +1,12 @@
 +++
-adres_odnosnika = "nasze-marki/topicrem.md"
+adres_odnosnika = "nasze-marki/babor.md"
 dodaj_formularz = true
 draft = true
-logo_marki = "/uploads/topicrem.jpg"
+logo_marki = "/uploads/babor-logo.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Brytyjska marka kosmetyków Revolution, dawniej Makeup Revolution, tworzy produkty do makijażu i pielęgnacji skóry, dzięki czemu jest jedną z wiodących marek na międzynarodowym rynku kosmetycznym z prawie 30-letnim doświadczeniem. Marka regularnie rozwija, szybciej niż wiele innych marek, innowacyjne produkty i dlatego jest zawsze na czasie. Doświadczone zespoły łączą trendy i nowe koncepcje z całego świata, aby tworzyć nie tylko modne produkty, ale przede wszystkim te, które wyprzedzają swój czas. Duży, różnorodny asortyment Revolution jest wyjątkowy i stale się powiększa, aby zaskakiwać świat urody nowymi kolorami i formułami. Oprócz innowacyjności marka przywiązuje wagę do najwyższej jakości w możliwie najniższych cenach."
-slug = "topicrem"
+opis_pod_naglowiekm = "BABOR jest wiodącą marką na międzynarodowym rynku kosmetyki profesjonalnej. Rodzinnym przedsiębiorstwem zarządza obecnie już trzecie pokolenie. Proces produkcji od początku do końca odbywa się w jednym miejscu, w siedzibie firmy w Aachen. Dlatego każdy produkt, od pomysłu do finalnej formy, jest synonimem doskonałej jakości made in Germany, opartej na badaniach naukowych, gwarantującej ukierunkowane działanie i skuteczność."
+slug = "barbor"
 title = "BABOR"
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
@@ -15,7 +15,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "TOPICREM"
+txt_block = "BABOR"
 txt_block_size = "XXL"
 underline = false
 
