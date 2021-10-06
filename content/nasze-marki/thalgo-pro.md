@@ -2,7 +2,6 @@
 Title = "Essence"
 adres_odnosnika = "nasze-marki/thalgo-pro.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/thalgo-logo.jpg"
 meta_opis = ""
 meta_robots = ""
