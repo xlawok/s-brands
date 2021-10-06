@@ -2,7 +2,6 @@
 Title = "Essence"
 adres_odnosnika = "nasze-marki/a-derma.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/a-derma_logo.jpg"
 meta_opis = ""
 meta_robots = ""
