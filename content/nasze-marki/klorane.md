@@ -14,7 +14,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "KOLRANE"
+txt_block = "KLORANE"
 txt_block_size = "XXL"
 underline = false
 
