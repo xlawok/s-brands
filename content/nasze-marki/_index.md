@@ -175,6 +175,10 @@ ikona_marki = "/uploads/group-175.jpg"
 odnisnik_marki = "nasze-marki/ducray.md"
 tytul_marki = "Ducray"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/klorane-logo.jpg"
+odnisnik_marki = "nasze-marki/klorane.md"
+tytul_marki = "Klorane"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/aveda-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Aveda"
@@ -182,10 +186,6 @@ tytul_marki = "Aveda"
 ikona_marki = "/uploads/kerastase-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Kerastase"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/klorane-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Klorane"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/leonor-logo.jpg"
 odnisnik_marki = []
