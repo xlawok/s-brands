@@ -62,7 +62,7 @@ odnisnik_marki = "nasze-marki/mustela.md"
 tytul_marki = "Mustela"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/topicrem.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/topicrem.md"
 tytul_marki = "Topicrem"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
