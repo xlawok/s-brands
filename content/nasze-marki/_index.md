@@ -69,13 +69,13 @@ ikona_marki = "/uploads/group-176.jpg"
 odnisnik_marki = "nasze-marki/nuxe.md"
 tytul_marki = "Nuxe"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/a-derma_logo.jpg"
-odnisnik_marki = []
-tytul_marki = "A-Derma"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/eau_thermale_avene_logo.jpg"
 odnisnik_marki = "nasze-marki/avene.md"
 tytul_marki = "Avene"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/a-derma_logo.jpg"
+odnisnik_marki = []
+tytul_marki = "A-Derma"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/carita_logo.jpg"
 odnisnik_marki = []
