@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/the-cosmetic-republic.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/group-179.jpg"
 meta_opis = ""
 meta_robots = ""
