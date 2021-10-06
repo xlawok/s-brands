@@ -12,7 +12,7 @@ weight = 2
 tytul_grupy = "Skin care"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/green-pharmacy-logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/green-pharmacy.md"
 tytul_marki = "Green Pharmacy"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/lierac-logo.jpg"
