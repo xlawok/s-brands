@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/dermacol.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/group-172.jpg"
 meta_opis = ""
 meta_robots = ""
