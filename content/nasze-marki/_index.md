@@ -267,16 +267,16 @@ tytul_marki = "Barbor"
 [[grupa_marek]]
 tytul_grupy = "Cabin/PRO"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/thalgo-logo.jpg"
-odnisnik_marki = "nasze-marki/thalgo-pro.md"
-tytul_marki = "Thalgo"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/comfort_zone-logo.jpg"
 odnisnik_marki = "nasze-marki/comfort-zone.md"
 tytul_marki = "Comfortzone"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/thalgo-logo.jpg"
+odnisnik_marki = "nasze-marki/thalgo-pro.md"
+tytul_marki = "Thalgo"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/babor-logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/babor.md"
 tytul_marki = "Babor"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/cellosmet-logo.jpg"
