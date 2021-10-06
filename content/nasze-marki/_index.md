@@ -11,10 +11,6 @@ weight = 2
 [[grupa_marek]]
 tytul_grupy = "Skin care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/green-pharmacy-logo.jpg"
-odnisnik_marki = "nasze-marki/green-pharmacy.md"
-tytul_marki = "Green Pharmacy"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/lierac-logo.jpg"
 odnisnik_marki = "nasze-marki/lierac.md"
 tytul_marki = "Lierac"
@@ -30,6 +26,10 @@ tytul_marki = "Pytho"
 ikona_marki = "/uploads/madara-logo-1.jpg"
 odnisnik_marki = "nasze-marki/madara.md"
 tytul_marki = "Madara"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/green-pharmacy-logo.jpg"
+odnisnik_marki = "nasze-marki/green-pharmacy.md"
+tytul_marki = "Green Pharmacy"
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
