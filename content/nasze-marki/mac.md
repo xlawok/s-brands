@@ -1,5 +1,5 @@
 +++
-adres_odnosnika = "nasze-marki/_index.md"
+adres_odnosnika = "nasze-marki/mac.md"
 dodaj_formularz = true
 draft = true
 logo_marki = "/uploads/mac_logo.jpg"
