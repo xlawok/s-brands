@@ -2,20 +2,20 @@
 adres_odnosnika = "nasze-marki/_index.md"
 dodaj_formularz = true
 draft = true
-logo_marki = "/uploads/catrice_logo_png1.png"
+logo_marki = "/uploads/mac_logo.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Z Catrice nie przeoczysz żadnego trendu w urodzie, żadnego must-have i żadnego drobnego detalu. Niezliczone produkty z wysokiej jakości składnikami, luksusowymi teksturami i innowacyjnymi formułami nieustannie inspirują. Naprawdę optymalny stosunek ceny do wydajności zapewnia czystą przyjemność zakupów. Dwa razy w roku około 25% asortymentu Catrice jest wymieniane, dzięki czemu zawsze możesz odkryć nowe rzeczy i jesteś absolutnie zgodny z duchem czasu."
+opis_pod_naglowiekm = "Profesjonalna marka makijażu wyznaczająca trendy za kulisami tygodni mody na całym świecie. Dziś M·A·C znaczy wiele rzeczy dla swoich milionów fanów w każdym zakątku planety, ale globalny fenomen piękna gdzieś musi się zacząć."
 slug = "clarins"
 title = "MAC"
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
-zdjecie = "/uploads/754382.jpg"
+zdjecie = ""
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Catrice"
+txt_block = "MAC"
 txt_block_size = "XXL"
 underline = false
 
