@@ -1,12 +1,12 @@
 +++
-adres_odnosnika = "nasze-marki/decleor.md"
+adres_odnosnika = "nasze-marki/innoaesthetics.md"
 dodaj_formularz = true
 draft = true
-logo_marki = "/uploads/group-183.jpg"
+logo_marki = "/uploads/innoaestetics-logo.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Od ponad 40 lat francuska marka Decléor oferuje dobre samopoczucie i komfort. Prawdziwe piękno idzie w parze ze zdrowym ciałem i umysłem, dlatego produkty Decléor nie tylko rozświetlają skórę, ale również dostarczają zmysłowych wrażeń. W atmosferze szybkości kosmetyki Decléor pozwalają nieco zwolnić tempo i przywrócić harmonię umysłu, ciała i skóry."
-slug = "decleor"
+opis_pod_naglowiekm = "INNOAESTHETICS® oferuje kompleksowe portfolio obejmujące wypełniacze, roztwory przezskórne, peelingi chemiczne, dermokosmetyki i nutrikosmetyki. INNOAESTHETICS nieustannie pracuje nad projektowaniem inteligentnych i bardziej skutecznych produktów, które zapobiegają i leczą wszelkiego rodzaju zmiany skórne i problemy estetyczne."
+slug = "innoaestetics"
 title = "INNOAESTHETICS"
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
