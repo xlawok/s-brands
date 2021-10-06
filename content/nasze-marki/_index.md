@@ -32,7 +32,7 @@ odnisnik_marki = "nasze-marki/kiko-milano.md"
 tytul_marki = "Kiko Milano"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/opi_logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/opi.md"
 tytul_marki = "OPI"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/revolution_beauti_london_logo.jpg"
