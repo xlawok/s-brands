@@ -15,7 +15,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "MAC"
+txt_block = "MAKE UP FOR EVER"
 txt_block_size = "XXL"
 underline = false
 
