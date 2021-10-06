@@ -20,7 +20,7 @@ odnisnik_marki = "nasze-marki/essence.md"
 tytul_marki = "Essence Cosmetics"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/mac_logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/mac.md"
 tytul_marki = "MAC"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/makeupforever_logo.jpg"
