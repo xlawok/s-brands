@@ -12,7 +12,7 @@ weight = 2
 tytul_grupy = "Skin care"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/isdon-logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/isdin.md"
 tytul_marki = "Isdin"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/lierac-logo.jpg"
