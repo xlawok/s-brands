@@ -1,12 +1,12 @@
 +++
 Title = "Essence"
-adres_odnosnika = "nasze-marki/_index.md"
+adres_odnosnika = "nasze-marki/svr.md"
 dodaj_formularz = true
 draft = true
-logo_marki = "/uploads/kiko_milano_logo.jpg"
+logo_marki = "/uploads/group-188.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Tożsamość KIKO zakorzeniona jest w wartościach \"Made in Italy\", w świecie stolicy mody, sztuki, designu. Poszukiwanie oryginalnych struktur łączy się z opracowywaniem formuł wysokiej jakości i gwarantowanej skuteczności, tworząc idealną fuzję jakości i kreatywności."
+opis_pod_naglowiekm = "SVR to francuska marka dermokosmetyków od 1962 roku. Laboratorium oferuje skuteczne rozwiązania dermatologiczne dla każdego rodzaju skóry."
 slug = "essence"
 title = "SVR"
 tytul_odnosnika = "Wszystkie marki"
@@ -16,7 +16,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Essence"
+txt_block = "SVR"
 txt_block_size = "XXL"
 underline = false
 
