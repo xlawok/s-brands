@@ -1,13 +1,13 @@
 +++
 Title = "Essence"
-adres_odnosnika = "nasze-marki/isdin.md"
+adres_odnosnika = "nasze-marki/ren.md"
 dodaj_formularz = true
 draft = true
-logo_marki = "/uploads/isdon-logo.jpg"
+logo_marki = "/uploads/group-180.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Wierzymy, że znacząca innowacja jest kluczem do zdrowszej skóry. Aby pomóc osiągnąć optymalne zdrowie skóry, nasze kreacje muszą zachować idealną równowagę między skutecznością a przyjemnością. Łączymy zaawansowane formuły z innowacyjnymi teksturami, aby zapewnić zarówno praktyczne, jak i zmysłowe doznania - sekret cieszenia się satysfakcjonującą i skuteczną pielęgnacją skóry."
-slug = "isdin"
+opis_pod_naglowiekm = "Wysoce wydajna pielęgnacja skóry o klinicznie potwierdzonych wynikach dzięki najpotężniejszym i najdelikatniejszym składnikom natury, zawsze z myślą o skórze wrażliwej. Składniki, które wybrałaby Twoja skóra, pochodzące ze zrównoważonych źródeł i pakowane w zrównoważony sposób – ponieważ świetna pielęgnacja skóry nie powinna ciężarem dla naszej planety Ziemi, prawda?"
+slug = "ren"
 title = "REN "
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
@@ -16,7 +16,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "ISDIN"
+txt_block = "REN "
 txt_block_size = "XXL"
 underline = false
 
