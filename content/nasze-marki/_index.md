@@ -11,10 +11,6 @@ weight = 2
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-172.jpg"
-odnisnik_marki = []
-tytul_marki = "Dermacol"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/catrice_cosmetics_logo.jpg"
 odnisnik_marki = "nasze-marki/clarincs.md"
 tytul_marki = "Catrice Cosmetics"
@@ -42,6 +38,10 @@ tytul_marki = "OPI"
 ikona_marki = "/uploads/revolution_beauti_london_logo.jpg"
 odnisnik_marki = "nasze-marki/makeup-revolution.md"
 tytul_marki = "Revolution Beauti London"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/group-172.jpg"
+odnisnik_marki = []
+tytul_marki = "Dermacol"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/clarins_paris_logo.jpg"
 odnisnik_marki = []
