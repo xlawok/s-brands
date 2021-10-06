@@ -11,6 +11,10 @@ weight = 2
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/group-172.jpg"
+odnisnik_marki = []
+tytul_marki = "Dermacol"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/catrice_cosmetics_logo.jpg"
 odnisnik_marki = "nasze-marki/clarincs.md"
 tytul_marki = "Catrice Cosmetics"
