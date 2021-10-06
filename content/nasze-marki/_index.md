@@ -11,10 +11,6 @@ weight = 2
 [[grupa_marek]]
 tytul_grupy = "Skin care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-180.jpg"
-odnisnik_marki = "nasze-marki/ren.md"
-tytul_marki = "Ren"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/lierac-logo.jpg"
 odnisnik_marki = "nasze-marki/lierac.md"
 tytul_marki = "Lierac"
@@ -38,6 +34,10 @@ tytul_marki = "Green Pharmacy"
 ikona_marki = "/uploads/isdon-logo.jpg"
 odnisnik_marki = "nasze-marki/isdin.md"
 tytul_marki = "Isdin"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/group-180.jpg"
+odnisnik_marki = "nasze-marki/ren.md"
+tytul_marki = "Ren"
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
