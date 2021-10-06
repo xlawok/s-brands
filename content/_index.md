@@ -100,7 +100,7 @@ opis_sekcji = "W naszej ofercie znajdują się artykuły należące do trzech gr
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/christin-hume-0mof-fe0w0a-unsplash.jpg"
+zdjecie = "/uploads/adobestock_285324067_preview.jpeg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
