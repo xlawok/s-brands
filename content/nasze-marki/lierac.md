@@ -2,11 +2,11 @@
 adres_odnosnika = "nasze-marki/the-cosmetic-republic.md"
 dodaj_formularz = true
 draft = true
-logo_marki = "/uploads/group-179.jpg"
+logo_marki = "/uploads/lierac-logo.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "The Cosmetic Republic to firma narodzona w Barcelonie, będąca owocem najnowszych odkryć R&amp;D w zakresie włosów. Celem firmy jest dostarczanie unikalnych, najwyższej klasy produktów do pielęgnacji włosów, łączących najlepsze aktywne zasady z najnowszymi odkryciami R&amp;D. Pasja do zdrowo wyglądających włosów sprawiła, że firma TCR jest numerem 1 wśród zdrowych włosów na 5 kontynentach"
-slug = "thecosmeticrepublic"
+opis_pod_naglowiekm = "Cel zawsze był prosty: stworzyć zabiegi dostosowane do konkretnych potrzeb w zakresie pielęgnacji skóry. Oznaki starzenia, wypalenie skóry, rozstępy, menopauza… na każdy problem z pielęgnacją skóry LIERAC ma rozwiązanie."
+slug = "lierac"
 title = "LIERAC"
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
@@ -15,7 +15,7 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "THE COSMETIC REPUBLIC"
+txt_block = "LIERAC"
 txt_block_size = "XXL"
 underline = false
 
