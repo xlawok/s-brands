@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/topicrem.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/topicrem.jpg"
 meta_opis = ""
 meta_robots = ""
