@@ -16,7 +16,7 @@ odnisnik_marki = "nasze-marki/clarincs.md"
 tytul_marki = "Catrice Cosmetics"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/essence_cosmetics_logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/essence.md"
 tytul_marki = "Essence Cosmetics"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/mac_logo.jpg"
