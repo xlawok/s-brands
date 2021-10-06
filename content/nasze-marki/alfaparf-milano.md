@@ -1,7 +1,6 @@
 +++
 adres_odnosnika = "nasze-marki/alfaparf-milano.md"
 dodaj_formularz = true
-draft = true
 logo_marki = "/uploads/group-177.jpg"
 meta_opis = ""
 meta_robots = ""
