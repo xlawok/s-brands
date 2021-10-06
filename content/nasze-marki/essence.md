@@ -2,10 +2,10 @@
 Title = "Essence"
 adres_odnosnika = "nasze-marki/_index.md"
 dodaj_formularz = true
-logo_marki = "/uploads/catrice_logo_png1.png"
+logo_marki = "/uploads/essence_cosmetics_logo.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo hendrerit risus. Aliquam vestibulum dui nec sapien tincidunt, non sagittis est ultricies. Pellentesque et semper velit. Quisque semper, nibh non tristique varius, leo lectus ultricies arcu, dignissim commodo mi nisi et est. Morbi sit amet augue eget ligula lacinia gravida et eu magna. In hac habitasse platea dictumst. Integer lobortis sit amet augue sit amet finibus. Praesent convallis orci massa. <br><br>Nulla vitae luctus lectus. Pellentesque vitae aliquet justo. Cras neque dolor, feugiat id nisl quis, pellentesque eleifend est. Nullam cursus, odio vel ultrices lobortis, ante purus fringilla urna, sit amet imperdiet elit ipsum vel libero. Mauris vel lorem justo. Suspendisse arcu est, ultricies posuere dui vitae, ultricies consequat urna. Nam maximus tellus felis, vitae mollis massa vestibulum at. Curabitur vel nisi leo. Suspendisse potenti. Aliquam quis augue congue, maximus lacus at, finibus enim. Maecenas nec varius enim, sit amet vulputate turpis."
+opis_pod_naglowiekm = "Essence to młoda marka kosmetyków z Cosnova. Podobnie jak powiązane marki Catrice i L.O.V, essence również koncentruje się na innowacyjnych i modnych produktach, ale po raz kolejny przywiązuje szczególną wagę do niskich cen. Każdy powinien mieć możliwość wypróbowania różnych stylów i trendów z produktami marki essence i ciągłego odkrywania siebie na nowo. Pomimo niskich cen, essence oferuje doskonałą jakość i dba o to, aby żaden z produktów nie był testowany na zwierzętach. Już teraz możesz zamówić wspaniałe produkty kosmetyczne z essence online w kosmetik4less. W ten sposób możesz z łatwością dostarczyć wszystkie nowe produkty, modne kolory i innowacyjne produkty do swojego domu."
 slug = "essence"
 title = ""
 tytul_odnosnika = "Wszystkie marki"
