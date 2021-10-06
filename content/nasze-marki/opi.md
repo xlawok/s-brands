@@ -1,6 +1,6 @@
 +++
 Title = "Essence"
-adres_odnosnika = "nasze-marki/_index.md"
+adres_odnosnika = "nasze-marki/essence.md"
 dodaj_formularz = true
 logo_marki = "/uploads/opi_logo.jpg"
 meta_opis = ""
