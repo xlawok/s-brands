@@ -51,7 +51,7 @@ ikona_marki = "/uploads/jurlique.jpg"
 odnisnik_marki = []
 tytul_marki = "Jurlique"
 [[grupa_marek]]
-tytul_grupy = "Skin Care"
+tytul_grupy = "Dermocosmetics"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-173.jpg"
 odnisnik_marki = "nasze-marki/eucerin.md"
