@@ -279,13 +279,13 @@ ikona_marki = "/uploads/babor-logo.jpg"
 odnisnik_marki = "nasze-marki/babor.md"
 tytul_marki = "Babor"
 [[grupa_marek.marki]]
+ikona_marki = "/uploads/exuviance-logo.jpg"
+odnisnik_marki = "nasze-marki/exuviance.md"
+tytul_marki = "Exuviance"
+[[grupa_marek.marki]]
 ikona_marki = "/uploads/cellosmet-logo.jpg"
 odnisnik_marki = []
 tytul_marki = "Cellosmet"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/exuviance-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Exuviance"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/fillmed-logo.jpg"
 odnisnik_marki = []
