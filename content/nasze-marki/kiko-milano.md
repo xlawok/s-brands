@@ -1,6 +1,6 @@
 +++
 Title = "Essence"
-adres_odnosnika = "nasze-marki/_index.md"
+adres_odnosnika = "nasze-marki/kiko-milano.md"
 dodaj_formularz = true
 logo_marki = "/uploads/kiko_milano_logo.jpg"
 meta_opis = ""
