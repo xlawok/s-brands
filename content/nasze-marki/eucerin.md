@@ -1,11 +1,11 @@
 +++
-adres_odnosnika = "nasze-marki/mac.md"
+adres_odnosnika = "nasze-marki/eucerin.md"
 dodaj_formularz = true
 draft = true
 logo_marki = "/uploads/group-173.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Brytyjska marka kosmetyków Revolution, dawniej Makeup Revolution, tworzy produkty do makijażu i pielęgnacji skóry, dzięki czemu jest jedną z wiodących marek na międzynarodowym rynku kosmetycznym z prawie 30-letnim doświadczeniem. Marka regularnie rozwija, szybciej niż wiele innych marek, innowacyjne produkty i dlatego jest zawsze na czasie. Doświadczone zespoły łączą trendy i nowe koncepcje z całego świata, aby tworzyć nie tylko modne produkty, ale przede wszystkim te, które wyprzedzają swój czas. Duży, różnorodny asortyment Revolution jest wyjątkowy i stale się powiększa, aby zaskakiwać świat urody nowymi kolorami i formułami. Oprócz innowacyjności marka przywiązuje wagę do najwyższej jakości w możliwie najniższych cenach."
+opis_pod_naglowiekm = "Wszystkie dermo-kosmetyczne produkty Eucerin do pielęgnacji skóry oparte są na dogłębnej wiedzy na temat fizjologii ludzkiej skóry. Dopiero zrozumienie, jak funkcjonuje skóra i jak reaguje na nasilające się efekty, na które jest narażona, zapewnia rozwój zaawansowanych produktów dermo-kosmetycznych dostosowanych do jej różnorodnych wymagań, bez względu na jej specyficzne potrzeby. Znalezienie odpowiednich składników produktów, tak aby zdrowie skóry było chronione i podtrzymywane, jest podstawą systematycznych badań Eucerin."
 slug = "clarins"
 title = "EUCERIN"
 tytul_odnosnika = "Wszystkie marki"
