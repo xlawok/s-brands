@@ -268,7 +268,7 @@ tytul_marki = "Barbor"
 tytul_grupy = "Cabin/PRO"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/comfort_zone-logo.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/comfort-zone.md"
 tytul_marki = "Comfortzone"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/babor-logo.jpg"
