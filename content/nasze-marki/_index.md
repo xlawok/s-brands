@@ -74,7 +74,7 @@ odnisnik_marki = "nasze-marki/avene.md"
 tytul_marki = "Avene"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-185.jpg"
-odnisnik_marki = "nasze-marki/ducray.md"
+odnisnik_marki = "nasze-marki/vichy.md"
 tytul_marki = "Vichy"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/a-derma_logo.jpg"
