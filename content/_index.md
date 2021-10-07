@@ -100,7 +100,7 @@ opis_sekcji = "W naszej ofercie znajdują się artykuły należące do trzech gr
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/christin-hume-0mof-fe0w0a-unsplash.jpg"
+zdjecie = "/uploads/adobestock_285324067_preview.jpeg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -112,7 +112,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/content-pixie-wdj4wnlxyds-unsplash.jpg"
+zdjecie = "/uploads/adobestock_303287619_preview.jpeg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -124,7 +124,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/christin-hume-0mof-fe0w0a-unsplash.jpg"
+zdjecie = "/uploads/adobestock_431056134_preview.jpeg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -136,7 +136,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/content-pixie-wdj4wnlxyds-unsplash.jpg"
+zdjecie = "/uploads/adobestock_132277276_preview.jpeg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -155,7 +155,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy międzynarodową firmą specjalizującą się w dystrybucji marek kosmetycznych renomowanych producentów. Dostarczamy swoim klientom najlepsze ceny i promocje okresowe stale wyszukując najlepszych źródeł zaopatrzenia."
 tytul_odnosnika = "Więcej o nas"
-zdjecie = "/uploads/content-pixie-wdj4wnlxyds-unsplash.jpg"
+zdjecie = "/uploads/adobestock_353995630_preview.jpeg"
 [[poznaj_nas.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
