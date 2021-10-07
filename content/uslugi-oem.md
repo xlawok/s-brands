@@ -7,7 +7,7 @@ title = "Usługi OEM"
 which_layout = "uslugi-oem"
 [banner]
 opis_pod_naglowiekm = "S-Brands to więcej niż tylko dostawca. Zawsze myślimy i pomagamy uczynić Twój biznes jeszcze bardziej dochodowym. Na poziomie technicznym istotną częścią naszej działalności jest kompleksowe pośrednictwo w budowie kosmetycznych marek własnych. Oferujemy pełen serwis wsparcia w opracowaniu nowoczesnych formuł kosmetycznych zgodnie z oczekiwaniami naszych klientów, jak również adaptujemy receptury nam powierzone."
-zdjecie = "/uploads/content-pixie-wdj4wnlxyds-unsplash.jpg"
+zdjecie = "/uploads/adobestock_80633577_preview.jpeg"
 [[banner.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
