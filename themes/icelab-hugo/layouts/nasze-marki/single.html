@@ -42,6 +42,9 @@
             <p class="banner-desc">
                 {{ .opis_pod_naglowiekm | safeHTML }}
             </p>
+            { {< rawhtml >}}
+            <a href="" rel="nofollow"></a>
+            { {< /rawhtml >}}
             {{$tytul_odnosnika:=.tytul_odnosnika}}
             {{ if .adres_odnosnika }}
             {{ with site.GetPage .adres_odnosnika }}
