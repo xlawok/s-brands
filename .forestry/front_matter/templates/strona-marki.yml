@@ -19,7 +19,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: [html|html-blocks|markdown]
+      format: markdown
   label: Opis pod nagłówiekm
 - name: tytul_odnosnika
   type: text
