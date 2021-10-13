@@ -88,6 +88,9 @@
 }
 .floating-env{
     display: none;
+    img{
+        margin: 0 auto;
+    }
     @media(min-width: 560px){
         cursor: pointer;
         display: flex;
