@@ -21,6 +21,15 @@ fields:
     schema:
       format: html
   label: Opis pod nagłówiekm
+  name: html_surowy
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Opis pod nagłówiekm
 - name: tytul_odnosnika
   type: text
   config:
