@@ -1,10 +1,12 @@
 +++
 adres_odnosnika = "nasze-marki/clarincs.md"
 dodaj_formularz = true
+html_czysty = "<pre><code>&lt;a title=\"https://catrice.eu/en/index.html\" rel:\"nofollow'&gt;https://catrice.eu/en/index.html&lt;/a&gt;&lt;br&gt;</code></pre>"
+html_surowy = "    "
 logo_marki = "/uploads/catrice_logo_png1.png"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Z Catrice nie przeoczysz żadnego trendu w urodzie, żadnego must-have i żadnego drobnego detalu. Niezliczone produkty z wysokiej jakości składnikami, luksusowymi teksturami i innowacyjnymi formułami nieustannie inspirują. Naprawdę optymalny stosunek ceny do wydajności zapewnia czystą przyjemność zakupów. Dwa razy w roku około 25% asortymentu Catrice jest wymieniane, dzięki czemu zawsze możesz odkryć nowe rzeczy i jesteś absolutnie zgodny z duchem czasu.<br><br><a href=\"https://catrice.eu/en/index.html\" title=\"https://catrice.eu/en/index.html\">https://catrice.eu/en/index.html</a><br>"
+opis_pod_naglowiekm = "Z Catrice nie przeoczysz żadnego trendu w urodzie, żadnego must-have i żadnego drobnego detalu. Niezliczone produkty z wysokiej jakości składnikami, luksusowymi teksturami i innowacyjnymi formułami nieustannie inspirują. Naprawdę optymalny stosunek ceny do wydajności zapewnia czystą przyjemność zakupów. Dwa razy w roku około 25% asortymentu Catrice jest wymieniane, dzięki czemu zawsze możesz odkryć nowe rzeczy i jesteś absolutnie zgodny z duchem czasu."
 slug = "catrice"
 title = "CATRICE"
 tytul_odnosnika = "Wszystkie marki"
