@@ -136,7 +136,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/adobestock_132277276_preview.jpeg"
+zdjecie = "/uploads/sbrands-main-pro.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
