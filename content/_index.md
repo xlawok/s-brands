@@ -155,7 +155,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy międzynarodową firmą specjalizującą się w dystrybucji marek kosmetycznych renomowanych producentów. Dostarczamy swoim klientom najlepsze ceny i promocje okresowe stale wyszukując najlepszych źródeł zaopatrzenia."
 tytul_odnosnika = "Więcej o nas"
-zdjecie = "/uploads/adobestock_353995630_preview.jpeg"
+zdjecie = "/uploads/sbrands-main-know-us.jpg"
 [[poznaj_nas.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
