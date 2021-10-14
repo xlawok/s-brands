@@ -112,7 +112,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/sbrands-main-hair.jpg"
+zdjecie = "/uploads/sbrands-main-skin.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -124,7 +124,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/adobestock_431056134_preview.jpeg"
+zdjecie = "/uploads/sbrands-main-hair.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
