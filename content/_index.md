@@ -12,7 +12,7 @@ which_layout = ""
 adres_odnosnika = "contact/_index.md"
 opis_pod_naglowiekm = "Wybierz kosmetyki w konkurencyjnych cenach<br>spośród najlepszych marek na świecie"
 tytul_odnosnika = "NASZE MARKI"
-zdjecia_do_slidera = ["/uploads/adobestock_176629921_preview.jpg", "/uploads/adobestock_203357639_preview.jpeg"]
+zdjecia_do_slidera = ["/uploads/sbrands-main-baner-1.jpg", "/uploads/sbrands-main-baner-2.jpg"]
 [[banner.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
