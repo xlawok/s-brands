@@ -28,7 +28,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: html
   label: Dodatkowe pole
 - name: tytul_odnosnika
   type: text
