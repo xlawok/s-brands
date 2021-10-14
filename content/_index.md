@@ -12,7 +12,7 @@ which_layout = ""
 adres_odnosnika = "contact/_index.md"
 opis_pod_naglowiekm = "Wybierz kosmetyki w konkurencyjnych cenach<br>spośród najlepszych marek na świecie"
 tytul_odnosnika = "NASZE MARKI"
-zdjecia_do_slidera = ["/uploads/adobestock_176629921_preview.jpg", "/uploads/adobestock_203357639_preview.jpeg"]
+zdjecia_do_slidera = ["/uploads/sbrands-main-baner-1.jpg", "/uploads/sbrands-main-baner-2.jpg"]
 [[banner.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
@@ -100,7 +100,7 @@ opis_sekcji = "W naszej ofercie znajdują się artykuły należące do trzech gr
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/adobestock_285324067_preview.jpeg"
+zdjecie = "/uploads/sbrands-main-makeup.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -112,7 +112,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/adobestock_303287619_preview.jpeg"
+zdjecie = "/uploads/sbrands-main-hair.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -136,7 +136,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
 tytul_odnosnika = "Zobacz marki"
-zdjecie = "/uploads/adobestock_132277276_preview.jpeg"
+zdjecie = "/uploads/sbrands-main-pro.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -155,7 +155,7 @@ underline = false
 adres_odnosnika = "contact/_index.md"
 opis_sekcji = "Jesteśmy międzynarodową firmą specjalizującą się w dystrybucji marek kosmetycznych renomowanych producentów. Dostarczamy swoim klientom najlepsze ceny i promocje okresowe stale wyszukując najlepszych źródeł zaopatrzenia."
 tytul_odnosnika = "Więcej o nas"
-zdjecie = "/uploads/adobestock_353995630_preview.jpeg"
+zdjecie = "/uploads/sbrands-main-know-us.jpg"
 [[poznaj_nas.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
