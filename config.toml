@@ -1,12 +1,25 @@
 baseURL = "https://s-brands.onrender.com/"
 languageCode = "en-us"
+defaultContentLanguage = 'pl'
 summaryLength = "10"
 theme = "icelab-hugo"
 title = "agencjawroclawska"
+[languages]
+  [languages.pl]
+    title = 'Mon blogue'
+    weight = 1
+    
+    
+  [languages.en]
+    title = 'My blog'
+    weight = 2
+    
+
 [permalinks]
 "/" = "/:slug/"
 page = "/:slug/"
 posts = "/:slug/"
+nasze-marki = "/:slug/"
 [markup.goldmark.renderer]
 unsafe = true
 [outputs]

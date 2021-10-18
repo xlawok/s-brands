@@ -1,5 +1,5 @@
 {{ define "main" }}
- 
+{{$sites :=.Sites.First.GetPage "/uploads"}}
     
     <section class="banner-area" >
         <div class='brands-nav'>
@@ -25,7 +25,7 @@
                 
             
             
-                {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "")  -}}
+                {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
             
             
             </div>

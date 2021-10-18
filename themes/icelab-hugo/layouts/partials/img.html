@@ -5,6 +5,7 @@
 {{$imgalt := .imgalt}}
 {{$tag_class := .tag_class}}
 {{$ifsrcset :=.ifsrcset}}
+{{$sites :=.awsites}}
 
  {{ with .image }}
   {{ $pathArr := split . "." }}
@@ -18,8 +19,10 @@
       <img loaded="lazy" class="lazyload {{$tag_class}}" data-src="{{.}}" {{ with $imgalt }}alt="{{.}}"{{ else }}alt=""{{ end }}>
     {{else}}
     
-      {{ $imageResource := (site.GetPage "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .  ) }}
 
+      {{ $imageResource := ($sites).Resources.GetMatch (strings.TrimPrefix "/uploads/" .  ) }}
+
+      
     {{ $tinyw := default "500x" }}
     {{ $smallw := default "800x" }}
     {{ $mediumw := default "1200x" }}
@@ -42,6 +45,8 @@
 
     <img 
     class='lazyload {{$tag_class}}'
+    loading='lazy'
+    
     data-sizes='{{with $imgsizes}}{{.}}{{else}}100vw{{end}}'
     data-srcset='{{ if ge $imageResource.Width "500" }}
         {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}

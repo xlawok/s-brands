@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{$sites :=.Sites.First.GetPage "/uploads"}}
     {{ with .Params }}
     <section class="banner-area" >
         <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
@@ -35,7 +36,7 @@
                                     {{end}}
                                     {{end}}
                                 
-                                {{- partial "img.html" (dict "image" .ikona_marki "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset" "imgalt" .tytul_marki)  -}}
+                                {{- partial "img.html" (dict "image" .ikona_marki "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset" "imgalt" .tytul_marki "awsites" $sites)  -}}
                                 {{ with .odnisnik_marki }}
                                     </a>
                                 {{end}}

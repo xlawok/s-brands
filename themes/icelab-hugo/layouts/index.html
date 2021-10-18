@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{$sites :=.Sites.First.GetPage "/uploads"}}
 {{ with .Params.banner }}
   {{if (isset . "zdjecia_do_slidera")}}
   <section class="banner-area" >
@@ -8,8 +9,8 @@
       {{ range $index, $element := . }}
         
       <div class="banner-img-cnt {{ if (eq $index 0) }}active{{ end }}">
-     
-        {{- partial "img.html" (dict "image" $element "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "")  -}}
+        
+        {{- partial "img.html" (dict "image" $element "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
       </div>
       {{end}}
     </div>
@@ -90,7 +91,7 @@
     </div>
     
     <div class="image-wrapper">
-      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "")  -}}
+      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
     </div>
   </section>
 {{end}}
@@ -111,7 +112,7 @@
           
           {{range $index, $element := . }}
             <li>
-              {{- partial "img.html" (dict "image" .ikona "imgsizes" "80vw" "tag_class" "process-ico" "ifsrcset" "nosrcset")  -}}
+              {{- partial "img.html" (dict "image" .ikona "imgsizes" "80vw" "tag_class" "process-ico" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
              
               <span class='steps-in-circle'>{{add $index 1}}</span>
               
@@ -161,7 +162,7 @@
       {{else}}
         <li class="banner-img-cnt {{ if (eq $index 0) }}active{{ end }}">
       
-          {{- partial "img.html" (dict "image" $element "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset")  -}}
+          {{- partial "img.html" (dict "image" $element "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
         </li>
       {{end}}
       {{end}}
@@ -190,7 +191,7 @@
       <li class="product-wrapper"> 
       <div class="img-cnt ">
      
-        {{- partial "img.html" (dict "image" $element.zdjecie "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "")  -}}
+        {{- partial "img.html" (dict "image" $element.zdjecie "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "" "awsites" $sites)  -}}
       </div>
       <div class="content-wrapper">
          <div class="content-cnt">
@@ -232,7 +233,7 @@
   </div>
   <div class="graph-wrapper">
     <div class="graph-header">
-      <span>{{.naglowek_z_logo}}</span>{{- partial "img.html" (dict "image" .logo "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "")  -}}
+      <span>{{.naglowek_z_logo}}</span>{{- partial "img.html" (dict "image" .logo "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "" "awsites" $sites)  -}}
     </div>
     {{if (isset . "odbiorcy")}}
   <ul class="odbiorcy-group" >
@@ -241,7 +242,7 @@
         
         {{ range $index, $element := . }}
         <li class="odbiorca-wrapper"> 
-          {{- partial "img.html" (dict "image" $element.ikona "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "")  -}}
+          {{- partial "img.html" (dict "image" $element.ikona "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "" "awsites" $sites)  -}}
           <span>{{$element.nazwa_odbiorcy}}</span>
         </li>
         {{end}}

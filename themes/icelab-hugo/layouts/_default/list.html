@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+{{$sites :=.Sites.First.GetPage "/uploads"}}
 {{ partial "page-title.html" . }}
 
 <section class="section portfolio">

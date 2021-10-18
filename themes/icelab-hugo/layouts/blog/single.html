@@ -1,5 +1,5 @@
 {{ define "main" }}
- 
+{{$sites :=.Sites.First.GetPage "/uploads"}}
 <section class="banner-area" >
   
     <div class="header-cnt">
@@ -13,7 +13,7 @@
     {{$img_alt:=.Params.opis_zdjecia}}
     {{with .Params.zdjecie_glowne}}
     <div class='with-img-cnt'>
-        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt)  -}} 
+        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt "awsites" $sites)  -}} 
     </div>
     {{end}}
     {{.Content}}

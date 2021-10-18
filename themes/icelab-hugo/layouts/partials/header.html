@@ -23,7 +23,7 @@
  
       
     <nav class="navbar fixed-top navbar-expand-lg">
-      <a class="navbar-brand anchor" href="{{ .Site.BaseURL }}">
+      <a class="navbar-brand anchor" href="{{ "/" | absLangURL }}">
         {{with $my_top_data.top_settings}}
         <img src="{{.logo_w_menu}}" class="img-fluid" alt="logo">
         {{end}}

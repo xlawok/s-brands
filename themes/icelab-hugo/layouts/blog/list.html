@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{$sites :=.Sites.First.GetPage "/uploads"}}
 <section class="banner-area" >
     <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
     <div class="header-cnt">
@@ -19,7 +20,7 @@
                 {{$img_alt:=.Params.opis_zdjecia}}
                 {{with .Params.zdjecie_glowne}}
                     <div class='with-img-cnt'>
-                        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt)  -}} 
+                        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt "awsites" $sites)  -}} 
                     </div>
                 {{end}}
                 
@@ -63,7 +64,7 @@
                         {{$img_alt:=.Params.opis_zdjecia}}
                         {{with .Params.zdjecie_glowne}}
                             <div class='with-img-cnt'>
-                                {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt)  -}} 
+                                {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt "awsites" $sites)  -}} 
                             </div>
                         {{end}}
                         
@@ -89,7 +90,7 @@
                             {{$img_alt:=.Params.opis_zdjecia}}
                             {{with .Params.zdjecie_glowne}}
                                 <div class='with-img-cnt'>
-                                    {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt)  -}} 
+                                    {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt "awsites" $sites)  -}} 
                                 </div>
                             {{end}}
                             

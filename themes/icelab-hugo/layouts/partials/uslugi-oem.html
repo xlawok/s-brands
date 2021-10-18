@@ -1,9 +1,10 @@
+{{$sites :=.Sites.First.GetPage "/uploads"}}
 {{ with .Params.banner }}
   {{if (isset . "zdjecie")}}
   <section class="banner-area" >
     {{with .zdjecie}}
     <div class="banner-img-wrapper">
-        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "")  -}}
+        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
     </div>
     {{end}}
     <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
@@ -34,7 +35,7 @@
     </div>
     
     <div class="image-wrapper">
-      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "")  -}}
+      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
     </div>
   </section>
 {{end}}
