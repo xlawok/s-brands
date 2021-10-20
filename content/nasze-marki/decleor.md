@@ -1,10 +1,11 @@
 +++
 adres_odnosnika = "nasze-marki/decleor.md"
 dodaj_formularz = true
+html_czysty = ""
 logo_marki = "/uploads/group-183.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Od ponad 40 lat francuska marka Decléor oferuje dobre samopoczucie i komfort. Prawdziwe piękno idzie w parze ze zdrowym ciałem i umysłem, dlatego produkty Decléor nie tylko rozświetlają skórę, ale również dostarczają zmysłowych wrażeń. W atmosferze szybkości kosmetyki Decléor pozwalają nieco zwolnić tempo i przywrócić harmonię umysłu, ciała i skóry."
+opis_pod_naglowiekm = "Od ponad 40 lat francuska marka Decléor oferuje dobre samopoczucie i komfort. Prawdziwe piękno idzie w parze ze zdrowym ciałem i umysłem, dlatego produkty Decléor nie tylko rozświetlają skórę, ale również dostarczają zmysłowych wrażeń. W atmosferze szybkości kosmetyki Decléor pozwalają nieco zwolnić tempo i przywrócić harmonię umysłu, ciała i skóry.\n\n    <p><a class=\"brand_link\" href=\"https://www.decleor.com/en/\" rel:\"nofollow\" target=\"_blank\">Strona producenta</a></p>"
 slug = "decleor"
 title = "DECLEOR"
 tytul_odnosnika = "Wszystkie marki"
