@@ -2,6 +2,7 @@
 Title = "Catrice cosmetics"
 adres_odnosnika = "nasze-marki/_index.md"
 dodaj_formularz = true
+draft = true
 logo_marki = "/uploads/catrice_logo_png1.png"
 meta_opis = ""
 meta_robots = ""

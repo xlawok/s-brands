@@ -1,13 +1,13 @@
 +++
+aliases = "/en/our-brands/"
 dodaj_formularz = true
 meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiem = "Wybierz kosmetyki w konkurencyjnych cenach<br>spośród najlepszych marek na świecie"
 slug = "our-brands"
 title = "Our brands"
+url = "our-brands"
 which_layout = "nasze-marki"
-aliases= "/en/our-brands/"
-url="our-brands"
 [menu.main]
 weight = 2
 [[grupa_marek]]
