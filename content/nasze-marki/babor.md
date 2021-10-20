@@ -1,10 +1,11 @@
 +++
 adres_odnosnika = "nasze-marki/babor.md"
 dodaj_formularz = true
+html_czysty = ""
 logo_marki = "/uploads/babor-logo.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "BABOR jest wiodącą marką na międzynarodowym rynku kosmetyki profesjonalnej. Rodzinnym przedsiębiorstwem zarządza obecnie już trzecie pokolenie. Proces produkcji od początku do końca odbywa się w jednym miejscu, w siedzibie firmy w Aachen. Dlatego każdy produkt, od pomysłu do finalnej formy, jest synonimem doskonałej jakości made in Germany, opartej na badaniach naukowych, gwarantującej ukierunkowane działanie i skuteczność."
+opis_pod_naglowiekm = "BABOR jest wiodącą marką na międzynarodowym rynku kosmetyki profesjonalnej. Rodzinnym przedsiębiorstwem zarządza obecnie już trzecie pokolenie. Proces produkcji od początku do końca odbywa się w jednym miejscu, w siedzibie firmy w Aachen. Dlatego każdy produkt, od pomysłu do finalnej formy, jest synonimem doskonałej jakości made in Germany, opartej na badaniach naukowych, gwarantującej ukierunkowane działanie i skuteczność.\n\n    <p><a class=\"brand_link\" href=\"https://de.babor.com/\" rel:\"nofollow\" target=\"_blank\">Strona producenta</a></p>"
 slug = "barbor"
 title = "BABOR"
 tytul_odnosnika = "Wszystkie marki"
