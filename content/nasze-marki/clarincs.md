@@ -1,7 +1,7 @@
 +++
 adres_odnosnika = "nasze-marki/clarincs.md"
 dodaj_formularz = true
-html_czysty = "<pre><code></code></pre>"
+html_czysty = ""
 html_surowy = "    "
 logo_marki = "/uploads/catrice_logo_png1.png"
 meta_opis = ""
@@ -11,7 +11,7 @@ slug = "catrice"
 title = "CATRICE"
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
-zdjecie = "/uploads/754382.jpg"
+zdjecie = ""
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
