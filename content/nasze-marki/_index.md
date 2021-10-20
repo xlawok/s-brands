@@ -79,10 +79,6 @@ tytul_marki = "SVR"
 [[grupa_marek]]
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-179.jpg"
-odnisnik_marki = "nasze-marki/the-cosmetic-republic.md"
-tytul_marki = "The Cosmetic Republic"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/group-175.jpg"
 odnisnik_marki = "nasze-marki/ducray.md"
 tytul_marki = "Ducray"
@@ -102,6 +98,10 @@ tytul_marki = "Alfaparf Milano"
 ikona_marki = "/uploads/group-178.jpg"
 odnisnik_marki = "nasze-marki/american-crew.md"
 tytul_marki = "American Crew"
+[[grupa_marek.marki]]
+ikona_marki = "/uploads/group-179.jpg"
+odnisnik_marki = "nasze-marki/the-cosmetic-republic.md"
+tytul_marki = "The Cosmetic Republic"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/aveda-logo.jpg"
 odnisnik_marki = []
