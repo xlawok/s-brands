@@ -42,14 +42,6 @@ tytul_marki = "Revolution Beauti London"
 ikona_marki = "/uploads/group-172.jpg"
 odnisnik_marki = "nasze-marki/dermacol.md"
 tytul_marki = "Dermacol"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/clarins_paris_logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Clarins Paris"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/jurlique.jpg"
-odnisnik_marki = []
-tytul_marki = "Jurlique"
 [[grupa_marek]]
 tytul_grupy = "Dermocosmetics"
 [[grupa_marek.marki]]
