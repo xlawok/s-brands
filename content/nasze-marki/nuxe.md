@@ -1,10 +1,11 @@
 +++
 adres_odnosnika = "nasze-marki/nuxe.md"
 dodaj_formularz = true
+html_czysty = ""
 logo_marki = "/uploads/group-176.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "NUXE to francuska marka założona przez Alizę Jabès i pionierkę kosmetologii naturalnego pochodzenia. Każdy produkt do pielęgnacji skóry jest opracowywany i produkowany we Francji, aby spełnić wymagania jakości farmaceutycznej i łączy cuda natury z umiejętnościami nauki, jednocześnie pobudzając zmysły."
+opis_pod_naglowiekm = "NUXE to francuska marka założona przez Alizę Jabès i pionierkę kosmetologii naturalnego pochodzenia. Każdy produkt do pielęgnacji skóry jest opracowywany i produkowany we Francji, aby spełnić wymagania jakości farmaceutycznej i łączy cuda natury z umiejętnościami nauki, jednocześnie pobudzając zmysły.\n\n    <p><a class=\"brand_link\" href=\"https://www.nuxe.com/en\n    \" rel:\"nofollow\" target=\"_blank\">Strona producenta</a></p>"
 slug = "nuxe"
 title = "NUXE"
 tytul_odnosnika = "Wszystkie marki"
