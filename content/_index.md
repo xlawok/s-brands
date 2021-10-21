@@ -121,7 +121,7 @@ txt_block = "Skin care"
 txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
-adres_odnosnika = "contact/_index.md"
+adres_odnosnika = "nasze-marki/_index.md"
 opis_sekcji = "Oferujemy szeroką gamę produktów do pielęgnacji włosów, od marek aptecznych, takich jak L'Oreal, po profesjonalne marki do pielęgnacji włosów, takie jak Kerastase, Sexyhair i wiele innych!"
 tytul_odnosnika = "Zobacz marki"
 zdjecie = "/uploads/sbrands-main-hair.jpg"
