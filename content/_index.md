@@ -133,7 +133,7 @@ txt_block = "Hair care"
 txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
-adres_odnosnika = "contact/_index.md"
+adres_odnosnika = "nasze-marki/_index.md"
 opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
 tytul_odnosnika = "Zobacz marki"
 zdjecie = "/uploads/sbrands-main-pro.jpg"
