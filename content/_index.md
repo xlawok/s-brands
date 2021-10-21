@@ -97,7 +97,7 @@ underline = false
 [nasze_produkty]
 opis_sekcji = "W naszej ofercie znajdują się artykuły należące do trzech grup produktowych"
 [[nasze_produkty.grupy_produktow]]
-adres_odnosnika = "contact/_index.md"
+adres_odnosnika = "nasze-marki/_index.md"
 opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
 tytul_odnosnika = "Zobacz marki"
 zdjecie = "/uploads/sbrands-main-makeup.jpg"
