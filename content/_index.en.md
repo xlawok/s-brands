@@ -10,14 +10,14 @@ title = "Home page"
 which_layout = ""
 [banner]
 adres_odnosnika = "contact/_index.md"
-opis_pod_naglowiekm = "Wybierz kosmetyki w konkurencyjnych cenach<br>spośród najlepszych marek na świecie"
-tytul_odnosnika = "NASZE MARKI"
+opis_pod_naglowiekm = "Choose cosmetic products from top brands around the world<br> in competetive prices."
+tytul_odnosnika = "Our brands"
 zdjecia_do_slidera = ["/uploads/sbrands-main-baner-1.jpg", "/uploads/sbrands-main-baner-2.jpg"]
 [[banner.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Globalna dystrybucja kosmetyków"
+txt_block = "Global Cosmetic Distribution"
 txt_block_size = "XL"
 underline = false
 [kogo_zaopatrujemy]
