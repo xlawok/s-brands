@@ -153,23 +153,23 @@ txt_block_size = "XL"
 underline = false
 [poznaj_nas]
 adres_odnosnika = "contact/_index.md"
-opis_sekcji = "Jesteśmy międzynarodową firmą specjalizującą się w dystrybucji marek kosmetycznych renomowanych producentów. Dostarczamy swoim klientom najlepsze ceny i promocje okresowe stale wyszukując najlepszych źródeł zaopatrzenia."
-tytul_odnosnika = "Więcej o nas"
+opis_sekcji = "S-Brands is the international company specializing in distribution of renowned producers’ cosmetics brands. We provide the best prices and periodical promotions for our clients, constantly searching for the best supply sources."
+tytul_odnosnika = "Find out more"
 zdjecie = "/uploads/sbrands-main-know-us.jpg"
 [[poznaj_nas.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Poznaj nas lepiej"
+txt_block = "Get to know us better"
 txt_block_size = "L"
 underline = false
 [proces]
-podpis_pod_naglowkiem = "Skontaktuj się z nami a my szybko zweryfikujemy jak najsprawniej przejść od pomysłu do wprowadzenia nowej marki do sprzedaży na pożądanym rynku."
+podpis_pod_naglowkiem = "Contact us and we will quickly verify the transition from the idea to launching a new brand on the desired market as efficiently as possible. We will be glad to assist you with your special needs."
 [[proces.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = false
-txt_block = "oem/odm - proces zamówienia"
+txt_block = "oem / odm - order process"
 txt_block_size = "XL"
 underline = false
 [[proces.kolumny_kroki]]
