@@ -1,0 +1,349 @@
+---
+label: Strona główna
+hide_body: true
+fields:
+- name: banner
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis_pod_naglowiekm
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+      max: 500
+    label: Opis pod nagłówiekm
+  - name: tytul_odnosnika
+    type: text
+    config:
+      required: false
+    label: Tytuł odnośnika
+  - name: adres_odnosnika
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Adres odnośnika
+  - name: zdjecia_do_slidera
+    type: image_gallery
+    config: {}
+    label: Zdjęcia do slidera
+  label: Banner
+- name: kroki
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: podpis_pod_naglowkiem
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Podpis pod nagłówkiem
+  - name: kolumny_kroki
+    type: field_group_list
+    fields:
+    - name: naglowek_kolumny
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek kolumny
+    - name: opis_kolumny
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+      label: Opis kolumny
+    - name: dlugi_opis_kroku
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+      label: Długi opis kroku
+    config:
+      min: 3
+      max: 3
+      labelField: 
+    label: Kolumny - kroki
+  label: Kroki
+- name: poznaj_nas
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis_sekcji
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis sekcji
+  - name: zdjecie
+    type: file
+    config:
+      maxSize: 1
+    label: 'Zdjęcie '
+  - name: tytul_odnosnika
+    type: text
+    config:
+      required: false
+    label: Tytuł odnośnika
+  - name: adres_odnosnika
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Adres odnośnika
+  label: Poznaj nas
+- name: proces
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: podpis_pod_naglowkiem
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Podpis pod nagłówkiem
+  - name: kolumny_kroki
+    type: field_group_list
+    fields:
+    - name: opis_kolumny
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+      label: Opis elementu
+    - name: dlugi_opis_kroku
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+        max: 520
+      label: Długi opis elementu
+    - name: ikona
+      type: file
+      config:
+        maxSize: 1
+      label: Ikona
+    config:
+      min: 3
+      max: 9
+      labelField: 
+    label: Proces - elementy
+  label: Proces
+- name: nasze_marki
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis_sekcji
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis sekcji
+  - name: tytul_odnosnika
+    type: text
+    config:
+      required: false
+    label: Tytuł odnośnika
+  - name: adres_odnosnika
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Adres odnośnika
+  - name: galeria_logo
+    type: image_gallery
+    config: {}
+    label: Galeria logotypów
+  label: Nasze marki
+- name: nasze_produkty
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis_sekcji
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis sekcji
+  - name: grupy_produktow
+    type: field_group_list
+    fields:
+    - name: naglowek
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek
+    - name: zdjecie
+      type: file
+      config:
+        maxSize: 1
+      label: Zdjęcie
+    - name: opis_sekcji
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+        max: 520
+      label: Opis pod nagłówiem
+    - name: tytul_odnosnika
+      type: text
+      config:
+        required: false
+      label: Tytuł odnośnika
+    - name: adres_odnosnika
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: 
+          file: 
+          path: 
+      label: Adres odnośnika
+    label: Grupy produktów
+    config:
+      min: 2
+      max: 10
+      labelField: 
+  label: Nasze produkty
+- name: kogo_zaopatrujemy
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis_sekcji
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis sekcji
+  - name: logo
+    type: file
+    config:
+      maxSize: 1
+    label: Logo
+  - name: naglowek_z_logo
+    type: text
+    config:
+      required: false
+    label: Nagłówek z logo
+  - name: odbiorcy
+    type: field_group_list
+    fields:
+    - name: ikona
+      type: file
+      config:
+        maxSize: 1
+      label: Ikona
+    - name: nazwa_odbiorcy
+      type: text
+      config:
+        required: false
+      label: Nazwa odbiorcy
+    config:
+      min: 4
+      max: 4
+      labelField: 
+    label: Odbiorcy
+  label: Kogo zaopatrujemy
+- name: dodaj_formularz
+  type: boolean
+  label: Dodaj formularz
+  default: true
+- name: head
+  type: include
+  config: {}
+  template: head
+  label: Head
+pages:
+- content/_index.md
