@@ -1,6 +1,6 @@
 <section class="kontakt-area">
   
-    {{ $my_form := site.Data.formularz_pelny.en }}
+    {{ $my_form := site.Data.formularz_pelny_en }}
     {{with $my_form}}
   
             {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "form-header")  -}}
