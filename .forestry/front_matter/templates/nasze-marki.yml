@@ -75,5 +75,3 @@ fields:
   config: {}
   template: head
   label: Head
-pages:
-- content/nasze-marki/_index.md
