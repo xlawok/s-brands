@@ -27,7 +27,7 @@ opis_etapu = "We will clarify all the terms of the transaction and confirm in th
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Rozpocznijmy współpracę"
+txt_block = "Let's start cooperate"
 txt_block_size = "XXL"
 underline = false
 
