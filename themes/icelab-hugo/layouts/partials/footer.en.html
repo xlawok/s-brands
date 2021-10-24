@@ -1,0 +1,188 @@
+<footer class="footer">
+  <div class='first-row'>
+  {{ $my_footer_data := site.Data.ustawienia_en }}
+  {{with $my_footer_data.ustawienia_stopki}}
+    <div class='first-col'>
+      <img src="{{.wybierz_logo | absURL}}">
+      <div class='content-data'>
+        {{.dane_w_lewej_kolumnie |safeHTML }}
+      </div>
+    </div>
+  {{end}}
+    <div class='second-col'>
+      {{with $my_footer_data.ustawienia_stopki}}
+      <ul>
+      {{range .druga_kolumna}}
+        {{$tytul:=.tytul}}
+        {{ with site.GetPage .pozycje_menu }}
+              <li><a class='' href='{{.RelPermalink}}'>{{$tytul}}</a></li>
+        {{end}}
+      {{end}}
+    </ul>
+      {{end}}
+      {{with $my_footer_data.top_settings}}
+      <div class="social-area">
+        {{range .social_links}}
+          <a href="tel:{{.odnosnik}}" target="_blank" rel="nofollow"><img src="{{.ikona}}"></a>
+        {{end}}
+      </div>
+      {{end}}
+    </div>
+    <div class="third-col">
+      {{with $my_footer_data.ustawienia_stopki}}
+        {{.map_iframe |safeHTML }}
+      {{end}}
+    </div>
+  </div>
+  <div class="second-row">
+    {{with $my_footer_data.ustawienia_stopki}}
+        {{.stopka_copyrights |safeHTML }}
+      {{end}}
+  </div>
+</footer>
+{{with $my_footer_data.plywajacy_formularz}}
+  {{if .wlacz_formularz}}
+    
+      <button  class='floating-env open-modal-aw' data-modaltarget='float-form'>
+      <img src="{{ `images/Icon feather-mail.svg` | absURL }}"/>
+      <span>{{.tytul_guzika_otwierajacego}}</span>
+      </button>
+    <div class="floating-form" data-modalname='float-form'>
+      {{.kod_formularza | safeHTML }}
+    </div>
+  {{end}}
+{{end}} 
+ 
+
+  {{ "<!-- JS Plugins -->" | safeHTML }}
+  {{ range .Site.Params.plugins.js}}
+  <script src="{{ .URL | absURL }}"></script>
+  {{ end }}
+  {{ "<!-- Main Script -->" | safeHTML }}
+  {{ $script := resources.Get "js/script.js" | minify}}
+  <script src="{{ $script.Permalink }}"></script>
+  <script>
+    var mform = document.getElementById("floatform");
+    if(typeof(mform) != 'undefined' && mform != null){
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-float-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "Dziękujemy skontaktujemy się z Tobą niebawem.";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! Nie udało się wysłać formularza!"
+      });
+    }
+    mform.addEventListener("submit", handleSubmit)
+}
+</script>
+<script>
+  var form = document.getElementById("contactform");
+  if(typeof(form) != 'undefined' && form != null){
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.innerHTML = "Dziękujemy skontaktujemy się z Tobą niebawem.";
+      form.reset()
+    }).catch(error => {
+      status.innerHTML = "Oops! Nie udało się wysłać formularza!"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+}
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var all_modal_cta=document.querySelectorAll('.open-modal-aw');
+  if(all_modal_cta.length>0){
+    for (var i = 0; i < all_modal_cta.length; i++) {
+        
+        all_modal_cta[i].addEventListener('click',function(e){
+            e.preventDefault();
+            var modal_target = this.dataset.modaltarget;
+            modal_target="[data-modalname='"+modal_target+"']";
+            document.querySelector(modal_target).classList.toggle('modal-active');
+        });
+    }
+  }
+  document.addEventListener(
+    "click",
+    function(event) {
+      // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
+      if (
+        event.target.matches(".button-close-modal") ||
+        (!event.target.closest(".modal-wrapper") &&!event.target.closest(".open-modal-quote"))
+      ) {
+        closeModal();
+      }
+    },
+    false
+  )
+
+  function closeModal() {
+    var modal_quote_outer =  document.querySelector(".modal-quote-outer");
+    if(modal_quote_outer)
+    modal_quote_outer.classList.remove('modal-active');
+  }
+
+
+
+  //mobile nav opne submenu
+  // var all_nav_parent_items= document.querySelectorAll('nav .parent > a');
+  // if(all_nav_parent_items.length>0){
+  //   for (var i = 0; i < all_nav_parent_items.length; i++) {
+        
+  //       all_nav_parent_items[i].addEventListener('click',function(e){
+  //           e.preventDefault();
+      
+  //           this.parentNode.classList.toggle('mobile-sub-open');
+  //       });
+  //   }
+  // }
+  var menu_btn_cnt = document.querySelector('.navbar-toggler');
+  menu_btn_cnt.addEventListener('click',function(e){
+    e.preventDefault();
+    document.querySelector('header').classList.toggle('menu-mobile-opened');
+    
+    
+  });
+  //END mobile nav opne submenu
+    var prevScrollpos = window.pageYOffset;
+    var headerElement = document.querySelector('header');
+   
+    var top;
+    var headerToTop = headerElement.getBoundingClientRect().bottom + document.documentElement.scrollTop ;
+    
+    top= 30;
+   
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    
+    if (prevScrollpos > currentScrollPos) {
+        if(currentScrollPos<top) headerElement.classList.remove('scrolled');
+    } else {
+        if(currentScrollPos>top) headerElement.classList.add('scrolled');
+    }
+        prevScrollpos = currentScrollPos;
+    }
+});
+
+</script>
+  

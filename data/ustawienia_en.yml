@@ -1,0 +1,55 @@
+---
+top_settings:
+  email: office@s-brands.pl
+  phone: "+48 667 652 888"
+  social_links:
+  - ikona: "/uploads/icon-simple-facebook.svg"
+    odnosnik: https://www.facebook.com/SBrandsCosmetics
+  - ikona: "/uploads/icon-feather-instagram.svg"
+    odnosnik: https://instagram.com
+  logo_w_menu: "/uploads/sbrands_logo_main.svg"
+ustawienia_stopki:
+  wybierz_logo: "/uploads/sbrands_logo_main.svg"
+  dane_w_lewej_kolumnie: '<p>Contact<br><a href="mailto:office@s-brands.pl" title=""
+    target="_blank"> office@s-brands.pl</a> <br><a href="tel:+48667652888" title=""
+    target="_blank">+48 667 652 888</a> </p><p>ADRESS <br>Wrocław, Poland <br>ul. Kobierzycka
+    <br>S-BRANDS – ERNEST RAK </p><p>NIP: 8831714858 <br>REGON: 363053334</p>'
+  druga_kolumna:
+  - pozycje_menu: o-nas.md
+    tytul: About
+  - pozycje_menu: nasze-marki/_index.md
+    tytul: Our brands
+  - pozycje_menu: uslugi-oem.md
+    tytul: OEM services
+  - pozycje_menu: kontakt.md
+    tytul: Contact
+  map_iframe: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20060.187767574113!2d16.967125739550788!3d51.061886200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc3feba8baa5b%3A0xc554aaf75eca11ee!2sS-Brands%20-%20Global%20Cosmetics%20Supplier!5e0!3m2!1spl!2spl!4v1631972800066!5m2!1spl!2spl"
+    width="600" height="450" style="border:0; wdith: 100%" allowfullscreen="" loading="lazy"></iframe>'
+  stopka_copyrights: © S-BRANDS 2021 // Designed by <a href="https://agencjawroclawska.pl"
+    target="_blank">AW team</a>
+plywajacy_formularz:
+  wlacz_formularz: true
+  tytul_guzika_otwierajacego: Napisz do nas
+  kod_formularza: |-
+    <div id="my-float-form-status"></div><form id="floatform" action="https://formspree.io/f/xgerdkry" method="POST">
+    
+    <div class='input-cnt'>
+    <input required name="company-fl" type="text" id="company-fl" placeholder="Nazwa firmy"><label for='company-fl'>Nazwa firmy*</label>
+    </div>
+      <div class='input-cnt'>
+    <input required name="country-fl" type="text" id="country-fl" placeholder="Kraj"><label for='country-fl'>Kraj*</label>
+    </div>
+    <div class='input-cnt'>
+    <input  required name="phone-fl" type="tel" id="phone-fl" placeholder="Telefon kontaktowy"><label for='phone-fl'>Telefon kontaktowy*</label>
+    </div>
+    <div class='input-cnt'>
+    <input required name="email-fl" type="email" id="email-fl" placeholder="Adres e-mail"><label for='email-fl'> Adres e-mail</label>
+    </div>
+    <div class='input-cnt'>
+    <textarea name="message-fl"  id="message-fl" ></textarea><label for='message-fl'> Treść wiadomości</label>
+    </div>
+    <div class='input-cnt rodo-cnt'>
+    <input id='rodo-accept-fl' type='checkbox' required name='rodo-accept-fl' value='accept'><label for='rodo-accept-fl'>Wyrażam zgodę na przetwarzanie moich danych osobowych w celu obsługi powyższego zapytania. Polityka prywatności.</label>
+    </div>
+    <button  type="submit">Wyślij wiadomość <img class='arr-ico' src="../images/arr_white.svg"></button>
+    </form>
