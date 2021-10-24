@@ -38,17 +38,10 @@
          {{ range .Site.Menus.main }}
           <li class="nav-item">
             <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+                    <!-- language switcher -->
+        {{ partial "allLanguages.html" . }}
           </li>
           {{ end }}
-           <!-- language switcher -->
-        <<ul class="nav navbar-nav">
-          {{ range .Site.Menus.main }}
-          <li>
-            <a href="{{ .URL }}">{{ .Name }}</a>
-              </li>
-              {{end}}
-        {{ partial "allLanguages.html" . }}
-      </ul>
         </ul>
       </div>
     </nav>
