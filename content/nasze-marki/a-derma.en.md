@@ -2,13 +2,14 @@
 Title = "Essence"
 adres_odnosnika = "nasze-marki/a-derma.md"
 dodaj_formularz = true
+html_czysty = ""
 logo_marki = "/uploads/a-derma_logo.jpg"
 meta_opis = ""
 meta_robots = ""
-opis_pod_naglowiekm = "Pionierskie dermokosmetyki roślinne, Laboratoria Dermatologiczne A-DERMA od ponad 30 lat kultywują sztukę pielęgnacji i pielęgnacji delikatnej skóry"
+opis_pod_naglowiekm = "A pioneer in plant-based dermo-cosmetics, A-DERMA Dermatological Laboratories has cultivated the art of caring for and nurturing fragile skin for more than 30 years\n\n    <p><a class=\"brand_link\" href=\"https://www.aderma.fr/fr-en\" rel:\"nofollow\" target=\"_blank\">Manufacturer's website</a></p>"
 slug = "aderma"
 title = "A-DERMA"
-tytul_odnosnika = "Wszystkie marki"
+tytul_odnosnika = "All brands"
 which_layout = "strona-marki"
 zdjecie = ""
 [[header_repeater]]
