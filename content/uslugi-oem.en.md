@@ -2,7 +2,7 @@
 dodaj_formularz = true
 meta_opis = ""
 meta_robots = ""
-slug = "nasze-uslug-oem"
+slug = "oem-services"
 title = "OEM services"
 which_layout = "uslugi-oem"
 [banner]
