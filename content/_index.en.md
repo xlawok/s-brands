@@ -54,32 +54,32 @@ txt_block_size = "L"
 underline = false
 [[kroki.kolumny_kroki]]
 dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget blandit lacus. Nam ex sapien, tincidunt pellentesque bibendum ac, vehicula et sapien. Fusce quis ultrices massa, sed cursus leo. Praesent at ultrices purus. Cras diam enim, semper ac enim sed, pharetra posuere dolor. Pellentesque at neque risus. Donec neque libero, accumsan nec dui at, faucibus ullamcorper tortor. Fusce finibus est nec placerat fringilla. Phasellus et tempor nisi, at facilisis lacus. Pellentesque vel enim tempus, euismod eros ac, pellentesque mauris. Pellentesque ac ipsum orci. Nam sit amet lacus ultricies, facilisis diam quis, ultricies neque. Morbi sed luctus sem. Phasellus porta lacus eleifend mi vestibulum, ac interdum dui feugiat. <br><br>Cras semper, sem sit amet varius ultricies, lectus massa tristique sapien, a vulputate dui nibh quis ligula. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ultrices tortor sit amet elit porttitor condimentum ut eu erat. Donec at libero auctor, venenatis mi id, consequat elit. Vivamus auctor molestie purus vitae mattis. Vivamus ut fringilla enim, eget tincidunt lectus. Curabitur vel odio ac arcu vehicula gravida. Aenean luctus ut lacus ut gravida. Sed nec mi nec lectus tempor ullamcorper. In fermentum sodales sem in posuere."
-opis_kolumny = "Im więcej informacji otrzymamy, tym szybciej przejdziemy od zapytania do dostawy do Ciebie!"
+opis_kolumny = "The more details we receive, the faster we will go from demand to delivery to you!"
 [[kroki.kolumny_kroki.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Twoje zapytanie"
+txt_block = "Your inquiry"
 txt_block_size = "L"
 underline = false
 [[kroki.kolumny_kroki]]
 dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget blandit lacus. Nam ex sapien, tincidunt pellentesque bibendum ac, vehicula et sapien. Fusce quis ultrices massa, sed cursus leo. Praesent at ultrices purus. Cras diam enim, semper ac enim sed, pharetra posuere dolor. Pellentesque at neque risus. Donec neque libero, accumsan nec dui at, faucibus ullamcorper tortor. Fusce finibus est nec placerat fringilla. Phasellus et tempor nisi, at facilisis lacus. Pellentesque vel enim tempus, euismod eros ac, pellentesque mauris. Pellentesque ac ipsum orci. Nam sit amet lacus ultricies, facilisis diam quis, ultricies neque. Morbi sed luctus sem. Phasellus porta lacus eleifend mi vestibulum, ac interdum dui feugiat. <br><br>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ultrices tortor sit amet elit porttitor condimentum ut eu erat. Donec at libero auctor, venenatis mi id, consequat elit. Vivamus auctor molestie purus vitae mattis. Vivamus ut fringilla enim, eget tincidunt lectus. Curabitur vel odio ac arcu vehicula gravida. Aenean luctus ut lacus ut gravida. Sed nec mi nec lectus tempor ullamcorper. In fermentum sodales sem in posuere."
-opis_kolumny = "Przedstawimy Ci nasze najbardziej aktualne oferty do weryfikacji."
+opis_kolumny = "We will provide you with our most current offers for your verification."
 [[kroki.kolumny_kroki.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Ustalenie warunków zakupu"
+txt_block = "Proceeding with purchase conditions"
 txt_block_size = "L"
 underline = false
 [[kroki.kolumny_kroki]]
 dlugi_opis_kroku = "Cras semper, sem sit amet varius ultricies, lectus massa tristique sapien, a vulputate dui nibh quis ligula. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ultrices tortor sit amet elit porttitor condimentum ut eu erat. Donec at libero auctor, venenatis mi id, consequat elit. Vivamus auctor molestie purus vitae mattis. Vivamus ut fringilla enim, eget tincidunt lectus. Curabitur vel odio ac arcu vehicula gravida. Aenean luctus ut lacus ut gravida. Sed nec mi nec lectus tempor ullamcorper. In fermentum sodales sem in posuere."
-opis_kolumny = "Wyjaśnimy wszystkie warunki transakcji i potwierdzimy je w formularzu zamówienia."
+opis_kolumny = "We will clarify all the terms of the transaction and confirm in the form of PO."
 [[kroki.kolumny_kroki.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Wzajemne zatwierdzenie transakcji"
+txt_block = "Mutual transaction approval"
 txt_block_size = "L"
 underline = false
 [nasze_marki]
@@ -175,38 +175,38 @@ underline = false
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque aliquet tempor. Vestibulum vel orci velit. Aliquam convallis, sapien a finibus ornare."
 ikona = "/uploads/group-145.svg"
-opis_kolumny = "Zapytanie klienta, planowanie próbek, oferta cenowa"
+opis_kolumny = "Customer request, planning samples & price"
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "lorem psum ipsum"
 ikona = "/uploads/group-146.svg"
-opis_kolumny = "Potwierdzenie PO, jakości warunków i dokumentacja"
+opis_kolumny = "PO confirmation, quality & terms and documents"
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "lorem ipsum"
 ikona = "/uploads/group-148.svg"
-opis_kolumny = "Projektowanie i rozwój"
+opis_kolumny = "Design & developement"
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "tekst"
 ikona = "/uploads/group-150.svg"
-opis_kolumny = "Produkcja i inspekcja jakości"
+opis_kolumny = "Production, quality inspection"
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "tekst"
 ikona = "/uploads/group-151.svg"
-opis_kolumny = "Projektowanie produkcji, inspekcja surowego materiału"
+opis_kolumny = "Arrange production, raw material inspection"
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "tekst"
 ikona = "/uploads/group-152.svg"
-opis_kolumny = "Pierwsze zatwierdzanie próbek"
+opis_kolumny = "1st confirmation samples"
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "tekst"
 ikona = "/uploads/group-156.svg"
-opis_kolumny = "Inspekcja, kontrola jakości, próbki ostateczne"
+opis_kolumny = "Inspeciton, QC & final samples"
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "tekst"
 ikona = "/uploads/group-159.svg"
-opis_kolumny = "Przekazania salda płatności"
+opis_kolumny = "Forwarding balance payment"
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "tekst"
 ikona = "/uploads/group-160.svg"
-opis_kolumny = "Dostawa"
+opis_kolumny = "Delivery"
 
 +++
