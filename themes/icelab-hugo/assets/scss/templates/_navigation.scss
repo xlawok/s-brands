@@ -147,8 +147,12 @@
             display: none;
         }
     }
-    .lang_switch::before {
-
-    } 
+    .lang_switch:hover{
+        color: #ee2d7a;
+        text-decoration: underline;
+    }
+    .language-switcher i {
+        color: #ee2d7a;
+    }
 }
 
