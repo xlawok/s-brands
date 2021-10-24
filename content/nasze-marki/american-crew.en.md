@@ -2,7 +2,7 @@
 adres_odnosnika = "nasze-marki/american-crew.md"
 dodaj_formularz = true
 html_czysty = ""
-logo_marki = "/uploads/group-178.jpg"
+logo_marki = "/uploads/american-crew.jpg"
 meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiekm = "American Crew is the leading professional men’s grooming brand in the world. Men and their stylists count on us for the latest and best in hair, body, shave and styling products. \n\n    <p><a class=\"brand_link\" href=\"https://www.americancrew.com/\" rel:\"nofollow\" target=\"_blank\">Manufacturer's website</a></p>"
