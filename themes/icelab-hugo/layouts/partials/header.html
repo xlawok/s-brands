@@ -40,8 +40,7 @@
             <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
           </li>
           {{ end }}
-        </ul>
-        <!-- language switcher -->
+           <!-- language switcher -->
         <<ul class="nav navbar-nav">
           {{ range .Site.Menus.main }}
           <li>
@@ -50,6 +49,7 @@
               {{end}}
         {{ partial "allLanguages.html" . }}
       </ul>
+        </ul>
       </div>
     </nav>
      
