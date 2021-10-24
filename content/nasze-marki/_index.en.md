@@ -14,7 +14,7 @@ weight = 3
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/catrice_cosmetics_logo.jpg"
-odnisnik_marki = "nasze-marki/clarincs.en.md"
+odnisnik_marki = "nasze-marki/catrice-cosmetics.en.md"
 tytul_marki = "Catrice Cosmetics"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/essence_cosmetics_logo.jpg"
