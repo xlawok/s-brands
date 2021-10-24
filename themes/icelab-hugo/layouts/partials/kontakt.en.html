@@ -34,7 +34,7 @@
     </div>
     <div class="kontakt-right">
         {{$own_header:=.naglowek_formularza}}
-        {{ $footer := site.Data.formularz_pelny }}
+        {{ $footer := site.Data.formularz_pelny_en }}
         {{with $footer}}
             {{if lt (len $own_header.header_repeater) 1}}
                 {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
