@@ -1,5 +1,4 @@
 +++
-language = "en"
 dodaj_formularz = true
 meta_opis = ""
 meta_robots = ""
