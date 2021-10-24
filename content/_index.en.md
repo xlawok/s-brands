@@ -44,12 +44,12 @@ nazwa_odbiorcy = "Sklepy internetowe"
 ikona = "/uploads/group-25.svg"
 nazwa_odbiorcy = "Apteki"
 [kroki]
-podpis_pod_naglowkiem = "W trzech prostych krokach"
+podpis_pod_naglowkiem = "with three simple steps"
 [[kroki.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Zacznijmy działać"
+txt_block = "Let's start"
 txt_block_size = "L"
 underline = false
 [[kroki.kolumny_kroki]]
