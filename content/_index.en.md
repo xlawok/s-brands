@@ -44,7 +44,7 @@ nazwa_odbiorcy = "Sklepy internetowe"
 ikona = "/uploads/group-25.svg"
 nazwa_odbiorcy = "Apteki"
 [kroki]
-podpis_pod_naglowkiem = "with three simple steps"
+podpis_pod_naglowkiem = "in three simple steps"
 [[kroki.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
