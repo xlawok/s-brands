@@ -312,7 +312,7 @@ tytul_marki = "Neostrata"
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Nasze marki"
+txt_block = "Our brands"
 txt_block_size = "XXL"
 underline = false
 
