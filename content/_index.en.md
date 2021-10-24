@@ -22,27 +22,27 @@ txt_block_size = "XL"
 underline = false
 [kogo_zaopatrujemy]
 logo = "/uploads/sbrands_logo_main.svg"
-naglowek_z_logo = "Hurtownie"
-opis_sekcji = "Zobacz w jaki sposób działa nasz system zaopatrzenia"
+naglowek_z_logo = "Wholesalers"
+opis_sekcji = "How our supply system works"
 [[kogo_zaopatrujemy.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Kogo zaopatrujemy?"
+txt_block = "Whom do we supply?"
 txt_block_size = "XL"
 underline = false
 [[kogo_zaopatrujemy.odbiorcy]]
 ikona = "/uploads/group-22.svg"
-nazwa_odbiorcy = "Salony urody"
+nazwa_odbiorcy = "Beauty salons"
 [[kogo_zaopatrujemy.odbiorcy]]
 ikona = "/uploads/group-24.svg"
-nazwa_odbiorcy = "Hurtownicy"
+nazwa_odbiorcy = "Wholesalers"
 [[kogo_zaopatrujemy.odbiorcy]]
 ikona = "/uploads/group-23.svg"
-nazwa_odbiorcy = "Sklepy internetowe"
+nazwa_odbiorcy = "E-commerce"
 [[kogo_zaopatrujemy.odbiorcy]]
 ikona = "/uploads/group-25.svg"
-nazwa_odbiorcy = "Apteki"
+nazwa_odbiorcy = "Pharmacies"
 [kroki]
 podpis_pod_naglowkiem = "in three simple steps"
 [[kroki.header_repeater]]

@@ -1,0 +1,41 @@
+---
+header_repeater:
+- txt_block: Start your journey right now
+  bold_txt: gruby
+  underline: false
+  break_line: false
+  block_tag_type: div
+  txt_block_size: XL
+opis_pod_naglowiem: Contact us to check our price offer and discuss the terms of cooperation.
+kod_formularza: |-
+  <div id="my-form-status"></div><form id="contactform" action="https://formspree.io/f/xgerdkry" method="POST">
+  
+  <div class='input-cnt'>
+  <input required name="company" type="text" id="company" placeholder="Company name"><label for='company'>Nazwa firmy*</label>
+  </div>
+    <div class='input-cnt'>
+  <input required name="country" type="text" id="country" placeholder="Country"><label for='country'>Kraj*</label>
+  </div>
+  <div class='input-cnt'>
+  <input  required name="phone" type="tel" id="phone" placeholder="Phone number"><label for='phone'>Telefon kontaktowy*</label>
+  </div>
+  <div class='input-cnt'>
+  <input required name="email" type="email" id="email" placeholder="Email adress"><label for='email'> Adres e-mail</label>
+  </div>
+  <div class='input-cnt'>
+  <textarea name="message"  id="message" ></textarea><label for='message'> Messege...</label>
+  </div>
+  <div class='input-cnt rodo-cnt'>
+  <input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'><label for='rodo-accept'>I consent to the processing of personal data for the purpose of handling the inquiry. Privacy policy.</label>
+  </div>
+  <div class='radio-part'>
+  <div class='input-cnt'>
+  <label>
+  <input id='contact-by-mail' type='checkbox' name='contact-by-mail' value='accept'><span>email</span></label>
+  <label>
+  <input id='contact-by-tel' type='checkbox' name='contact-by-tel' value='accept'><span>phone call</span></label>
+  <span>Preffered contact option</span>
+  </div>
+  </div>
+  <button  type="submit">Send<img class='arr-ico' src="../images/arr_white.svg"></button>
+  </form>
