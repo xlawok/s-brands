@@ -17,7 +17,7 @@ txt_block_size = "XXL"
 underline = false
 [masz_pomysl]
 opis_sekcji = "<p>Contact us so we can quickly verify how to get from the idea to implementing a new brand to the sale on the desired market. In the matter of cosmetics brand building we provide the following services:</p><ul><li><p>advising on selection of a proper packaging for cosmetics</p></li><li><p>creating graphics for labels and obligatory components of products’ packaging</p></li><li><p>completion of a production dossier</p></li><li><p>support in purchasing resources and components during a whole process of product preparation</p></li><li><p>support in verification of labelling content and texts / marketing claims correctness, according to the legislation in force</p></li><li><p>registration of cosmetics in the CPNP base</p></li><li><p>support during a process of placing a product on the market</p><p></p></li></ul>"
-zdjecie = "/uploads/sbrands-oem-second.jpg"
+zdjecie = "/uploads/adobestock_209962378_preview.jpeg"
 [[masz_pomysl.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
