@@ -7,7 +7,7 @@ title = "OEM services"
 which_layout = "uslugi-oem"
 [banner]
 opis_pod_naglowiekm = "S-Brand is more than just a supplier. We always think about your business and we help to make it even more profitable. At the technical level, it is crucial for us to provide you a complex intermediation in building your own cosmetics brand. We offer a full support service in development of modern cosmetics formulas in line with expectations of our clients, as well as in adapting receipts entrusted to us."
-zdjecie = "/uploads/sbrands-oem-main.jpg "
+zdjecie = "/uploads/adobestock_80633577_preview.jpeg"
 [[banner.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
