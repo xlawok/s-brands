@@ -54,7 +54,7 @@ txt_block_size = "L"
 underline = false
 [[kroki.kolumny_kroki]]
 dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget blandit lacus. Nam ex sapien, tincidunt pellentesque bibendum ac, vehicula et sapien. Fusce quis ultrices massa, sed cursus leo. Praesent at ultrices purus. Cras diam enim, semper ac enim sed, pharetra posuere dolor. Pellentesque at neque risus. Donec neque libero, accumsan nec dui at, faucibus ullamcorper tortor. Fusce finibus est nec placerat fringilla. Phasellus et tempor nisi, at facilisis lacus. Pellentesque vel enim tempus, euismod eros ac, pellentesque mauris. Pellentesque ac ipsum orci. Nam sit amet lacus ultricies, facilisis diam quis, ultricies neque. Morbi sed luctus sem. Phasellus porta lacus eleifend mi vestibulum, ac interdum dui feugiat. <br><br>Cras semper, sem sit amet varius ultricies, lectus massa tristique sapien, a vulputate dui nibh quis ligula. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ultrices tortor sit amet elit porttitor condimentum ut eu erat. Donec at libero auctor, venenatis mi id, consequat elit. Vivamus auctor molestie purus vitae mattis. Vivamus ut fringilla enim, eget tincidunt lectus. Curabitur vel odio ac arcu vehicula gravida. Aenean luctus ut lacus ut gravida. Sed nec mi nec lectus tempor ullamcorper. In fermentum sodales sem in posuere."
-opis_kolumny = "The more details we receive, the faster we will go from demand to delivery to you!"
+opis_kolumny = "The more details we receive, the faster we will go from demand to delivery!"
 [[kroki.kolumny_kroki.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
@@ -64,17 +64,17 @@ txt_block_size = "L"
 underline = false
 [[kroki.kolumny_kroki]]
 dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget blandit lacus. Nam ex sapien, tincidunt pellentesque bibendum ac, vehicula et sapien. Fusce quis ultrices massa, sed cursus leo. Praesent at ultrices purus. Cras diam enim, semper ac enim sed, pharetra posuere dolor. Pellentesque at neque risus. Donec neque libero, accumsan nec dui at, faucibus ullamcorper tortor. Fusce finibus est nec placerat fringilla. Phasellus et tempor nisi, at facilisis lacus. Pellentesque vel enim tempus, euismod eros ac, pellentesque mauris. Pellentesque ac ipsum orci. Nam sit amet lacus ultricies, facilisis diam quis, ultricies neque. Morbi sed luctus sem. Phasellus porta lacus eleifend mi vestibulum, ac interdum dui feugiat. <br><br>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ultrices tortor sit amet elit porttitor condimentum ut eu erat. Donec at libero auctor, venenatis mi id, consequat elit. Vivamus auctor molestie purus vitae mattis. Vivamus ut fringilla enim, eget tincidunt lectus. Curabitur vel odio ac arcu vehicula gravida. Aenean luctus ut lacus ut gravida. Sed nec mi nec lectus tempor ullamcorper. In fermentum sodales sem in posuere."
-opis_kolumny = "We will provide you with our most current offers for your verification."
+opis_kolumny = "We will provide you with most current offers for your verification"
 [[kroki.kolumny_kroki.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Proceeding with purchase conditions"
+txt_block = "Purchase conditions"
 txt_block_size = "L"
 underline = false
 [[kroki.kolumny_kroki]]
 dlugi_opis_kroku = "Cras semper, sem sit amet varius ultricies, lectus massa tristique sapien, a vulputate dui nibh quis ligula. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ultrices tortor sit amet elit porttitor condimentum ut eu erat. Donec at libero auctor, venenatis mi id, consequat elit. Vivamus auctor molestie purus vitae mattis. Vivamus ut fringilla enim, eget tincidunt lectus. Curabitur vel odio ac arcu vehicula gravida. Aenean luctus ut lacus ut gravida. Sed nec mi nec lectus tempor ullamcorper. In fermentum sodales sem in posuere."
-opis_kolumny = "We will clarify all the terms of the transaction and confirm in the form of PO."
+opis_kolumny = "We will clarify all the potential questionmarks and confirm in the form of PO"
 [[kroki.kolumny_kroki.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
@@ -85,20 +85,20 @@ underline = false
 [nasze_marki]
 adres_odnosnika = "contact/_index.md"
 galeria_logo = ["/uploads/a-derma_logo.jpg", "/uploads/eau_thermale_avene_logo.jpg", "/uploads/carita_logo.jpg", "/uploads/caudalie_logo.jpg", "/uploads/comfort_zone-logo.jpg", "/uploads/decleor-logo.jpg", "/uploads/dr-hauschka-logo.jpg", "/uploads/erborian-logo.jpg", "/uploads/isdin-logo.jpg", "/uploads/isis-logo.jpg", "/uploads/loccitane-logo.jpg", "/uploads/madara-logo.jpg", "/uploads/group-184.jpg", "/uploads/group-185.jpg", "/uploads/group-182.jpg", "/uploads/group-183.jpg", "/uploads/group-186.jpg", "/uploads/group-187.jpg", "/uploads/group-189.jpg", "/uploads/group-188.jpg"]
-opis_sekcji = "Wśród wielu znanych marek, których produkty dystrybuujemy, możemy poszczycić się współpracą z:"
-tytul_odnosnika = "Zobacz katalog marek"
+opis_sekcji = "Among the many well-known brands whose products we distribute, we can pride ourselves in cooperation with:"
+tytul_odnosnika = "Brand catalogue"
 [[nasze_marki.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Nasze marki"
+txt_block = "Our brands"
 txt_block_size = "XL"
 underline = false
 [nasze_produkty]
-opis_sekcji = "W naszej ofercie znajdują się artykuły należące do trzech grup produktowych"
+opis_sekcji = "Our offer includes articles belonging to four product groups"
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "contact/_index.md"
-opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
+opis_sekcji = "Wide range of the best-selling make-up brands and products on the market. We specialize in original fast moving consumer goods with a special focus in the health and beauty category."
 tytul_odnosnika = "Zobacz marki"
 zdjecie = "/uploads/sbrands-main-makeup.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
@@ -110,7 +110,7 @@ txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "contact/_index.md"
-opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
+opis_sekcji = "We are proud to offer you a selection of wholesale skin care products from the best brands. Whether you are searching for pharmacy skin care brands or something in luxury skin care, we have you covered."
 tytul_odnosnika = "Zobacz marki"
 zdjecie = "/uploads/sbrands-main-skin.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
@@ -122,7 +122,7 @@ txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "contact/_index.md"
-opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
+opis_sekcji = "We offer a wide range of hair care products, ranging from pharmacy level brands such as L'Oreal all the way to Salon Professional hair care brands such as Kerastase, Sexyhair and more!"
 tytul_odnosnika = "Zobacz marki"
 zdjecie = "/uploads/sbrands-main-hair.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
@@ -134,7 +134,8 @@ txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "contact/_index.md"
-opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
+opis_sekcji = "The most spectacular and unique top beauty & aesthetic brands for Professionals. 
+All you need for skin treatment, carefully selected skin problem solvers to regenerate, rejuvenate and keep your skin healthy, naturally beautiful and glowing. Famous brands, effective and safe for both practicioners and clients. "
 tytul_odnosnika = "Zobacz marki"
 zdjecie = "/uploads/sbrands-main-pro.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
@@ -148,7 +149,7 @@ underline = false
 block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Nasze produkty"
+txt_block = "Our products"
 txt_block_size = "XL"
 underline = false
 [poznaj_nas]
