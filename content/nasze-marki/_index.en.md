@@ -44,14 +44,6 @@ tytul_marki = "Revolution Beauti London"
 ikona_marki = "/uploads/group-172.jpg"
 odnisnik_marki = []
 tytul_marki = "Dermacol"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/clarins_paris_logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Clarins Paris"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/jurlique.jpg"
-odnisnik_marki = []
-tytul_marki = "Jurlique"
 [[grupa_marek]]
 tytul_grupy = "Dermocosmetics"
 [[grupa_marek.marki]]
@@ -86,96 +78,12 @@ tytul_marki = "A-Derma"
 ikona_marki = "/uploads/svr-logo.jpg"
 odnisnik_marki = "nasze-marki/svr.md"
 tytul_marki = "SVR"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/carita_logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Carita"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/caudalie_logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Caudalie"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/comfort_zone-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Comfort Zone"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/decleor-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Decleor Paris"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/dr-hauschka-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Dr. Hauschka"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/erborian-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Erborian"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/green-pharmacy-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Green Pharmacy"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/heliocare-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Heliocare"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/isdon-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Isdin"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/isis-logo-1.jpg"
-odnisnik_marki = []
-tytul_marki = "Isis"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/la-roche-posay-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "La Roche-Posay"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/lierac-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Lierac"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/loccitane-logo-1.jpg"
-odnisnik_marki = []
-tytul_marki = "Loccitane"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/madara-logo-1.jpg"
-odnisnik_marki = []
-tytul_marki = "Madara"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/group-177.jpg"
-odnisnik_marki = []
-tytul_marki = "Phyto"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/group-178.jpg"
-odnisnik_marki = []
-tytul_marki = "Furterer"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/russell-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Russell"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/skeyndor-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Skeyndor"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/thalgo-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Thalgo"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/the-body-shop.jpg"
-odnisnik_marki = []
-tytul_marki = "The Body Shop"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/group-185.jpg"
-odnisnik_marki = []
-tytul_marki = "Vichy"
 [[grupa_marek]]
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-179.jpg"
-odnisnik_marki = []
-tytul_marki = "The Cosmetic Republic"
+odnisnik_marki = "nasze-marki/the-cosmetic-republic.md"
+tytul_marki = "The Cosmetics Republic"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-175.jpg"
 odnisnik_marki = "nasze-marki/ducray.md"
@@ -196,42 +104,6 @@ tytul_marki = "Alfaparf Milano"
 ikona_marki = "/uploads/group-178.jpg"
 odnisnik_marki = "nasze-marki/american-crew.md"
 tytul_marki = "American Crew"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/aveda-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Aveda"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/kerastase-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Kerastase"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/leonor-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Leonor Grey"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/group-190.jpg"
-odnisnik_marki = []
-tytul_marki = "Morrocanoil"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/group-191.jpg"
-odnisnik_marki = []
-tytul_marki = "Olaplex"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/revlon-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Revlon"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/schwarzkopf-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Schwarzkopf"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/weleda-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Weleda"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/wella-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Wella"
 [[grupa_marek]]
 tytul_grupy = "Skin care"
 [[grupa_marek.marki]]
@@ -292,22 +164,6 @@ tytul_marki = "Decleor"
 ikona_marki = "/uploads/innoaestetics-logo.jpg"
 odnisnik_marki = "nasze-marki/innoaesthetics.md"
 tytul_marki = "Innoaestetics"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/cellosmet-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Cellosmet"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/fillmed-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Fillmed"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/filorga-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Filorga"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/neostrata-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Neostrata"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
