@@ -82,8 +82,8 @@ tytul_marki = "SVR"
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-179.jpg"
-odnisnik_marki = []
-tytul_marki = "The Cosmetic Republic"
+odnisnik_marki = ""
+tytul_marki = "The Cosmetics Republic"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-175.jpg"
 odnisnik_marki = "nasze-marki/ducray.md"
@@ -104,42 +104,6 @@ tytul_marki = "Alfaparf Milano"
 ikona_marki = "/uploads/group-178.jpg"
 odnisnik_marki = "nasze-marki/american-crew.md"
 tytul_marki = "American Crew"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/aveda-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Aveda"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/kerastase-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Kerastase"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/leonor-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Leonor Grey"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/group-190.jpg"
-odnisnik_marki = []
-tytul_marki = "Morrocanoil"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/group-191.jpg"
-odnisnik_marki = []
-tytul_marki = "Olaplex"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/revlon-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Revlon"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/schwarzkopf-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Schwarzkopf"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/weleda-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Weleda"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/wella-logo.jpg"
-odnisnik_marki = []
-tytul_marki = "Wella"
 [[grupa_marek]]
 tytul_grupy = "Skin care"
 [[grupa_marek.marki]]
