@@ -41,7 +41,15 @@
           </li>
           {{ end }}
         </ul>
-        <!-- {{ partial "partials/language-switcher.html" . }}  -->
+        <!-- language switcher -->
+        <<ul class="nav navbar-nav">
+          {{ range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+              {{end}}
+        {{ partial "allLanguages.html" . }}
+      </ul>
       </div>
     </nav>
      
