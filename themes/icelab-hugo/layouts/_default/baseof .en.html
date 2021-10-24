@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body id="body" class="{{ if .IsHome }} home {{else}} {{ .Params.which_layout }} {{ if .IsPage }}single  {{ else }}list{{ end }} {{end}}">
+    <!-- <div class="dividers">
+        <div class="divider"></div>
+        <div class="divider"></div>
+        <div class="divider"></div>
+        <div class="divider"></div>
+    </div> -->
+    {{- partial "preloader.html" . -}}
+    {{- partial "header.html" . -}}
+    {{- block "main" . }}{{- end }}
+    {{- partial "footer.en.html" . -}}
+</body>
+
+</html>

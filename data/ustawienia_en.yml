@@ -29,7 +29,7 @@ ustawienia_stopki:
     target="_blank">AW team</a>
 plywajacy_formularz:
   wlacz_formularz: true
-  tytul_guzika_otwierajacego: Napisz do nas
+  tytul_guzika_otwierajacego: Contact us
   kod_formularza: |-
     <div id="my-float-form-status"></div><form id="floatform" action="https://formspree.io/f/xgerdkry" method="POST">
     
