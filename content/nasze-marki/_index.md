@@ -7,7 +7,7 @@ slug = "nasze-marki"
 title = "Nasze marki"
 which_layout = "nasze-marki"
 [menu.main]
-weight = 3
+weight = 4
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
 [[grupa_marek.marki]]

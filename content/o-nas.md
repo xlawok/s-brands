@@ -65,7 +65,7 @@ txt_block = "Jakość i zakres usług"
 txt_block_size = "XL"
 underline = false
 [menu.main]
-weight = 1
+weight = 2
 [nasza_wizja]
 opis_sekcji = "Naszą wizją jest zostanie jednym z najważniejszych partnerów w segmencie międzynarodowego handlu kosmetycznego oraz doradztwa w zakresie budowy kosmetycznych marek własnych w przeciągu najbliższych 5 lat. <br><br>Naszą ambicją jest stały rozwój w atmosferze zaufania oraz budowania trwałych, długoterminowych relacji biznesowych z naszymi partnerami."
 zdjecie = "/uploads/sbrands-about-us-2.jpg"
