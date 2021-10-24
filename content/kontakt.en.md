@@ -3,7 +3,7 @@ meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiekm = "Zapraszamy do kontaktu w celu sprawdzenia naszej oferty cenowej oraz omówienia warunków współpracy."
 slug = "kontakt"
-title = "Kontakt"
+title = "Contact"
 which_layout = "kontakt"
 [menu.main]
 weight = 5
