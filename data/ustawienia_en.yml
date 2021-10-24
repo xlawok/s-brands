@@ -34,22 +34,22 @@ plywajacy_formularz:
     <div id="my-float-form-status"></div><form id="floatform" action="https://formspree.io/f/xgerdkry" method="POST">
     
     <div class='input-cnt'>
-    <input required name="company-fl" type="text" id="company-fl" placeholder="Nazwa firmy"><label for='company-fl'>Nazwa firmy*</label>
+    <input required name="company-fl" type="text" id="company-fl" placeholder="Company name"><label for='company-fl'>Company name*</label>
     </div>
       <div class='input-cnt'>
-    <input required name="country-fl" type="text" id="country-fl" placeholder="Kraj"><label for='country-fl'>Kraj*</label>
+    <input required name="country-fl" type="text" id="country-fl" placeholder="Country"><label for='country-fl'>Country*</label>
     </div>
     <div class='input-cnt'>
-    <input  required name="phone-fl" type="tel" id="phone-fl" placeholder="Telefon kontaktowy"><label for='phone-fl'>Telefon kontaktowy*</label>
+    <input  required name="phone-fl" type="tel" id="phone-fl" placeholder="Phone"><label for='phone-fl'>Phone*</label>
     </div>
     <div class='input-cnt'>
-    <input required name="email-fl" type="email" id="email-fl" placeholder="Adres e-mail"><label for='email-fl'> Adres e-mail</label>
+    <input required name="email-fl" type="email" id="email-fl" placeholder="Email adress"><label for='email-fl'>Email adress</label>
     </div>
     <div class='input-cnt'>
     <textarea name="message-fl"  id="message-fl" ></textarea><label for='message-fl'> Treść wiadomości</label>
     </div>
     <div class='input-cnt rodo-cnt'>
-    <input id='rodo-accept-fl' type='checkbox' required name='rodo-accept-fl' value='accept'><label for='rodo-accept-fl'>Wyrażam zgodę na przetwarzanie moich danych osobowych w celu obsługi powyższego zapytania. Polityka prywatności.</label>
+    <input id='rodo-accept-fl' type='checkbox' required name='rodo-accept-fl' value='accept'><label for='rodo-accept-fl'>I consent to the processing of personal data for the purpose of handling the inquiry. Privacy policy.</label>
     </div>
     <button  type="submit">Send<img class='arr-ico' src="../images/arr_white.svg"></button>
     </form>
