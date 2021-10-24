@@ -82,7 +82,7 @@ tytul_marki = "SVR"
 tytul_grupy = "Hair care"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-179.jpg"
-odnisnik_marki = ""
+odnisnik_marki = "nasze-marki/the-cosmetic-republic.md"
 tytul_marki = "The Cosmetics Republic"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-175.jpg"
