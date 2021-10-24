@@ -42,7 +42,7 @@ odnisnik_marki = "nasze-marki/makeup-revolution.md"
 tytul_marki = "Revolution Beauti London"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-172.jpg"
-odnisnik_marki = []
+odnisnik_marki = "nasze-marki/dermacol.md"
 tytul_marki = "Dermacol"
 [[grupa_marek]]
 tytul_grupy = "Dermocosmetics"
