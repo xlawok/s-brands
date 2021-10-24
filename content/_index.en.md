@@ -134,8 +134,7 @@ txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "contact/_index.md"
-opis_sekcji = "The most spectacular and unique top beauty & aesthetic brands for Professionals. 
-All you need for skin treatment, carefully selected skin problem solvers to regenerate, rejuvenate and keep your skin healthy, naturally beautiful and glowing. Famous brands, effective and safe for both practicioners and clients. "
+opis_sekcji = "The most spectacular and unique top beauty & aesthetic brands for Professionals. All you need for skin treatment, carefully selected skin problem solvers to regenerate, rejuvenate and keep your skin healthy, naturally beautiful and glowing. Famous brands, effective and safe for both practicioners and clients. "
 tytul_odnosnika = "Zobacz marki"
 zdjecie = "/uploads/sbrands-main-pro.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
