@@ -2,7 +2,7 @@
 meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiekm = "Let us stay in touch in order to provide our price offer and discuss the terms of service."
-slug = "kontakt"
+slug = "contact"
 title = "Contact"
 which_layout = "kontakt"
 [menu.main]

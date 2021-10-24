@@ -2,7 +2,7 @@
 dodaj_formularz = true
 meta_opis = ""
 meta_robots = ""
-slug = "o-nas"
+slug = "about"
 title = "About"
 which_layout = "o-nas"
 [banner]
