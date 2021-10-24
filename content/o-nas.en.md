@@ -6,17 +6,18 @@ slug = "o-nas"
 title = "About"
 which_layout = "o-nas"
 [banner]
-opis_pod_naglowiekm = "S-Brands jest międzynarodową firmą specjalizującą się w dystrybucji marek kosmetycznych renomowanych producentów. Dostarczamy swoim klientom najlepsze ceny i promocje okresowe stale wyszukując najlepszych źródeł zaopatrzenia. Naszą pracę doceniły już duże sieci handlowe, hurtownie kosmetyczne oraz indywidualni klienci detaliczni. Każdy z naszych klientów traktowany jest indywidualnie i z największą troską. <br><br>Nasze wieloletnie doświadczenie na rynku kosmetycznym pozwoliło nam zbudować międzynarodową sieć dostawców oraz odbiorców oferowanych produktów. Każdego dnia intensywnie pracujemy nad poszerzaniem bazy naszych partnerów handlowych aby móc zagwarantować zróżnicowane i wysoce konkurencyjne oferty kosmetyczne."
+opis_pod_naglowiekm = "
+S-Brands is the international company specializing in distribution of renowned producers’ cosmetics brands. We provide the best prizes and periodical promotions for our clients, constantly searching for the best supply sources. Our work has already been appreciated by large retail chains, cosmetic wholesalers and also by individual retail clients. We treat each of our clients individually, with the utmost care. </br> Our long-term experience on the cosmetics market allowed us to create an international network of suppliers and recipients of the offered products. Every day, we work intensively on expanding the base of our business partners to be able to guarantee diversified and highly competitive cosmetics offers."
 zdjecie = "/uploads/sbrands-about-us-1-alt.jpg"
 [[banner.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "O nas"
+txt_block = "About"
 txt_block_size = "XXL"
 underline = false
 [jakosc_uslug]
-opis_sekcji = "Jesteśmy dziś obecni na wielu rynkach europejskich i kontynuujemy nasz rozwój w skali globalnej. Nasze zaplecze magazynowe oraz współpraca z wieloma partnerami logistycznymi pozwala zagwarantować naszym klientom bezpieczeństwo produktów w całym łańcuchu dostaw. <br><br>Nasze portfolio asortymentowe składa się z następujących głównych kategorii:"
+opis_sekcji = "Today, we are present on many European markets and we continue our development on a global scale. Our warehouse facilities and cooperation with many logistic partners allow us to guarantee safety of our clients’ products in the whole supply chain.</br>Our product portfolio consists of the six main categories below:"
 [[jakosc_uslug.grupa]]
 lewa_kolumna = "Professional"
 prawa_kolumna = "Mass brands"
@@ -61,19 +62,19 @@ underline = false
 block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Jakość i zakres usług"
+txt_block = "Quality and range of services"
 txt_block_size = "XL"
 underline = false
 [menu.main]
 weight = 1
 [nasza_wizja]
-opis_sekcji = "Naszą wizją jest zostanie jednym z najważniejszych partnerów w segmencie międzynarodowego handlu kosmetycznego oraz doradztwa w zakresie budowy kosmetycznych marek własnych w przeciągu najbliższych 5 lat. <br><br>Naszą ambicją jest stały rozwój w atmosferze zaufania oraz budowania trwałych, długoterminowych relacji biznesowych z naszymi partnerami."
+opis_sekcji = "Our vision is to become one of the most important partners in the section of international cosmetics trade and consulting on cosmetics own brand building in the next 5 years. </br>Our ambitions are constant development in the trustful environment and building sustainable, long-lasting business relations with our partners."
 zdjecie = "/uploads/sbrands-about-us-2.jpg"
 [[nasza_wizja.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Nasza wizja"
+txt_block = "Vision"
 txt_block_size = "XL"
 underline = false
 
