@@ -7,7 +7,7 @@ title = "OEM services"
 which_layout = "uslugi-oem"
 [banner]
 opis_pod_naglowiekm = "S-Brands to więcej niż tylko dostawca. Zawsze myślimy i pomagamy uczynić Twój biznes jeszcze bardziej dochodowym. Na poziomie technicznym istotną częścią naszej działalności jest kompleksowe pośrednictwo w budowie kosmetycznych marek własnych. Oferujemy pełen serwis wsparcia w opracowaniu nowoczesnych formuł kosmetycznych zgodnie z oczekiwaniami naszych klientów, jak również adaptujemy receptury nam powierzone."
-zdjecie = "/uploads/adobestock_80633577_preview.jpeg"
+zdjecie = "/uploads/sbrands-oem-main.jpg "
 [[banner.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
@@ -17,7 +17,7 @@ txt_block_size = "XXL"
 underline = false
 [masz_pomysl]
 opis_sekcji = "<p>Skontaktuj się z nami a my szybko zweryfikujemy jak najsprawniej przejść od pomysłu do wprowadzenia nowej marki do sprzedaży na pożądanym rynku. W zakresie budowy marek kosmetycznych świadczymy następujące usługi:</p><ul><li><p>doradztwo w doborze opakowań dla kosmetyków</p></li><li><p>budowa strony graficznej etykiety i obligatoryjnych składowych opakowania produktu</p></li><li><p>kompletacja dokumentacji wyrobu</p></li><li><p>wsparcie przy zakupie surowców i komponentów w całym procesie przygotowania wyrobu</p></li><li><p>wsparcie w weryfikacji treści oznakowania oraz poprawności tekstów / „claimów” marketingowych, zgodnie z obowiązującymi przepisami</p></li><li><p>rejestracja kosmetyków w bazie CPNP</p></li><li><p>wsparcie w procesie wprowadzania wyrobu do obrotu</p><p></p></li></ul>"
-zdjecie = "/uploads/adobestock_209962378_preview.jpeg"
+zdjecie = "/uploads/sbrands-oem-second.jpg"
 [[masz_pomysl.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
