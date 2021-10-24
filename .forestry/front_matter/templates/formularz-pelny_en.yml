@@ -1,0 +1,27 @@
+---
+label: Formularz pełny
+hide_body: true
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: opis_pod_naglowiem
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Opis pod nagłówiem
+- name: kod_formularza
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Kod formularza
