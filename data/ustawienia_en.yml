@@ -51,5 +51,5 @@ plywajacy_formularz:
     <div class='input-cnt rodo-cnt'>
     <input id='rodo-accept-fl' type='checkbox' required name='rodo-accept-fl' value='accept'><label for='rodo-accept-fl'>Wyrażam zgodę na przetwarzanie moich danych osobowych w celu obsługi powyższego zapytania. Polityka prywatności.</label>
     </div>
-    <button  type="submit">Wyślij wiadomość <img class='arr-ico' src="../images/arr_white.svg"></button>
+    <button  type="submit">Send<img class='arr-ico' src="../images/arr_white.svg"></button>
     </form>
