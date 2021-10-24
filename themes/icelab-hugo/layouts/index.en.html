@@ -1,0 +1,261 @@
+{{ define "main" }}
+{{$sites :=.Sites.First.GetPage "/uploads"}}
+{{ with .Params.banner }}
+  {{if (isset . "zdjecia_do_slidera")}}
+  <section class="banner-area" >
+    {{with .zdjecia_do_slidera}}
+    <div class="banner-img-wrapper">
+      
+      {{ range $index, $element := . }}
+        
+      <div class="banner-img-cnt {{ if (eq $index 0) }}active{{ end }}">
+        
+        {{- partial "img.html" (dict "image" $element "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+      </div>
+      {{end}}
+    </div>
+    {{end}}
+    <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
+   
+    <div class='header-cnt'>
+      
+      
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <p class="banner-desc">
+        {{ .opis_pod_naglowiekm | safeHTML }}
+      </p>
+      {{$tytul_odnosnika:=.tytul_odnosnika}}
+      {{ if .adres_odnosnika }}
+        {{ with site.GetPage .adres_odnosnika }}
+            <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+        {{end}}
+      {{end}}
+    </div>
+    <div class='arrow-wrapper'>
+      <span class='prev'><img class='arr-ico' src="{{ `images/arr_black.svg` | absURL }}"></span>
+      <span class='next'><img class='arr-ico' src="{{ `images/arr_black.svg` | absURL }}"></span>
+    </div>
+  </section>
+  {{end}}
+
+{{end}}
+{{ with .Params.kroki }}
+  <section class="steps-area" >
+    <div class='header-cnt'>
+      
+      
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+      <p class="steps-desc">
+        {{ .podpis_pod_naglowkiem | safeHTML }}
+      </p>
+      
+    </div>
+    {{ with .kolumny_kroki}}
+        <ul class="steps-cols cols-qty-{{len .}}">
+          
+          {{range $index, $element := . }}
+            <li>
+              {{if or (eq $index 1)  (eq $index 2)}}
+                <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+              {{end}}
+              <span class='steps-in-circle'><span>step</span> <span>{{add $index 1}}</span></span>
+              {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "steps-header")  -}}
+              <p>{{.opis_kolumny | safeHTML}}</p>
+              {{with .dlugi_opis_kroku}}
+                <div class="hidden-long-desc">
+                  {{if ne . ""}}
+                  {{ . | safeHTML}}
+                  {{end}}
+                </div>
+              {{end}}
+            </li>
+          {{end}}
+        </ul>
+      {{end}}
+  </section>
+{{ end }}
+{{ with .Params.poznaj_nas }}
+  <section class="knowus-area" >
+    <div class="header-cnt">
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <div class="description-wrapper">
+        <p>{{.opis_sekcji | safeHTML}}</p>
+        {{$tytul_odnosnika:=.tytul_odnosnika}}
+        {{ if .adres_odnosnika }}
+          {{ with site.GetPage .adres_odnosnika }}
+              <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+          {{end}}
+        {{end}}
+      </div>
+    </div>
+    
+    <div class="image-wrapper">
+      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+    </div>
+  </section>
+{{end}}
+{{ with .Params.proces }}
+  <section class="process-area" >
+    <div class='header-cnt'>
+      
+      
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+      <p class="steps-desc">
+        {{ .podpis_pod_naglowkiem | safeHTML }}
+      </p>
+      
+    </div>
+    {{ with .kolumny_kroki}}
+        <ul class="steps-cols cols-qty-{{len .}}">
+          
+          {{range $index, $element := . }}
+            <li>
+              {{- partial "img.html" (dict "image" .ikona "imgsizes" "80vw" "tag_class" "process-ico" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
+             
+              <span class='steps-in-circle'>{{add $index 1}}</span>
+              
+              <p>{{.opis_kolumny | safeHTML}}</p>
+              {{if (ne $index 0)}}
+                <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}">
+              {{end}}
+              {{with .dlugi_opis_kroku}}
+                <div class="hidden-long-desc">
+                  {{if ne . ""}}
+                  {{ . | safeHTML}}
+                  {{end}}
+                </div>
+              {{end}}
+            </li>
+          {{end}}
+        </ul>
+      {{end}}
+  </section>
+{{ end }}
+{{ with .Params.nasze_marki }}
+  {{$header_repeater:= .header_repeater}}
+  {{$opis_sekcji:= .opis_sekcji}}
+  {{$tytul_odnosnika:= .tytul_odnosnika}}
+  {{$adres_odnosnika:= .adres_odnosnika}}
+  <section class="ourbrands-area" >
+    {{with .galeria_logo}}
+    <ul class="brands-img-wrapper">
+      {{ $galeria_len := len . }}
+      {{ range $index, $element := . }}
+      {{if or (and (ge $galeria_len 16) (eq $index 8)) (and (le $galeria_len 15) (eq $index 4))}}
+        <li class='gallery-header'>
+          <div class="header-cnt">
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_repeater "custom_class" "banner-header")  -}}
+            <div class="description-wrapper">
+              <p>{{$opis_sekcji | safeHTML}}</p>
+              
+              {{ if $adres_odnosnika }}
+                {{ with site.GetPage $adres_odnosnika }}
+                    <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+                {{end}}
+              {{end}}
+            </div>
+          </div>    
+        </li>
+
+      {{else}}
+        <li class="banner-img-cnt {{ if (eq $index 0) }}active{{ end }}">
+      
+          {{- partial "img.html" (dict "image" $element "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
+        </li>
+      {{end}}
+      {{end}}
+    </ul>
+    {{end}}
+  </section>
+{{end}}
+{{ with .Params.nasze_produkty }}
+<section class="ourproducts-area" >
+  <div class='header-cnt'>
+      
+      
+    {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+    <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+    <p class="sec-desc">
+      {{ .opis_sekcji | safeHTML }}
+    </p>
+    
+  </div>
+  {{if (isset . "grupy_produktow")}}
+  <ul class="products-group" >
+    {{with .grupy_produktow}}
+    
+      
+      {{ range $index, $element := . }}
+      <li class="product-wrapper"> 
+      <div class="img-cnt ">
+     
+        {{- partial "img.html" (dict "image" $element.zdjecie "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "" "awsites" $sites)  -}}
+      </div>
+      <div class="content-wrapper">
+         <div class="content-cnt">
+          {{- partial "header-tag.html" (dict "context" . "header_list" $element.header_repeater "custom_class" "prod-header")  -}}
+          <p class="description-wrapper">
+            {{ $element.opis_sekcji | safeHTML }}
+          </p>
+        </div>
+        {{$tytul_odnosnika:=$element.tytul_odnosnika}}
+        {{ if $element.adres_odnosnika }}
+          {{ with site.GetPage $element.adres_odnosnika }}
+              <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+          {{end}}
+        {{end}}
+      </div>
+       
+      </li>
+      {{end}}
+    
+    {{end}}
+   
+   
+    
+  </ul>
+  {{end}}
+</section>
+{{end}}
+{{ with .Params.kogo_zaopatrujemy }}
+<section class="who-supply-area" >
+  <div class='header-cnt'>
+      
+      
+    {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+    <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+    <p class="sec-desc">
+      {{ .opis_sekcji | safeHTML }}
+    </p>
+    
+  </div>
+  <div class="graph-wrapper">
+    <div class="graph-header">
+      <span>{{.naglowek_z_logo}}</span>{{- partial "img.html" (dict "image" .logo "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "" "awsites" $sites)  -}}
+    </div>
+    {{if (isset . "odbiorcy")}}
+  <ul class="odbiorcy-group" >
+      {{with .odbiorcy}}
+      
+        
+        {{ range $index, $element := . }}
+        <li class="odbiorca-wrapper"> 
+          {{- partial "img.html" (dict "image" $element.ikona "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "" "awsites" $sites)  -}}
+          <span>{{$element.nazwa_odbiorcy}}</span>
+        </li>
+        {{end}}
+      {{end}}
+   
+    </ul>
+    {{end}}
+  </div>
+</section>
+{{end}}
+
+{{if .Params.dodaj_formularz }}
+{{- partial "form_full.html" . -}}
+{{end}}
+
+{{ end }}
