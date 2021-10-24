@@ -1,5 +1,5 @@
 +++
-adres_odnosnika = "nasze-marki/clarincs.md"
+adres_odnosnika = "nasze-marki/clarincs.en.md"
 dodaj_formularz = true
 html_czysty = ""
 html_surowy = "    "
