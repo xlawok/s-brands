@@ -8,7 +8,7 @@ meta_robots = ""
 opis_pod_naglowiekm = "A professional makeup brand setting trends backstage at fashion weeks around the world. Today, M·A·C means so many things to its millions of fans in every corner of the planet, but a global beauty phenomenon has to begin somewhere.\n\n    <p><a class=\"brand_link\" href=\"https://www.maccosmetics.com/\n    \" rel:\"nofollow\" target=\"_blank\">Strona producenta</a></p>"
 slug = "mac"
 title = "MAC"
-tytul_odnosnika = "Wszystkie marki"
+tytul_odnosnika = "All brands"
 which_layout = "strona-marki"
 zdjecie = ""
 [[header_repeater]]
