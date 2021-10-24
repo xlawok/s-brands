@@ -6,8 +6,7 @@ slug = "o-nas"
 title = "About"
 which_layout = "o-nas"
 [banner]
-opis_pod_naglowiekm = "
-S-Brands is the international company specializing in distribution of renowned producers’ cosmetics brands. We provide the best prizes and periodical promotions for our clients, constantly searching for the best supply sources. Our work has already been appreciated by large retail chains, cosmetic wholesalers and also by individual retail clients. We treat each of our clients individually, with the utmost care. </br> Our long-term experience on the cosmetics market allowed us to create an international network of suppliers and recipients of the offered products. Every day, we work intensively on expanding the base of our business partners to be able to guarantee diversified and highly competitive cosmetics offers."
+opis_pod_naglowiekm = "S-Brands is the international company specializing in distribution of renowned producers’ cosmetics brands. We provide the best prizes and periodical promotions for our clients, constantly searching for the best supply sources. Our work has already been appreciated by large retail chains, cosmetic wholesalers and also by individual retail clients. We treat each of our clients individually, with the utmost care. </br> Our long-term experience on the cosmetics market allowed us to create an international network of suppliers and recipients of the offered products. Every day, we work intensively on expanding the base of our business partners to be able to guarantee diversified and highly competitive cosmetics offers."
 zdjecie = "/uploads/sbrands-about-us-1-alt.jpg"
 [[banner.header_repeater]]
 block_tag_type = "h1"
