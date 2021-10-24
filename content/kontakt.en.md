@@ -6,7 +6,7 @@ slug = "kontakt"
 title = "Contact"
 which_layout = "kontakt"
 [menu.main]
-weight = 6
+weight = 7
 [[naglowek_formularza.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"

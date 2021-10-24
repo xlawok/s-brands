@@ -33,6 +33,6 @@ txt_block = "nową markę kosmetyczną?"
 txt_block_size = "XL"
 underline = false
 [menu.main]
-weight = 8
+weight = 6
 
 +++
