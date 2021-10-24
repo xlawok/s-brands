@@ -2,7 +2,7 @@
 adres_odnosnika = "nasze-marki/vichy.md"
 dodaj_formularz = true
 html_czysty = ""
-logo_marki = "/uploads/group-178.jpg"
+logo_marki = "/uploads/rene-furterer.jpg"
 meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiekm = "Marka Rene Furterer osiągnęła olbrzymi sukces, polegający na wprowadzeniu innowacyjnych produktów, których bazę stanowią substancje uzyskane z serca roślin oraz wybrane ekskluzywne naturalne składniki.\n\n    <p><a class=\"brand_link\" href=\"https://www.renefurterer.com/en/en\" rel:\"nofollow\" target=\"_blank\">Strona producenta</a></p>"
