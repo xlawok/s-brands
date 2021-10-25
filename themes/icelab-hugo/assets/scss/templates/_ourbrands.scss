@@ -17,6 +17,10 @@
         @media (min-width: 1200px) {
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
+        @media (max-width: 480px){
+            gap: .5rem;
+            padding: 0;
+        }
         li{
             display: flex;
             justify-content: center;
