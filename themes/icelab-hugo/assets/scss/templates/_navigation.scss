@@ -156,3 +156,13 @@
     }
 }
 
+@media (max-width: 768px){
+    div#main-nav {
+        height: 70vh;
+    }
+    
+    div#main-nav ul li.nav-item a, div#main-nav ul span a{
+        font-size: 1.5em;
+        line-height: 3.5;
+    }
+    }
