@@ -158,12 +158,6 @@
         color: #ee2d7a;
     }
 }
-@media (max-width: 480px){
-header.navigation.scrolled {
-    top: 2em;
-    transition: top 1s ease;
-}
-}
 @media (max-width: 768px){
     div#main-nav {
         height: 70vh;
