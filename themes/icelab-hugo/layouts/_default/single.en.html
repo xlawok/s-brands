@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ if (eq .Params.which_layout "o-nas") }}
+  
+    {{- partial "o-nas.html" . -}}
+  {{end}}
+  {{ if (eq .Params.which_layout "uslugi-oem") }}
+  
+    {{- partial "uslugi-oem.html" . -}}
+  {{end}}
+  {{ if (eq .Params.which_layout "kontakt") }}
+  
+    {{- partial "kontakt.en.html" . -}}
+  {{end}}
+  {{if .Params.dodaj_formularz }}
+    {{- partial "form_full.en.html" . -}}
+  {{end}}
+{{ end }}
