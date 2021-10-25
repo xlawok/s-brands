@@ -13,7 +13,7 @@
             left: 4.5vw;
         }
         @media (max-width: 480px) {
-            top: 60vw;
+            top: 12vw;
         }
         left: 14.5vw;
         color: #000;
@@ -91,10 +91,6 @@
         right: 0;
         top: 0;
         height: 100%;
-
-        @media (max-width: 968px){
-            height: 60%;
-        }
         
         .banner-img-cnt{
             height: 100%;
