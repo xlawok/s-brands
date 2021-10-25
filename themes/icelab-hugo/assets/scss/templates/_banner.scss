@@ -8,6 +8,7 @@
         top: 5vw;
         @media (min-width: 992px) {
             top: 14vw;
+            left: 4.5vw
         }
         left: 14.5vw;
         color: #000;
@@ -96,10 +97,13 @@
             }
         }
         img{
-            width: 100%;
+            width: 118%;
             display: block;
             height: 100%;
             object-fit: cover;
+            @media (max-width: 768px){
+                width: 125%;
+            }
         }
         @media (min-width: 992px) {
             width: (1566 / 1920) * 100vw;
