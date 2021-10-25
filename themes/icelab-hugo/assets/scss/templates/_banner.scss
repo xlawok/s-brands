@@ -13,7 +13,7 @@
             left: 4.5vw;
         }
         @media (max-width: 480px) {
-            top: 12vw;
+            top: 50vw;
         }
         left: 14.5vw;
         color: #000;
@@ -74,6 +74,10 @@
             width: ((((1920 - 1566.5) * 2) / 1920) * 100vw);
             height: 95%;
             left: unset;
+        }
+        @media (max-width: 480px){
+            width: 100vw;
+            left: calc(5% - 25vw);
         }
         
         
