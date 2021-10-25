@@ -37,5 +37,5 @@ kod_formularza: |-
   <span>Preffered contact option</span>
   </div>
   </div>
-  <button  type="submit">Send<img class='arr-ico' src="../images/arr_white.svg"></button>
+  <button  type="submit">Send<img class='arr-ico' src="../../images/arr_white.svg"></button>
   </form>

@@ -34,6 +34,7 @@
     </div>
     <div class="kontakt-right">
         {{$own_header:=.naglowek_formularza}}
+        
         {{ $footer := site.Data.formularz_pelny }}
         {{with $footer}}
             {{if lt (len $own_header.header_repeater) 1}}
