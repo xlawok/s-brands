@@ -5,6 +5,9 @@
         @media (min-width: 992px) {
             grid-template-columns: 1fr 1fr;
         }
+        @media (max-width:480px){
+            display: flex;
+        }
         .kontakt-left{
             display: flex;
             flex-direction: column;
@@ -101,6 +104,9 @@
                     padding-top: 1rem;
                     font-size: 1.1875rem;
                     padding-bottom: 1.5rem;
+                    @media (max-width: 480px){
+                        width: auto;
+                    }
                    }
                 }
             }
@@ -115,6 +121,9 @@
            position: relative;
             // margin: 3rem 2rem 2rem 2rem;
             padding-top: 8rem;
+            @media (max-width: 480px){
+                padding-left: 0;
+            }
             form{
                 
                     display: flex;
