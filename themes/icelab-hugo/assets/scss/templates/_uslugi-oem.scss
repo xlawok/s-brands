@@ -14,6 +14,10 @@
                 top: 14vw;
                 left: 14.5vw;
             }
+            @media (max-width: 480px){
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
           
             color: #000;
             width: 80vw;
@@ -104,6 +108,9 @@
             margin-top: -13rem;
       
         }
+        @media (max-width: 480px{
+            margin-top: 10em;
+        })
         .header-cnt{
             padding-left: 2rem;
             display: flex;
