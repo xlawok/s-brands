@@ -20,6 +20,11 @@
         .banner-header{
             margin-bottom: 0;
             padding-bottom: 1.5rem;
+            span{
+                @media (max-width: 480px){
+                    font-size: .8em;
+                }
+            }
         }
         p .brand_link{
             text-decoration: none;
@@ -110,6 +115,9 @@
             display: block;
             height: 100%;
             object-fit: cover;
+            @media (max-width: 480px){
+                height: 65%;
+            }
         }
         @media (min-width: 992px) {
             width: (1566 / 1920) * 100vw;
