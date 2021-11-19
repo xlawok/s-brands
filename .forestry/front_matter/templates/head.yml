@@ -12,6 +12,11 @@ fields:
   config:
     required: false
   label: Tytuł
+- name: name
+  type: text
+  config:
+    required: false
+  label: Nazwa np. do okruszków
 - name: meta_robots
   type: text
   config:

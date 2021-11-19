@@ -6,11 +6,20 @@
     
             {{ with .PrevInSection }}
                 <a href="{{ .Permalink }}" class="prev">
-                    <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}">     {{ .Title }}
+                    <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}">     
+                    {{with .Params.name }}
+                    {{.}}
+                    {{else}}
+                    {{ .Title }}
+                    {{end}}
                 </a>
             {{ end }}   
             {{ with .NextInSection }}
-                <a href="{{ .Permalink }}" class="next">{{ .Title }}  <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}"></a>
+                <a href="{{ .Permalink }}" class="next">{{with .Params.name }}
+                    {{.}}
+                    {{else}}
+                    {{ .Title }}
+                    {{end}} <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}"></a>
             {{ end }}
            
                 
