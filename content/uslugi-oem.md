@@ -33,6 +33,7 @@ txt_block = "nową markę kosmetyczną?"
 txt_block_size = "XL"
 underline = false
 [menu.main]
+name = "Usługi OEM"
 weight = 5
 
 +++
