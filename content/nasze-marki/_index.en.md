@@ -9,6 +9,7 @@ title = "Our brands | S-brands.pl"
 url = "our-brands"
 which_layout = "nasze-marki"
 [menu.main]
+name = "Our brands"
 weight = 3
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
