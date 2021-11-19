@@ -7,6 +7,7 @@ slug = "nasze-marki"
 title = "Nasze marki | S-brands.pl"
 which_layout = "nasze-marki"
 [menu.main]
+name = "Nasze marki"
 weight = 4
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
