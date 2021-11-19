@@ -5,7 +5,7 @@ meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiem = "Choose cosmetics at competitive prices</br>from the best brands in the world"
 slug = "our-brands"
-title = "Our brands"
+title = "Our brands | S-brands.pl"
 url = "our-brands"
 which_layout = "nasze-marki"
 [menu.main]
