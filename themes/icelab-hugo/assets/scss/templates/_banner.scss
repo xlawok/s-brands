@@ -12,14 +12,19 @@
         @media (max-width: 969px){
             left: 4.5vw;
         }
-        @media (min-width: 480px) {
-            top: 60vw;
+        @media (max-width: 480px) {
+            top: 50vw;
         }
         left: 14.5vw;
         color: #000;
         .banner-header{
             margin-bottom: 0;
             padding-bottom: 1.5rem;
+            span{
+                @media (max-width: 480px){
+                    font-size: .8em;
+                }
+            }
         }
         p .brand_link{
             text-decoration: none;
@@ -70,6 +75,10 @@
             height: 95%;
             left: unset;
         }
+        @media (max-width: 480px){
+            width: 100vw;
+            left: calc(5% - 25vw);
+        }
         
         
         img{
@@ -86,10 +95,6 @@
         right: 0;
         top: 0;
         height: 100%;
-
-        @media (max-width: 968px){
-            height: 60%;
-        }
         
         .banner-img-cnt{
             height: 100%;
@@ -110,6 +115,9 @@
             display: block;
             height: 100%;
             object-fit: cover;
+            @media (max-width: 480px){
+                height: 65%;
+            }
         }
         @media (min-width: 992px) {
             width: (1566 / 1920) * 100vw;

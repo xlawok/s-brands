@@ -6,7 +6,7 @@ meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiem = ""
 slug = "/"
-title = "Strona główna"
+title = "Globalna dystrybucja kosmetyków | S-brands.pl"
 which_layout = ""
 [banner]
 adres_odnosnika = "contact/_index.md"

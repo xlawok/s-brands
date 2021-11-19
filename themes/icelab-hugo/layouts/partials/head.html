@@ -7,7 +7,8 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
-  <meta name="robots" content="noindex"/>
+  <meta name="google-site-verification" content="dmnS4cObGv-rc3T5Hzc6B-Psc0FlgCPW5lcaDvUtNg0" />
+  <meta name=robots content="index, follow">
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .URL | absURL }} ">

@@ -62,13 +62,13 @@
               <span class='steps-in-circle'><span>krok</span> <span>{{add $index 1}}</span></span>
               {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "steps-header")  -}}
               <p>{{.opis_kolumny | safeHTML}}</p>
-              {{with .dlugi_opis_kroku}}
+              <!-- {{with .dlugi_opis_kroku}}
                 <div class="hidden-long-desc">
                   {{if ne . ""}}
                   {{ . | safeHTML}}
                   {{end}}
                 </div>
-              {{end}}
+              {{end}} -->
             </li>
           {{end}}
         </ul>
@@ -120,13 +120,13 @@
               {{if (ne $index 0)}}
                 <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}">
               {{end}}
-              {{with .dlugi_opis_kroku}}
+              <!-- {{with .dlugi_opis_kroku}}
                 <div class="hidden-long-desc">
                   {{if ne . ""}}
                   {{ . | safeHTML}}
                   {{end}}
                 </div>
-              {{end}}
+              {{end}} -->
             </li>
           {{end}}
         </ul>

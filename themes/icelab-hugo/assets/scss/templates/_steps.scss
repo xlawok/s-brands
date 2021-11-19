@@ -3,6 +3,9 @@
     flex-direction: column;
     justify-content: center;
     margin-top: -8rem;
+    @media (max-width: 480px){
+        margin-top: 6em;
+    }
     .header-cnt{
         text-align: center;
         line-height:1.5;

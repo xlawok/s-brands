@@ -106,6 +106,9 @@ p.sm{
   @media (max-width: 768px){
     word-wrap: break-word;
   }
+  @media (max-width: 480px){
+    line-height: .9;
+  }
 }
 .txt-XXL{
   font-size: 11vw;
