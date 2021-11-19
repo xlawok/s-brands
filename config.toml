@@ -1,6 +1,6 @@
 baseURL = "https://www.s-brands.pl"
 defaultContentLanguage = "pl"
-languageCode = "en-us"
+
 summaryLength = "10"
 theme = "icelab-hugo"
 title = "agencjawroclawska"
