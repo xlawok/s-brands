@@ -4,7 +4,7 @@ meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiem = "Wybierz kosmetyki w konkurencyjnych cenach<br>spośród najlepszych marek na świecie"
 slug = "nasze-marki"
-title = "Nasze marki"
+title = "Nasze marki | S-brands.pl"
 which_layout = "nasze-marki"
 [menu.main]
 weight = 4
