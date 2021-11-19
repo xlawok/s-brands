@@ -166,7 +166,7 @@ tytul_marki = "Innoaestetics"
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Nasze marki"
+txt_block = "Nasze marki | S-brands.pl"
 txt_block_size = "XXL"
 underline = false
 
