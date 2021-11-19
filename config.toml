@@ -17,7 +17,7 @@ home = ["HTML", "RSS"]
 [params]
 author = "agencjawroclawska.pl"
 contact_form_action = "#"
-description = "This is meta description"
+description = ""
 footer_content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sint magnam quia doloremque."
 home = "Home"
 logo = "images/logo.png"
