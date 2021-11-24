@@ -6,7 +6,7 @@ meta_opis = ""
 meta_robots = ""
 opis_pod_naglowiem = ""
 slug = "/"
-title = "Home page"
+title = "Cosmetics Supplier, Whosaler, Global distributor | S-brands.pl"
 which_layout = ""
 [banner]
 adres_odnosnika = "contact/_index.md"
