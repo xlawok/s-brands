@@ -1,9 +1,10 @@
 +++
 meta_opis = ""
 meta_robots = ""
+name = "Kontakt"
 opis_pod_naglowiekm = "Zapraszamy do kontaktu w celu sprawdzenia naszej oferty cenowej oraz omówienia warunków współpracy."
 slug = "kontakt"
-title = "Kontakt"
+title = "Kontakt | S-brands.pl"
 which_layout = "kontakt"
 [menu.main]
 weight = 8
