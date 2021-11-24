@@ -5,8 +5,6 @@ top_settings:
   social_links:
   - ikona: "/uploads/icon-simple-facebook.svg"
     odnosnik: https://www.facebook.com/SBrandsCosmetics
-  - ikona: "/uploads/icon-feather-instagram.svg"
-    odnosnik: https://instagram.com
   logo_w_menu: "/uploads/sbrands_logo_main.svg"
 ustawienia_stopki:
   wybierz_logo: "/uploads/sbrands_logo_main.svg"
@@ -32,7 +30,7 @@ plywajacy_formularz:
   tytul_guzika_otwierajacego: Napisz do nas
   kod_formularza: |-
     <div id="my-float-form-status"></div><form id="floatform" action="https://formspree.io/f/xgerdkry" method="POST">
-    
+
     <div class='input-cnt'>
     <input required name="company-fl" type="text" id="company-fl" placeholder="Nazwa firmy"><label for='company-fl'>Nazwa firmy*</label>
     </div>
