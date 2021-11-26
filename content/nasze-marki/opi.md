@@ -1,5 +1,4 @@
 +++
-Title = "Essence"
 adres_odnosnika = "nasze-marki/essence.md"
 dodaj_formularz = true
 html_czysty = ""

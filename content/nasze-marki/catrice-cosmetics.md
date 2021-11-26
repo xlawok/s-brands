@@ -1,5 +1,5 @@
 +++
-Title = "Catrice cosmetics"
+title = "Catrice cosmetics"
 adres_odnosnika = "nasze-marki/_index.md"
 dodaj_formularz = true
 draft = true
