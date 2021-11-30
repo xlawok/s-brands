@@ -65,6 +65,7 @@ txt_block = "Quality and range of services"
 txt_block_size = "XL"
 underline = false
 [menu.main]
+name = "About"
 weight = 1
 [nasza_wizja]
 opis_sekcji = "Our vision is to become one of the most important partners in the section of international cosmetics trade and consulting on cosmetics own brand building in the next 5 years. </br>Our ambitions are constant development in the trustful environment and building sustainable, long-lasting business relations with our partners."
