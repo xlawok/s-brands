@@ -6,6 +6,7 @@ slug = "contact"
 title = "Contact | S-brands.pl"
 which_layout = "kontakt"
 [menu.main]
+name = "Contact"
 weight = 7
 [[naglowek_formularza.header_repeater]]
 block_tag_type = "div"

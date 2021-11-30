@@ -33,6 +33,7 @@ txt_block = "for a new cosmetic brand?"
 txt_block_size = "XL"
 underline = false
 [menu.main]
+name = "OEM services"
 weight = 6
 
 +++
