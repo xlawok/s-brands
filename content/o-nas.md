@@ -55,7 +55,7 @@ prawa_kolumna = "Personal care brands"
 block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Medical devices"
+txt_block = "Haircare brands"
 txt_block_size = "XL"
 underline = false
 [[jakosc_uslug.header_repeater]]
