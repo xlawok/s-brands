@@ -35,7 +35,7 @@ prawa_kolumna = "Mass brands"
 block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Make-up"
+txt_block = "Make-Up brands"
 txt_block_size = "XL"
 underline = false
 [[jakosc_uslug.grupa]]
