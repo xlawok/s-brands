@@ -45,7 +45,7 @@ prawa_kolumna = "Mass brands"
 block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Skincare"
+txt_block = "Skincare brands"
 txt_block_size = "XL"
 underline = false
 [[jakosc_uslug.grupa]]
