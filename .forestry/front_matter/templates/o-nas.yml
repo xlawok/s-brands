@@ -110,4 +110,5 @@ fields:
   template: head
   label: Head
 pages:
+- content/o-nas.en.md
 - content/o-nas.md

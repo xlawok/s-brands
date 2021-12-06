@@ -2,6 +2,7 @@
 dodaj_formularz = true
 meta_opis = ""
 meta_robots = ""
+name = ""
 slug = "about"
 title = "About | S-brands.pl"
 which_layout = "o-nas"
@@ -48,7 +49,7 @@ txt_block = "Skincare"
 txt_block_size = "XL"
 underline = false
 [[jakosc_uslug.grupa]]
-lewa_kolumna = "Health"
+lewa_kolumna = "Haircare brands"
 prawa_kolumna = "Personal care brands"
 [[jakosc_uslug.grupa.header_repeater]]
 block_tag_type = "h3"
