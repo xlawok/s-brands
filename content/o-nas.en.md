@@ -58,6 +58,16 @@ break_line = false
 txt_block = "Medical devices"
 txt_block_size = "XL"
 underline = false
+[[jakosc_uslug.grupa]]
+lewa_kolumna = ""
+prawa_kolumna = ""
+[[jakosc_uslug.grupa.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+txt_block = "PRO / Esthetic brands "
+txt_block_size = "XL"
+underline = false
 [[jakosc_uslug.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
