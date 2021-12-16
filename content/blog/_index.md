@@ -4,8 +4,10 @@ meta_robots = ""
 slug = "/"
 title = "Aktualności"
 tytul_odnosnika_artykulu = "Czytaj"
-wyswietl_slider = true
 which_layout = "strona-blog"
+wyswietl_slider = true
+[menu.main]
+weight = 7
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
