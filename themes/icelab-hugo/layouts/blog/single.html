@@ -10,12 +10,12 @@
 </section>
 <section class="blog-content">
 
-    {{$img_alt:=.Params.opis_zdjecia}}
+    <!-- {{$img_alt:=.Params.opis_zdjecia}}
     {{with .Params.zdjecie_glowne}}
     <div class='with-img-cnt'>
         {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt "awsites" $sites)  -}} 
     </div>
-    {{end}}
+    {{end}} -->
     {{.Content}}
 </section>
 {{end}}
