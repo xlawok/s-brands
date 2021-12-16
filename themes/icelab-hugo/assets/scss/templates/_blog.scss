@@ -236,6 +236,12 @@
         .banner-area {
             min-height: auto;
             height:auto;
+            .header-cnt{
+                h1{
+                    max-width: 80rem;
+                    margin: 0 auto;
+                }
+            }
         }
         .banner-area .header-cnt {
         top:0;
@@ -269,6 +275,9 @@
         // }
         .with-img-cnt {
             text-align: center;
+        }
+        a{
+            color: #000;
         }
     } 
 }

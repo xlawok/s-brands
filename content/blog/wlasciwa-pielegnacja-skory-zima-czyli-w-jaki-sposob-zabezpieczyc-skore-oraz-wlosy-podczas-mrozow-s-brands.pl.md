@@ -12,30 +12,29 @@ which_layout = "strona-post"
 zdjecie_glowne = "/uploads/damian-mccoig-2hqpqsqy0zg-unsplash.jpg"
 
 +++
-**Właściwa pielęgnacja skóry zimą, czyli w jaki sposób zabezpieczyć skórę oraz włosy podczas mrozów?**
 
 Pory roku oprócz tego, że wyznaczają rytm naszych codziennych planów i obowiązków, mają wpływ na dostosowanie pielęgnacji naszej skóry oraz włosów do panujących warunków atmosferycznych. W czasie mrozów nasza skóra potrzebuje szczególnej ochrony jak i pielęgnacji, ponieważ zimny wiatr oraz zmienne temperatury mocno ją wysuszają. Zimowy czas jest również niesprzyjający dla naszych włosów, dlatego warto dowiedzieć się, w jaki sposób można uniknąć przetłuszczania się włosów, elektryzowania, wysuszenia i zaczerwienienie skóry.
 
 **Spis treści:**
 
-1.  Szkodliwy wpływ mrozu na skórę oraz włosy
+1. <rawhtml> <a href="#szkodliwy-wplyw-mrozu-na-skore-oraz-wlosy">Szkodliwy wpływ mrozu na skórę oraz włosy</a></rawhtml>
     
-2.  Odpowiednia pielęgnacja skóry twarzy i ciała zimą
+2.  <rawhtml> <a href="#odpowiednia-pielegnacja-skory-twarzy-i-ciala-zima">Odpowiednia pielęgnacja skóry twarzy i ciała zimą</a></rawhtml>
     
-3.  Kosmetyki, dzięki którym Twoje włosy nawet zimą będą zawsze piękne!
+3.  <rawhtml> <a href="#kosmetyki-dzieki-ktorym-twoje-wlosy-nawet-zima-beda-zawsze-piekne">Kosmetyki, dzięki którym Twoje włosy nawet zimą będą zawsze piękne!</a></rawhtml>
     
-4.  Dominacja na polskim rynku kosmetyków do pielęgnacji skóry oraz włosów
+4.  <rawhtml> <a href="#dominacja-na-polskim-rynku-kosmetykow-do-pielegnacji-skory-oraz-wlosow">Dominacja na polskim rynku kosmetyków do pielęgnacji skóry oraz włosów</a></rawhtml>
     
-5.  Kosmetyki do pielęgnacji są z nami od lat!
+5.  <rawhtml> <a href="#kosmetyki-do-pielegnacji-sa-z-nami-od-lat">Kosmetyki do pielęgnacji są z nami od lat!</a></rawhtml>
     
-6.  Czy kosmetyki profesjonalne są lepsze od kosmetyków drogeryjnych?
+6.  <rawhtml> <a href="#czy-kosmetyki-profesjonalne-sa-lepsze-od-kosmetykow-drogeryjnych">Czy kosmetyki profesjonalne są lepsze od kosmetyków drogeryjnych?</a></rawhtml>
     
 
-**Szkodliwy wpływ mrozu na skórę oraz włosy**
+## Szkodliwy wpływ mrozu na skórę oraz włosy {#szkodliwy-wplyw-mrozu-na-skore-oraz-wlosy}
 
 Tak naprawdę niekorzystne działanie mrozu jest nie tylko chwilowym dyskomfortem, ale również wyrządza ono długotrwałe szkody dla naszej skóry oraz włosów. Kiedy wychodzimy na mróz z ciepłego pomieszczenia narażamy skórę na szok termiczny, który potęgowany jest przez mroźny wiatr czy padający śnieg. Wchodząc ponownie do ciepłego pomieszczenia od wejścia atakuje nas ciepłe i wysuszone przez ogrzewanie powietrze, które zamiast ukoić zmarzniętą skórę i włosy, dodatkowo ją wysusza i osłabia. Skutkiem mroźnej zimy będą widoczne na naszej skórze zaczerwienienia, suchość a nawet pękające naczynka. W przypadku włosów będą one naelektryzowane i bardziej przetłuszczone, niż zwykle. Nadmierne przetłuszczanie się włosów oraz ich elektryzowanie się spotęguje ciągłe noszenie czapki, którą wchodząc do ciepłego pomieszczenia będziemy zdejmować. Dodatkowo ocierające się włosy o kurtkę czy szalik bez odpowiedniej pielęgnacji będą wyglądać bardzo niekorzystnie.
 
-**Odpowiednia pielęgnacja skóry twarzy i ciała zimą**
+## Odpowiednia pielęgnacja skóry twarzy i ciała zimą {#odpowiednia-pielegnacja-skory-twarzy-i-ciala-zima}
 
 Pewnie zadajesz sobie pytanie, w jaki sposób zabezpieczyć skórę przed szkodliwym działaniem mrozu? Przede wszystkim musisz zatroszczyć się o właściwą pielęgnację naturalnej powłoki ochronnej skóry. Nie utrudniaj swojej skórze walki z minusowymi temperaturami i pomóż jej w przystosowaniu się do zmiennych warunków pogodowych poprzez kilka, podstawowych zasad.
 
@@ -68,7 +67,7 @@ Oprócz codziennego nawilżania swojego ciała balsamem lub masłem do ciała ni
 
 Regularne stosowanie balsamów do ciała spowoduje, że ciało będzie wyglądało cały czas na wypielęgnowane a wygląd Twojej skóry będzie nienaganny. Poprzez dogłębne nawilżenie, odżywienie oraz regenerację niestraszne Twojej skórze będą mrozy, wiatry czy suche powietrze w ciepłych, ogrzewanych pomieszczeniach. Skóra stanie się mniej podatna na podrażnienia oraz przesuszenie. Kolejną zaletą stosowania balsamów do ciała jest wspomaganie jej naturalnych procesów, które zachodzą w komórkach skóry czy pobudzanie produkcji kolagenu i elastyny. Balsamy do ciała możesz zastąpić masłem. Masła do ciała posiadają zupełnie inną konsystencję niż balsamy, ponieważ są bardziej płynne. Mimo to cały czas zachowują podobne właściwości regeneracyjne, nawilżające i odżywcze.
 
-**Kosmetyki, dzięki którym Twoje włosy nawet zimą będą zawsze piękne!**
+## Kosmetyki, dzięki którym Twoje włosy nawet zimą będą zawsze piękne! {#kosmetyki-dzieki-ktorym-twoje-wlosy-nawet-zima-beda-zawsze-piekne}
 
 Nie ma znaczenia, czy Twoje włosy są długie czy krótkie – zima jest ciężkim czasem dla włosów o każdej długości. Przez wahania temperatur oraz suche powietrze Twoje włosy przestają się układać, puszą się, stają się bardziej suche, łamliwe jak i szybciej się przetłuszczają. Pielęgnacja włosów zimą nie jest tylko stosowaniem specjalistycznych kosmetyków do włosów, ale również zmianą codziennych nawyków. Oto kilka wskazówek, dzięki którym pomożesz swoim włosom w tym trudnym okresie:
 
@@ -83,17 +82,17 @@ Nie ma znaczenia, czy Twoje włosy są długie czy krótkie – zima jest cięż
 
 **Emolienty** są substancjami o właściwościach trwale nawilżających włosy, które charakteryzują się dużą zawartością kwasów tłuszczowych, dzięki którym lepiej zatrzymują wilgoć w łusce włosa.
 
-**Dominacja na polskim rynku kosmetyków do pielęgnacji skóry oraz włosów**
+## Dominacja na polskim rynku kosmetyków do pielęgnacji skóry oraz włosów {#dominacja-na-polskim-rynku-kosmetykow-do-pielegnacji-skory-oraz-wlosow}
 
 Rynek kosmetyczny w Polsce mimo kryzysu ma się świetnie, a jego TOP 3 to: kosmetyki do pielęgnacji włosów, kosmetyki do pielęgnacji skóry oraz kosmetyki kolorowe. Jeżeli chodzi o kosmetyki do pielęgnacji włosów i skóry to są to kategorie, które od lat mają największy udział w sprzedaży. Polski rynek kosmetyczny, tak jak inne sektory muszą zmierzać się ze zmianami w zachowaniu konsumentów wywołanymi przed pandemię. Oprócz wzrostu handlu internetowego zmieniła się też wielkość sprzedaży w poszczególnych kategoriach. Większa ilość czasu spędzonego w domu spowodowała mniejsze użycie kosmetyków do makijażu, natomiast wzrosło zainteresowanie w kategorii pielęgnacji. Kosmetyki są jedną z najważniejszych branż na rynku e-commerce i nic dziwnego! Do najpopularniejszych marek drogerii internetowych zdecydowanie należą Douglas, Rossman, Sephora, Hebe czy Notino. Jako **dystrybutor kosmetyków** zaopatrujemy również drogerie internetowe w takie marki jak np. Nuxe, Ducray, Alfaparf, Lierac, Green Pharmacy, Vichy, Russell, Avène I wiele innych. Nie zabraknie u nas kosmetyków do makijażu, od marek takich jak Catrice, Kiko Milano, Dermacol, Revolution, MAC czy Essence.
 
-**Kosmetyki do pielęgnacji są z nami od lat!**
+## Kosmetyki do pielęgnacji są z nami od lat! {#kosmetyki-do-pielegnacji-sa-z-nami-od-lat}
 
 Kosmetyki w Polsce zostały być powszechnie dostępne w czasach przedwojennych. Były one w ograniczonej ilości, a na cały asortyment pielęgnacyjny składały się głownie 2, góra 3 kremy: na noc, na dzień oraz krem sportowy. Krem sportowy był reklamowany na plażę, jak sama nazwa mówi na aktywność fizyczną, ale również na przebywanie na dworze. Krem sportowy miał chronić skórę przed słońcem i temperaturą, natomiast nie posiadał jeszcze filtra UV. Nasze babcie wiedziały również co nieco na temat kosmetyków naturalnych, ponieważ występujące na terenach Polski zioła, takie jak mięta polna czy kozieradka często znajdowały zastosowanie w pielęgnacji ich skóry. Kozieradka przyczyniała się do zmiękczania skóry oraz jej odżywiania, dlatego była ogromną pomocą w walce z trądzikiem. Równie popularna była nawłoć pospolita, ponieważ przez swoje silne właściwości antyseptyczne i przeciwzapalne przydawała się w walce z przebarwieniami na skórze.
 
 Jeżeli chodzi o kosmetyki do makijażu, kobiety posiadały kilka produktów kolorowych w swoich kosmetyczkach. Z pewnością był to róż do policzków, puder oraz pomadka, często w kolorze czerwonym. W tamtych czasach makijaż był rodzajem luksusu, na który pozwalało się na szczególne okazje. Przed wojną makijaż koncentrował się głównie na upiększeniu cery pudrem i różem oraz podkreśleniu ust na czerwono. W latach 90. XX wieku nastąpił rozwój makijażu wodoodpornego, który wziął się z kosmetyki plażowej. Wtedy makijaż stał się dla kobiet ważniejszy i miał wytrzymywać przed wiele godzin oraz w różnych warunkach atmosferycznych. Poprzez powstanie makijażu wodoodpornego wszedł on do wszystkich dziedzin życia i przestał oznaczać szczególną okazję – stał się on powszechny nawet w czasie odpoczynku.
 
-**Czy kosmetyki profesjonalne są lepsze od kosmetyków drogeryjnych?**
+## Czy kosmetyki profesjonalne są lepsze od kosmetyków drogeryjnych? {#czy-kosmetyki-profesjonalne-sa-lepsze-od-kosmetykow-drogeryjnych}
 
 Kosmetyki profesjonalne różnią się od kosmetyków drogeryjnych przede wszystkim składem. Te profesjonalne posiadają w swoim składzie wyższe stężenia składników aktywnych, dzięki którym osiągają wysoką skuteczność. Należy pamiętać, że kosmetyki profesjonalne zastosowane w nieprawidłowy sposób mogą zrobić więcej szkody niż użytku, dlatego nie bez powodu są one przeznaczone dla specjalistów – kosmetologów, kosmetyczek czy fryzjerów. Fachowe porady uzyskane od profesjonalistów oraz odpowiednie dopasowanie kosmetyku do typu czy stanu skóry klienta jest tutaj kluczowe, aby zagwarantować bezpieczeństwo podczas ich stosowania. Kosmetyki profesjonalne można kupić w salonach kosmetycznych.
 
