@@ -1,5 +1,4 @@
 +++
-draft = true
 meta_opis = ""
 meta_robots = ""
 naglowek = "Właściwa pielęgnacja skóry zimą, czyli w jaki sposób zabezpieczyć skórę oraz włosy podczas mrozów?"
@@ -12,7 +11,6 @@ which_layout = "strona-post"
 zdjecie_glowne = "/uploads/damian-mccoig-2hqpqsqy0zg-unsplash.jpg"
 
 +++
-
 Pory roku oprócz tego, że wyznaczają rytm naszych codziennych planów i obowiązków, mają wpływ na dostosowanie pielęgnacji naszej skóry oraz włosów do panujących warunków atmosferycznych. W czasie mrozów nasza skóra potrzebuje szczególnej ochrony jak i pielęgnacji, ponieważ zimny wiatr oraz zmienne temperatury mocno ją wysuszają. Zimowy czas jest również niesprzyjający dla naszych włosów, dlatego warto dowiedzieć się, w jaki sposób można uniknąć przetłuszczania się włosów, elektryzowania, wysuszenia i zaczerwienienie skóry.
 
 **Spis treści:**
