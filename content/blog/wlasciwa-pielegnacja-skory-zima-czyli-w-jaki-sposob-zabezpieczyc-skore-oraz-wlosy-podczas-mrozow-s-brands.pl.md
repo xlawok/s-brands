@@ -16,17 +16,11 @@ Pory roku oprócz tego, że wyznaczają rytm naszych codziennych planów i obowi
 **Spis treści:**
 
 1. <rawhtml> <a href="#szkodliwy-wplyw-mrozu-na-skore-oraz-wlosy">Szkodliwy wpływ mrozu na skórę oraz włosy</a></rawhtml>
-    
-2.  <rawhtml> <a href="#odpowiednia-pielegnacja-skory-twarzy-i-ciala-zima">Odpowiednia pielęgnacja skóry twarzy i ciała zimą</a></rawhtml>
-    
-3.  <rawhtml> <a href="#kosmetyki-dzieki-ktorym-twoje-wlosy-nawet-zima-beda-zawsze-piekne">Kosmetyki, dzięki którym Twoje włosy nawet zimą będą zawsze piękne!</a></rawhtml>
-    
-4.  <rawhtml> <a href="#dominacja-na-polskim-rynku-kosmetykow-do-pielegnacji-skory-oraz-wlosow">Dominacja na polskim rynku kosmetyków do pielęgnacji skóry oraz włosów</a></rawhtml>
-    
-5.  <rawhtml> <a href="#kosmetyki-do-pielegnacji-sa-z-nami-od-lat">Kosmetyki do pielęgnacji są z nami od lat!</a></rawhtml>
-    
-6.  <rawhtml> <a href="#czy-kosmetyki-profesjonalne-sa-lepsze-od-kosmetykow-drogeryjnych">Czy kosmetyki profesjonalne są lepsze od kosmetyków drogeryjnych?</a></rawhtml>
-    
+2. <rawhtml> <a href="#odpowiednia-pielegnacja-skory-twarzy-i-ciala-zima">Odpowiednia pielęgnacja skóry twarzy i ciała zimą</a></rawhtml>
+3. <rawhtml> <a href="#kosmetyki-dzieki-ktorym-twoje-wlosy-nawet-zima-beda-zawsze-piekne">Kosmetyki, dzięki którym Twoje włosy nawet zimą będą zawsze piękne!</a></rawhtml>
+4. <rawhtml> <a href="#dominacja-na-polskim-rynku-kosmetykow-do-pielegnacji-skory-oraz-wlosow">Dominacja na polskim rynku kosmetyków do pielęgnacji skóry oraz włosów</a></rawhtml>
+5. <rawhtml> <a href="#kosmetyki-do-pielegnacji-sa-z-nami-od-lat">Kosmetyki do pielęgnacji są z nami od lat!</a></rawhtml>
+6. <rawhtml> <a href="#czy-kosmetyki-profesjonalne-sa-lepsze-od-kosmetykow-drogeryjnych">Czy kosmetyki profesjonalne są lepsze od kosmetyków drogeryjnych?</a></rawhtml>
 
 ## Szkodliwy wpływ mrozu na skórę oraz włosy {#szkodliwy-wplyw-mrozu-na-skore-oraz-wlosy}
 
@@ -36,28 +30,23 @@ Tak naprawdę niekorzystne działanie mrozu jest nie tylko chwilowym dyskomforte
 
 Pewnie zadajesz sobie pytanie, w jaki sposób zabezpieczyć skórę przed szkodliwym działaniem mrozu? Przede wszystkim musisz zatroszczyć się o właściwą pielęgnację naturalnej powłoki ochronnej skóry. Nie utrudniaj swojej skórze walki z minusowymi temperaturami i pomóż jej w przystosowaniu się do zmiennych warunków pogodowych poprzez kilka, podstawowych zasad.
 
-1.  **Delikatne oczyszczanie skóry twarzy**
-    
+1. **Delikatne oczyszczanie skóry twarzy**
 
 Jeżeli chcesz zachować naturalny stan powłoki ochronnej Twojej skóry, którą tworzy płaszcz wodno-lipidowy, musisz unikać gruboziarnistych peelingów jak i podrażniających skórę produktów myjących. Zamień swój mocno oczyszczający żel do mycia twarzy na delikatne mleczko lub lżejszy żel, który skutecznie oczyści twarz i nie narazi jej na niepotrzebne podrażnienia.
 
-2.  **Odpowiednio dobrany krem ochronny**
-    
+1. **Odpowiednio dobrany krem ochronny**
 
 Tak naprawdę najważniejszym zimowym kosmetykiem pielęgnacyjnym będzie dobry krem ochronny. Powinien on zawierać w swoim składzie substancje, które pomogą utrzymać wodę w skórze, takie jak ceramidy, kwas hialuronowy, kwasy tłuszczowe, glicerynę, jak również substancje łagodzące podrażnienia, czyli aloes, wyciągi z rumianku czy alantoinę. Oprócz tego istotne są antyoksydanty, takie jak np. witamina E, olej arganowy czy wyciąg z zielonej herbaty. Pamiętaj o dobraniu konsystencji kremy ochronnego do rodzaju skóry. Kiedy jesteś posiadaczem skóry suchej najlepiej sprawdzi się gęsty krem, natomiast dla tłustej i mieszanej strzałem w dziesiątkę okaże się lekki krem ochronny.
 
-3.  **Regeneruj swoją skórę**
-    
+1. **Regeneruj swoją skórę**
 
 Raz w tygodniu urządź swojej skórze domowe SPA. Oprócz codziennej, wieczornej rutyny pielęgnacyjnej dołącz maskę regenerującą do twarzy, która pomoże w zachowaniu dobrej kondycji skóry, nawet przy wysokich mrozach.
 
-4.  **Pamiętaj również o ustach!**
-    
+1. **Pamiętaj również o ustach!**
 
 Najbardziej narażona na wysuszenie jest zdecydowanie skóra warg, ponieważ nie posiada gruczołów łojowych. Delikatna skóra warg nie jest zabezpieczona ochronną warstwą sebum, dlatego odpowiedni poziom ochrony oraz nawilżenia pomoże utrzymać Ci Twoje usta w świetnej kondycji. Nie narażaj swoich ust na pękanie i stosuj pomadki ochronne, balsamy do ust jak i peelingi.
 
-5.  **Zadbaj o swoje dłonie oraz stopy**
-    
+1. **Zadbaj o swoje dłonie oraz stopy**
 
 Oprócz codziennego nawilżania swojego ciała balsamem lub masłem do ciała nie możesz zapomnieć o dłoniach oraz stopach. Dłonie najlepiej smaruj po każdym umyciu rąk oraz przed wyjściem na dwór, ponieważ nasze ręce, tak samo jak usta szczególnie narażone są na przemarznięcie. Niska temperatura oraz mroźny, suchy wiatr mogą spowodować, że Twoje dłonie, które nie będą miały założonych rękawiczek staną się szorstkie, czerwone i popękane. Zimą najlepiej postawić na gęste i natłuszczające kremy, które niemalże natychmiastowo poprawią stan skóry. Zwracaj uwagę, aby balsamy posiadały w swoim składzie substancje czynne, które wspierają regenerację komórek naskórka oraz odbudowę jego powłoki lipidowej.
 
@@ -69,20 +58,15 @@ Regularne stosowanie balsamów do ciała spowoduje, że ciało będzie wygląda�
 
 Nie ma znaczenia, czy Twoje włosy są długie czy krótkie – zima jest ciężkim czasem dla włosów o każdej długości. Przez wahania temperatur oraz suche powietrze Twoje włosy przestają się układać, puszą się, stają się bardziej suche, łamliwe jak i szybciej się przetłuszczają. Pielęgnacja włosów zimą nie jest tylko stosowaniem specjalistycznych kosmetyków do włosów, ale również zmianą codziennych nawyków. Oto kilka wskazówek, dzięki którym pomożesz swoim włosom w tym trudnym okresie:
 
-1.  Wychodząc na zimno zawsze zakładaj czapkę. Ciepłe okrycie głowy zabezpieczy cebulki włosów przed uszkodzeniem. Narażając swoje włosy na przemrożenie skutki mogą być tragiczne, ponieważ cebulki znacznie się osłabią, a włosy zaczną po prostu wypadać. Jeżeli masz problem z elektryzowaniem się włosów po zdjęciu czapki, zwracaj uwagę na skład okrycia głowy. Elektryzowanie się włosów najczęściej wynika z noszenia czapek wykonanych z syntetycznych materiałów, które wzmagają puszenie się. Przebywając w domu zadbaj o odpowiednie nawilżenie powietrza. Zbyt suche powietrze spowodowane ciepłem kaloryferów może dodatkowo wysuszać włosy.
-    
-
-2.  Myj włosy łagodnym szamponem do włosów, który może być używany nawet codziennie. Raz w tygodniu postaw na szampon oczyszczający, który zmyje pozostałości odżywek czy środków do stylizacji włosów. Zbyt częste stosowanie oczyszczającego szamponu może pozbawić je nawilżenia. Unikaj w szamponach takich substancji jak SLS, SLES czy parabeny. Jeżeli zastosujesz nasze rady to w małym stopniu naruszysz warstwę ochronną swoich włosów, a Twoja fryzura będzie wyglądać zawsze na świeżą i estetyczną. Jeżeli Twoje włosy nie przetłuszczają się zbyt często to staraj się je myć co 2/3 dni.
-    
-
-3.  Oprócz mycia ważne jest również odżywianie włosów. Zimową porą włosy, tak samo jak skóra potrzebują większej dawki nawilżenia, dlatego odżywki do włosów, które będziesz stosować zimą muszą być bogate w składniki nawilżające jak i natłuszczające, czyli emolienty. Po zastosowaniu takiej odżywki Twoje włosy staną się bardziej gładkie, elastyczne oraz nabiorą zdrowej jędrności. Pamiętaj, aby odpowiednio dobrać odżywkę. Przed myciem warto stosować oleje do włosów lub dodać je do swoich masek pielęgnacyjnych, które je wzbogacą. Regularne stosowanie oleju pomogą w walce z rozdwajaniem się włosów czy ich łamliwością. Profesjonalna hurtownia kosmetyków, taka jak nasza z pewnością będzie posiadała niezbędne produkty, które pomogą zadbać o Twoją skórę czy włosy przez cały rok!
-    
+1. Wychodząc na zimno zawsze zakładaj czapkę. Ciepłe okrycie głowy zabezpieczy cebulki włosów przed uszkodzeniem. Narażając swoje włosy na przemrożenie skutki mogą być tragiczne, ponieważ cebulki znacznie się osłabią, a włosy zaczną po prostu wypadać. Jeżeli masz problem z elektryzowaniem się włosów po zdjęciu czapki, zwracaj uwagę na skład okrycia głowy. Elektryzowanie się włosów najczęściej wynika z noszenia czapek wykonanych z syntetycznych materiałów, które wzmagają puszenie się. Przebywając w domu zadbaj o odpowiednie nawilżenie powietrza. Zbyt suche powietrze spowodowane ciepłem kaloryferów może dodatkowo wysuszać włosy.
+2. Myj włosy łagodnym szamponem do włosów, który może być używany nawet codziennie. Raz w tygodniu postaw na szampon oczyszczający, który zmyje pozostałości odżywek czy środków do stylizacji włosów. Zbyt częste stosowanie oczyszczającego szamponu może pozbawić je nawilżenia. Unikaj w szamponach takich substancji jak SLS, SLES czy parabeny. Jeżeli zastosujesz nasze rady to w małym stopniu naruszysz warstwę ochronną swoich włosów, a Twoja fryzura będzie wyglądać zawsze na świeżą i estetyczną. Jeżeli Twoje włosy nie przetłuszczają się zbyt często to staraj się je myć co 2/3 dni.
+3. Oprócz mycia ważne jest również odżywianie włosów. Zimową porą włosy, tak samo jak skóra potrzebują większej dawki nawilżenia, dlatego odżywki do włosów, które będziesz stosować zimą muszą być bogate w składniki nawilżające jak i natłuszczające, czyli emolienty. Po zastosowaniu takiej odżywki Twoje włosy staną się bardziej gładkie, elastyczne oraz nabiorą zdrowej jędrności. Pamiętaj, aby odpowiednio dobrać odżywkę. Przed myciem warto stosować oleje do włosów lub dodać je do swoich masek pielęgnacyjnych, które je wzbogacą. Regularne stosowanie oleju pomogą w walce z rozdwajaniem się włosów czy ich łamliwością. Profesjonalna hurtownia kosmetyków, taka jak nasza z pewnością będzie posiadała niezbędne produkty, które pomogą zadbać o Twoją skórę czy włosy przez cały rok!
 
 **Emolienty** są substancjami o właściwościach trwale nawilżających włosy, które charakteryzują się dużą zawartością kwasów tłuszczowych, dzięki którym lepiej zatrzymują wilgoć w łusce włosa.
 
 ## Dominacja na polskim rynku kosmetyków do pielęgnacji skóry oraz włosów {#dominacja-na-polskim-rynku-kosmetykow-do-pielegnacji-skory-oraz-wlosow}
 
-Rynek kosmetyczny w Polsce mimo kryzysu ma się świetnie, a jego TOP 3 to: kosmetyki do pielęgnacji włosów, kosmetyki do pielęgnacji skóry oraz kosmetyki kolorowe. Jeżeli chodzi o kosmetyki do pielęgnacji włosów i skóry to są to kategorie, które od lat mają największy udział w sprzedaży. Polski rynek kosmetyczny, tak jak inne sektory muszą zmierzać się ze zmianami w zachowaniu konsumentów wywołanymi przed pandemię. Oprócz wzrostu handlu internetowego zmieniła się też wielkość sprzedaży w poszczególnych kategoriach. Większa ilość czasu spędzonego w domu spowodowała mniejsze użycie kosmetyków do makijażu, natomiast wzrosło zainteresowanie w kategorii pielęgnacji. Kosmetyki są jedną z najważniejszych branż na rynku e-commerce i nic dziwnego! Do najpopularniejszych marek drogerii internetowych zdecydowanie należą Douglas, Rossman, Sephora, Hebe czy Notino. Jako **dystrybutor kosmetyków** zaopatrujemy również drogerie internetowe w takie marki jak np. Nuxe, Ducray, Alfaparf, Lierac, Green Pharmacy, Vichy, Russell, Avène I wiele innych. Nie zabraknie u nas kosmetyków do makijażu, od marek takich jak Catrice, Kiko Milano, Dermacol, Revolution, MAC czy Essence.
+Rynek kosmetyczny w Polsce mimo kryzysu ma się świetnie, a jego TOP 3 to: kosmetyki do pielęgnacji włosów, kosmetyki do pielęgnacji skóry oraz kosmetyki kolorowe. Jeżeli chodzi o kosmetyki do pielęgnacji włosów i skóry to są to kategorie, które od lat mają największy udział w sprzedaży. Polski rynek kosmetyczny, tak jak inne sektory muszą zmierzać się ze zmianami w zachowaniu konsumentów wywołanymi przed pandemię. Oprócz wzrostu handlu internetowego zmieniła się też wielkość sprzedaży w poszczególnych kategoriach. Większa ilość czasu spędzonego w domu spowodowała mniejsze użycie kosmetyków do makijażu, natomiast wzrosło zainteresowanie w kategorii pielęgnacji. Kosmetyki są jedną z najważniejszych branż na rynku e-commerce i nic dziwnego! Do najpopularniejszych marek drogerii internetowych zdecydowanie należą Douglas, Rossman, Sephora, Hebe czy Notino. Jako [**dystrybutor kosmetyków**](https://www.s-brands.pl/) zaopatrujemy również drogerie internetowe w takie marki jak np. Nuxe, Ducray, Alfaparf, Lierac, Green Pharmacy, Vichy, Russell, Avène I wiele innych. Nie zabraknie u nas kosmetyków do makijażu, od marek takich jak Catrice, Kiko Milano, Dermacol, Revolution, MAC czy Essence.
 
 ## Kosmetyki do pielęgnacji są z nami od lat! {#kosmetyki-do-pielegnacji-sa-z-nami-od-lat}
 
