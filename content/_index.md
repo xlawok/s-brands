@@ -154,7 +154,7 @@ txt_block_size = "XL"
 underline = false
 [poznaj_nas]
 adres_odnosnika = "contact/_index.md"
-opis_sekcji = "Jesteśmy międzynarodowym dystrybutorem marek kosmetycznych renomowanych producentów. Jako hurtownia kosmetyczna dostarczamy swoim klientom najlepsze ceny oraz promocje okresowe i stale wyszukując najlepszych źródeł zaopatrzenia."
+opis_sekcji = "Jesteśmy międzynarodowym dystrybutorem marek kosmetycznych renomowanych producentów. Jako hurtownia kosmetyczna dostarczamy swoim klientom najlepsze ceny oraz promocje okresowe, stale wyszukując najlepszych źródeł zaopatrzenia."
 tytul_odnosnika = "Więcej o nas"
 zdjecie = "/uploads/sbrands-main-know-us.jpg"
 [[poznaj_nas.header_repeater]]
