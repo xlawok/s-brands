@@ -23,7 +23,7 @@ txt_block_size = "XL"
 underline = false
 [kogo_zaopatrujemy]
 logo = "/uploads/sbrands_logo_main.svg"
-naglowek_z_logo = "Hurtownie kosmetyczne"
+naglowek_z_logo = "Hurtownia kosmetyczna"
 opis_sekcji = "Zobacz w jaki sposób działa nasz system zaopatrzenia"
 [[kogo_zaopatrujemy.header_repeater]]
 block_tag_type = "h2"
