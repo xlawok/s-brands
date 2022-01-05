@@ -4,10 +4,10 @@ grupa_marek = []
 header_repeater = []
 meta_opis = ""
 meta_robots = ""
-name = "Globalna dystrybucja kosmetyków"
+name = "Hurtownia kosmetyków"
 opis_pod_naglowiem = ""
 slug = "/"
-title = "Globalna dystrybucja kosmetyków, Dostawca | S-brands.pl"
+title = "Hurtownia kosmetyczna | S-brands.pl"
 which_layout = ""
 [banner]
 adres_odnosnika = "contact/_index.md"
@@ -18,12 +18,12 @@ zdjecia_do_slidera = ["/uploads/sbrands-main-baner-1.jpg", "/uploads/sbrands-mai
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "Globalna dystrybucja kosmetyków"
+txt_block = "Globalny dystrybutor kosmetyków"
 txt_block_size = "XL"
 underline = false
 [kogo_zaopatrujemy]
 logo = "/uploads/sbrands_logo_main.svg"
-naglowek_z_logo = "Hurtownie"
+naglowek_z_logo = "Hurtownie kosmetyczne"
 opis_sekcji = "Zobacz w jaki sposób działa nasz system zaopatrzenia"
 [[kogo_zaopatrujemy.header_repeater]]
 block_tag_type = "h2"
@@ -96,10 +96,10 @@ txt_block = "Nasze marki"
 txt_block_size = "XL"
 underline = false
 [nasze_produkty]
-opis_sekcji = "W naszej ofercie znajdują się artykuły należące do czterech grup produktowych"
+opis_sekcji = "W ofercie naszej hurtowni kosmetycznej znajdują się artykuły należące do czterech grup produktowych"
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.md"
-opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Specjalizujemy się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
+opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Nasza hurtownia kosmetyczna specjalizuje się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
 tytul_odnosnika = "Zobacz marki"
 zdjecie = "/uploads/sbrands-main-makeup.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
@@ -154,7 +154,7 @@ txt_block_size = "XL"
 underline = false
 [poznaj_nas]
 adres_odnosnika = "contact/_index.md"
-opis_sekcji = "Jesteśmy międzynarodową firmą specjalizującą się w dystrybucji marek kosmetycznych renomowanych producentów. Dostarczamy swoim klientom najlepsze ceny i promocje okresowe stale wyszukując najlepszych źródeł zaopatrzenia."
+opis_sekcji = "Jesteśmy międzynarodowym dystrybutorem marek kosmetycznych renomowanych producentów. Jako hurtownia kosmetyczna dostarczamy swoim klientom najlepsze ceny oraz promocje okresowe i stale wyszukując najlepszych źródeł zaopatrzenia."
 tytul_odnosnika = "Więcej o nas"
 zdjecie = "/uploads/sbrands-main-know-us.jpg"
 [[poznaj_nas.header_repeater]]
