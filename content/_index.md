@@ -2,7 +2,7 @@
 dodaj_formularz = true
 grupa_marek = []
 header_repeater = []
-meta_opis = ""
+meta_opis = "Dystrybutor kosmetyków s-brands. Zaopatrujemy hurtownie kosmetyczne, apteki, salony, sklepy internetowe w kosmetyki renomowanych producentów."
 meta_robots = ""
 name = "Hurtownia kosmetyków"
 opis_pod_naglowiem = ""
