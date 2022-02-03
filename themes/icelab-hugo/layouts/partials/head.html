@@ -14,7 +14,7 @@
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  
   {{ hugo.Generator }}
   <meta name="google-site-verification" content="dmnS4cObGv-rc3T5Hzc6B-Psc0FlgCPW5lcaDvUtNg0" />
   <meta name=robots content="index, follow">
