@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{$sites :=.Sites.First.GetPage "/uploads"}}
+    {{ with .Params }}
+    <section class="banner-area" >
+        <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
+        <div class="header-cnt">
+            {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+            <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+            <div class="description-wrapper">
+                <p>{{.opis_pod_naglowiem | safeHTML}}</p>
+            
+            </div>
+        </div>
+    </section>
+        {{with .grupa_marek}}
+        <section class="brands-area" >
+            {{range . }}
+                {{$tytul_grupy:=.tytul_grupy}}
+                
+                {{with .marki}}
+              
+                
+                    <h2 class="group-header">{{$tytul_grupy}}</h2>
+                    <ul class="brands-img-wrapper">
+                        {{range .}}
+                        
+                      
+                            <li class="brand-img-cnt ">
+                                
+                                
+                                
+                                {{ with   .odnisnik_marki }}
+                                    
+                                    {{ with site.GetPage  . }}
+                                        <a class='' href='{{.RelPermalink}}'>
+                                    {{end}}
+                                    {{end}}
+                                
+                                {{- partial "img.html" (dict "image" .ikona_marki "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset" "imgalt" .tytul_marki "awsites" $sites)  -}}
+                                {{ with .odnisnik_marki }}
+                                    </a>
+                                {{end}}
+                            </li>
+                        {{end}}
+                    </ul>
+                {{end}}
+            {{end}}
+        {{end}}
+    
+    </section>
+    {{end}}
+    {{if .Params.dodaj_formularz }}
+        {{- partial "form_full.html" . -}}
+    {{end}}
+{{ end }}
