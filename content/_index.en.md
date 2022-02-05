@@ -164,6 +164,7 @@ txt_block = "Get to know us better"
 txt_block_size = "L"
 underline = false
 [proces]
+kolumny_kroki = []
 podpis_pod_naglowkiem = "Contact us and we will quickly verify the transition from the idea to launching a new brand on the desired market as efficiently as possible. We will be glad to assist you with your special needs."
 [[proces.header_repeater]]
 block_tag_type = "h2"
@@ -172,41 +173,5 @@ break_line = false
 txt_block = "oem / odm - order process"
 txt_block_size = "XL"
 underline = false
-[[proces.kolumny_kroki]]
-dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque aliquet tempor. Vestibulum vel orci velit. Aliquam convallis, sapien a finibus ornare."
-ikona = "/uploads/group-145.svg"
-opis_kolumny = "Customer request, planning samples & price"
-[[proces.kolumny_kroki]]
-dlugi_opis_kroku = "lorem psum ipsum"
-ikona = "/uploads/group-146.svg"
-opis_kolumny = "PO confirmation, quality & terms and documents"
-[[proces.kolumny_kroki]]
-dlugi_opis_kroku = "lorem ipsum"
-ikona = "/uploads/group-148.svg"
-opis_kolumny = "Design & developement"
-[[proces.kolumny_kroki]]
-dlugi_opis_kroku = "tekst"
-ikona = "/uploads/group-150.svg"
-opis_kolumny = "Production, quality inspection"
-[[proces.kolumny_kroki]]
-dlugi_opis_kroku = "tekst"
-ikona = "/uploads/group-151.svg"
-opis_kolumny = "Arrange production, raw material inspection"
-[[proces.kolumny_kroki]]
-dlugi_opis_kroku = "tekst"
-ikona = "/uploads/group-152.svg"
-opis_kolumny = "1st confirmation samples"
-[[proces.kolumny_kroki]]
-dlugi_opis_kroku = "tekst"
-ikona = "/uploads/group-156.svg"
-opis_kolumny = "Inspeciton, QC & final samples"
-[[proces.kolumny_kroki]]
-dlugi_opis_kroku = "tekst"
-ikona = "/uploads/group-159.svg"
-opis_kolumny = "Forwarding balance payment"
-[[proces.kolumny_kroki]]
-dlugi_opis_kroku = "tekst"
-ikona = "/uploads/group-160.svg"
-opis_kolumny = "Delivery"
 
 +++
