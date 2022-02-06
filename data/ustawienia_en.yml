@@ -5,8 +5,6 @@ top_settings:
   social_links:
   - ikona: "/uploads/icon-simple-facebook.svg"
     odnosnik: https://www.facebook.com/SBrandsCosmetics
-  - ikona: "/uploads/icon-feather-instagram.svg"
-    odnosnik: https://instagram.com
   logo_w_menu: "/uploads/sbrands_logo_main.svg"
 ustawienia_stopki:
   wybierz_logo: "/uploads/sbrands_logo_main.svg"
