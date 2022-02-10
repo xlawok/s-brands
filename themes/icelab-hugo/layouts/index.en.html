@@ -139,7 +139,7 @@
   {{$tytul_odnosnika:= .tytul_odnosnika}}
   {{$adres_odnosnika:= .adres_odnosnika}}
   <section class="ourbrands-area" >
-    {{with .galeria_logo}}
+    {{with .grupa_marek}}
     <ul class="brands-img-wrapper">
       {{ $galeria_len := len . }}
       {{ range $index, $element := . }}
@@ -160,10 +160,22 @@
         </li>
 
       {{else}}
-        <li class="banner-img-cnt {{ if (eq $index 0) }}active{{ end }}">
-      
-          {{- partial "img.html" (dict "image" $element "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
-        </li>
+        <li class="brand-img-cnt {{ if (eq $index 0) }}active{{ end }} ">
+                                    
+                                    
+                                    
+          {{ with   .odnosnik_marki }}
+              
+              {{ with site.GetPage  . }}
+                  <a class='our-brand-link' href='{{.RelPermalink}}'>
+              {{end}}
+              {{end}}
+          
+          {{- partial "img.html" (dict "image" .ikona_marki "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset" "imgalt" .tytul_marki "awsites" $sites)  -}}
+          {{ with .odnosnik_marki }}
+              </a>
+          {{end}}
+      </li>
       {{end}}
       {{end}}
     </ul>

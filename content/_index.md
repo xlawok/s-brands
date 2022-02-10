@@ -97,7 +97,7 @@ ikona_marki = "/uploads/eau_thermale_avene_logo.jpg"
 odnosnik_marki = "nasze-marki/avene.md"
 tytul_marki = "Avene"
 [[nasze_marki.grupa_marek]]
-ikona_marki = "/uploads/a-carita_logo.jpg"
+ikona_marki = "/uploads/carita_logo.jpg"
 odnosnik_marki = ""
 tytul_marki = "Carita Paris"
 [[nasze_marki.grupa_marek]]
