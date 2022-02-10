@@ -13,11 +13,16 @@
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta name="description" content="{{ with .Params.meta_opis }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   
   {{ hugo.Generator }}
   <meta name="google-site-verification" content="dmnS4cObGv-rc3T5Hzc6B-Psc0FlgCPW5lcaDvUtNg0" />
-  <meta name=robots content="index, follow">
+  {{with .Params.meta_robots }}
+        <meta name="robots" content="{{.}}" />
+        {{else}}
+        <meta name="robots" content="index, follow" />
+        {{end}}
+  
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .URL | absURL }} ">
@@ -32,4 +37,28 @@
   <link rel="icon" href="{{ `uploads/sbrands-favicon.png` | absURL }} " type="image/x-icon">
   {{ $lazyJs := resources.Get "js/lazysizes.min.js"  }}
   <script  type="text/javascript" src="{{ $lazyJs.Permalink }}" defer></script>
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Hurtownia kosmetyczna | S-brands.pl",
+        "url": "https://www.s-brands.pl/",
+        "logo": "https://www.s-brands.pl/uploads/sbrands_logo_main.svg",
+        "legalName": "S-BRANDS – ERNEST RAK",
+        "sameAs": [
+            "https://www.facebook.com/SBrandsCosmetics"
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Hurtownia kosmetyczna | S-brands.pl",
+          "url": "https://www.s-brands.pl/",
+          "sameAs": [
+              "https://www.facebook.com/SBrandsCosmetics"
+          ]
+      }
+      </script>
 </head>
