@@ -87,6 +87,86 @@ adres_odnosnika = "contact/_index.md"
 galeria_logo = ["/uploads/a-derma_logo.jpg", "/uploads/eau_thermale_avene_logo.jpg", "/uploads/carita_logo.jpg", "/uploads/caudalie_logo.jpg", "/uploads/comfort_zone-logo.jpg", "/uploads/decleor-logo.jpg", "/uploads/dr-hauschka-logo.jpg", "/uploads/erborian-logo.jpg", "/uploads/isdin-logo.jpg", "/uploads/isis-logo.jpg", "/uploads/loccitane-logo.jpg", "/uploads/madara-logo.jpg", "/uploads/group-184.jpg", "/uploads/group-185.jpg", "/uploads/group-182.jpg", "/uploads/group-183.jpg", "/uploads/group-186.jpg", "/uploads/group-187.jpg", "/uploads/group-189.jpg", "/uploads/group-188.jpg"]
 opis_sekcji = "Among the many well-known brands whose products we distribute, we can pride ourselves in cooperation with:"
 tytul_odnosnika = "Brand catalogue"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/a-derma_logo.jpg"
+odnosnik_marki = "nasze-marki/a-derma.md"
+tytul_marki = "A-Derma"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/eau_thermale_avene_logo.jpg"
+odnosnik_marki = "nasze-marki/avene.md"
+tytul_marki = "Avene"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/a-carita_logo.jpg"
+odnosnik_marki = ""
+tytul_marki = "Carita Paris"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/caudalie_logo.jpg"
+odnosnik_marki = ""
+tytul_marki = "Caudalie"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/comfort_zone-logo.jpg"
+odnosnik_marki = "nasze-marki/comfort-zone.md"
+tytul_marki = "Comfortzone"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/decleor-logo.jpg"
+odnosnik_marki = ""
+tytul_marki = "Decleor"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/dr-hauschka-logo.jpg"
+odnosnik_marki = ""
+tytul_marki = "DR Hauschka"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/erborian-logo.jpg"
+odnosnik_marki = ""
+tytul_marki = "Erborian"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/isdin-logo.jpg"
+odnosnik_marki = "nasze-marki/isdin.md"
+tytul_marki = "Isdin"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/isis-logo.jpg"
+odnosnik_marki = ""
+tytul_marki = "Isis"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/loccitane-logo.jpg"
+odnosnik_marki = ""
+tytul_marki = "Loccitane"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/madara-logo.jpg"
+odnosnik_marki = "nasze-marki/madara.md"
+tytul_marki = "Madara"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/group-184.jpg"
+odnosnik_marki = ""
+tytul_marki = "Mustela"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/group-185.jpg"
+odnosnik_marki = "nasze-marki/vichy.md"
+tytul_marki = "Vichy"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/group-182.jpg"
+odnosnik_marki = ""
+tytul_marki = "Phyto"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/group-183.jpg"
+odnosnik_marki = "nasze-marki/decleor.md"
+tytul_marki = "Decleor"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/group-186.jpg"
+odnosnik_marki = ""
+tytul_marki = "Russel"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/group-187.jpg"
+odnosnik_marki = ""
+tytul_marki = "Skeyndor"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/group-189.jpg"
+odnosnik_marki = ""
+tytul_marki = "Thalgo"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/group-188.jpg"
+odnosnik_marki = ""
+tytul_marki = "SVR"
 [[nasze_marki.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
