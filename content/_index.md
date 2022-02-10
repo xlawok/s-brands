@@ -88,6 +88,10 @@ adres_odnosnika = "contact/_index.md"
 galeria_logo = ["/uploads/a-derma_logo.jpg", "/uploads/eau_thermale_avene_logo.jpg", "/uploads/carita_logo.jpg", "/uploads/caudalie_logo.jpg", "/uploads/comfort_zone-logo.jpg", "/uploads/decleor-logo.jpg", "/uploads/dr-hauschka-logo.jpg", "/uploads/erborian-logo.jpg", "/uploads/isdin-logo.jpg", "/uploads/isis-logo.jpg", "/uploads/loccitane-logo.jpg", "/uploads/madara-logo.jpg", "/uploads/group-184.jpg", "/uploads/group-185.jpg", "/uploads/group-182.jpg", "/uploads/group-183.jpg", "/uploads/group-186.jpg", "/uploads/group-187.jpg", "/uploads/group-189.jpg", "/uploads/group-188.jpg"]
 opis_sekcji = "Wśród wielu znanych marek, których kosmetyki dystrybuujemy, możemy poszczycić się współpracą z:"
 tytul_odnosnika = "Zobacz katalog marek"
+[[nasze_marki.grupa_marek]]
+ikona_marki = "/uploads/a-derma_logo.jpg"
+odnosnik_marki = "nasze-marki/a-derma.md"
+tytul_marki = "A-Derma"
 [[nasze_marki.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
