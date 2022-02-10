@@ -224,7 +224,7 @@ fields:
     type: image_gallery
     config: {}
     label: Galeria logotypów
-  - name: nasze_marki
+  - name: grupa_marek
     type: field_group_list
     fields:
     - name: ikona_marki
