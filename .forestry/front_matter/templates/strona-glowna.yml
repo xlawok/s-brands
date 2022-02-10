@@ -224,6 +224,36 @@ fields:
     type: image_gallery
     config: {}
     label: Galeria logotypów
+  - name: nasze_marki
+    type: field_group_list
+    fields:
+    - name: ikona_marki
+      type: file
+      config:
+        maxSize: 1
+      label: Ikona marki
+    - name: tytul_marki
+      type: text
+      config:
+        required: false
+      label: Tytuł marki
+    - name: odnosnik_marki
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: nasze-marki-30cb51d6-dff6-44d5-bba0-a77f32630088
+          file: 
+          path: 
+      label: Odnośnik marki
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Nasze marki
   label: Nasze marki
 - name: nasze_produkty
   type: field_group
