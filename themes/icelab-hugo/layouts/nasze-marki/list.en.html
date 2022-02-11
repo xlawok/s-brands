@@ -1,7 +1,9 @@
 {{ define "main" }}
+{{$bread:= .}}
 {{$sites :=.Sites.First.GetPage "/uploads"}}
     {{ with .Params }}
     <section class="banner-area" >
+        {{ partial "breadcrumbs.html" $bread }}
         <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
         <div class="header-cnt">
             {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}

@@ -1,0 +1,50 @@
+
+
+<ol  class="nav navbar-nav breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+   
+    {{ template "breadcrumbnav" (dict "p1" . "p2" . "level" 1  ) }}
+  </ol>
+  
+  {{ define "breadcrumbnav" }}
+  {{ if .p1.Parent }}
+  {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 "level" 1)  }}
+  {{ else if not .p1.IsHome }}
+  {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 "level" 2)  }}
+  {{ end }}
+
+  {{ $level := add .level 1 }}
+  <li{{ if eq .p1 .p2 }} class="active"{{ end }} itemprop="itemListElement" itemscope
+  itemtype="http://schema.org/ListItem">
+    {{ if ne .p1 .p2 }}  <a href="{{ .p1.Permalink }}" itemprop="item">{{end}}
+       
+        {{if eq .p1.Params.slug "/"}}
+        <span itemprop="name">
+        Home
+        </span>
+        <meta itemprop="position" content="1" />
+
+        {{else}}
+       
+            {{with .p1.Params.Menu.Main.name }}
+            <span itemprop="name">
+                {{.}}
+            </span>
+                <meta itemprop="position" content="2" />
+            {{else}}
+            <span itemprop="name">
+                {{.p1.Params.name}}
+             
+            </span>
+            <meta itemprop="position" content="3" />
+            {{ end }}
+ 
+        {{end}}
+        
+       
+        {{ if ne .p1 .p2 }}  </a> > {{end}}
+  </li>
+  
+  
+  {{ end }}
+  
+  

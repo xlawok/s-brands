@@ -215,3 +215,37 @@
         line-height: 3.5;
     }
     }
+.breadcrumbs{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: max-content;
+    gap: 1rem;
+    color: black;
+    padding-top: .5rem;
+    position: relative;
+    z-index: 11;
+    li{
+        display: flex;
+justify-content: space-between;
+gap: .45rem;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    span{
+        text-overflow: ellipsis;
+        max-width: 12rem;
+        display: block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+.kontakt-area{
+    .breadcrumbs{
+        position: absolute;
+    }
+}

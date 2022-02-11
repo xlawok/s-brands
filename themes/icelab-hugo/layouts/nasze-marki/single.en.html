@@ -1,7 +1,9 @@
 {{ define "main" }}
+{{$bread:= .}}
 {{$sites :=.Sites.First.GetPage "/uploads"}}
     
     <section class="banner-area" >
+        {{ partial "breadcrumbs.html" $bread }}
         <div class='brands-nav'>
     
             {{ with .PrevInSection }}

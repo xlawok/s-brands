@@ -1,7 +1,8 @@
 {{ define "main" }}
+{{$bread:= .}}
 {{$sites :=.Sites.First.GetPage "/uploads"}}
 <section class="banner-area" >
-  
+    {{ partial "breadcrumbs.html" $bread }}
     <div class="header-cnt">
         <h1>{{.Params.naglowek}}</h1>
         <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">

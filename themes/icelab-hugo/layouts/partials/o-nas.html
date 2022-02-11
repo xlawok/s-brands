@@ -1,4 +1,5 @@
 {{$sites :=.Sites.First.GetPage "/uploads"}}
+{{$bread:= .}}
 {{ with .Params.banner }}
   {{if (isset . "zdjecie")}}
   <section class="banner-area" >
@@ -25,7 +26,7 @@
       </p>
 
     </div>
-
+    {{ partial "breadcrumbs.html" $bread }}
   </section>
   {{end}}
 

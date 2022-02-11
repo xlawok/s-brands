@@ -1,7 +1,9 @@
+{{$bread:= .}}
 {{ with .Params }}
   <section class="kontakt-area" >
-   
+    {{ partial "breadcrumbs.html" $bread }}
     <div class="kontakt-left"> 
+        
         <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
         <div class='header-cnt'>
         
@@ -31,6 +33,7 @@
             {{end}}
             </ul>
         {{end}}
+     
     </div>
     <div class="kontakt-right">
         {{$own_header:=.naglowek_formularza}}
