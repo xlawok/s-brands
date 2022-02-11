@@ -7,7 +7,7 @@ body{
     box-sizing: border-box;
     section:nth-child(2){
         margin-top: 7rem;
-        @media (min-width: 768px) {
+        @media (min-width: 992px) {
             margin-top: 10rem;
         }
     }

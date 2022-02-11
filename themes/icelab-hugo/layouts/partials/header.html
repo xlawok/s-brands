@@ -38,6 +38,21 @@
          {{ range .Site.Menus.main }}
           <li class="nav-item">
             <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+       
+            {{if or (eq .URL "/nasze-marki/") (eq .URL "/en/our-brands/")}}
+              {{ $sectionPages := where site.RegularPages "Section" "nasze-marki" }}
+              {{ if ge (len $sectionPages) 1 }}
+              <ul>
+                {{ range $sectionPages }}
+                  <li>
+                    <a class="nav-link" href="{{ .URL | absURL }}">{{ .Params.name }}</a>
+                  </li>
+             
+
+                {{end}}
+              </ul>
+              {{end}}
+            {{end}}
           </li>
           {{ end }}
           {{ partial "allLanguages.html" . }}
