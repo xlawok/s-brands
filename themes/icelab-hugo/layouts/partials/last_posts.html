@@ -1,0 +1,37 @@
+<section class='sc-last-news'>
+    {{ $section := "blog" }}
+    {{$sites :=.Sites.First.GetPage "/uploads"}}
+    <div class='header-cnt'>
+        <h2>Aktualności</h2>
+        <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+    </div>
+    <ul class="news-list cnt-visibility">
+        {{ range first 3 (where site.RegularPages.ByDate "Section" $section ).Reverse }}
+        <li>
+           
+           
+            <a href="{{ .Permalink }}">
+                {{$img_alt:=.Params.opis_zdjecia}}
+                {{with .Params.zdjecie_glowne}}
+                    <div class='with-img-cnt'>
+                        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" ""  "imgalt" $img_alt "awsites" $sites)  -}} 
+                    </div>
+                {{end}}
+               
+                <h3 class="list-news-title">{{ .Params.name   }}</h3>
+                <div class="list-art-footer">
+                    
+                        Czytaj <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}">
+                    
+                </div>
+            </a>
+        </li>
+        {{ end }}
+    </ul> 
+    
+    {{ with site.GetPage "/blog" }}
+    <div class='front-news-more-cnt'>
+        <a class='front-news-more' href="{{ .Permalink }}">Więcej aktualności  <img class='arr-red-ico' src="{{ `images/arr_black.svg` | absURL }}"></a>
+    </div>
+    {{ end }}
+</section>
