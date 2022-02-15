@@ -24,6 +24,11 @@ fields:
     config:
       required: false
     label: Tytuł grupy
+  - name: kotwica_grupy
+    type: text
+    config:
+      required: false
+    label: Kotwica grupy
   - name: marki
     type: field_group_list
     fields:

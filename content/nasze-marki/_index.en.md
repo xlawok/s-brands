@@ -13,6 +13,7 @@ name = "Our brands"
 weight = 3
 [[grupa_marek]]
 tytul_grupy = "MakeUp"
+kotwica_grupy = "MakeUp"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/catrice_cosmetics_logo.jpg"
 odnisnik_marki = "nasze-marki/catrice-cosmetics.en.md"
@@ -47,6 +48,7 @@ odnisnik_marki = "nasze-marki/dermacol.md"
 tytul_marki = "Dermacol"
 [[grupa_marek]]
 tytul_grupy = "Dermocosmetics"
+kotwica_grupy = "Dermocosmetics"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-173.jpg"
 odnisnik_marki = "nasze-marki/eucerin.md"
@@ -81,6 +83,7 @@ odnisnik_marki = "nasze-marki/svr.md"
 tytul_marki = "SVR"
 [[grupa_marek]]
 tytul_grupy = "Hair care"
+kotwica_grupy = "Hair-care"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-179.jpg"
 odnisnik_marki = "nasze-marki/the-cosmetic-republic.md"
@@ -107,6 +110,7 @@ odnisnik_marki = "nasze-marki/american-crew.md"
 tytul_marki = "American Crew"
 [[grupa_marek]]
 tytul_grupy = "Skin care"
+kotwica_grupy = "Skin-care"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/lierac-logo.jpg"
 odnisnik_marki = "nasze-marki/lierac.md"
@@ -141,6 +145,7 @@ odnisnik_marki = "nasze-marki/babor.md"
 tytul_marki = "Barbor"
 [[grupa_marek]]
 tytul_grupy = "Cabin/PRO"
+kotwica_grupy = "Cabin-PRO"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/comfort_zone-logo.jpg"
 odnisnik_marki = "nasze-marki/comfort-zone.md"

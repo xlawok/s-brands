@@ -301,6 +301,11 @@ fields:
       config:
         required: false
       label: Tytuł odnośnika
+    - name: kotwica_grupy
+      type: text
+      config:
+        required: false
+      label: Kotwica grupy    
     - name: adres_odnosnika
       type: select
       default: []

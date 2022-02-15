@@ -201,6 +201,7 @@
     
       
       {{ range $index, $element := . }}
+      {{$kotwica_grupy:=.kotwica_grupy}}
       <li class="product-wrapper"> 
       <div class="img-cnt ">
      
@@ -216,7 +217,7 @@
         {{$tytul_odnosnika:=$element.tytul_odnosnika}}
         {{ if $element.adres_odnosnika }}
           {{ with site.GetPage $element.adres_odnosnika }}
-              <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+              <a class='cta-button' href='{{.RelPermalink}}#{{$kotwica_grupy}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
           {{end}}
         {{end}}
       </div>
