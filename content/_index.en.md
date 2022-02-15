@@ -4,6 +4,7 @@ grupa_marek = []
 header_repeater = []
 meta_opis = ""
 meta_robots = ""
+name = ""
 opis_pod_naglowiem = ""
 slug = "/"
 title = "Cosmetics Supplier, Whosaler, Global distributor | S-brands.pl"
@@ -178,9 +179,9 @@ underline = false
 opis_sekcji = "Our offer includes articles belonging to four product groups"
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.en.md"
+kotwica_grupy = "MakeUp"
 opis_sekcji = "Wide range of the best-selling make-up brands and products on the market. We specialize in original fast moving consumer goods with a special focus in the health and beauty category."
 tytul_odnosnika = "Find out more"
-kotwica_grupy = "MakeUp"
 zdjecie = "/uploads/sbrands-main-makeup.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
@@ -191,9 +192,9 @@ txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.en.md"
+kotwica_grupy = "Skin-care"
 opis_sekcji = "We are proud to offer you a selection of wholesale skin care products from the best brands. Whether you are searching for pharmacy skin care brands or something in luxury skin care, we have you covered."
 tytul_odnosnika = "Find out more"
-kotwica_grupy = "Skin-care"
 zdjecie = "/uploads/sbrands-main-skin.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
@@ -204,9 +205,9 @@ txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.en.md"
+kotwica_grupy = "Hair-care"
 opis_sekcji = "We offer a wide range of hair care products, ranging from pharmacy level brands such as L'Oreal all the way to Salon Professional hair care brands such as Kerastase, Sexyhair and more!"
 tytul_odnosnika = "Find out more"
-kotwica_grupy = "Hair-care"
 zdjecie = "/uploads/sbrands-main-hair.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
@@ -217,9 +218,9 @@ txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.en.md"
+kotwica_grupy = "Cabin-PRO"
 opis_sekcji = "The most spectacular and unique top beauty & aesthetic brands for Professionals. All you need for skin treatment, carefully selected skin problem solvers to regenerate, rejuvenate and keep your skin healthy, naturally beautiful and glowing. Famous brands, effective and safe for both practicioners and clients. "
 tytul_odnosnika = "Find out more"
-kotwica_grupy = "Cabin-PRO"
 zdjecie = "/uploads/sbrands-main-pro.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"

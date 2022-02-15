@@ -305,7 +305,7 @@ fields:
       type: text
       config:
         required: false
-      label: Kotwica grupy    
+      label: Kotwica grupy
     - name: adres_odnosnika
       type: select
       default: []
@@ -380,3 +380,5 @@ fields:
   config: {}
   template: head
   label: Head
+pages:
+- content/_index.en.md
