@@ -2,6 +2,77 @@
 label: Strona dystrybucja
 hide_body: true
 fields:
+- name: sec_2_pic
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis_sekcji
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis sekcji
+  - name: logo
+    type: file
+    config:
+      maxSize: 1
+    label: 'Logo '
+  - name: zdjecie
+    type: file
+    config:
+      maxSize: 1
+    label: 'Zdjęcie '
+  - name: zdjecie2
+    type: file
+    config:
+      maxSize: 1
+    label: 'Zdjęcie drugie'
+  - name: tytul_odnosnika
+    type: text
+    config:
+      required: false
+    label: Tytuł odnośnika
+  - name: adres_odnosnika
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Adres odnośnika
+  - name: strona_producenta
+    type: text
+    config:
+      required: false
+    label: Adres strony producenta
+  config:
+    min: 3
+    max: 3
+    labelField: 
+  label: Sekcja producenta
+- name: dodaj_formularz
+  type: boolean
+  label: Dodaj formularz
+  default: true
+- name: which_layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
+  default: dystrybycja
 - name: head
   type: include
   config: {}

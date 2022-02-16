@@ -1,0 +1,22 @@
+<section class="knowus-area" >
+    <div class="header-cnt">
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <div class="description-wrapper">
+        <p>{{.opis_sekcji | safeHTML}}</p>
+        {{$tytul_odnosnika:=.tytul_odnosnika}}
+        {{ if .adres_odnosnika }}
+          {{ with site.GetPage .adres_odnosnika }}
+              <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+          {{end}}
+        {{end}}
+      </div>
+    </div>
+    
+    <div class="image-wrapper">
+      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+    </div>
+  </section>
+
+  {{if .Params.dodaj_formularz }}
+    {{- partial "form_full.html" . -}}
+  {{end}}
