@@ -97,5 +97,12 @@ fields:
   config: {}
   template: head
   label: Head
+- name: aa
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: aa
 pages:
 - content/generalna-dystrybucja.md
