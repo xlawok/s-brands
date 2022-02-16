@@ -3,7 +3,7 @@ label: Strona dystrybucja
 hide_body: true
 fields:
 - name: sec_2_pic
-  type: field_group
+  type: field_group_list
   config:
     min: 3
     max: 3
@@ -97,12 +97,5 @@ fields:
   config: {}
   template: head
   label: Head
-- name: aa
-  type: field_group_list
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: aa
 pages:
 - content/generalna-dystrybucja.md
