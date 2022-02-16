@@ -8,9 +8,9 @@ slug = ""
 title = ""
 which_layout = "dystrybycja"
 [sekcja_ze_zdj_ciem]
-zdjecie_1_mobilne = ""
-zdjecie_2_mobilne = ""
-zdjecie_duze = ""
+zdjecie_1_mobilne = "/uploads/sbrands-general-dist-1-4-a.jpg"
+zdjecie_2_mobilne = "/uploads/sbrands-general-dist-1-4-b.jpg"
+zdjecie_duze = "/uploads/sbrands-general-dist-1-4.jpg"
 [[sec_2_pic]]
 adres_odnosnika = "nasze-marki/_index.md"
 logo = "/uploads/mades-logo-2016-web.png"
