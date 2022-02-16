@@ -1,4 +1,9 @@
 ---
 label: Strona dystrybucja
 hide_body: true
-fields: []
+fields:
+- name: head
+  type: include
+  config: {}
+  template: head
+  label: Head
