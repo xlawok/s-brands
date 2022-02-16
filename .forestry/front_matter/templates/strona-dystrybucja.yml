@@ -4,7 +4,10 @@ hide_body: true
 fields:
 - name: sec_2_pic
   type: field_group
-  config: {}
+  config:
+    min: 3
+    max: 3
+    labelField: 
   fields:
   - name: naglowek
     type: include
@@ -34,7 +37,7 @@ fields:
     type: file
     config:
       maxSize: 1
-    label: 'Zdjęcie drugie'
+    label: Zdjęcie drugie
   - name: tytul_odnosnika
     type: text
     config:
@@ -57,11 +60,27 @@ fields:
     config:
       required: false
     label: Adres strony producenta
-  config:
-    min: 3
-    max: 3
-    labelField: 
   label: Sekcja producenta
+- name: sekcja_ze_zdj_ciem
+  type: field_group
+  config: {}
+  fields:
+  - name: zdjecie_duze
+    type: file
+    config:
+      maxSize: 1
+    label: Zdjęcie duże
+  - name: zdjecie_1_mobilne
+    type: file
+    config:
+      maxSize: 1
+    label: Zdjęcie 1 mobilne
+  - name: zdjecie_2_mobilne
+    type: file
+    config:
+      maxSize: 1
+    label: Zdjęcie 2 mobilne
+  label: Sekcja ze zdjęciem
 - name: dodaj_formularz
   type: boolean
   label: Dodaj formularz
