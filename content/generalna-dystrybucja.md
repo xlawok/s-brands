@@ -36,7 +36,7 @@ txt_block = "THE NATURAL SKIN, HAIR & BODY CARE EXPERIENCE"
 txt_block_size = "MD"
 underline = false
 [[sec_2_pic]]
-adres_odnosnika = "nasze-marki/_index.md"
+adres_odnosnika = "kontakt.md"
 logo = "/uploads/tcr.png"
 opis_sekcji = "Nasza genetyka, wybór stylu życia i warunki środowiskowe mają odzwierciedlenie w zdrowym wyglądzie naszych włosów. Niezbilansowana dieta, stres, brak snu, zanieczyszczenia, agresywne farby do włosów i przegrzewanie to główne czynniki, które wpływają na kondycję włosów bez względu na ich rodzaj.<br><br>Innowacyjne produkty The Cosmetic Republic to unikalne rozwiązania do pielęgnacji włosów, aby zrównoważyć codzienne wyzwania związane z włosami oparte na naturalnych recepturach, bez agresywnych chemikaliów. Nasza linia produktów jest wolna od parabenów i siarczanów, z poszanowaniem naturalnej równowagi skóry głowy. Nasze opatentowane, ekskluzywne formuły poddawane są procesowi tłoczenia na zimno, co czyni je bardziej efektywnymi, a jednocześnie wzbogacamy je w niezbędne minerały, aby Twoje włosy były zdrowsze i mocniejsze."
 strona_producenta = "https://thecosmeticrepublic.com"
