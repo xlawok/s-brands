@@ -8,7 +8,7 @@ title = "Kontakt | S-brands.pl"
 which_layout = "kontakt"
 [menu.main]
 name = "Kontakt"
-weight = 9
+weight = 10
 [[naglowek_formularza.header_repeater]]
 block_tag_type = "div"
 bold_txt = "gruby"

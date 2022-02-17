@@ -1,12 +1,14 @@
 +++
 dodaj_formularz = true
-draft = false
 meta_opis = ""
 meta_robots = ""
 name = "Generalna dysrybucja"
 slug = "dystrybucja"
 title = "Generalna dysrybucja | S-brands.pl"
 which_layout = "dystrybucja"
+[menu.main]
+name = "Generalna dystrybucja"
+weight = 7
 [sekcja_ze_zdj_ciem]
 zdjecie_1_mobilne = "/uploads/sbrands-general-dist-1-4-a.jpg"
 zdjecie_2_mobilne = "/uploads/sbrands-general-dist-1-4-b.jpg"

@@ -11,8 +11,8 @@ which_layout = "nasze-marki"
 name = "Nasze marki"
 weight = 4
 [[grupa_marek]]
-tytul_grupy = "Kosmetyki do makijażu"
 kotwica_grupy = "kosmetyki-do-makijazu"
+tytul_grupy = "Kosmetyki do makijażu"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/catrice_cosmetics_logo.jpg"
 odnisnik_marki = "nasze-marki/clarincs.md"
@@ -46,8 +46,8 @@ ikona_marki = "/uploads/group-172.jpg"
 odnisnik_marki = "nasze-marki/dermacol.md"
 tytul_marki = "Dermacol"
 [[grupa_marek]]
-tytul_grupy = "Dermokosmetyki "
 kotwica_grupy = "dermokosmetyki"
+tytul_grupy = "Dermokosmetyki "
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-173.jpg"
 odnisnik_marki = "nasze-marki/eucerin.md"
@@ -81,8 +81,8 @@ ikona_marki = "/uploads/svr-logo.jpg"
 odnisnik_marki = "nasze-marki/svr.md"
 tytul_marki = "SVR"
 [[grupa_marek]]
-tytul_grupy = "Kosmetyki do włosów"
 kotwica_grupy = "kosmetyki-do-wlosow"
+tytul_grupy = "Kosmetyki do włosów"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/group-175.jpg"
 odnisnik_marki = "nasze-marki/ducray.md"
@@ -108,8 +108,8 @@ ikona_marki = "/uploads/group-179.jpg"
 odnisnik_marki = "nasze-marki/the-cosmetic-republic.md"
 tytul_marki = "The Cosmetic Republic"
 [[grupa_marek]]
-tytul_grupy = "Pielęgnacja skóry"
 kotwica_grupy = "pielegnacja-skory"
+tytul_grupy = "Pielęgnacja skóry"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/lierac-logo.jpg"
 odnisnik_marki = "nasze-marki/lierac.md"
@@ -143,8 +143,8 @@ ikona_marki = "/uploads/babor-logo.jpg"
 odnisnik_marki = "nasze-marki/babor.md"
 tytul_marki = "Barbor"
 [[grupa_marek]]
-tytul_grupy = "Kosmetyki profesjonalne"
 kotwica_grupy = "kosmetyki-profesjonalne"
+tytul_grupy = "Kosmetyki profesjonalne"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/comfort_zone-logo.jpg"
 odnisnik_marki = "nasze-marki/comfort-zone.md"
