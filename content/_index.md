@@ -21,24 +21,6 @@ break_line = false
 txt_block = "Globalny dystrybutor kosmetyków"
 txt_block_size = "XL"
 underline = false
-[dystrybucja]
-kotwica_do_odnosnika_1 = ""
-odnosnik_1 = "generalna-dystrybucja.md"
-zdj_cie_1 = "/uploads/cosmetic-republic.jpg"
-[[dystrybucja.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "gruby"
-break_line = true
-txt_block = "NOWOŚĆ!"
-txt_block_size = "XL"
-underline = false
-[[dystrybucja.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "normalny"
-break_line = false
-txt_block = "Generalna Dystrybucja"
-txt_block_size = "XL"
-underline = false
 [dystrybucja_section]
 adres_odnosnika_1 = "generalna-dystrybucja.md"
 adres_odnosnika_2 = "generalna-dystrybucja.md"
@@ -46,6 +28,8 @@ kotwica_odnosnika = "the-cosmetic-republic"
 kotwica_odnosnika_2 = "mades"
 zdjecie_1 = "/uploads/cosmetic-republic.jpg"
 zdjecie_2 = "/uploads/mades.jpg"
+logo = "/uploads/tcr.png"
+logo_2 = "/uploads/mades-logo-2016-web.png"
 [[dystrybucja_section.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"

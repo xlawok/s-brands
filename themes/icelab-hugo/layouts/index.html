@@ -133,6 +133,75 @@
       {{end}}
   </section>
 {{ end }}
+{{ with .Params.dystrybucja_section }}
+  <section class="dystrybucja-area" >
+    <div class='header-cnt'>
+      
+      
+      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+      <img class='arr-red-ico' src="{{ `images/arr_red.svg` | absURL }}">
+  
+      
+    </div>
+    
+        <ul class="dyst-cols ">
+          
+         
+            <li>
+             {{$zdjecie_1:=.zdjecie_1}}
+             {{$logo:=.logo}}
+             {{$kotwica_odnosnika:=.kotwica_odnosnika}}
+              {{ with site.GetPage .adres_odnosnika_1 }}
+                  <a  href='{{.RelPermalink}}#{{$kotwica_odnosnika}}'>
+                    {{- partial "img.html" (dict "image" $zdjecie_1 "imgsizes" "80vw" "tag_class" "process-ico" "ifsrcset" "(max-width: 992px) 100vw, 50vw" "awsites" $sites)  -}}
+                    {{/*  <div class="logo-cnt">
+                      
+                      {{- partial "img.html" (dict "image" $logo "imgsizes" "80vw" "tag_class" "logo" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
+                    </div>  */}}
+                    
+                  </a>
+              {{end}}
+            
+             
+             
+         
+              <!-- {{with .dlugi_opis_kroku}}
+                <div class="hidden-long-desc">
+                  {{if ne . ""}}
+                  {{ . | safeHTML}}
+                  {{end}}
+                </div>
+              {{end}} -->
+            </li>
+            <li>
+              {{$zdjecie_2:=.zdjecie_2}}
+              {{$logo_2:=.logo_2}}
+              {{$kotwica_odnosnika_2:=.kotwica_odnosnika_2}}
+               {{ with site.GetPage .adres_odnosnika_2 }}
+                   <a  href='{{.RelPermalink}}#{{$kotwica_odnosnika_2}}'>
+                    {{- partial "img.html" (dict "image" $zdjecie_2 "imgsizes" "80vw" "tag_class" "process-ico" "ifsrcset" "(max-width: 992px) 100vw, 50vw" "awsites" $sites)  -}}
+                     {{/*  <div class="logo-cnt">
+                      {{- partial "img.html" (dict "image" $logo_2 "imgsizes" "80vw" "tag_class" "logo" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
+                    </div>  */}}
+                     
+                   </a>
+               {{end}}
+             
+              
+              
+          
+               <!-- {{with .dlugi_opis_kroku}}
+                 <div class="hidden-long-desc">
+                   {{if ne . ""}}
+                   {{ . | safeHTML}}
+                   {{end}}
+                 </div>
+               {{end}} -->
+             </li>
+        </ul>
+      
+  </section>
+{{ end }}
 {{ with .Params.nasze_marki }}
   {{$header_repeater:= .header_repeater}}
   {{$opis_sekcji:= .opis_sekcji}}

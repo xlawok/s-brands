@@ -1,0 +1,103 @@
+.dystrybucja-area{
+    .header-cnt{
+        text-align: center;
+        padding-bottom: 2rem;
+        .header-template{
+            >span:first-child{
+                color: #EE317C;
+            }
+        }
+    }
+    .dyst-cols{
+        list-style: none;
+        padding: 0;
+        display: grid;
+        
+        grid-template-columns: 1fr;
+        @media (min-width: 992px){
+            grid-template-columns: 1fr 1fr; 
+            padding: 0 (216/1920)* 100vw;
+            gap: 2px;
+        }
+        li{
+            position: relative;
+            a{
+                position: relative;
+                display: flex;
+            }
+            img{
+                width: 100%;
+                display: block;
+                height: 100%;
+                object-fit: cover;
+            }
+            .logo-cnt{
+                min-width: 19.75rem;
+                width: (316/ 1920)* 100vw;
+                min-height: 194px;
+                height: (194 /1920)* 100vw;
+                position: absolute;
+                right: 0;
+                top: 0;
+                display: flex;
+justify-content: center;
+align-content: center;
+padding: 2rem;
+background-color: #fff;
+                .logo{
+                   width: 90%;
+                   height: auto;
+                                    height: 90%;
+                    object-fit: contain;
+                }
+            }
+            &:nth-child(1){
+                a{
+                    &:before{
+                        content: '';
+                        z-index: -1;
+                        width: 80%;
+                        height: 70%;
+                        position: absolute;
+                        bottom: -1rem;
+                        left: -1rem;background-color:#000;
+                    }
+                }
+            }
+            &:nth-child(2){
+                .logo-cnt{
+                    right:unset;
+                    left: 0;
+                }
+                a{
+                    &:before{
+                        content: '';
+                        z-index: -1;
+                        width: 88%;
+                        height: 70%;
+                        position: absolute;
+                        display: block;
+                        top: -1rem;
+                        right: -1rem;background-color:#000;
+                    }
+                }
+                @media (min-width: 992px){
+                    &:before {
+                        height: 40%;
+                        position: absolute;
+                        content: " ";
+                        display: block;
+                        background-color:#EE2D7A;
+                        width: 1px;
+                        height: 70%;
+
+                        top: 0;
+                        left: -1px;
+                    }
+                }
+            }
+            
+        }
+
+    }
+}

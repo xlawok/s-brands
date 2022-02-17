@@ -9,11 +9,17 @@
     {{$strona_producenta:=.strona_producenta}}
     {{$opis_sekcji:=.opis_sekcji}}
     {{$zdjecie:=.zdjecie}}
-<section class="dist-prod-area dist-{{$index}}" >
-    {{ partial "breadcrumbs.html" $bread }}
+    {{$logo:=.logo}}
+<section id="{{.kotwica}}" class="dist-prod-area dist-{{$index}}" >
+  {{if eq $index 0}}
+  {{ partial "breadcrumbs.html" $bread }}
+  {{end}}
     {{with .zdjecie2}}
     <div class='dist-first-row'>
       <div class="header-cnt">
+        <div class='brand-logo'>
+          {{- partial "img.html" (dict "image" $logo "imgsizes" "40vw" "tag_class" "banner-img" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
+        </div>
         {{- partial "header-tag.html" (dict "context" . "header_list" $header_repeater "custom_class" "banner-header")  -}}
         <div class="description-wrapper">
         
@@ -46,6 +52,9 @@
     {{else}}
       <div class='dist-row'>
         <div class="header-cnt">
+          <div class='brand-logo'>
+            {{- partial "img.html" (dict "image" $logo "imgsizes" "40vw" "tag_class" "banner-img" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
+          </div>
           {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
           <div class="description-wrapper">
           
