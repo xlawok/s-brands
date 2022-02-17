@@ -371,6 +371,38 @@ fields:
       labelField: 
     label: Odbiorcy
   label: Kogo zaopatrujemy
+- name: dystrybucja
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: zdjecie_po_lewej
+    type: file
+    config:
+      maxSize: 1
+    label: Zdjęcie po lewej
+  - name: odnosnik_po_lewej
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Odnośnik po lewej
+  - name: kotwica_do_odnosnika
+    type: text
+    config:
+      required: false
+    label: Kotwica do odnośnika
+  label: Dystrybucja
 - name: dodaj_formularz
   type: boolean
   label: Dodaj formularz
