@@ -9,8 +9,8 @@
     {{$strona_producenta:=.strona_producenta}}
     {{$opis_sekcji:=.opis_sekcji}}
     {{$zdjecie:=.zdjecie}}
-{{ partial "breadcrumbs.html" $bread }}
 <section class="dist-prod-area dist-{{$index}}" >
+  {{ partial "breadcrumbs.html" $bread }}
     {{with .zdjecie2}}
     <div class='dist-first-row'>
       <div class="header-cnt">
