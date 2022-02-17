@@ -2,7 +2,7 @@
 {{$bread:= .}}
 {{with .Params.sec_2_pic }}
 
-{{range $index, $element:=.}}
+  {{range $index, $element:=.}}
     {{$tytul_odnosnika:=.tytul_odnosnika}}
     {{$header_repeater:=.header_repeater}}
     {{$adres_odnosnika:=.adres_odnosnika}}
@@ -10,7 +10,7 @@
     {{$opis_sekcji:=.opis_sekcji}}
     {{$zdjecie:=.zdjecie}}
 <section class="dist-prod-area dist-{{$index}}" >
-  {{ partial "breadcrumbs.html" $bread }}
+    {{ partial "breadcrumbs.html" $bread }}
     {{with .zdjecie2}}
     <div class='dist-first-row'>
       <div class="header-cnt">
@@ -39,7 +39,7 @@
     <div class="dist-third-row">
       <div class="desc-cnt">{{$opis_sekcji | safeHTML}}</div>
       {{ with  $strona_producenta }}
-              <a class='cta-button' href='{{.}}' rel="nofollow">Strona producenta<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+              <a class='cta-button' href='{{.}}' rel="nofollow">Brand homepage<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
       {{end}}
       
     </div>
@@ -63,7 +63,7 @@
           <div class="desc-cnt">
             <div>{{.opis_sekcji | safeHTML}}</div>
             {{ with  .strona_producenta }}
-                <a class='cta-button' href='{{.}}' rel="nofollow">Strona producenta<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+                <a class='cta-button' href='{{.}}' rel="nofollow">Brand homepage<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
             {{end}}
 
           </div>

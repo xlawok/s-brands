@@ -244,8 +244,14 @@ gap: .45rem;
     }
 }
 
-.kontakt-area{
+.kontakt-area,.dist-prod-area {
     .breadcrumbs{
         position: absolute;
+    }
+}
+.dist-prod-area {
+    .breadcrumbs{
+        left: 0;
+        top:0;
     }
 }

@@ -11,6 +11,10 @@
   
     {{- partial "kontakt.en.html" . -}}
   {{end}}
+  {{ if (eq .Params.which_layout "dystrybucja") }}
+  
+    {{- partial "dystrybucja.en.html" . -}}
+  {{end}}
   {{if .Params.dodaj_formularz }}
     {{- partial "form_full.en.html" . -}}
   {{end}}
