@@ -1,22 +1,94 @@
-<section class="knowus-area" >
-    <div class="header-cnt">
-      {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
-      <div class="description-wrapper">
-        <p>{{.opis_sekcji | safeHTML}}</p>
-        {{$tytul_odnosnika:=.tytul_odnosnika}}
-        {{ if .adres_odnosnika }}
-          {{ with site.GetPage .adres_odnosnika }}
-              <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+{{$sites :=.Sites.First.GetPage "/uploads"}}
+{{with .Params.sec_2_pic }}
+
+  {{range .}}
+    {{$tytul_odnosnika:=.tytul_odnosnika}}
+    {{$header_repeater:=.header_repeater}}
+    {{$adres_odnosnika:=.adres_odnosnika}}
+    {{$strona_producenta:=.strona_producenta}}
+    {{$opis_sekcji:=.opis_sekcji}}
+    {{$zdjecie:=.zdjecie}}
+<section class="dist-prod-area" >
+    {{with .zdjecie2}}
+    <div class='dist-first-row'>
+      <div class="header-cnt">
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_repeater "custom_class" "banner-header")  -}}
+        <div class="description-wrapper">
+        
+     
+          {{ if $adres_odnosnika }}
+            {{ with site.GetPage $adres_odnosnika }}
+                <a class='' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}</a>
+            {{end}}
           {{end}}
-        {{end}}
+        </div>
+      </div>
+      
+      <div class="image-wrapper">
+        {{- partial "img.html" (dict "image" $zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
       </div>
     </div>
-    
-    <div class="image-wrapper">
-      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+    <div class='dist-second-row'>
+      <div class="image-wrapper">
+        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+      </div>
+      
     </div>
-  </section>
+    <div class="dist-third-row">
+      <div class="desc-cnt">{{$opis_sekcji | safeHTML}}</div>
+      {{ with  $strona_producenta }}
+              <a class='cta-button' href='{{.}}' rel="nofollow">Strona producenta<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+      {{end}}
+      
+    </div>
+    {{else}}
+      <div class='dist-row'>
+        <div class="header-cnt">
+          {{- partial "header-tag.html" (dict "context" . "header_list" .header_repeater "custom_class" "banner-header")  -}}
+          <div class="description-wrapper">
+          
+            {{$tytul_odnosnika:=.tytul_odnosnika}}
+            {{ if .adres_odnosnika }}
+              {{ with site.GetPage .adres_odnosnika }}
+                  <a class='' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}</a>
+              {{end}}
+            {{end}}
+          </div>
+        </div>
+        
+        <div class="image-wrapper">
+          {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "100vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+          <div class="desc-cnt">
+            <div>{{.opis_sekcji | safeHTML}}</div>
+            {{ with  .strona_producenta }}
+                <a class='cta-button' href='{{.}}' rel="nofollow">Strona producenta<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+            {{end}}
 
-  {{if .Params.dodaj_formularz }}
-    {{- partial "form_full.html" . -}}
+          </div>
+          
+        </div>
+      </div>
+  
+    {{end}}
+  </section>
   {{end}}
+{{end}}
+{{with .Params.sekcja_ze_zdj_ciem }}
+  <section class='dist-pics-sec'>
+    {{with .zdjecie_duze}}
+      <div class='big-pic'>
+        {{- partial "img.html" (dict "image" . "imgsizes" "100vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+      </div>
+    {{end}}
+    {{with .zdjecie_1_mobilne}}
+      <div class='mobile-pic-first'>
+        {{- partial "img.html" (dict "image" . "imgsizes" "100vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+      </div>
+    {{end}}
+    {{with .zdjecie_2_mobilne}}
+      <div class='mobile-pic-second'>
+        {{- partial "img.html" (dict "image" . "imgsizes" "100vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+      </div>
+    {{end}}
+  </section>
+{{end}}

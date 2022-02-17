@@ -1,12 +1,12 @@
 +++
 dodaj_formularz = true
-draft = true
+draft = false
 meta_opis = ""
 meta_robots = ""
-name = ""
-slug = ""
-title = ""
-which_layout = "dystrybycja"
+name = "Generalna dysrybucja"
+slug = "dystrybucja"
+title = "Generalna dysrybucja | S-brands.pl"
+which_layout = "dystrybucja"
 [sekcja_ze_zdj_ciem]
 zdjecie_1_mobilne = "/uploads/sbrands-general-dist-1-4-a.jpg"
 zdjecie_2_mobilne = "/uploads/sbrands-general-dist-1-4-b.jpg"
@@ -28,7 +28,7 @@ txt_block_size = "XXL"
 underline = false
 [[sec_2_pic.header_repeater]]
 block_tag_type = "h2"
-bold_txt = "gruby"
+bold_txt = "normalny"
 break_line = false
 txt_block = "THE NATURAL SKIN, HAIR & BODY CARE EXPERIENCE"
 txt_block_size = "MD"
@@ -50,7 +50,7 @@ txt_block_size = ""
 underline = false
 [[sec_2_pic.header_repeater]]
 block_tag_type = "h2"
-bold_txt = "gruby"
+bold_txt = "normalny"
 break_line = false
 txt_block = "HAIR HEALTH EXPERTS"
 txt_block_size = "MD"
