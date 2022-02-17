@@ -185,6 +185,60 @@ fields:
       labelField: 
     label: Proces - elementy
   label: Proces
+- name: dystrybucja_section
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: zdjecie_1
+    type: file
+    config:
+      maxSize: 1
+    label: 'Zdjęcie 1'
+  - name: adres_odnosnika_1
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Adres odnośnika
+  - name: kotwica_odnosnika
+    type: text
+    config:
+      required: false
+    label: Kotwica odnośnika
+  - name: zdjecie_2
+    type: file
+    config:
+      maxSize: 1
+    label: 'Zdjęcie 2'
+  - name: adres_odnosnika_2
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Adres odnośnika 2
+  - name: kotwica_odnosnika_2
+    type: text
+    config:
+      required: false
+    label: Kotwica odnośnika 2
+  label: Dystrybucja
 - name: nasze_marki
   type: field_group
   config: {}
