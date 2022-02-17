@@ -26,7 +26,7 @@ zdjecie2 = "/uploads/sbrands-general-dist-1.jpg"
 block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = true
-txt_block = "MADES"
+txt_block = "MADES COSMETICS"
 txt_block_size = "XXL"
 underline = false
 [[sec_2_pic.header_repeater]]

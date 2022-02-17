@@ -104,10 +104,6 @@ tytul_marki = "Rene Furterer"
 ikona_marki = "/uploads/group-177.jpg"
 odnisnik_marki = "nasze-marki/alfaparf-milano.md"
 tytul_marki = "Alfaparf Milano"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/group-178.jpg"
-odnisnik_marki = "nasze-marki/american-crew.md"
-tytul_marki = "American Crew"
 [[grupa_marek]]
 kotwica_grupy = "Skin-care"
 tytul_grupy = "Skin care"
