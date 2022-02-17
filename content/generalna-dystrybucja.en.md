@@ -5,7 +5,7 @@ meta_robots = ""
 name = "General disribution"
 slug = "distribution"
 title = "General distribution | S-brands.pl"
-which_layout = "dystrybycja"
+which_layout = "dystrybucja"
 [menu.main]
 name = "General distribution"
 weight = 7
