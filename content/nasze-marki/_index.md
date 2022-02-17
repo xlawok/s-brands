@@ -100,10 +100,6 @@ ikona_marki = "/uploads/group-177.jpg"
 odnisnik_marki = "nasze-marki/alfaparf-milano.md"
 tytul_marki = "Alfaparf Milano"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/group-178.jpg"
-odnisnik_marki = "nasze-marki/american-crew.md"
-tytul_marki = "American Crew"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/group-179.jpg"
 odnisnik_marki = "nasze-marki/the-cosmetic-republic.md"
 tytul_marki = "The Cosmetic Republic"
