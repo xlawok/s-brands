@@ -380,5 +380,3 @@ fields:
   config: {}
   template: head
   label: Head
-pages:
-- content/_index.md

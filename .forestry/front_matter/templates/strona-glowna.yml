@@ -468,3 +468,4 @@ fields:
   label: Head
 pages:
 - content/_index.en.md
+- content/_index.md

@@ -21,6 +21,32 @@ break_line = false
 txt_block = "Globalny dystrybutor kosmetyków"
 txt_block_size = "XL"
 underline = false
+[dystrybucja]
+kotwica_do_odnosnika_1 = ""
+odnosnik_1 = "generalna-dystrybucja.md"
+zdj_cie_1 = "/uploads/cosmetic-republic.jpg"
+[[dystrybucja.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+txt_block = "NOWOŚĆ!"
+txt_block_size = "XL"
+underline = false
+[[dystrybucja.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "normalny"
+break_line = false
+txt_block = "Generalna Dystrybucja"
+txt_block_size = "XL"
+underline = false
+[dystrybucja_section]
+adres_odnosnika_1 = []
+adres_odnosnika_2 = []
+header_repeater = []
+kotwica_odnosnika = ""
+kotwica_odnosnika_2 = ""
+zdjecie_1 = ""
+zdjecie_2 = ""
 [kogo_zaopatrujemy]
 logo = "/uploads/sbrands_logo_main.svg"
 naglowek_z_logo = "Hurtownia kosmetyczna"
@@ -179,9 +205,9 @@ underline = false
 opis_sekcji = "W ofercie naszej hurtowni kosmetycznej znajdują się artykuły należące do czterech grup produktowych"
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.md"
+kotwica_grupy = "kosmetyki-do-makijazu"
 opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Nasza hurtownia kosmetyczna specjalizuje się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
 tytul_odnosnika = "Zobacz marki"
-kotwica_grupy = "kosmetyki-do-makijazu"
 zdjecie = "/uploads/sbrands-main-makeup.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
@@ -192,9 +218,9 @@ txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.md"
+kotwica_grupy = "pielegnacja-skory"
 opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
 tytul_odnosnika = "Zobacz marki"
-kotwica_grupy = "pielegnacja-skory"
 zdjecie = "/uploads/sbrands-main-skin.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
@@ -205,9 +231,9 @@ txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.md"
+kotwica_grupy = "kosmetyki-do-wlosow"
 opis_sekcji = "Oferujemy szeroką gamę produktów do pielęgnacji włosów, od marek aptecznych, takich jak L'Oreal, po profesjonalne marki do pielęgnacji włosów, takie jak Kerastase, Sexyhair i wiele innych!"
 tytul_odnosnika = "Zobacz marki"
-kotwica_grupy = "kosmetyki-do-wlosow"
 zdjecie = "/uploads/sbrands-main-hair.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
@@ -218,9 +244,9 @@ txt_block_size = "XL"
 underline = false
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.md"
+kotwica_grupy = "kosmetyki-profesjonalne"
 opis_sekcji = "Najbardziej spektakularne marki kosmetyczne i estetyczne dla profesjonalistów. Wszystko, czego potrzebujesz do pielęgnacji skóry. Starannie dobrane produkty będące odpowiedzią dla skóry problematycznej, aby regenerować, odmładzać i zachować zdrowy, naturalnie piękny oraz promienny wygląd. Znane, światowe marki, skuteczne i bezpieczne zarówno dla profesjonalnych zabiegów kosmetycznych, jak i do użytku domowego."
 tytul_odnosnika = "Zobacz marki"
-kotwica_grupy = "kosmetyki-profesjonalne"
 zdjecie = "/uploads/sbrands-main-pro.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
