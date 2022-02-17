@@ -103,4 +103,5 @@ fields:
   template: head
   label: Head
 pages:
+- content/generalna-dystrybucja.en.md
 - content/generalna-dystrybucja.md
