@@ -4,7 +4,7 @@ meta_opis = ""
 meta_robots = ""
 name = "General disribution"
 slug = "distribution"
-title = "general distribution | S-brands.pl"
+title = "General distribution | S-brands.pl"
 which_layout = "dystrybucja"
 [menu.main]
 name = "General disribution"
