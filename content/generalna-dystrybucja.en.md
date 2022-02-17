@@ -7,7 +7,7 @@ slug = "distribution"
 title = "General distribution | S-brands.pl"
 which_layout = "dystrybucja"
 [menu.main]
-name = "General disribution"
+name = "General distribution"
 weight = 7
 [sekcja_ze_zdj_ciem]
 zdjecie_1_mobilne = "/uploads/sbrands-general-dist-1-4-a.jpg"
