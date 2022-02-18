@@ -21,6 +21,29 @@ break_line = false
 txt_block = "Global Cosmetic Distribution"
 txt_block_size = "XL"
 underline = false
+[dystrybucja_section]
+adres_odnosnika_1 = "generalna-dystrybucja.md"
+adres_odnosnika_2 = "generalna-dystrybucja.md"
+kotwica_odnosnika = "the-cosmetic-republic"
+kotwica_odnosnika_2 = "mades"
+zdjecie_1 = "/uploads/cosmetic-republic.jpg"
+zdjecie_2 = "/uploads/mades.jpg"
+logo = "/uploads/tcr.png"
+logo_2 = "/uploads/mades-logo-2016-web.png"
+[[dystrybucja_section.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+txt_block = "NEW!"
+txt_block_size = "XL"
+underline = false
+[[dystrybucja_section.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "normalny"
+break_line = false
+txt_block = "General Distribution"
+txt_block_size = "XL"
+underline = false
 [kogo_zaopatrujemy]
 logo = "/uploads/sbrands_logo_main.svg"
 naglowek_z_logo = "Wholesalers"
