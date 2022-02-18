@@ -19,6 +19,11 @@
             padding: 0 (216/1920)* 100vw;
             gap: 2px;
         }
+        @media (min-width: 1600px){
+            
+            padding: 0 22.25vw;
+            
+        }
         li{
             position: relative;
             a{
