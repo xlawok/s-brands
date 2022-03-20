@@ -161,7 +161,7 @@ odnosnik_marki = "nasze-marki/madara.md"
 tytul_marki = "Madara"
 [[nasze_marki.grupa_marek]]
 ikona_marki = "/uploads/group-184.jpg"
-odnosnik_marki = ""
+odnosnik_marki = "nasze-marki/mustela.md"
 tytul_marki = "Mustela"
 [[nasze_marki.grupa_marek]]
 ikona_marki = "/uploads/group-185.jpg"
