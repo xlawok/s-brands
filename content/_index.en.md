@@ -169,7 +169,7 @@ odnosnik_marki = "nasze-marki/vichy.md"
 tytul_marki = "Vichy"
 [[nasze_marki.grupa_marek]]
 ikona_marki = "/uploads/group-182.jpg"
-odnosnik_marki = ""
+odnosnik_marki = "nasze-marki/phyto.md"
 tytul_marki = "Phyto"
 [[nasze_marki.grupa_marek]]
 ikona_marki = "/uploads/group-183.jpg"
@@ -185,7 +185,7 @@ odnosnik_marki = ""
 tytul_marki = "Skeyndor"
 [[nasze_marki.grupa_marek]]
 ikona_marki = "/uploads/group-189.jpg"
-odnosnik_marki = ""
+odnosnik_marki = "nasze-marki/thalgo.md"
 tytul_marki = "Thalgo"
 [[nasze_marki.grupa_marek]]
 ikona_marki = "/uploads/group-188.jpg"
