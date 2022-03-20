@@ -189,7 +189,7 @@ odnosnik_marki = "nasze-marki/thalgo.md"
 tytul_marki = "Thalgo"
 [[nasze_marki.grupa_marek]]
 ikona_marki = "/uploads/group-188.jpg"
-odnosnik_marki = ""
+odnosnik_marki = "nasze-marki/svr.md"
 tytul_marki = "SVR"
 [[nasze_marki.header_repeater]]
 block_tag_type = "h2"
