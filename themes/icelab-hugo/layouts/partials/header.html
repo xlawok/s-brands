@@ -25,7 +25,7 @@
     <nav class="navbar fixed-top navbar-expand-lg">
       <a class="navbar-brand anchor" href="{{ "/" | absLangURL }}">
         {{with $my_top_data.top_settings}}
-        <img src="{{.logo_w_menu}}" class="img-fluid" alt="logo">
+        <img src="{{.logo_w_menu}}" class="img-fluid" alt="{{if eq site.Language.Lang "en"}}Cosmetics distributor{{else}}Dystrybutor kosmetyków{{end}}">
         {{end}}
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav">

@@ -19,7 +19,11 @@
        
         {{if eq .p1.Params.slug "/"}}
         <span itemprop="name">
-        Home
+            {{if eq site.Language.Lang "en"}}
+            Cosmetics distributor
+            {{else}}
+                Dystrybutor kosmetyków
+            {{end}}
         </span>
         <meta itemprop="position" content="1" />
 
