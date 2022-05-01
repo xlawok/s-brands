@@ -4,7 +4,7 @@ meta_opis = ""
 meta_robots = ""
 name = "Generalna dysrybucja"
 slug = "dystrybucja"
-title = "Generalna dysrybucja | S-brands.pl"
+title = "Generalna dysrybucja - Mades Cosmetics | S-brands.pl"
 which_layout = "dystrybucja"
 [menu.main]
 name = "Generalna dystrybucja"
