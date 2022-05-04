@@ -23,7 +23,7 @@ tytul_odnosnika = "More details >>"
 zdjecie = "/uploads/sbrands-general-dist-2.jpg"
 zdjecie2 = "/uploads/sbrands-general-dist-1.jpg"
 [[sec_2_pic.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = true
 txt_block = "MADES COSMETICS"
