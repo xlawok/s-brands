@@ -1,3 +1,5 @@
+
+document.addEventListener("DOMContentLoaded", function() {
 // Main Script
 (function ($) { 'use strict';
 	// -----------------------------
@@ -180,3 +182,4 @@
 	});
 })(jQuery);
 
+});

@@ -53,14 +53,14 @@
   {{end}}
 {{end}} 
  
-
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
   {{ "<!-- JS Plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.js}}
   <script src="{{ .URL | absURL }}"></script>
   {{ end }}
-  {{ "<!-- Main Script -->" | safeHTML }}
-  {{ $script := resources.Get "js/script.js" | minify}}
-  <script src="{{ $script.Permalink }}"></script>
+ 
+  <script defer src="{{ $script.Permalink }}"></script>
   <script>
     var mform = document.getElementById("floatform");
     if(typeof(mform) != 'undefined' && mform != null){

@@ -66,6 +66,26 @@
         {{end}}
     {{end}}
     </section>
+    <section class="other-brands">
+        {{ $sectionPages := where (where site.RegularPages "Section" "nasze-marki")   ".Params.slug" "!=" .Params.slug }}
+              {{ if ge (len $sectionPages) 1 }}
+              <div class="header-template ">
+                <span class="f-w700   txt-black txt-XL  "> Inne marki S-brands</span></div>
+                <img class="arr-red-ico" src="http://localhost:1313/images/arr_red.svg">
+              <ul>
+                {{ range $sectionPages }}
+                  <li>
+                    <a class="" href="{{  .Permalink | absURL }}">
+                        
+                        {{- partial "img.html" (dict "image" .Params.logo_marki "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset" "imgalt" .Params.name "awsites" $sites)  -}}
+                    </a>
+                  </li>
+             
+
+                {{end}}
+              </ul>
+            {{end}}
+    </section>
     {{if .Params.dodaj_formularz }}
         {{- partial "form_full.html" . -}}
     {{end}}
