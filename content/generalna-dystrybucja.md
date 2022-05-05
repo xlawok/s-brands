@@ -8,7 +8,7 @@ title = "Generalna dysrybucja - Mades Cosmetics | S-brands.pl"
 which_layout = "dystrybucja"
 [menu.main]
 name = "Generalna dystrybucja"
-weight = 7
+weight = 8
 [sekcja_ze_zdj_ciem]
 zdjecie_1_mobilne = "/uploads/sbrands-general-dist-1-4-a.jpg"
 zdjecie_2_mobilne = "/uploads/sbrands-general-dist-1-4-b.jpg"

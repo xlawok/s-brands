@@ -8,7 +8,8 @@ tytul_odnosnika_artykulu = "Czytaj"
 which_layout = "strona-blog"
 wyswietl_slider = true
 [menu.main]
-weight = 8
+name = "Aktualności"
+weight = 9
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"

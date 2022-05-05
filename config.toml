@@ -1,6 +1,6 @@
 baseURL = "https://www.s-brands.pl"
 defaultContentLanguage = "pl"
-disableKinds = ["taxonomy", "taxonomyTerm", "category","sitemap"]
+disableKinds = ["taxonomy", "taxonomyTerm", "category", "sitemap"]
 summaryLength = "10"
 theme = "icelab-hugo"
 title = "agencjawroclawska"
