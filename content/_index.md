@@ -248,7 +248,7 @@ underline = false
 adres_odnosnika = "nasze-marki/_index.md"
 kotwica_grupy = "kosmetyki-profesjonalne"
 opis_sekcji = "Najbardziej spektakularne marki kosmetyczne i estetyczne dla profesjonalistów. Wszystko, czego potrzebujesz do pielęgnacji skóry. Starannie dobrane produkty będące odpowiedzią dla skóry problematycznej, aby regenerować, odmładzać i zachować zdrowy, naturalnie piękny oraz promienny wygląd. Znane, światowe marki, skuteczne i bezpieczne zarówno dla profesjonalnych zabiegów kosmetycznych, jak i do użytku domowego."
-tytul_odnosnika = "Zobacz marki"
+tytul_odnosnika = "Kosmetyki profesjonalne"
 zdjecie = "/uploads/sbrands-main-pro.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
