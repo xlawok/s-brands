@@ -222,7 +222,7 @@ underline = false
 adres_odnosnika = "nasze-marki/_index.md"
 kotwica_grupy = "pielegnacja-skory"
 opis_sekcji = "Jesteśmy dumni mogąc zaoferować Państwu wybór hurtowych produktów do pielęgnacji skóry najlepszych marek. Niezależnie od tego, czy szukasz marek farmaceutycznych, czy czegoś z kategorii luksusowych produktów, mamy dla Ciebie wszystko."
-tytul_odnosnika = "Zobacz marki"
+tytul_odnosnika = "Pielęgnacja skóry"
 zdjecie = "/uploads/sbrands-main-skin.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
