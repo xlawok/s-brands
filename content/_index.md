@@ -36,7 +36,7 @@ logo_2 = "/uploads/mades-logo-2016-web.png"
 zdjecie_1 = "/uploads/cosmetic-republic.jpg"
 zdjecie_2 = "/uploads/mades.jpg"
 [[dystrybucja_section.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 break_line = true
 txt_block = "NOWOŚĆ!"
