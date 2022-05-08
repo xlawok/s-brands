@@ -46,7 +46,7 @@ underline = false
 block_tag_type = "h2"
 bold_txt = "normalny"
 break_line = false
-txt_block = "Generalny Dystrybutor Kosmetyków"
+txt_block = "Generalna Dystrybucja Kosmetyków"
 txt_block_size = "XL"
 underline = false
 [kogo_zaopatrujemy]
