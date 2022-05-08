@@ -54,7 +54,7 @@ logo = "/uploads/sbrands_logo_main.svg"
 naglowek_z_logo = "Hurtownia kosmetyczna"
 opis_sekcji = "Zobacz w jaki sposób działa nasz system zaopatrzenia"
 [[kogo_zaopatrujemy.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 txt_block = "Kogo zaopatrujemy?"
