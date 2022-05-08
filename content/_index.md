@@ -258,7 +258,7 @@ txt_block = "Professional care"
 txt_block_size = "XL"
 underline = false
 [[nasze_produkty.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 txt_block = "Nasze produkty"
