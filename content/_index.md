@@ -21,15 +21,20 @@ break_line = false
 txt_block = "Globalny dystrybutor kosmetyków"
 txt_block_size = "XL"
 underline = false
+[dystrybucja]
+header_repeater = []
+kotwica_do_odnosnika_1 = ""
+odnosnik_1 = ""
+zdj_cie_1 = ""
 [dystrybucja_section]
 adres_odnosnika_1 = "generalna-dystrybucja.md"
 adres_odnosnika_2 = "generalna-dystrybucja.md"
 kotwica_odnosnika = "the-cosmetic-republic"
 kotwica_odnosnika_2 = "mades"
-zdjecie_1 = "/uploads/cosmetic-republic.jpg"
-zdjecie_2 = "/uploads/mades.jpg"
 logo = "/uploads/tcr.png"
 logo_2 = "/uploads/mades-logo-2016-web.png"
+zdjecie_1 = "/uploads/cosmetic-republic.jpg"
+zdjecie_2 = "/uploads/mades.jpg"
 [[dystrybucja_section.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -274,7 +279,7 @@ underline = false
 [proces]
 podpis_pod_naglowkiem = "Skontaktuj się z nami a my szybko zweryfikujemy jak najsprawniej przejść od pomysłu do wprowadzenia nowej marki do sprzedaży na pożądanym rynku."
 [[proces.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 txt_block = "oem/odm - proces zamówienia"
