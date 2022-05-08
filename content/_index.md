@@ -235,7 +235,7 @@ underline = false
 adres_odnosnika = "nasze-marki/_index.md"
 kotwica_grupy = "kosmetyki-do-wlosow"
 opis_sekcji = "Oferujemy szeroką gamę produktów do pielęgnacji włosów, od marek aptecznych, takich jak L'Oreal, po profesjonalne marki do pielęgnacji włosów, takie jak Kerastase, Sexyhair i wiele innych!"
-tytul_odnosnika = "Zobacz marki"
+tytul_odnosnika = "Kosmetyki do włosów"
 zdjecie = "/uploads/sbrands-main-hair.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
