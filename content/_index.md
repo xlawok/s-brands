@@ -209,7 +209,7 @@ opis_sekcji = "W ofercie naszej hurtowni kosmetycznej znajdują się artykuły n
 adres_odnosnika = "nasze-marki/_index.md"
 kotwica_grupy = "kosmetyki-do-makijazu"
 opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Nasza hurtownia kosmetyczna specjalizuje się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
-tytul_odnosnika = "Zobacz marki"
+tytul_odnosnika = "Kosmetyki do makijażu"
 zdjecie = "/uploads/sbrands-main-makeup.jpg"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
