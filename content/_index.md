@@ -277,7 +277,7 @@ txt_block = "Poznaj nas lepiej"
 txt_block_size = "L"
 underline = false
 [proces]
-podpis_pod_naglowkiem = "Skontaktuj się z nami a my szybko zweryfikujemy jak najsprawniej przejść od pomysłu do wprowadzenia nowej marki do sprzedaży na pożądanym rynku."
+podpis_pod_naglowkiem = "Skontaktuj się z nami a my szybko zweryfikujemy jak najsprawniej przejść od pomysłu do wprowadzenia nowej marki kosmetycznej do sprzedaży na pożądanym rynku."
 [[proces.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
