@@ -8,8 +8,16 @@
 
 
 {{ end}}
+
 <link rel="alternate" hreflang="{{ .Site.Language.Lang}}" href="{{ .Permalink }}" />
 {{ end }}
+{{ range $.Site.Home.AllTranslations }}
+  {{if eq .Lang "pl"}}
+    <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+  {{end}}
+
+{{ end }}
+
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.Language.Lang }}{{ . }}{{ else }}pl{{ end }}">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KZM8CGN');</script>
+    <!-- End Google Tag Manager -->
 {{- partial "head.html" . -}}
 
 <body id="body" class="{{ if .IsHome }} home {{else}} {{ .Params.which_layout }} {{ if .IsPage }}single  {{ else }}list{{ end }} {{end}}">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZM8CGN"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- <div class="dividers">
         <div class="divider"></div>
         <div class="divider"></div>
