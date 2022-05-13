@@ -116,6 +116,12 @@ fields:
     config:
       maxSize: 1
     label: 'Zdjęcie '
+  - name: alt_img
+    type: text
+    type: text
+    config:
+      required: false
+    label: 'ALT zdjęcia'
   - name: tytul_odnosnika
     type: text
     config:
@@ -199,6 +205,11 @@ fields:
     config:
       maxSize: 1
     label: Zdjęcie 1
+  - name: zdjecie_1_alt
+    type: text
+    config:
+      required: false
+    label: ALT dla zdjęcia
   - name: adres_odnosnika_1
     type: select
     default: []
@@ -221,6 +232,11 @@ fields:
     config:
       maxSize: 1
     label: Zdjęcie 2
+  - name: zdjecie_2_alt
+    type: text
+    config:
+      required: false
+    label: ALT dla zdjęcia
   - name: adres_odnosnika_2
     type: select
     default: []

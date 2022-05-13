@@ -116,6 +116,12 @@ fields:
     config:
       maxSize: 1
     label: 'Zdjęcie '
+  - name: alt_img
+    type: text
+    type: text
+    config:
+      required: false
+    label: 'ALT zdjęcia'
   - name: tytul_odnosnika
     type: text
     config:
