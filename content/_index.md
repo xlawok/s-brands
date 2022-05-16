@@ -197,7 +197,7 @@ ikona_marki = "/uploads/group-188.jpg"
 odnosnik_marki = "nasze-marki/svr.md"
 tytul_marki = "SVR"
 [[nasze_marki.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 txt_block = "Nasze marki"
