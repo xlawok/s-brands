@@ -11,8 +11,11 @@ name = "Generalna dystrybucja"
 weight = 8
 [sekcja_ze_zdj_ciem]
 zdjecie_1_mobilne = "/uploads/sbrands-general-dist-1-4-a.jpg"
+alt_img_mb_1 = ""
 zdjecie_2_mobilne = "/uploads/sbrands-general-dist-1-4-b.jpg"
+alt_img_mb_2 =""
 zdjecie_duze = "/uploads/sbrands-general-dist-1-4.jpg"
+alt_img = ""
 [[sec_2_pic]]
 adres_odnosnika = "kontakt.md"
 kotwica = "mades"
@@ -21,7 +24,9 @@ opis_sekcji = "Założona w 1992 roku w Holandii firma Mades Cosmetics jest mię
 strona_producenta = "https://www.mades.nl/"
 tytul_odnosnika = "Więcej szegółów >>"
 zdjecie = "/uploads/sbrands-general-dist-2.jpg"
+alt_img = ""
 zdjecie2 = "/uploads/sbrands-general-dist-1.jpg"
+alt_img_2 = ""
 [[sec_2_pic.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
@@ -44,7 +49,9 @@ opis_sekcji = "Nasza genetyka, wybór stylu życia i warunki środowiskowe mają
 strona_producenta = "https://thecosmeticrepublic.com"
 tytul_odnosnika = "Więcej szegółów >>"
 zdjecie = "/uploads/sbrands-general-dist-3.jpg"
+alt_img = ""
 zdjecie2 = ""
+alt_img_2 = ""
 [[sec_2_pic.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"

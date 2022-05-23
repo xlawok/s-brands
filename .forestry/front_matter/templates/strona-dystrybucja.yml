@@ -38,11 +38,23 @@ fields:
     config:
       maxSize: 1
     label: 'Zdjęcie '
+  - name: alt_img
+    type: text
+    type: text
+    config:
+      required: false
+    label: 'ALT zdjęcia 1'
   - name: zdjecie2
     type: file
     config:
       maxSize: 1
     label: Zdjęcie drugie
+  - name: alt_img_2
+    type: text
+    type: text
+    config:
+      required: false
+    label: 'ALT zdjęcia 2'
   - name: tytul_odnosnika
     type: text
     config:
@@ -75,16 +87,34 @@ fields:
     config:
       maxSize: 1
     label: Zdjęcie duże
+  - name: alt_img
+    type: text
+    type: text
+    config:
+      required: false
+    label: 'ALT zdjęcia'
   - name: zdjecie_1_mobilne
     type: file
     config:
       maxSize: 1
     label: Zdjęcie 1 mobilne
+  - name: alt_img_mb_1
+    type: text
+    type: text
+    config:
+      required: false
+    label: 'ALT zdjęcia 1 mobilnego'
   - name: zdjecie_2_mobilne
     type: file
     config:
       maxSize: 1
     label: Zdjęcie 2 mobilne
+  - name: alt_img_mb_2
+    type: text
+    type: text
+    config:
+      required: false
+    label: 'ALT zdjęcia 2 mobilnego'
   label: Sekcja ze zdjęciem
 - name: dodaj_formularz
   type: boolean
