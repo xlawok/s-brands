@@ -2,6 +2,7 @@
 {{$bread:= .}}
 {{ with .Params.banner }}
   {{if (isset . "zdjecie")}}
+  {{ $alt_img :=.alt_img}}
   <section class="banner-area" >
     {{with .zdjecie}}
     <div class="banner-img-wrapper">
@@ -10,7 +11,7 @@
         
       
      
-        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "banner-img" "imgalt" $alt_img  "ifsrcset" "" "awsites" $sites)  -}}
     
       
     </div>
@@ -47,7 +48,7 @@
     </div>
     
     <div class="image-wrapper">
-      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img"  "imgalt" .alt_img  "ifsrcset" "" "awsites" $sites)  -}}
     </div>
   </section>
 {{end}}
