@@ -185,6 +185,12 @@ fields:
       config:
         maxSize: 1
       label: Ikona
+    - name: alt_img
+      type: text
+      type: text
+      config:
+        required: false
+      label: 'ALT ikony'
     config:
       min: 3
       max: 9
@@ -346,6 +352,12 @@ fields:
       config:
         maxSize: 1
       label: Zdjęcie
+    - name: alt_img
+      type: text
+      type: text
+      config:
+        required: false
+      label: 'ALT zdjęcia'
     - name: opis_sekcji
       type: textarea
       default: ''
@@ -420,6 +432,12 @@ fields:
       config:
         maxSize: 1
       label: Ikona
+    - name: alt_img
+      type: text
+      type: text
+      config:
+        required: false
+      label: 'ALT ikony'
     - name: nazwa_odbiorcy
       type: text
       config:

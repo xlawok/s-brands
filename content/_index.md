@@ -64,6 +64,7 @@ txt_block_size = "XL"
 underline = false
 [[kogo_zaopatrujemy.odbiorcy]]
 ikona = "/uploads/group-22.svg"
+alt_img = "Salony urody"
 nazwa_odbiorcy = "Salony urody"
 [[kogo_zaopatrujemy.odbiorcy]]
 ikona = "/uploads/group-24.svg"
@@ -213,6 +214,7 @@ kotwica_grupy = "kosmetyki-do-makijazu"
 opis_sekcji = "Szeroka gama najlepiej sprzedających się marek i produktów do makijażu na rynku. Nasza hurtownia kosmetyczna specjalizuje się w oryginalnych, szybko zbywalnych towarach konsumpcyjnych, ze szczególnym uwzględnieniem kategorii zdrowia i urody."
 tytul_odnosnika = "Kosmetyki do makijażu"
 zdjecie = "/uploads/sbrands-main-makeup.jpg"
+alt_img ="Kosmetyki do makijażu"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -291,6 +293,7 @@ underline = false
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque aliquet tempor. Vestibulum vel orci velit. Aliquam convallis, sapien a finibus ornare."
 ikona = "/uploads/group-145.svg"
+alt_img ="Zapytanie klienta, planowanie próbek, oferta cenowa"
 opis_kolumny = "Zapytanie klienta, planowanie próbek, oferta cenowa"
 [[proces.kolumny_kroki]]
 dlugi_opis_kroku = "lorem psum ipsum"

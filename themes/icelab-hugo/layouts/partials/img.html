@@ -12,7 +12,7 @@
   {{ $pathLen := len $pathArr }}
   {{ $ext := index $pathArr (sub $pathLen 1) }}
   {{ if eq $ext "svg" }}
-    <img data-src="{{.}}" class='lazyload {{$tag_class}}'>
+    <img data-src="{{.}}" class='lazyload {{$tag_class}}' {{ with $imgalt }}alt="{{.}}"{{ else }}alt=""{{ end }}>
   {{else}}
     {{ if eq $ifsrcset "nosrcset" }}
     
