@@ -10,6 +10,8 @@
     {{$opis_sekcji:=.opis_sekcji}}
     {{$zdjecie:=.zdjecie}}
     {{$logo:=.logo}}
+    {{$alt_img := .alt_img}}
+    {{$alt_img_2 := .alt_img_2}}
 <section id="{{.kotwica}}" class="dist-prod-area dist-{{$index}}" >
   {{if eq $index 0}}
   {{ partial "breadcrumbs.html" $bread }}
@@ -33,12 +35,12 @@
       </div>
       
       <div class="image-wrapper">
-        {{- partial "img.html" (dict "image" $zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+        {{- partial "img.html" (dict "image" $zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "imgalt" $alt_img "ifsrcset" "" "awsites" $sites)  -}}
       </div>
     </div>
     <div class='dist-second-row'>
       <div class="image-wrapper">
-        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+        {{- partial "img.html" (dict "image" . "imgsizes" "80vw" "tag_class" "banner-img" "imgalt" $alt_img_2 "ifsrcset" "" "awsites" $sites)  -}}
       </div>
       
     </div>
@@ -68,7 +70,7 @@
         </div>
         
         <div class="image-wrapper">
-          {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "100vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+          {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "100vw" "tag_class" "banner-img" "imgalt" $alt_img  "ifsrcset" "" "awsites" $sites)  -}}
           <div class="desc-cnt">
             <div>{{.opis_sekcji | safeHTML}}</div>
             {{ with  .strona_producenta }}
@@ -85,21 +87,24 @@
   {{end}}
 {{end}}
 {{with .Params.sekcja_ze_zdj_ciem }}
-  <section class='dist-pics-sec'>
-    {{with .zdjecie_duze}}
-      <div class='big-pic'>
-        {{- partial "img.html" (dict "image" . "imgsizes" "100vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
-      </div>
-    {{end}}
-    {{with .zdjecie_1_mobilne}}
-      <div class='mobile-pic-first'>
-        {{- partial "img.html" (dict "image" . "imgsizes" "100vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
-      </div>
-    {{end}}
-    {{with .zdjecie_2_mobilne}}
-      <div class='mobile-pic-second'>
-        {{- partial "img.html" (dict "image" . "imgsizes" "100vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
-      </div>
-    {{end}}
-  </section>
+<section class='dist-pics-sec'>
+  {{$alt_img := .alt_img}}
+  {{$alt_img_mb_1 := .alt_img_mb_1}}
+  {{$alt_img_mb_2 := .alt_img_mb_2}}
+  {{with .zdjecie_duze}}
+    <div class='big-pic'>
+      {{- partial "img.html" (dict "image" . "imgsizes" "100vw" "tag_class" "banner-img"  "imgalt" $alt_img "ifsrcset" "" "awsites" $sites)  -}}
+    </div>
+  {{end}}
+  {{with .zdjecie_1_mobilne}}
+    <div class='mobile-pic-first'>
+      {{- partial "img.html" (dict "image" . "imgsizes" "100vw" "tag_class" "banner-img"  "imgalt" $alt_img_mb_1 "ifsrcset" "" "awsites" $sites)  -}}
+    </div>
+  {{end}}
+  {{with .zdjecie_2_mobilne}}
+    <div class='mobile-pic-second'>
+      {{- partial "img.html" (dict "image" . "imgsizes" "100vw" "tag_class" "banner-img" "imgalt" $alt_img_mb_2 "ifsrcset" "" "awsites" $sites)  -}}
+    </div>
+  {{end}}
+</section>
 {{end}}

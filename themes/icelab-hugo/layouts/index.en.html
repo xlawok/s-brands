@@ -91,7 +91,8 @@
     </div>
     
     <div class="image-wrapper">
-      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "ifsrcset" "" "awsites" $sites)  -}}
+      
+      {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "80vw" "tag_class" "banner-img" "imgalt" .alt_img "ifsrcset" "" "awsites" $sites)  -}}
     </div>
   </section>
 {{end}}
@@ -112,7 +113,7 @@
           
           {{range $index, $element := . }}
             <li>
-              {{- partial "img.html" (dict "image" .ikona "imgsizes" "80vw" "tag_class" "process-ico" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
+              {{- partial "img.html" (dict "image" .ikona "imgsizes" "80vw" "tag_class" "process-ico" "imgalt" .alt_img  "ifsrcset" "nosrcset" "awsites" $sites)  -}}
              
               <span class='steps-in-circle'>{{add $index 1}}</span>
               
@@ -150,10 +151,11 @@
             <li>
              {{$zdjecie_1:=.zdjecie_1}}
              {{$logo:=.logo}}
+             {{$zdjecie_1_alt:=.zdjecie_1_alt}}
              {{$kotwica_odnosnika:=.kotwica_odnosnika}}
               {{ with site.GetPage .adres_odnosnika_1 }}
                   <a  href='{{.RelPermalink}}#{{$kotwica_odnosnika}}'>
-                    {{- partial "img.html" (dict "image" $zdjecie_1 "imgsizes" "80vw" "tag_class" "process-ico" "ifsrcset" "(max-width: 992px) 100vw, 50vw" "awsites" $sites)  -}}
+                    {{- partial "img.html" (dict "image" $zdjecie_1 "imgsizes" "80vw" "tag_class" "process-ico" "imgalt" $zdjecie_1_alt "ifsrcset" "(max-width: 992px) 100vw, 50vw" "awsites" $sites)  -}}
                     {{/*  <div class="logo-cnt">
                       
                       {{- partial "img.html" (dict "image" $logo "imgsizes" "80vw" "tag_class" "logo" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
@@ -176,10 +178,11 @@
             <li>
               {{$zdjecie_2:=.zdjecie_2}}
               {{$logo_2:=.logo_2}}
+              {{$zdjecie_2_alt:=.zdjecie_2_alt}}
               {{$kotwica_odnosnika_2:=.kotwica_odnosnika_2}}
                {{ with site.GetPage .adres_odnosnika_2 }}
-                   <a  href='{{.RelPermalink}}#{{$kotwica_odnosnika_2}}'>
-                    {{- partial "img.html" (dict "image" $zdjecie_2 "imgsizes" "80vw" "tag_class" "process-ico" "ifsrcset" "(max-width: 992px) 100vw, 50vw" "awsites" $sites)  -}}
+                   <a  href='{{.RelPermalink}}#{{$kotwica_odnosnika_2}}'> 
+                    {{- partial "img.html" (dict "image" $zdjecie_2 "imgsizes" "80vw" "tag_class" "process-ico" "imgalt" $zdjecie_2_alt "ifsrcset" "(max-width: 992px) 100vw, 50vw" "awsites" $sites)  -}}
                      {{/*  <div class="logo-cnt">
                       {{- partial "img.html" (dict "image" $logo_2 "imgsizes" "80vw" "tag_class" "logo" "ifsrcset" "nosrcset" "awsites" $sites)  -}}
                     </div>  */}}
@@ -273,7 +276,7 @@
       <li class="product-wrapper"> 
       <div class="img-cnt ">
      
-        {{- partial "img.html" (dict "image" $element.zdjecie "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "" "awsites" $sites)  -}}
+        {{- partial "img.html" (dict "image" $element.zdjecie "imgsizes" "80vw" "tag_class" "prod-img" "imgalt" $element.alt_img "ifsrcset" "" "awsites" $sites)  -}}
       </div>
       <div class="content-wrapper">
          <div class="content-cnt">
@@ -324,7 +327,7 @@
         
         {{ range $index, $element := . }}
         <li class="odbiorca-wrapper"> 
-          {{- partial "img.html" (dict "image" $element.ikona "imgsizes" "80vw" "tag_class" "prod-img" "ifsrcset" "" "awsites" $sites)  -}}
+          {{- partial "img.html" (dict "image" $element.ikona "imgsizes" "80vw" "tag_class" "prod-img" "imgalt" $element.alt_img "ifsrcset" "" "awsites" $sites)  -}}
           <span>{{$element.nazwa_odbiorcy}}</span>
         </li>
         {{end}}

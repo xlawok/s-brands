@@ -206,6 +206,7 @@ kotwica_grupy = "MakeUp"
 opis_sekcji = "Wide range of the best-selling make-up brands and products on the market. We specialize in original fast moving consumer goods with a special focus in the health and beauty category."
 tytul_odnosnika = "Find out more"
 zdjecie = "/uploads/sbrands-main-makeup.jpg"
+alt_img ="MakeUp"
 [[nasze_produkty.grupy_produktow.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
