@@ -60,7 +60,7 @@ txt_block = "THE COSMETIC REPUBLIC"
 txt_block_size = ""
 underline = false
 [[sec_2_pic.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "normalny"
 break_line = false
 txt_block = "HAIR HEALTH EXPERTS"
