@@ -13,9 +13,9 @@ fields:
     maxSize: 1
   label: Logo marki
 - name: alt_img
-  type: file
+  type: text
   config:
-    maxSize: 1
+    required: false
   label: Alt dla logo
 - name: opis_pod_naglowiekm
   type: textarea
