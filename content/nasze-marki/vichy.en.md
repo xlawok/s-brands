@@ -3,6 +3,7 @@ adres_odnosnika = "nasze-marki/vichy.md"
 dodaj_formularz = true
 html_czysty = ""
 logo_marki = "/uploads/group-185.jpg"
+alt_img = "Vichy"
 meta_opis = ""
 meta_robots = ""
 name = "VICHY"
