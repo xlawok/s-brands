@@ -28,10 +28,9 @@ fields:
     label: Zdjęcie
   - name: alt_img
     type: text
-    type: text
     config:
       required: false
-    label: 'ALT zdjęcia'
+    label: ALT zdjęcia
   label: Banner
 - name: nasza_wizja
   type: field_group
@@ -58,10 +57,9 @@ fields:
     label: 'Zdjęcie '
   - name: alt_img
     type: text
-    type: text
     config:
       required: false
-    label: 'ALT zdjęcia'
+    label: ALT zdjęcia
   label: Nasza wizja
 - name: jakosc_uslug
   type: field_group

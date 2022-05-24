@@ -28,10 +28,9 @@ fields:
     label: Zdjęcie
   - name: alt_img
     type: text
-    type: text
     config:
       required: false
-    label: 'ALT zdjęcia'
+    label: ALT zdjęcia
   label: Banner
 - name: masz_pomysl
   type: field_group
@@ -58,10 +57,9 @@ fields:
     label: 'Zdjęcie '
   - name: alt_img
     type: text
-    type: text
     config:
       required: false
-    label: 'ALT zdjęcia'
+    label: ALT zdjęcia
   label: Masz pomysł
 - name: dodaj_formularz
   type: boolean

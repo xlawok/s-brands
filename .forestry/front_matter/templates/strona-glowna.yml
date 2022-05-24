@@ -118,10 +118,9 @@ fields:
     label: 'Zdjęcie '
   - name: alt_img
     type: text
-    type: text
     config:
       required: false
-    label: 'ALT zdjęcia'
+    label: ALT zdjęcia
   - name: tytul_odnosnika
     type: text
     config:
@@ -187,10 +186,9 @@ fields:
       label: Ikona
     - name: alt_img
       type: text
-      type: text
       config:
         required: false
-      label: 'ALT ikony'
+      label: ALT ikony
     config:
       min: 3
       max: 9
@@ -354,10 +352,9 @@ fields:
       label: Zdjęcie
     - name: alt_img
       type: text
-      type: text
       config:
         required: false
-      label: 'ALT zdjęcia'
+      label: ALT zdjęcia
     - name: opis_sekcji
       type: textarea
       default: ''
@@ -434,10 +431,9 @@ fields:
       label: Ikona
     - name: alt_img
       type: text
-      type: text
       config:
         required: false
-      label: 'ALT ikony'
+      label: ALT ikony
     - name: nazwa_odbiorcy
       type: text
       config:
