@@ -52,6 +52,15 @@ fields:
       file: 
       path: 
   label: Adres odnośnika
+- name: opis_longer
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Dłuższy opis
 - name: zdjecie
   type: file
   config:

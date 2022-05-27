@@ -12,6 +12,9 @@
         width: 100%;
         min-height: 45vw;
         .brands-nav{
+            @media (max-width: 480px){
+display: none;
+            }
             height: 5rem;
             padding: 1.5rem 14.5vw;
             z-index: 98;
@@ -180,6 +183,30 @@
             }
         }
    
+    }
+    .brand-more-desc{
+        padding: 2rem;
+        @media (max-width: 1200px){
+            padding-top: 4rem;
+        }
+        @media (max-width: 480px){
+            padding: .5rem
+        }
+        @media (min-width: 768px){
+            
+            padding: 2rem 10vw;
+            
+        }
+        @media (min-width: 1200px){
+            
+            padding: 2rem 15vw 4rem 15vw;
+            
+        }
+        @media (min-width: 1600px){
+            
+            padding:  2rem 25vw 5rem 25vw;
+            
+        }
     }
     .other-brands{
         @media (max-width: 1200px){

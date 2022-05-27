@@ -53,19 +53,53 @@
             <p class="banner-desc">
                 {{ .opis_pod_naglowiekm | safeHTML }}
             </p>
-            <p>
+            <div>
                 {{ .html_czysty | safeHTML }}
-            </p>
-            {{$tytul_odnosnika:=.tytul_odnosnika}}
-            {{ if .adres_odnosnika }}
-            {{ with site.GetPage .adres_odnosnika }}
-                <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
-            {{end}}
+            </div>
+            
+            {{ if false }}
+                {{$tytul_odnosnika:=.tytul_odnosnika}}
+                {{ if .adres_odnosnika }}
+                {{ with site.GetPage .adres_odnosnika }}
+                    <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}<img class='arr-ico' src="{{ `images/arr_white.svg` | absURL }}"></a>
+                {{end}}
+                {{end}}
             {{end}}
             </div>
         {{end}}
     {{end}}
     </section>
+    {{ with .Params }}
+        {{if (isset . "opis_longer")}}
+            {{with .opis_longer}}
+            <section class="brand-more-desc">
+                {{ . | safeHTML }}
+            </section>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    var banner_area=document.querySelector('.banner-area');
+                    var banner_desc_wrapper=document.querySelector('.header-cnt');
+                    var banner_more_wrapper=document.querySelector('.brand-more-desc');
+                    var initial_height=banner_desc_wrapper.clientHeight;
+                    console.log(initial_height);
+                    var topPos = banner_desc_wrapper.offsetTop;
+                    var bottomPos = topPos + initial_height;
+                    var calc_val="calc("+bottomPos+"px - "+banner_area.clientHeight +"px)";
+                    console.log(calc_val);
+                    banner_more_wrapper.style.marginTop=calc_val;
+                    window.addEventListener('resize', function(event) {
+                        topPos = banner_desc_wrapper.offsetTop;
+                        initial_height=banner_desc_wrapper.clientHeight;
+                        bottomPos = topPos + initial_height;
+                        calc_val="calc("+bottomPos+"px - "+banner_area.clientHeight +"px)";
+                        banner_more_wrapper.style.marginTop=calc_val;
+                    });
+                });
+
+            </script>
+            {{end}}
+        {{end}}
+    {{end}}
     <section class="other-brands">
         {{ $sectionPages := where (where site.RegularPages "Section" "nasze-marki")   ".Params.slug" "!=" .Params.slug }}
               {{ if ge (len $sectionPages) 1 }}
