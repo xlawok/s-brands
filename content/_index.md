@@ -41,7 +41,7 @@ zdjecie_2_alt = "Mades"
 block_tag_type = "div"
 bold_txt = "gruby"
 break_line = true
-txt_block = "NOWOŚĆ!"
+txt_block = ""
 txt_block_size = "XL"
 underline = false
 [[dystrybucja_section.header_repeater]]
