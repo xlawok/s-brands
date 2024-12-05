@@ -27,14 +27,14 @@ adres_odnosnika_2 = "generalna-dystrybucja.md"
 kotwica_odnosnika = "the-cosmetic-republic"
 kotwica_odnosnika_2 = "mades"
 zdjecie_1 = "/uploads/cosmetic-republic.jpg"
-zdjecie_2 = "/uploads/mades.jpg"
+zdjecie_2 = "/uploads/mades-cosmetics-1.webp"
 logo = "/uploads/tcr.png"
 logo_2 = "/uploads/mades-logo-2016-web.png"
 [[dystrybucja_section.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = true
-txt_block = "NEW!"
+txt_block = ""
 txt_block_size = "XL"
 underline = false
 [[dystrybucja_section.header_repeater]]
@@ -184,10 +184,6 @@ ikona_marki = "/uploads/group-187.jpg"
 odnosnik_marki = ""
 tytul_marki = "Skeyndor"
 [[nasze_marki.grupa_marek]]
-ikona_marki = "/uploads/group-189.jpg"
-odnosnik_marki = "nasze-marki/thalgo.md"
-tytul_marki = "Thalgo"
-[[nasze_marki.grupa_marek]]
 ikona_marki = "/uploads/group-188.jpg"
 odnosnik_marki = "nasze-marki/svr.md"
 tytul_marki = "SVR"
@@ -199,7 +195,7 @@ txt_block = "Our brands"
 txt_block_size = "XL"
 underline = false
 [nasze_produkty]
-opis_sekcji = "Our offer includes articles belonging to four product groups"
+opis_sekcji = "Our offer includes articles belonging to six care categories"
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.en.md"
 kotwica_grupy = "MakeUp"
@@ -251,6 +247,32 @@ block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 txt_block = "Professional care"
+txt_block_size = "XL"
+underline = false
+[[nasze_produkty.grupy_produktow]]
+adres_odnosnika = "nasze-marki/_index.md"
+kotwica_grupy = "dermocosmetics"
+opis_sekcji = ""
+tytul_odnosnika = "Dermocosmetics"
+zdjecie = "/uploads/sbrands-main-skin.jpg"
+[[nasze_produkty.grupy_produktow.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Dermocosmetics"
+txt_block_size = "XL"
+underline = false
+[[nasze_produkty.grupy_produktow]]
+adres_odnosnika = "nasze-marki/_index.md"
+kotwica_grupy = "fragrances"
+opis_sekcji = ""
+tytul_odnosnika = "Fragrances"
+zdjecie = "/uploads/sbrands-main-makeup.jpg"
+[[nasze_produkty.grupy_produktow.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Fragrances"
 txt_block_size = "XL"
 underline = false
 [[nasze_produkty.header_repeater]]

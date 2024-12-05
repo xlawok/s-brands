@@ -112,10 +112,6 @@ ikona_marki = "/uploads/lierac-logo.jpg"
 odnisnik_marki = "nasze-marki/lierac.md"
 tytul_marki = "Lierac"
 [[grupa_marek.marki]]
-ikona_marki = "/uploads/thalgo-logo.jpg"
-odnisnik_marki = "nasze-marki/thalgo.md"
-tytul_marki = "Thalgo"
-[[grupa_marek.marki]]
 ikona_marki = "/uploads/group-177.jpg"
 odnisnik_marki = "nasze-marki/phyto.md"
 tytul_marki = "Pytho"
@@ -146,10 +142,6 @@ tytul_grupy = "Cabin/PRO"
 ikona_marki = "/uploads/comfort_zone-logo.jpg"
 odnisnik_marki = "nasze-marki/comfort-zone.md"
 tytul_marki = "Comfortzone"
-[[grupa_marek.marki]]
-ikona_marki = "/uploads/thalgo-logo.jpg"
-odnisnik_marki = "nasze-marki/thalgo-pro.md"
-tytul_marki = "Thalgo"
 [[grupa_marek.marki]]
 ikona_marki = "/uploads/babor-logo.jpg"
 odnisnik_marki = "nasze-marki/babor.md"

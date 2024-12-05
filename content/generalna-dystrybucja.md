@@ -13,9 +13,9 @@ weight = 8
 alt_img = ""
 alt_img_mb_1 = ""
 alt_img_mb_2 = ""
-zdjecie_1_mobilne = "/uploads/sbrands-general-dist-1-4-a.jpg"
-zdjecie_2_mobilne = "/uploads/sbrands-general-dist-1-4-b.jpg"
-zdjecie_duze = "/uploads/sbrands-general-dist-1-4.jpg"
+zdjecie_1_mobilne = ""
+zdjecie_2_mobilne = ""
+zdjecie_duze = ""
 [[sec_2_pic]]
 adres_odnosnika = "kontakt.md"
 alt_img = "Mades Cosmetics"
@@ -42,29 +42,16 @@ txt_block = "THE NATURAL SKIN, HAIR & BODY CARE EXPERIENCE"
 txt_block_size = "MD"
 underline = false
 [[sec_2_pic]]
-adres_odnosnika = "kontakt.md"
-alt_img = "The cosmetic republic"
-alt_img_2 = "TCR kosmetyki"
-kotwica = "the-cosmetic-republic"
-logo = "/uploads/tcr.png"
-opis_sekcji = "Nasza genetyka, wybór stylu życia i warunki środowiskowe mają odzwierciedlenie w zdrowym wyglądzie naszych włosów. Niezbilansowana dieta, stres, brak snu, zanieczyszczenia, agresywne farby do włosów i przegrzewanie to główne czynniki, które wpływają na kondycję włosów bez względu na ich rodzaj.<br><br>Innowacyjne produkty <strong>The Cosmetic Republic</strong> to unikalne rozwiązania do pielęgnacji włosów, aby zrównoważyć codzienne wyzwania związane z włosami oparte na naturalnych recepturach, bez agresywnych chemikaliów. Nasza linia produktów jest wolna od parabenów i siarczanów, z poszanowaniem naturalnej równowagi skóry głowy. Nasze opatentowane, ekskluzywne formuły poddawane są procesowi tłoczenia na zimno, co czyni je bardziej efektywnymi, a jednocześnie wzbogacamy je w niezbędne minerały, aby Twoje włosy były zdrowsze i mocniejsze."
-strona_producenta = "https://thecosmeticrepublic.com"
-tytul_odnosnika = "Więcej szegółów >>"
-zdjecie = "/uploads/sbrands-general-dist-3.jpg"
+adres_odnosnika = []
+alt_img = ""
+alt_img_2 = ""
+header_repeater = []
+kotwica = ""
+logo = ""
+opis_sekcji = ""
+strona_producenta = ""
+tytul_odnosnika = ""
+zdjecie = ""
 zdjecie2 = ""
-[[sec_2_pic.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "gruby"
-break_line = false
-txt_block = "THE COSMETIC REPUBLIC"
-txt_block_size = ""
-underline = false
-[[sec_2_pic.header_repeater]]
-block_tag_type = "h3"
-bold_txt = "normalny"
-break_line = false
-txt_block = "HAIR HEALTH EXPERTS"
-txt_block_size = "MD"
-underline = false
 
 +++

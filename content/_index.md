@@ -35,7 +35,7 @@ logo = "/uploads/tcr.png"
 logo_2 = "/uploads/mades-logo-2016-web.png"
 zdjecie_1 = "/uploads/cosmetic-republic.jpg"
 zdjecie_1_alt = "Cosmetic Republic"
-zdjecie_2 = "/uploads/mades.jpg"
+zdjecie_2 = "/uploads/mades-cosmetics-1.webp"
 zdjecie_2_alt = "Mades"
 [[dystrybucja_section.header_repeater]]
 block_tag_type = "div"
@@ -192,10 +192,6 @@ ikona_marki = "/uploads/group-187.jpg"
 odnosnik_marki = ""
 tytul_marki = "Skeyndor"
 [[nasze_marki.grupa_marek]]
-ikona_marki = "/uploads/group-189.jpg"
-odnosnik_marki = "nasze-marki/thalgo.md"
-tytul_marki = "Thalgo"
-[[nasze_marki.grupa_marek]]
 ikona_marki = "/uploads/group-188.jpg"
 odnosnik_marki = "nasze-marki/svr.md"
 tytul_marki = "SVR"
@@ -207,7 +203,7 @@ txt_block = "Nasze marki"
 txt_block_size = "XL"
 underline = false
 [nasze_produkty]
-opis_sekcji = "W ofercie naszej hurtowni kosmetycznej znajdują się artykuły należące do czterech grup produktowych"
+opis_sekcji = "W ofercie naszej hurtowni kosmetycznej znajdują się artykuły należące do sześciu kategorii pielęgnacji"
 [[nasze_produkty.grupy_produktow]]
 adres_odnosnika = "nasze-marki/_index.md"
 kotwica_grupy = "kosmetyki-do-makijazu"
@@ -259,6 +255,32 @@ block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 txt_block = "Professional care"
+txt_block_size = "XL"
+underline = false
+[[nasze_produkty.grupy_produktow]]
+adres_odnosnika = "nasze-marki/_index.md"
+kotwica_grupy = "dermocosmetics"
+opis_sekcji = ""
+tytul_odnosnika = "Dermokosmetyki"
+zdjecie = "/uploads/sbrands-main-skin.jpg"
+[[nasze_produkty.grupy_produktow.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Dermocosmetics"
+txt_block_size = "XL"
+underline = false
+[[nasze_produkty.grupy_produktow]]
+adres_odnosnika = "nasze-marki/_index.md"
+kotwica_grupy = "fragrances"
+opis_sekcji = ""
+tytul_odnosnika = "Perfumy"
+zdjecie = "/uploads/sbrands-main-makeup.jpg"
+[[nasze_produkty.grupy_produktow.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+txt_block = "Fragrances"
 txt_block_size = "XL"
 underline = false
 [[nasze_produkty.header_repeater]]

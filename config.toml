@@ -34,3 +34,7 @@ URL = "plugins/plugins.js"
 nasze-marki = "/:slug/"
 page = "/:slug/"
 posts = "/:slug/"
+[redirects]
+    from = "/aderma/"
+    to = "/nasze-marki/"
+    status = 301

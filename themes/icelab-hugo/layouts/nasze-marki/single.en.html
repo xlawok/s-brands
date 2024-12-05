@@ -42,7 +42,7 @@
             </div>
             {{end}}
             
-            <div class="brand-logo-cnt"> <img class='banner-logo' src="{{ .logo_marki }}" alt="{{.alt_img}}"></div>
+            {{/* <div class="brand-logo-cnt"> <img class='banner-logo' src="{{ .logo_marki }}" alt="{{.alt_img}}"></div> */}}
             <div class="banner-logo-cnt"> <img class='banner-logo' src="{{ `images/s-brands-logo.svg` | absURL }}"></div>
         
             <div class='header-cnt'>
@@ -69,6 +69,22 @@
         {{end}}
     {{end}}
     </section>
+    <style>
+        .header-cnt ul{
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 35px;
+            padding-left: 20px;
+            row-gap: 15px;
+        }
+        .header-cnt li{
+            font-size: 22px;
+        }
+        .strona-marki .banner-area .header-cnt .banner-header{
+            transform: unset !important;
+        }
+    </style>
     {{ with .Params }}
         {{if (isset . "opis_longer")}}
             {{with .opis_longer}}
@@ -100,7 +116,7 @@
             {{end}}
         {{end}}
     {{end}}
-    <section class="other-brands">
+    {{/* <section class="other-brands">
         {{ $sectionPages := where (where site.RegularPages "Section" "nasze-marki")   ".Params.slug" "!=" .Params.slug }}
               {{ if ge (len $sectionPages) 1 }}
               <div class="header-template ">
@@ -119,7 +135,7 @@
                 {{end}}
               </ul>
             {{end}}
-    </section>
+    </section> */}}
     {{if .Params.dodaj_formularz }}
         {{- partial "form_full.en.html" . -}}
     {{end}}

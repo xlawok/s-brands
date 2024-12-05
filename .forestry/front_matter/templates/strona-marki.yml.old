@@ -1,0 +1,121 @@
+---
+label: Strona marki
+hide_body: true
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: logo_marki
+  type: file
+  config:
+    maxSize: 1
+  label: Logo marki
+- name: alt_img
+  type: text
+  config:
+    required: false
+  label: Alt dla logo
+- name: opis_pod_naglowiekm
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Opis pod nagłówiekm
+- name: html_czysty
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Dodatkowe pole
+- name: tytul_odnosnika
+  type: text
+  config:
+    required: false
+  label: Tytuł odnośnika
+- name: adres_odnosnika
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: nasze-marki-30cb51d6-dff6-44d5-bba0-a77f32630088
+      file: 
+      path: 
+  label: Adres odnośnika
+- name: opis_longer
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Dłuższy opis
+- name: zdjecie
+  type: file
+  config:
+    maxSize: 1
+  label: Zdjęcie
+- name: dodaj_formularz
+  type: boolean
+  label: Dodaj formularz
+  default: true
+- name: which_layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
+  default: strona-marki
+- name: head
+  type: include
+  config: {}
+  template: head
+  label: Head
+pages:
+- content/nasze-marki/a-derma.md
+- content/nasze-marki/alfaparf-milano.md
+- content/nasze-marki/american-crew.md
+- content/nasze-marki/avene.md
+- content/nasze-marki/babor.md
+- content/nasze-marki/catrice-cosmetics.md
+- content/nasze-marki/clarincs.md
+- content/nasze-marki/comfort-zone.md
+- content/nasze-marki/decleor.md
+- content/nasze-marki/dermacol.md
+- content/nasze-marki/ducray.md
+- content/nasze-marki/essence.md
+- content/nasze-marki/eucerin.md
+- content/nasze-marki/exuviance.md
+- content/nasze-marki/green-pharmacy.md
+- content/nasze-marki/innoaesthetics.md
+- content/nasze-marki/isdin.md
+- content/nasze-marki/kiko-milano.md
+- content/nasze-marki/klorane.md
+- content/nasze-marki/lierac.md
+- content/nasze-marki/mac.md
+- content/nasze-marki/madara.en.md
+- content/nasze-marki/madara.md
+- content/nasze-marki/make-up-for-ever.md
+- content/nasze-marki/makeup-revolution.md
+- content/nasze-marki/mustela.md
+- content/nasze-marki/nuxe.md
+- content/nasze-marki/opi.md
+- content/nasze-marki/phyto.md
+- content/nasze-marki/ren.md
+- content/nasze-marki/rene-furterer.md
+- content/nasze-marki/svr.md
+- content/nasze-marki/topicrem.en.md
+- content/nasze-marki/topicrem.md
+- content/nasze-marki/vichy.en.md
+- content/nasze-marki/vichy.md

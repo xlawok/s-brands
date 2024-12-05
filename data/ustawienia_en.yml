@@ -8,10 +8,9 @@ top_settings:
   logo_w_menu: "/uploads/sbrands_logo_main.svg"
 ustawienia_stopki:
   wybierz_logo: "/uploads/sbrands_logo_main.svg"
-  dane_w_lewej_kolumnie: '<p>Contact<br><a href="mailto:office@s-brands.pl" title=""
-    target="_blank"> office@s-brands.pl</a> <br><a href="tel:+48667652888" title=""
-    target="_blank">+48 667 652 888</a> </p><p>ADRESS <br>Wrocław, Poland <br>ul. Kobierzycka
-    <br>S-BRANDS – ERNEST RAK </p><p>NIP: 8831714858 <br>REGON: 363053334</p>'
+  dane_w_lewej_kolumnie: '<p><strong>S-BRANDS Your Beauty Brands Supplier</strong><br><a
+    href="mailto:office@s-brands.pl" title=""> office@s-brands.pl</a> <br><a href="tel:+48667652888"
+    title="">+48 667 652 888</a></p><p>AUREA BUSINESS HOUSE <br>ul. Niebieska 3 <br>50-001 Bielany Wrocławskie <br>Wrocław, Poland</p><p>NIP: 8831714858 <br>REGON: 363053334</p>'
   druga_kolumna:
   - pozycje_menu: o-nas.md
     tytul: About

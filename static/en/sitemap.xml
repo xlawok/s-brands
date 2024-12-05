@@ -130,14 +130,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.s-brands.pl/en/klorane/"></xhtml:link>
   </url>
   <url>
-    <loc>https://www.s-brands.pl/en/thalgopro/</loc>
-    <lastmod>2022-02-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://www.s-brands.pl/thalgopro/"></xhtml:link>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.s-brands.pl/en/thalgopro/"></xhtml:link>
-  </url>
-  <url>
     <loc>https://www.s-brands.pl/en/aderma/</loc>
     <lastmod>2022-02-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -200,14 +192,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.s-brands.pl/comfortzone/"></xhtml:link>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.s-brands.pl/en/comfortzone/"></xhtml:link>
-  </url>
-  <url>
-    <loc>https://www.s-brands.pl/en/thalgo/</loc>
-    <lastmod>2022-02-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://www.s-brands.pl/thalgo/"></xhtml:link>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.s-brands.pl/en/thalgo/"></xhtml:link>
   </url>
   <url>
     <loc>https://www.s-brands.pl/en/contact/</loc>

@@ -14,7 +14,92 @@
             </div>
         </div>
     </section>
-        {{with .grupa_marek}}
+
+    <section class="grupa-marki">
+        <div id="makeup">
+            <a href="/en/makeup/">
+                <h2>Makeup</h2>
+            </a>
+        </div>
+        <div id="dermocosmetics">
+            <a href="/en/dermocosmetics/">
+                <h2>Dermocosmetics</h2>
+            </a>
+        </div>
+        <div id="skincare">
+            <a href="/en/skincare/">
+                <h2>Skincare</h2>
+            </a>
+        </div>
+        <div id="haircare">
+            <a href="/en/haircare/">
+                <h2>Haircare</h2>
+            </a>
+        </div>
+        <div id="pro">
+            <a href="/en/salon-pro/">
+                <h2>Salon-pro</h2>
+            </a>
+        </div>
+        <div id="fragrances">
+            <a href="/en/fragrances/">
+                <h2>Fragrances</h2>
+            </a>
+        </div>
+    </section>
+
+    <style>
+        .grupa-marki{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 0 5rem;
+            margin-top: -12rem;
+            position: relative;
+            margin-bottom: 50px;
+        }
+        .grupa-marki > div{
+            width: calc(33.33% - 20px);
+            display: block;
+            height: 100%;
+        }
+        .grupa-marki > div a{
+            background-color: #111;
+            color: #fff;
+            text-decoration: none;
+            padding: 2rem;
+            transition: all .3s;
+            display: block;
+            height: 100%;
+        }
+        .grupa-marki > div a:hover{
+            text-decoration: underline;
+            transform: translateY(-10px);
+        }
+        @media (max-width: 1700px){
+            .grupa-marki{
+                margin-top: -6rem;
+            }
+        }
+        @media (max-width: 1300px){
+            .grupa-marki{
+                margin-top: 0;
+            }
+            .grupa-marki > div{
+            width: calc(50% - 15px);
+            }
+            .grupa-marki h2{
+                font-size: 30px;
+            }
+        }
+        @media (max-width: 992px){
+            .grupa-marki > div{
+            width: calc(100%);
+            }
+        }
+    </style>
+
+    {{/*     {{with .grupa_marek}}
         <section class="brands-area" >
             {{range . }}
                 {{$tytul_grupy:=.tytul_grupy}}
@@ -49,7 +134,7 @@
             {{end}}
         {{end}}
     
-    </section>
+    </section> */}}
     {{end}}
     {{if .Params.dodaj_formularz }}
         {{- partial "form_full.en.html" . -}}

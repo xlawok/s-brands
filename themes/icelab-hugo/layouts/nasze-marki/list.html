@@ -15,43 +15,91 @@
         </div>
         
     </section>
-        {{with .grupa_marek}}
-        <section class="brands-area" >
-            {{range . }}
-                {{$tytul_grupy:=.tytul_grupy}}
-                {{$kotwica_grupy:=.kotwica_grupy}}
-                
-                {{with .marki}}
-              
-                
-                    <h2 class="group-header" id="{{$kotwica_grupy}}">{{$tytul_grupy}}</h2>
-                    <ul class="brands-img-wrapper">
-                        {{range .}}
-                        
-                      
-                            <li class="brand-img-cnt ">
-                                
-                                
-                                
-                                {{ with   .odnisnik_marki }}
-                                    
-                                    {{ with site.GetPage  . }}
-                                        <a class='' href='{{.RelPermalink}}'>
-                                    {{end}}
-                                    {{end}}
-                                
-                                {{- partial "img.html" (dict "image" .ikona_marki "imgsizes" "80vw" "tag_class" "brand-img" "ifsrcset" "nosrcset" "imgalt" .tytul_marki "awsites" $sites)  -}}
-                                {{ with .odnisnik_marki }}
-                                    </a>
-                                {{end}}
-                            </li>
-                        {{end}}
-                    </ul>
-                {{end}}
-            {{end}}
-        {{end}}
-    
+        
+    <section class="grupa-marki">
+        <div id="makeup">
+            <a href="/makijaz/">
+                <h2>Makijaż</h2>
+            </a>
+        </div>
+        <div id="dermokosmetyki">
+            <a href="/dermokosmetyki/">
+                <h2>Dermokosmetyki</h2>
+            </a>
+        </div>
+        <div id="pielegnacja-skory">
+            <a href="/pielegnacja-skory/">
+                <h2>Pielęgnacja skóry</h2>
+            </a>
+        </div>
+        <div id="pielegnacja-wlosow">
+            <a href="/pielegnacja-wlosow/">
+                <h2>Pielęgnacja włosów</h2>
+            </a>
+        </div>
+        <div id="pro">
+            <a href="/produkty-dla-profesjonalistow/">
+                <h2>Produkty dla profesjonalistów</h2>
+            </a>
+        </div>
+        <div id="perfumy">
+            <a href="/perfumy/">
+                <h2>Perfumy</h2>
+            </a>
+        </div>
     </section>
+
+    <style>
+        .grupa-marki{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 0 5rem;
+            margin-top: -12rem;
+            position: relative;
+            margin-bottom: 50px;
+        }
+        .grupa-marki > div{
+            width: calc(33.33% - 20px);
+            display: block;
+            height: 100%;
+        }
+        .grupa-marki > div a{
+            background-color: #111;
+            color: #fff;
+            text-decoration: none;
+            padding: 2rem;
+            transition: all .3s;
+            display: block;
+            height: 100%;
+        }
+        .grupa-marki > div a:hover{
+            text-decoration: underline;
+            transform: translateY(-10px);
+        }
+        @media (max-width: 1700px){
+            .grupa-marki{
+                margin-top: -6rem;
+            }
+        }
+        @media (max-width: 1300px){
+            .grupa-marki{
+                margin-top: 0;
+            }
+            .grupa-marki > div{
+            width: calc(50% - 15px);
+            }
+            .grupa-marki h2{
+                font-size: 30px;
+            }
+        }
+        @media (max-width: 992px){
+            .grupa-marki > div{
+            width: calc(100%);
+            }
+        }
+    </style>
+    
     {{end}}
     {{if .Params.dodaj_formularz }}
         {{- partial "form_full.html" . -}}

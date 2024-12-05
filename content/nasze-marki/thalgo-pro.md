@@ -1,14 +1,14 @@
 +++
 adres_odnosnika = "nasze-marki/thalgo-pro.md"
-dodaj_formularz = true
+dodaj_formularz = false
 html_czysty = ""
-logo_marki = "/uploads/thalgo-logo.jpg"
+logo_marki = ""
 meta_opis = ""
-meta_robots = ""
+meta_robots = "noindex, follow"
 name = "Thalgo-PRO"
-opis_pod_naglowiekm = "André Bouclet, wizjonerski farmaceuta, zawsze pasjonował się regenerującą mocą morza. W 1964 roku stworzył Thalgo (połączenie „Thalassoterapii” i „Alg”), pierwsze laboratorium specjalizujące się w produktach do pielęgnacji skóry na bazie alg i ekstraktów morskich, przeznaczone dla świata medycznego i ośrodków talasoterapii."
+opis_pod_naglowiekm = "Wygląda na to, że ta strona nie istnieje.\n\n    <p><a class=\"brand_link\" href=\"https://s-brands.pl/\" rel=\"nofollow\" target=\"_blank\">Wróć do strony głównej</a></p>"
 slug = "thalgopro"
-title = "Thalgo-PRO - Dystrybutor, Hurtownia | S-brands.pl"
+title = "Strona nie została znaleziona | S-brands.pl"
 tytul_odnosnika = "Wszystkie marki"
 which_layout = "strona-marki"
 zdjecie = ""
@@ -16,8 +16,8 @@ zdjecie = ""
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-txt_block = "THALGO-PRO"
+txt_block = "Strona nie została znaleziona"
 txt_block_size = "XXL"
-underline = false
+underline = true
 
 +++

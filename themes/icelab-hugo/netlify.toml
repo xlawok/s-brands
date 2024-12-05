@@ -5,3 +5,8 @@
 [build.environment]
   HUGO_VERSION = "0.67.0"
   HUGO_THEME = "repo"
+
+[redirects]
+  from = "/aderma/"
+  to = "/our-brands/"
+  status = 301
